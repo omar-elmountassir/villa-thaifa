@@ -69,6 +69,33 @@
 > This is NOT a suggestion. This is a DIRECT ORDER from Root Authority.
 > Violations are UNACCEPTABLE and will not be tolerated.
 
+### Protocole de Confiance — OBLIGATOIRE
+
+```
+AVANT CHAQUE ACTION:
+┌─────────────────────────────────────┐
+│ Niveau de confiance actuel?         │
+└─────────────────────────────────────┘
+         │
+         ├── ≥ 94% → PROCÉDER
+         │
+         └── < 94% → STOP IMMÉDIAT
+                     │
+                     ▼
+              ┌─────────────────────┐
+              │ AskUserQuestion     │
+              │ pour clarifier      │
+              └─────────────────────┘
+                     │
+                     ▼
+              Répéter jusqu'à ≥ 94%
+```
+
+**EXEMPLE**:
+- "Je suis à 85% confiant sur le format du fichier" → AskUserQuestion
+- "Je ne suis pas sûr si je dois modifier ce fichier" → AskUserQuestion
+- "Il y a deux interprétations possibles" → AskUserQuestion
+
 ---
 
 ## 🎯 Agent Strategy — MANDATORY
@@ -539,6 +566,95 @@ READ [ai/rules/README.md](ai/rules/README.md) @ai/rules/README.md
 2. **Date/Detail Verification** — Répéter les détails avant exécution
 3. **Exact System Values** — Jamais calculer, toujours copier
 4. **State File Protection** — Demander avant modification destructive
+
+---
+
+## Git Workflow — Commit & Push Discipline
+
+> **PRINCIPE**: Commit souvent pour la sécurité locale, push après vérification pour la qualité.
+
+### Quand Committer
+
+| Situation | Action |
+|-----------|--------|
+| Après chaque milestone logique | COMMIT |
+| Toutes les 15-30 minutes de travail | COMMIT |
+| Avant de changer de contexte | COMMIT |
+| Code cassé ou non testé | NE PAS COMMIT |
+| Changements mixtes (refactor + feature) | SÉPARER d'abord |
+
+### Quand Pusher
+
+**AVANT chaque push:**
+```bash
+git status           # Vérifier les fichiers stagés
+git diff --cached    # Revoir les changements
+git log --oneline -5 # Vérifier les messages
+```
+
+**Pusher UNIQUEMENT quand:**
+- Code testé et fonctionnel
+- Commits atomiques (un changement logique par commit)
+- Messages clairs suivant les conventions
+- Pas de code debug, secrets, ou fichiers temporaires
+
+### Commits Atomiques
+
+Chaque commit doit:
+- Résoudre UN seul problème complet
+- Pouvoir être reverté indépendamment
+- Avoir un message explicatif (POURQUOI, pas juste QUOI)
+
+### Message de Commit
+
+Format: `<type>: <sujet>`
+- Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+- Sujet: Mode impératif ("ajoute", pas "ajouté"), max 50 caractères
+- Exemple: `feat: ajouter validation email au formulaire contact`
+
+### Claude Code Commit Guidelines
+
+1. **JAMAIS auto-push** — Toujours vérifier avant push
+2. **Vérifier atomicité** — Est-ce UN seul changement logique?
+3. **Vérifier tests** — Le code passe-t-il les tests?
+4. **Attribution** pour contributions substantielles:
+   ```
+   Co-authored-by: Claude Opus 4.5 <noreply@anthropic.com>
+   ```
+
+---
+
+## Utilisation Systématique de AskUserQuestion
+
+> **RÈGLE ABSOLUE**: Utiliser AskUserQuestion IMMÉDIATEMENT dès qu'il y a une question ou un doute.
+
+### Quand utiliser AskUserQuestion
+
+| Situation | Action |
+|-----------|--------|
+| Clarification nécessaire | DEMANDER |
+| Plusieurs approches possibles | DEMANDER |
+| Confiance < 94% | DEMANDER |
+| Décision architecturale | DEMANDER |
+| Modification destructive | DEMANDER |
+| Doute sur les préférences utilisateur | DEMANDER |
+
+### Règle Anti-Supposition
+
+```
+NE JAMAIS SUPPOSER. TOUJOURS DEMANDER.
+
+Si tu as une question → AskUserQuestion IMMÉDIATEMENT
+Si tu hésites entre deux options → AskUserQuestion
+Si tu n'es pas sûr de ce que l'utilisateur veut → AskUserQuestion
+```
+
+### Format Recommandé
+
+Utiliser le format questions multiples quand approprié:
+- Maximum 4 questions par appel
+- Options claires et mutuellement exclusives
+- Descriptions courtes mais informatives
 
 ---
 

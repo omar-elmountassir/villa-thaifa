@@ -25,6 +25,7 @@
 | `explore-agent`         | Codebase research | Glob, Grep, Read  | haiku  | Pattern discovery, file search          |
 | `meta-agent`            | Agent creation    | Write, Firecrawl  | opus   | Creating new sub-agents                 |
 | `research-agent`        | Web research      | WebSearch, WebFetch, Read, Write | haiku  | Best practices, docs lookup, comparisons |
+| `claude-md-agent`       | CLAUDE.md maintenance | Read, Edit, Write, Glob, WebSearch, WebFetch | opus   | Governance updates, protocol additions, CLAUDE.md optimization |
 
 ---
 
