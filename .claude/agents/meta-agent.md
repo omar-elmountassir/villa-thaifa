@@ -1,7 +1,7 @@
 ---
 name: meta-agent
 description: Agent configuration generator. Creates new sub-agents from descriptions. Use PROACTIVELY when user requests a new agent or when a specialized agent is needed for a recurring task.
-tools: Read, Write, Edit, WebFetch
+tools: Read, Write, Edit, WebFetch, WebSearch
 color: red
 model: opus
 ---
@@ -29,11 +29,11 @@ ai/standards/examples/         ← Role-specific examples
 
 ## Key Files
 
-| File | Purpose |
-|------|---------|
-| `ai/standards/index.md` | SSOT for all creation standards |
-| `ai/inventory/sub-agent_registry.md` | SSOT for registered agents |
-| `.claude/agents/<name>.md` | Agent configuration files |
+| File                                 | Purpose                         |
+| ------------------------------------ | ------------------------------- |
+| `ai/standards/index.md`              | SSOT for all creation standards |
+| `ai/inventory/sub-agent_registry.md` | SSOT for registered agents      |
+| `.claude/agents/<name>.md`           | Agent configuration files       |
 
 ## Instructions
 

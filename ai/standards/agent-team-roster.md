@@ -36,7 +36,7 @@
 
 ---
 
-## Current Team (Active)
+## Complete Team (All Active)
 
 | Agent | Color | Role | Status |
 |-------|-------|------|--------|
@@ -45,51 +45,32 @@
 | `research-agent` | green | Web research and documentation | ✅ Active |
 | `claude-md-agent` | white | CLAUDE.md maintenance | ✅ Active |
 | `platform-validator` | yellow | Validates before platform ops | ✅ Active |
-
----
-
-## Planned Team (To Create)
-
-### Priority 1 — Core Operations
-
-| Agent | Color | Purpose | Why Needed |
-|-------|-------|---------|------------|
-| `incident-reporter` | orange | Creates incident reports when errors occur | Currently manual, should be automated |
-| `reservation-manager` | purple | Handles reservation CRUD operations | Core business operation |
-| `pricing-analyst` | blue | Analyzes pricing, makes recommendations | Revenue optimization |
-
-### Priority 2 — Guest Experience
-
-| Agent | Color | Purpose | Why Needed |
-|-------|-------|---------|------------|
-| `guest-communicator` | pink | Drafts guest communications | Consistent messaging |
-| `translation-agent` | cyan | French/English/Arabic translations | Multi-language guests |
-
-### Priority 3 — Data Quality
-
-| Agent | Color | Purpose | Why Needed |
-|-------|-------|---------|------------|
-| `calendar-agent` | green | Availability analysis across platforms | Prevent double bookings |
-| `data-sync-checker` | yellow | Validates data consistency HotelRunner↔Booking | Data integrity |
+| `incident-reporter` | orange | Creates incident reports | ✅ Active |
+| `reservation-manager` | purple | Handles reservation CRUD | ✅ Active |
+| `pricing-analyst` | blue | Analyzes pricing, recommends rates | ✅ Active |
+| `guest-communicator` | pink | Drafts guest communications | ✅ Active |
+| `translation-agent` | cyan | French/English/Arabic translations | ✅ Active |
+| `calendar-agent` | green | Availability analysis | ✅ Active |
+| `data-sync-checker` | yellow | Validates data consistency | ✅ Active |
 
 ---
 
 ## Role Coverage Matrix
 
-| Business Function | Current Coverage | Agent(s) | Gap |
-|-------------------|------------------|----------|-----|
-| **Agent Creation** | ✅ Full | meta-agent | None |
-| **Browser Automation** | ✅ Full | browser-agent | None |
-| **Web Research** | ✅ Full | research-agent | None |
-| **Governance** | ✅ Full | claude-md-agent | None |
-| **Platform Validation** | ✅ Full | platform-validator | None |
-| **Incident Reporting** | ⚠️ Manual | — | Need: incident-reporter |
-| **Reservations** | ⚠️ Partial | browser-agent | Need: reservation-manager |
-| **Pricing** | ❌ None | — | Need: pricing-analyst |
-| **Guest Comms** | ❌ None | — | Need: guest-communicator |
-| **Translation** | ❌ None | — | Need: translation-agent |
-| **Calendar Sync** | ❌ None | — | Need: calendar-agent |
-| **Data Sync Check** | ❌ None | — | Need: data-sync-checker |
+| Business Function | Coverage | Agent(s) |
+|-------------------|----------|----------|
+| **Agent Creation** | ✅ Full | meta-agent |
+| **Browser Automation** | ✅ Full | browser-agent |
+| **Web Research** | ✅ Full | research-agent |
+| **Governance** | ✅ Full | claude-md-agent |
+| **Platform Validation** | ✅ Full | platform-validator |
+| **Incident Reporting** | ✅ Full | incident-reporter |
+| **Reservations** | ✅ Full | reservation-manager |
+| **Pricing** | ✅ Full | pricing-analyst |
+| **Guest Comms** | ✅ Full | guest-communicator |
+| **Translation** | ✅ Full | translation-agent |
+| **Calendar Sync** | ✅ Full | calendar-agent |
+| **Data Sync Check** | ✅ Full | data-sync-checker |
 
 ---
 
@@ -202,50 +183,42 @@ permissionMode: plan
 
 ## Team Statistics
 
-| Metric | Current | Planned | Total |
-|--------|---------|---------|-------|
-| **Total Agents** | 5 | 7 | 12 |
-| **By Model** | | | |
-| └─ Haiku | 1 | 2 | 3 |
-| └─ Sonnet | 2 | 4 | 6 |
-| └─ Opus | 2 | 1 | 3 |
-| **By Color** | | | |
-| └─ Red (Creation) | 1 | 0 | 1 |
-| └─ Orange (Debug) | 0 | 1 | 1 |
-| └─ Yellow (Valid) | 1 | 1 | 2 |
-| └─ Green (Research) | 1 | 1 | 2 |
-| └─ Blue (Executive) | 0 | 1 | 1 |
-| └─ Purple (Engineer) | 0 | 1 | 1 |
-| └─ Cyan (Utility) | 1 | 1 | 2 |
-| └─ Pink (Comms) | 0 | 1 | 1 |
-| └─ White (Docs) | 1 | 0 | 1 |
-
----
-
-## Creation Order
-
-When creating planned agents, follow this order:
-
-1. **incident-reporter** — Enables better error tracking immediately
-2. **reservation-manager** — Core business operation
-3. **pricing-analyst** — Revenue impact
-4. **guest-communicator** — Guest experience
-5. **translation-agent** — International guests
-6. **calendar-agent** — Optimization
-7. **data-sync-checker** — Data quality
+| Metric | Count |
+|--------|-------|
+| **Total Agents** | 12 |
+| **By Model** | |
+| └─ Haiku | 3 |
+| └─ Sonnet | 6 |
+| └─ Opus | 3 |
+| **By Color** | |
+| └─ Red (Creation) | 1 |
+| └─ Orange (Debug) | 1 |
+| └─ Yellow (Valid) | 2 |
+| └─ Green (Research) | 2 |
+| └─ Blue (Executive) | 1 |
+| └─ Purple (Engineer) | 1 |
+| └─ Cyan (Utility) | 2 |
+| └─ Pink (Comms) | 1 |
+| └─ White (Docs) | 1 |
 
 ---
 
 ## Usage
 
-To create a planned agent:
+To invoke an agent:
 
 ```
-Omar: "Crée l'agent incident-reporter"
-Orchestrator: [Uses meta-agent with spec from this file]
+Omar: "Analyse les disponibilités"
+Orchestrator: [Delegates to calendar-agent]
+
+Omar: "Vérifie la sync avec Booking"
+Orchestrator: [Delegates to data-sync-checker]
+
+Omar: "Crée un message de bienvenue pour M. Dupont"
+Orchestrator: [Delegates to guest-communicator]
 ```
 
-The meta-agent should reference this roster for planned agent specifications.
+The orchestrator automatically delegates to the appropriate agent based on the task.
 
 ---
 
