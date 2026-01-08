@@ -21,7 +21,6 @@
 | Agent                   | Purpose           | Tools             | Model  | When to Use                             |
 | ----------------------- | ----------------- | ----------------- | ------ | --------------------------------------- |
 | `browser-agent`         | Chrome automation | MCP Chrome tools  | sonnet | Web scraping, form filling, screenshots |
-| `html-report-generator` | Report creation   | Read, Write, Glob | opus   | HTML/CSS/JS reports                     |
 | `explore-agent`         | Codebase research | Glob, Grep, Read  | haiku  | Pattern discovery, file search          |
 | `meta-agent`            | Agent creation    | Write, Firecrawl  | opus   | Creating new sub-agents                 |
 | `research-agent`        | Web research      | WebSearch, WebFetch, Read, Write | haiku  | Best practices, docs lookup, comparisons |
