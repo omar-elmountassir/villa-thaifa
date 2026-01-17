@@ -1,10 +1,5 @@
-import type { Metadata } from "next";
 import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Villa Thaifa - Digital Experience",
-  description: "Luxury Guesthouse in Thaifa",
-};
+import Navigation from "@/components/Navigation";
 
 export default function RootLayout({
   children,
@@ -12,8 +7,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
