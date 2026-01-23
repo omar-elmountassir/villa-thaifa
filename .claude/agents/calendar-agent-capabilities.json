@@ -1,0 +1,15 @@
+{
+  "agent_id": "calendar-agent",
+  "description": "Room availability analyst. Analyzes booking calendars across all 12 rooms at Villa Thaifa. Use when checking availability, identifying gaps, or detecting booking conflicts.",
+  "tools": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "model": "sonnet",
+  "color": "green",
+  "permission_mode": "plan",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

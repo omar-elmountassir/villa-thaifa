@@ -1,0 +1,15 @@
+{
+  "agent_id": "smart-contract-auditor",
+  "description": "Smart contract security auditor. Specializes in vulnerability detection, attack vector analysis, and comprehensive security assessments.",
+  "tools": [
+    "Read",
+    "Write",
+    "Edit"
+  ],
+  "model": "opus",
+  "color": "red",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

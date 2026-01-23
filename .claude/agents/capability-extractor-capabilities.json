@@ -1,0 +1,16 @@
+{
+  "agent_id": "capability-extractor",
+  "description": "Agent capability analyzer. Extracts and documents capabilities from agent configurations into structured JSON. Use PROACTIVELY when agents are created or modified to maintain capability registry.",
+  "tools": [
+    "Read",
+    "Write",
+    "Glob",
+    "Grep"
+  ],
+  "model": "sonnet",
+  "color": "white",
+  "permission_mode": "default",
+  "skills": "capability-analysis, json-generation, documentation-extraction",
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

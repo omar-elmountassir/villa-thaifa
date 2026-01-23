@@ -274,8 +274,8 @@
             "type": "string"
           },
           "examples": [
-            "docs/knowledge/mandatory/client-profile.md",
-            "docs/knowledge/mandatory/operational-priorities.md"
+            "docs/specs/knowledge/mandatory/client-profile.md",
+            "docs/specs/knowledge/mandatory/operational-priorities.md"
           ]
         },
         "domain": {
@@ -285,8 +285,8 @@
             "type": "string"
           },
           "examples": [
-            "docs/knowledge/domain/operations/booking-policies.md",
-            "docs/knowledge/domain/operations/platform-workflows.md"
+            "docs/specs/knowledge/domain/operations/booking-policies.md",
+            "docs/specs/knowledge/domain/operations/platform-workflows.md"
           ]
         },
         "mission": {
@@ -296,7 +296,7 @@
             "type": "string"
           },
           "examples": [
-            "docs/knowledge/missions/pms-rollout-2026/constraints.md"
+            "docs/specs/knowledge/missions/pms-rollout-2026/constraints.md"
           ]
         }
       }

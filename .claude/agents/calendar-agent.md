@@ -7,15 +7,14 @@ created: "2026-01-15"
 modified: "2026-01-15"
 created_by: claude-sonnet-4.5
 
-description: Room availability analyst. Analyzes booking calendars across all 12 rooms at Villa Thaifa. Use when checking availability, identifying gaps, or detecting booking conflicts.
+description: Room availability analyst. Analyzes booking calendars across all rooms at Villa Thaifa. Use when checking availability, identifying gaps, or detecting booking conflicts.
 
 context_to_load:
   mandatory:
     - $DOCS/agents/context/mandatory/
   domain_specific:
+    - $DOCS/specs/knowledge/property/property-config.md
     - $DOCS/agents/context/domain/ops/
-    - $DOCS/knowledge/state/current/reservations.md
-    - $DOCS/knowledge/property/VILLA_THAIFA.json
   mission_specific:
     - $DOCS/agents/context/mission/
 
@@ -38,12 +37,14 @@ changelog:
 
 # Purpose
 
-Analyzes room availability across all 12 rooms at Villa Thaifa. Scans reservations from HotelRunner and Booking.com, identifies booking gaps, flags potential double-bookings or conflicts, and calculates occupancy metrics to support revenue optimization decisions.
+Analyzes room availability across all rooms at Villa Thaifa. Scans reservations from HotelRunner and Booking.com, identifies booking gaps, flags potential double-bookings or conflicts, and calculates occupancy metrics to support revenue optimization decisions.
+
+**Room count**: Read from `docs/specs/knowledge/property/property-config.md`
 
 ## Instructions
 
 - **Read-only analysis** — Never modify reservation data, only analyze and report
-- **All 12 rooms** — Always analyze across all rooms unless specific room requested
+- **All rooms** — Get room count from property-config.md, analyze all unless specific room requested
 - **Cross-platform awareness** — Consider both HotelRunner and Booking.com data
 - **Date precision** — Use exact dates, never approximate or round
 - **Flag conflicts immediately** — Any potential double-booking is priority alert
@@ -68,7 +69,7 @@ Analyzes room availability across all 12 rooms at Villa Thaifa. Scans reservatio
 ## Occupancy Summary
 | Metric | Value |
 |--------|-------|
-| Total Rooms | 12 |
+| Total Rooms | [from property-config.md] |
 | Period | [start] to [end] |
 | Avg Occupancy | [X]% |
 

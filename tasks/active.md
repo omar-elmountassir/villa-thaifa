@@ -43,7 +43,7 @@
   - [x] Locate Credentials <!-- id: 26 -->
   - [x] Update Rates for Rooms 1-12 (Jan 13 - Feb 10 2026) <!-- id: 27 -->
   - [ ] Fix "Room Type" vs "Room Number" issue (⚠️ Investigating Risks) <!-- id: 28 -->
-    - [ ] **Plan**: See [Execution Log: Room Mapping Rescue](docs/project/plans/2026-01-13-room-mapping-investigation.md) (🟢 Active) <!-- id: 28a -->
+    - [ ] **Plan**: See [Execution Log: Room Mapping Rescue](../../docs/project/plans/2026-01-13-room-mapping-investigation.md) (🟢 Active) <!-- id: 28a -->
     - [ ] Research Booking.com Renaming Risks (Reviews/ID persistence) <!-- id: 28b -->
     - [ ] Backup Room Content & Photos <!-- id: 28c -->
   - [x] Notify Said (WhatsApp Draft) <!-- id: 29 -->

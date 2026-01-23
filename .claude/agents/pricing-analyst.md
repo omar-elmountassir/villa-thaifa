@@ -13,9 +13,8 @@ context_to_load:
   mandatory:
     - $DOCS/agents/context/mandatory/
   domain_specific:
+    - $DOCS/specs/knowledge/property/property-config.md
     - $DOCS/agents/context/domain/ops/
-    - $DOCS/knowledge/state/planned/pricing.md
-    - $DOCS/knowledge/state/current/reservations.md
   mission_specific:
     - $DOCS/agents/context/mission/
 

@@ -1,0 +1,17 @@
+{
+  "agent_id": "reservation-manager",
+  "description": "Reservation lifecycle engineer. Manages creation, modification, and cancellation of reservations with platform coordination. Use PROACTIVELY when any reservation operation is needed.",
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep"
+  ],
+  "model": "sonnet",
+  "color": "purple",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

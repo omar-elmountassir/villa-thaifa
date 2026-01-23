@@ -1,6 +1,7 @@
 import { getAllRooms, getRoom } from "@/features/rooms/bindings/api";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { ImageGallery } from "@/components/ui/ImageGallery";
 
 export async function generateStaticParams() {
   const rooms = await getAllRooms();
@@ -44,37 +45,9 @@ export default async function RoomPage({
         }}
       >
         <div>
-          <div
-            style={{
-              height: "400px",
-              backgroundColor: "#eee",
-              borderRadius: "8px",
-              overflow: "hidden",
-              marginBottom: "2rem",
-              position: "relative",
-            }}
-          >
-            {room.images && room.images[0] ? (
-              <img
-                src={room.images[0]}
-                alt={room.type}
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              />
-            ) : (
-              <div
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  color: "#999",
-                }}
-              >
-                {room.type} Image Placeholder
-              </div>
-            )}
-          </div>
+          {/* INTERACTIVE GALLERY */}
+          <ImageGallery images={room.images || []} alt={room.type} />
+
           <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
             {room.type}
           </h1>

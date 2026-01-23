@@ -1,0 +1,15 @@
+{
+  "agent_id": "platform-validator",
+  "description": "Platform data validator. Validates all inputs before platform operations. Use BEFORE any platform submission to prevent costly errors.",
+  "tools": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "model": "sonnet",
+  "color": "yellow",
+  "permission_mode": "plan",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

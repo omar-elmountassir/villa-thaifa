@@ -2,22 +2,37 @@
   {
     "id": "01",
     "number": "01",
-    "type": "Deluxe Triple Room",
+    "type": "Superior King (Superior King VillaUpdated)",
     "capacity": {
       "adults": 3,
+      "children": 0,
       "description": "3 personnes"
     },
-    "beds": ["1 Lit King", "1 Canapé-lit"],
+    "beds": [
+      "1 Lit King",
+      "1 Canapé-lit"
+    ],
     "price": {
       "amount": 200,
       "currency": "EUR"
     },
     "features": {
       "view": "Jardin",
-      "floor": "Rez-de-chaussée"
+      "floor": "Rez-de-chaussée",
+      "amenities": [
+        "",
+        "",
+        ""
+      ]
     },
     "description": "Chambre 1 triple de luxe - Vue jardin avec un canapé lit pour 2 personnes et au rez de chaussée de la villa Thaifa",
-    "images": ["/images/rooms/01_main.jpg"]
+    "images": [
+      "/images/rooms/01/_DSC7203-HDR.jpg",
+      "/images/rooms/01/_DSC7215-HDR.jpg",
+      "/images/rooms/01/_DSC7218-HDR.jpg",
+      "/images/rooms/01/_DSC7221-HDR.jpg",
+      "/images/rooms/01/_DSC7224-HDR.jpg"
+    ]
   },
   {
     "id": "02",
@@ -27,7 +42,9 @@
       "adults": 2,
       "description": "2 personnes"
     },
-    "beds": ["1 Lit King"],
+    "beds": [
+      "1 Lit King"
+    ],
     "price": {
       "amount": 200,
       "currency": "EUR"
@@ -37,7 +54,24 @@
       "terrace": "40 m²"
     },
     "description": "Chambre 2 chambre double de luxe avec un terrasse de 40 m2 vue jardin",
-    "images": ["/images/rooms/02_main.jpg"]
+    "images": [
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.21__1_.jpeg",
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.21__2_.jpeg",
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.21__3_.jpeg",
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.21.jpeg",
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.22__1_.jpeg",
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.22__2_.jpeg",
+      "/images/rooms/02/WhatsApp_Image_2025-12-29_at_17.59.22.jpeg",
+      "/images/rooms/02/_DSC7231-HDR.jpg",
+      "/images/rooms/02/_DSC7239-HDR.jpg",
+      "/images/rooms/02/_DSC7242-HDR.jpg",
+      "/images/rooms/02/_DSC7243-HDR.jpg",
+      "/images/rooms/02/_DSC7246-HDR.jpg",
+      "/images/rooms/02/_DSC7249-HDR.jpg",
+      "/images/rooms/02/_DSC7252-HDR.jpg",
+      "/images/rooms/02/_DSC7258-HDR.jpg",
+      "/images/rooms/02/_DSC7261-HDR.jpg"
+    ]
   },
   {
     "id": "03",
@@ -47,7 +81,10 @@
       "adults": 3,
       "description": "3 personnes"
     },
-    "beds": ["1 Lit King", "1 Canapé-lit"],
+    "beds": [
+      "1 Lit King",
+      "1 Canapé-lit"
+    ],
     "price": {
       "amount": 200,
       "currency": "EUR"
@@ -58,7 +95,27 @@
       "terrace": "Petite terrasse (3-4 m²)"
     },
     "description": "Ch 3 triple de luxe avec une petite terrasse vue jardin au rez de chaussée",
-    "images": ["/images/rooms/03_main.jpg"]
+    "images": [
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.00.48__1_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.00.48__2_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.00.48.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.15.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.16__1_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.16__2_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.16__3_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.16.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.17__1_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.17__2_.jpeg",
+      "/images/rooms/03/WhatsApp_Image_2025-12-29_at_18.13.17.jpeg",
+      "/images/rooms/03/_DSC7264-HDR.jpg",
+      "/images/rooms/03/_DSC7267-HDR.jpg",
+      "/images/rooms/03/_DSC7270-HDR.jpg",
+      "/images/rooms/03/_DSC7276-HDR.jpg",
+      "/images/rooms/03/_DSC7279-HDR.jpg",
+      "/images/rooms/03/_DSC7282-HDR.jpg",
+      "/images/rooms/03/_DSC7285-HDR.jpg",
+      "/images/rooms/03/_DSC7291-HDR.jpg"
+    ]
   },
   {
     "id": "04",
@@ -68,7 +125,9 @@
       "adults": 2,
       "description": "2 personnes"
     },
-    "beds": ["1 Lit King"],
+    "beds": [
+      "1 Lit King"
+    ],
     "price": {
       "amount": 160,
       "currency": "EUR"
@@ -77,7 +136,22 @@
       "view": "Piscine (Accès direct)"
     },
     "description": "Ch 4 chambre double supérieur accès piscine et le bar",
-    "images": ["/images/rooms/04_main.jpg"]
+    "images": [
+      "/images/rooms/04/WhatsApp_Image_2025-12-29_at_18.17.29__1_.jpeg",
+      "/images/rooms/04/WhatsApp_Image_2025-12-29_at_18.17.29.jpeg",
+      "/images/rooms/04/WhatsApp_Image_2025-12-29_at_18.17.30__1_.jpeg",
+      "/images/rooms/04/WhatsApp_Image_2025-12-29_at_18.17.30__2_.jpeg",
+      "/images/rooms/04/WhatsApp_Image_2025-12-29_at_18.17.30.jpeg",
+      "/images/rooms/04/_DSC7296-HDR.jpg",
+      "/images/rooms/04/_DSC7297-HDR.jpg",
+      "/images/rooms/04/_DSC7300-HDR.jpg",
+      "/images/rooms/04/_DSC7303-HDR.jpg",
+      "/images/rooms/04/_DSC7306-HDR.jpg",
+      "/images/rooms/04/_DSC7310-HDR.jpg",
+      "/images/rooms/04/_DSC7313-HDR.jpg",
+      "/images/rooms/04/_DSC7316-HDR.jpg",
+      "/images/rooms/04/_DSC7319-HDR.jpg"
+    ]
   },
   {
     "id": "05",
@@ -87,7 +161,9 @@
       "adults": 2,
       "description": "2 personnes"
     },
-    "beds": ["1 Lit King"],
+    "beds": [
+      "1 Lit King"
+    ],
     "price": {
       "amount": 160,
       "currency": "EUR"
@@ -97,7 +173,31 @@
       "floor": "1er étage"
     },
     "description": "Ch 5 chambre double supérieur vue piscine du premier etage",
-    "images": ["/images/rooms/05_main.jpg"]
+    "images": [
+      "/images/rooms/05/WhatsApp_Image_2025-12-29_at_18.19.21__1_.jpeg",
+      "/images/rooms/05/WhatsApp_Image_2025-12-29_at_18.19.21__2_.jpeg",
+      "/images/rooms/05/WhatsApp_Image_2025-12-29_at_18.19.21__3_.jpeg",
+      "/images/rooms/05/WhatsApp_Image_2025-12-29_at_18.19.21.jpeg",
+      "/images/rooms/05/WhatsApp_Image_2025-12-29_at_18.19.22.jpeg",
+      "/images/rooms/05/_DSC7296-HDR.jpg",
+      "/images/rooms/05/_DSC7297-HDR.jpg",
+      "/images/rooms/05/_DSC7300-HDR.jpg",
+      "/images/rooms/05/_DSC7303-HDR.jpg",
+      "/images/rooms/05/_DSC7306-HDR.jpg",
+      "/images/rooms/05/_DSC7310-HDR.jpg",
+      "/images/rooms/05/_DSC7313-HDR.jpg",
+      "/images/rooms/05/_DSC7316-HDR.jpg",
+      "/images/rooms/05/_DSC7319-HDR.jpg",
+      "/images/rooms/05/_DSC7325-HDR.jpg",
+      "/images/rooms/05/_DSC7328-HDR.jpg",
+      "/images/rooms/05/_DSC7334-HDR.jpg",
+      "/images/rooms/05/_DSC7343-HDR.jpg",
+      "/images/rooms/05/_DSC7347-HDR.jpg",
+      "/images/rooms/05/_DSC7350-HDR.jpg",
+      "/images/rooms/05/_DSC7353-HDR.jpg",
+      "/images/rooms/05/_DSC7356-HDR.jpg",
+      "/images/rooms/05/_DSC7359-HDR.jpg"
+    ]
   },
   {
     "id": "06",
@@ -107,7 +207,10 @@
       "adults": 3,
       "description": "3 personnes"
     },
-    "beds": ["1 Lit King", "1 Canapé-lit"],
+    "beds": [
+      "1 Lit King",
+      "1 Canapé-lit"
+    ],
     "price": {
       "amount": 240,
       "currency": "EUR"
@@ -118,7 +221,34 @@
       "terrace": "100 m²"
     },
     "description": "Suite excecutive 6 très belle avec une terrasse de 100 mètres carrés vue piscine et atlas et jardin top au premier étage",
-    "images": ["/images/rooms/06_main.jpg"]
+    "images": [
+      "/images/rooms/06/WhatsApp_Image_2025-12-29_at_18.22.09__1_.jpeg",
+      "/images/rooms/06/WhatsApp_Image_2025-12-29_at_18.22.09__2_.jpeg",
+      "/images/rooms/06/WhatsApp_Image_2025-12-29_at_18.22.09__3_.jpeg",
+      "/images/rooms/06/WhatsApp_Image_2025-12-29_at_18.22.09.jpeg",
+      "/images/rooms/06/WhatsApp_Image_2025-12-29_at_18.22.10.jpeg",
+      "/images/rooms/06/_DSC7296-HDR.jpg",
+      "/images/rooms/06/_DSC7297-HDR.jpg",
+      "/images/rooms/06/_DSC7300-HDR.jpg",
+      "/images/rooms/06/_DSC7303-HDR.jpg",
+      "/images/rooms/06/_DSC7306-HDR.jpg",
+      "/images/rooms/06/_DSC7310-HDR.jpg",
+      "/images/rooms/06/_DSC7313-HDR.jpg",
+      "/images/rooms/06/_DSC7316-HDR.jpg",
+      "/images/rooms/06/_DSC7319-HDR.jpg",
+      "/images/rooms/06/_DSC7365-HDR.jpg",
+      "/images/rooms/06/_DSC7374-HDR.jpg",
+      "/images/rooms/06/_DSC7377-HDR.jpg",
+      "/images/rooms/06/_DSC7380-HDR.jpg",
+      "/images/rooms/06/_DSC7383-HDR.jpg",
+      "/images/rooms/06/_DSC7386-HDR.jpg",
+      "/images/rooms/06/_DSC7389-HDR.jpg",
+      "/images/rooms/06/_DSC7392-HDR.jpg",
+      "/images/rooms/06/_DSC7398-HDR.jpg",
+      "/images/rooms/06/_DSC7401-HDR.jpg",
+      "/images/rooms/06/_DSC7404-HDR.jpg",
+      "/images/rooms/06/_DSC7407-HDR.jpg"
+    ]
   },
   {
     "id": "07",
@@ -128,7 +258,10 @@
       "adults": 4,
       "description": "4 personnes"
     },
-    "beds": ["1 Lit King", "2 Canapés-lit"],
+    "beds": [
+      "1 Lit King",
+      "2 Canapés-lit"
+    ],
     "price": {
       "amount": 440,
       "currency": "EUR"
@@ -137,10 +270,45 @@
       "view": "Piscine, Atlas",
       "floor": "1er étage",
       "terrace": "60 m²",
-      "amenities": ["Salon", "Cheminée", "Salle à manger"]
+      "amenities": [
+        "Salon",
+        "Cheminée",
+        "Salle à manger"
+      ]
     },
     "description": "Suite de luxe King size avec salon à part et une cheminée et 2 canapés et salle à manger et une terrasse de 60 m2 vue piscine et atlas le top",
-    "images": ["/images/rooms/07_main.jpg"]
+    "images": [
+      "/images/rooms/07/WhatsApp_Image_2025-12-29_at_18.25.30__1_.jpeg",
+      "/images/rooms/07/WhatsApp_Image_2025-12-29_at_18.25.30.jpeg",
+      "/images/rooms/07/WhatsApp_Image_2025-12-29_at_18.25.31__1_.jpeg",
+      "/images/rooms/07/WhatsApp_Image_2025-12-29_at_18.25.31__2_.jpeg",
+      "/images/rooms/07/WhatsApp_Image_2025-12-29_at_18.25.31__3_.jpeg",
+      "/images/rooms/07/WhatsApp_Image_2025-12-29_at_18.25.31.jpeg",
+      "/images/rooms/07/_DSC7296-HDR.jpg",
+      "/images/rooms/07/_DSC7297-HDR.jpg",
+      "/images/rooms/07/_DSC7300-HDR.jpg",
+      "/images/rooms/07/_DSC7303-HDR.jpg",
+      "/images/rooms/07/_DSC7306-HDR.jpg",
+      "/images/rooms/07/_DSC7310-HDR.jpg",
+      "/images/rooms/07/_DSC7313-HDR.jpg",
+      "/images/rooms/07/_DSC7316-HDR.jpg",
+      "/images/rooms/07/_DSC7319-HDR.jpg",
+      "/images/rooms/07/_DSC7437-HDR-Modifier.jpg",
+      "/images/rooms/07/_DSC7440-HDR.jpg",
+      "/images/rooms/07/_DSC7443-HDR.jpg",
+      "/images/rooms/07/_DSC7446-HDR-Modifier.jpg",
+      "/images/rooms/07/_DSC7449-HDR.jpg",
+      "/images/rooms/07/_DSC7452-HDR.jpg",
+      "/images/rooms/07/_DSC7455-HDR.jpg",
+      "/images/rooms/07/_DSC7459-HDR.jpg",
+      "/images/rooms/07/_DSC7468-HDR.jpg",
+      "/images/rooms/07/_DSC7471-HDR.jpg",
+      "/images/rooms/07/_DSC7474-HDR.jpg",
+      "/images/rooms/07/_DSC7480-HDR.jpg",
+      "/images/rooms/07/_DSC7483-HDR.jpg",
+      "/images/rooms/07/_DSC7486-HDR.jpg",
+      "/images/rooms/07/_DSC7489-HDR.jpg"
+    ]
   },
   {
     "id": "08",
@@ -150,7 +318,10 @@
       "adults": 3,
       "description": "3 personnes"
     },
-    "beds": ["1 Lit King", "1 Canapé-lit"],
+    "beds": [
+      "1 Lit King",
+      "1 Canapé-lit"
+    ],
     "price": {
       "amount": 200,
       "currency": "EUR"
@@ -160,7 +331,27 @@
       "floor": "1er étage"
     },
     "description": "Chambre 8 avec un canapé lit vue jardin et au premier étage",
-    "images": ["/images/rooms/08_main.jpg"]
+    "images": [
+      "/images/rooms/08/WhatsApp_Image_2025-12-29_at_18.26.56__1_.jpeg",
+      "/images/rooms/08/WhatsApp_Image_2025-12-29_at_18.26.56__2_.jpeg",
+      "/images/rooms/08/WhatsApp_Image_2025-12-29_at_18.26.56.jpeg",
+      "/images/rooms/08/_DSC7296-HDR.jpg",
+      "/images/rooms/08/_DSC7297-HDR.jpg",
+      "/images/rooms/08/_DSC7300-HDR.jpg",
+      "/images/rooms/08/_DSC7303-HDR.jpg",
+      "/images/rooms/08/_DSC7306-HDR.jpg",
+      "/images/rooms/08/_DSC7310-HDR.jpg",
+      "/images/rooms/08/_DSC7313-HDR.jpg",
+      "/images/rooms/08/_DSC7316-HDR.jpg",
+      "/images/rooms/08/_DSC7319-HDR.jpg",
+      "/images/rooms/08/_DSC7492-HDR.jpg",
+      "/images/rooms/08/_DSC7495-HDR.jpg",
+      "/images/rooms/08/_DSC7498-HDR.jpg",
+      "/images/rooms/08/_DSC7501-HDR.jpg",
+      "/images/rooms/08/_DSC7507-HDR.jpg",
+      "/images/rooms/08/_DSC7510-HDR.jpg",
+      "/images/rooms/08/_DSC7513-HDR.jpg"
+    ]
   },
   {
     "id": "09",
@@ -170,7 +361,10 @@
       "adults": 4,
       "description": "4 personnes"
     },
-    "beds": ["1 Lit King", "2 Canapés-lit"],
+    "beds": [
+      "1 Lit King",
+      "2 Canapés-lit"
+    ],
     "price": {
       "amount": 227,
       "currency": "EUR"
@@ -179,10 +373,46 @@
       "view": "Piscine + Acces direct piscine",
       "floor": "Rez-de-chaussée",
       "terrace": "Double terrasse",
-      "amenities": ["Cheminée"]
+      "amenities": [
+        "Cheminée"
+      ]
     },
     "description": "Suite familiale accès piscine directe avec 2 canapés lits qui peut loger 4 personnes et avec double terrasse et une cheminée",
-    "images": ["/images/rooms/09_main.jpg"]
+    "images": [
+      "/images/rooms/09/16c97eec-db21-4e5e-be2d-2b05ac313f03.jpeg",
+      "/images/rooms/09/22b6495c-4dc3-460f-8d4a-e7f1fb232d07.jpeg",
+      "/images/rooms/09/2839f125-782d-4bc3-8be6-e49137b62603.jpeg",
+      "/images/rooms/09/353c9e76-ce9d-4d6f-8c85-8ad0f68ef0b6.jpeg",
+      "/images/rooms/09/3d45401f-d841-4b81-b790-58d57975fed2.jpeg",
+      "/images/rooms/09/683872b2-5c03-406f-b55d-2d82c355fc6e.jpeg",
+      "/images/rooms/09/69cff1e5-ceb3-4e74-af1d-3371fe3f0611.jpeg",
+      "/images/rooms/09/6ec253c5-0d88-4307-9f98-a15b20c3e635.jpeg",
+      "/images/rooms/09/9cc5df3b-fb13-48ee-893e-5b5cfb910e2d.jpeg",
+      "/images/rooms/09/WhatsApp_Image_2025-12-29_at_18.31.56.jpeg",
+      "/images/rooms/09/WhatsApp_Image_2025-12-29_at_18.31.57__1_.jpeg",
+      "/images/rooms/09/WhatsApp_Image_2025-12-29_at_18.31.57__2_.jpeg",
+      "/images/rooms/09/WhatsApp_Image_2025-12-29_at_18.31.57__3_.jpeg",
+      "/images/rooms/09/WhatsApp_Image_2025-12-29_at_18.31.57.jpeg",
+      "/images/rooms/09/_DSC1745-HDR.jpg",
+      "/images/rooms/09/_DSC1754-HDR.jpg",
+      "/images/rooms/09/_DSC1757-HDR.jpg",
+      "/images/rooms/09/_DSC1760-HDR.jpg",
+      "/images/rooms/09/_DSC1763-HDR.jpg",
+      "/images/rooms/09/_DSC1769-HDR.jpg",
+      "/images/rooms/09/_DSC1775-HDR.jpg",
+      "/images/rooms/09/_DSC1781-HDR.jpg",
+      "/images/rooms/09/_DSC1788-HDR.jpg",
+      "/images/rooms/09/_DSC7296-HDR.jpg",
+      "/images/rooms/09/_DSC7297-HDR.jpg",
+      "/images/rooms/09/_DSC7300-HDR.jpg",
+      "/images/rooms/09/_DSC7303-HDR.jpg",
+      "/images/rooms/09/_DSC7306-HDR.jpg",
+      "/images/rooms/09/_DSC7310-HDR.jpg",
+      "/images/rooms/09/_DSC7313-HDR.jpg",
+      "/images/rooms/09/_DSC7316-HDR.jpg",
+      "/images/rooms/09/_DSC7319-HDR.jpg",
+      "/images/rooms/09/a7fe10cb-124d-4f1d-98a4-3f06ba888084.jpeg"
+    ]
   },
   {
     "id": "10",
@@ -192,7 +422,10 @@
       "adults": 3,
       "description": "3 personnes"
     },
-    "beds": ["1 Lit King", "1 Canapé-lit"],
+    "beds": [
+      "1 Lit King",
+      "1 Canapé-lit"
+    ],
     "price": {
       "amount": 267,
       "currency": "EUR"
@@ -202,7 +435,28 @@
       "terrace": "Double terrasse spacieuse"
     },
     "description": "Suite spacieuse avec double terrasse et accès direct piscine.",
-    "images": ["/images/rooms/10_main.jpg"]
+    "images": [
+      "/images/rooms/10/16c97eec-db21-4e5e-be2d-2b05ac313f03.jpeg",
+      "/images/rooms/10/2839f125-782d-4bc3-8be6-e49137b62603.jpeg",
+      "/images/rooms/10/28edfbc6-3e6d-4a6f-8049-cd5704cd49f1.jpeg",
+      "/images/rooms/10/353c9e76-ce9d-4d6f-8c85-8ad0f68ef0b6.jpeg",
+      "/images/rooms/10/4faf97ea-3e4f-43bb-9948-efde5cee3024.jpeg",
+      "/images/rooms/10/7d3fce83-5676-4702-a087-7794d7d62047.jpeg",
+      "/images/rooms/10/99d08b81-b2cd-4f5c-bd96-500349b2267e.jpeg",
+      "/images/rooms/10/9cc5df3b-fb13-48ee-893e-5b5cfb910e2d.jpeg",
+      "/images/rooms/10/_DSC1790-HDR.jpg",
+      "/images/rooms/10/_DSC1799-HDR.jpg",
+      "/images/rooms/10/_DSC1841-HDR.jpg",
+      "/images/rooms/10/_DSC1844-HDR.jpg",
+      "/images/rooms/10/_DSC1847-HDR.jpg",
+      "/images/rooms/10/_DSC1850-HDR.jpg",
+      "/images/rooms/10/_DSC1856-HDR.jpg",
+      "/images/rooms/10/_DSC1859-HDR.jpg",
+      "/images/rooms/10/_DSC1862-HDR.jpg",
+      "/images/rooms/10/b47cf4b3-e431-4b69-94a7-8938ce0d3cd7.jpeg",
+      "/images/rooms/10/d26235fc-3eac-4eb8-b17e-a35388846bca.jpeg",
+      "/images/rooms/10/dbf42976-0b0a-4428-8a32-accf7ab2c5e3.jpeg"
+    ]
   },
   {
     "id": "11",
@@ -212,7 +466,10 @@
       "adults": 4,
       "description": "4 personnes"
     },
-    "beds": ["1 Lit King", "2 Canapés-lit"],
+    "beds": [
+      "1 Lit King",
+      "2 Canapés-lit"
+    ],
     "price": {
       "amount": 240,
       "currency": "EUR"
@@ -221,10 +478,39 @@
       "view": "Piscine + Acces direct piscine",
       "floor": "Rez-de-chaussée",
       "terrace": "Double terrasse",
-      "amenities": ["Salon", "Cheminée"]
+      "amenities": [
+        "Salon",
+        "Cheminée"
+      ]
     },
     "description": "Chambre familiale accès directe piscine avec double terrasse et avec un salon et une cheminée et avec 2 canapés lits spacieuses",
-    "images": ["/images/rooms/11_main.jpg"]
+    "images": [
+      "/images/rooms/11/0d8c4561-6084-4df5-ac5c-27f54c93ff77.jpeg",
+      "/images/rooms/11/154f7a31-c702-4335-a59c-e7e1aaa66bd1.jpeg",
+      "/images/rooms/11/2542c4d5-03cb-42bf-84e0-fd1c4ca4d48b.jpeg",
+      "/images/rooms/11/2fdaca0f-f2b6-4bef-a060-89b39b2f5047.jpeg",
+      "/images/rooms/11/3457046e-7ccb-4a0d-989b-59c2e91a3289.jpeg",
+      "/images/rooms/11/36c6ddb7-5a5d-4273-806b-4200e43b761f.jpeg",
+      "/images/rooms/11/3a07ff24-547c-41c6-bc43-52d64b05fe0b.jpeg",
+      "/images/rooms/11/57f8cbd5-821e-46ad-a044-8e52616bdc68.jpeg",
+      "/images/rooms/11/6af9af24-56c9-4923-acf2-956ff3a4f443.jpeg",
+      "/images/rooms/11/6d6a27f7-d063-47da-9e35-657993905df5.jpeg",
+      "/images/rooms/11/8a9cd811-bb91-4941-ac46-a4cfca1eeca5.jpeg",
+      "/images/rooms/11/8f2f8be2-0474-4c17-aa2f-703fa4d69bf7.jpeg",
+      "/images/rooms/11/_DSC1877-HDR.jpg",
+      "/images/rooms/11/_DSC1880-HDR.jpg",
+      "/images/rooms/11/_DSC1883-HDR.jpg",
+      "/images/rooms/11/_DSC1886-HDR.jpg",
+      "/images/rooms/11/_DSC1892-HDR.jpg",
+      "/images/rooms/11/_DSC1895-HDR.jpg",
+      "/images/rooms/11/_DSC1898-HDR.jpg",
+      "/images/rooms/11/_DSC1901-HDR.jpg",
+      "/images/rooms/11/_DSC1904-HDR.jpg",
+      "/images/rooms/11/_DSC1910-HDR.jpg",
+      "/images/rooms/11/_DSC1913-HDR.jpg",
+      "/images/rooms/11/df267932-da7a-4fb7-b129-a03a84e86b95.jpeg",
+      "/images/rooms/11/e4c9406a-3004-4ed9-bbe1-8279d75e4344.jpeg"
+    ]
   },
   {
     "id": "12",
@@ -234,7 +520,10 @@
       "adults": 4,
       "description": "4 personnes"
     },
-    "beds": ["1 Lit King", "2 Canapés-lit"],
+    "beds": [
+      "1 Lit King",
+      "2 Canapés-lit"
+    ],
     "price": {
       "amount": 600,
       "currency": "EUR"
@@ -253,6 +542,17 @@
       ]
     },
     "description": "Suite présidentielle de 82 m2 avec une salle à manger et de un salon lit pour dormir et une douche italienne et un petit bar top",
-    "images": ["/images/rooms/12_main.jpg"]
+    "images": [
+      "/images/rooms/12/14ab27e3-a52d-4073-a065-42364299a8bf.jpeg",
+      "/images/rooms/12/43e062e4-eec4-49cd-a74f-3c1293cb6dc4.jpeg",
+      "/images/rooms/12/9f916def-bd85-445d-bc6c-a8b21c5c0130.jpeg",
+      "/images/rooms/12/a93c5caf-6dfe-4587-843b-2be731c4a59d.jpeg",
+      "/images/rooms/12/b5432b13-c317-4ab6-b878-a0319952b997.jpeg",
+      "/images/rooms/12/bad3ec5f-fdd2-44cc-85da-41783b7c247e.jpeg",
+      "/images/rooms/12/bd76b680-2fef-4f99-9c30-bd509cf31f24.jpeg",
+      "/images/rooms/12/d2e88491-f9a5-4631-af4e-1d753f47d7ff.jpeg",
+      "/images/rooms/12/f283b53b-938a-4884-abf1-5bb9927cd5f3.jpeg",
+      "/images/rooms/12/f84b0bbf-948f-4bac-97b1-7d1e7f6784bc.jpeg"
+    ]
   }
 ]

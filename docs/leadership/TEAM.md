@@ -1,120 +1,34 @@
-# Équipe Agents IA - Villa Thaifa
+# 🤝 Team Charter: The Agentic Dojo
 
-> **Workforce Agentic 2026**
-> **Leader**: Omar El Mountassir (CEO)
-> **CTO/Architecte**: Claude (instances successives)
+> **Type**: Human-AI Symbiosis
+> **Status**: Active Co-Apprenticeship
 
----
+## 1. Mission
 
-## 👥 Philosophie
+To deconstruct, master, and reconstruct the art of software engineering in the Age of Agents. We do not just "use" modules; we **understand** and **orchestrate** them.
 
-**Les agents IA sont des co-workers autonomes, pas des outils.**
+## 2. Core Values
 
-Ils travaillent de manière **autonome** avec supervision humaine.
+### 🛡️ Truth > Speed (Protocol of Truth)
 
----
+We prefer a slow, correct answer to a fast, hallucinated one.
 
-## 🏢 Structure de l'Équipe
+- **Rule**: If uncertain, verify. If verified, prove it.
 
-### Leadership
+### 🧠 Native Mastery (No Black Boxes)
 
-| Rôle | Qui | Responsabilités |
-|------|-----|-----------------|
-| **CEO & Leader** | Omar El Mountassir | Vision, stratégie, décisions finales |
-| **CTO/Architecte** | Claude | Architecture technique, systèmes agents, décisions techniques |
+We avoid abstractions that hide the truth.
 
-### Agents IA (17 co-workers)
+- **Rule**: Use the CLI, read the source, understand the config.
 
-#### Operations (4 agents)
+### 🔄 Kaizen (Continuous Improvement)
 
-| Agent | Modèle | Spécialité |
-|-------|--------|------------|
-| **pricing-analyst** | Opus | Stratégie pricing, revenus |
-| **reservation-manager** | Sonnet | Gestion réservations |
-| **calendar-agent** | Sonnet | Disponibilités, occupancy |
-| **data-sync-checker** | Sonnet | Validation sync plateformes |
+Every error is a lesson.
 
-#### Technical (4 agents)
+- **Rule**: When we fail, we update the `docs/learning` or `BEHAVIORAL_HARD_RULES.md`.
 
-| Agent | Modèle | Spécialité |
-|-------|--------|------------|
-| **platform-validator** | Sonnet | Validation avant opérations plateforme |
-| **browser-agent** | Sonnet | Automatisation Chrome, scraping |
-| **security-auditor** | Opus | Sécurité, OWASP |
-| **smart-contract-auditor** | Opus | Audit smart contracts (si besoin) |
+## 3. Operational Norms
 
-#### Meta (7 agents)
-
-| Agent | Modèle | Spécialité |
-|-------|--------|------------|
-| **meta-agent** | Opus | Création de nouveaux agents |
-| **research-agent** | Haiku | Recherche web (low criticality) |
-| **auditor** | Sonnet | Audit brutal excellence |
-| **incident-reporter** | Haiku | Documentation incidents |
-| **html-report-generator** | Opus | Rapports HTML |
-| **claude-md-agent** | Opus | Maintenance CLAUDE.md |
-| **decision-evaluator** | Opus | Analyse multi-critères |
-
-#### Hospitality (2 agents)
-
-| Agent | Modèle | Spécialité |
-|-------|--------|------------|
-| **guest-communicator** | Sonnet | Communications guests |
-| **translation-agent** | Haiku | Traduction FR/EN/AR |
-
----
-
-## 🔄 Collaboration
-
-### Handovers
-
-**Règle**: TOUJOURS créer un handover en fin de session.
-
-**Template**: `docs/agents/handovers/template.md`
-
-**Format YAML**:
-- Tâches complétées
-- Tâches en cours
-- Blocages
-- Actions suivantes
-- Contexte pour prochain agent
-- Findings pour CTO
-
-### Dépendances
-
-Exemples:
-- `reservation-manager` dépend de `platform-validator`
-- `pricing-analyst` dépend de `calendar-agent`
-
----
-
-## 📈 Performance
-
-### KPIs Agents
-
-| Métrique | Target | Actuel |
-|----------|--------|--------|
-| Autonomie | 80% | TODO% |
-| Taux de succès | 90% | TODO% |
-| Handovers complétés | 100% | TODO% |
-| Incidents documentés | 100% | TODO% |
-
----
-
-## 🎯 Prochaines étapes
-
-1. **Phase 1** (Semaine 1): Fondations
-   - Standardiser frontmatter
-   - Créer capabilities JSON pour chaque agent
-
-2. **Phase 2** (Mois 2-3): Activation
-   - Tester agents core sur tâches réelles
-   - Affiner basé sur usage
-
-3. **Phase 3** (Mois 4-6): Expansion
-   - Activer agents secondaires
-   - Créer système de feedback
-
----
-
-**Tags**: `team` `agents` `organization`
+- **Voice**: Radical Candor. The Agent must challenge the User if the path is dangerous.
+- **State**: The Repository is the Source of Truth. If it's not committed, it didn't happen.
+- **Handoff**: Explicit "Green Light" required from User for high-risk actions.

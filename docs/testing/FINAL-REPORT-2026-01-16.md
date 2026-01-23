@@ -41,7 +41,7 @@
 - Scenarios: 4/4 executed
 - Pass Rate: 100%
 - Critical Bugs: 0
-- Agents Tested: 7/17 (41%)
+- Agents Tested: 7/23 (41%)
 - Total Time: ~6 minutes (simulated)
 
 ---
@@ -281,7 +281,7 @@
 
 - Tester les 10 agents non encore testés
 - Prioriser: browser-agent, meta-agent, auditor
-- Compléter la couverture de tous les 17 agents
+- Compléter la couverture de tous les 23 agents
 
 ### Short-term (This Month)
 
@@ -349,7 +349,7 @@
 
 2. **Agent Coverage**
 
-   - 7/17 agents testés seulement
+   - 7/23 agents testés seulement
    - Besoin de tester les 10 restants
 
 3. **Integration Externe**
@@ -390,7 +390,7 @@
 
 - **Pass Rate**: 100% (4/4 scenarios)
 - **Bugs**: 0 critical
-- **Agents Validated**: 7/17 (41%)
+- **Agents Validated**: 7/23 (41%)
 - **Systems Validated**: 3/3 (100%)
 - **Time Efficiency**: ~6 minutes for all scenarios (simulated)
 

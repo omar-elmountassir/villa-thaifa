@@ -1,0 +1,14 @@
+{
+  "agent_id": "auditor",
+  "description": "Expert Auditor for brutal excellence standards. Grades code, documentation, and architecture with uncompromising standards.",
+  "tools": [
+    "Read",
+    "Write"
+  ],
+  "model": "sonnet",
+  "color": "purple",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

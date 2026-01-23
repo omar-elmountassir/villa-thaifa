@@ -1,0 +1,17 @@
+{
+  "agent_id": "meta-agent",
+  "description": "Agent configuration generator. Creates new sub-agents from descriptions. Use PROACTIVELY when user requests a new agent or when a specialized agent is needed for a recurring task.",
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "WebFetch",
+    "WebSearch"
+  ],
+  "model": "opus",
+  "color": "red",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

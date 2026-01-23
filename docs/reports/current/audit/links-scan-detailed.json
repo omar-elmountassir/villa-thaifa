@@ -1,0 +1,1161 @@
+{
+  "summary": {
+    "total_files": 182,
+    "total_links": 211,
+    "broken_links": 96
+  },
+  "broken_links": [
+    {
+      "text": "MISSION.md",
+      "url": "MISSION.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/GEMINI.md",
+      "full_match": "[MISSION.md](MISSION.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/MISSION.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`MISSION.md`",
+      "url": "MISSION.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/AGENTS.md",
+      "full_match": "[`MISSION.md`](MISSION.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/MISSION.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "MISSION.md",
+      "url": "MISSION.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/README.md",
+      "full_match": "[MISSION.md](MISSION.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/MISSION.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "STATE.md",
+      "url": "STATE.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/README.md",
+      "full_match": "[STATE.md](STATE.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/STATE.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`admin/`",
+      "url": "admin/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/README.md",
+      "full_match": "[`admin/`](admin/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/admin",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "Execution Log: Room Mapping Rescue",
+      "url": "docs/project/plans/2026-01-13-room-mapping-investigation.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/tasks/active.md",
+      "full_match": "[Execution Log: Room Mapping Rescue](docs/project/plans/2026-01-13-room-mapping-investigation.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/tasks/docs/project/plans/2026-01-13-room-mapping-investigation.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "resolved/",
+      "url": "resolved/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/README.md",
+      "full_match": "[resolved/](resolved/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/resolved",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "recurring/",
+      "url": "recurring/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/README.md",
+      "full_match": "[recurring/](recurring/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/recurring",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "Incident: Short description",
+      "url": "docs/incidents/open/filename.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/README.md",
+      "full_match": "[Incident: Short description](docs/incidents/open/filename.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/docs/incidents/open/filename.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Incident: WebFetch 404",
+      "url": "docs/incidents/open/2025-12-29-1430-webfetch-404.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/README.md",
+      "full_match": "[Incident: WebFetch 404](docs/incidents/open/2025-12-29-1430-webfetch-404.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/incidents/docs/incidents/open/2025-12-29-1430-webfetch-404.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "text",
+      "url": "path/to/file.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/plans/documentation-manager-spec.md",
+      "full_match": "[text](path/to/file.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/plans/path/to/file.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "text",
+      "url": "../directory/file.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/plans/documentation-manager-spec.md",
+      "full_match": "[text](../directory/file.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/plans/../directory/file.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "text",
+      "url": "/absolute/path/to/file.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/plans/documentation-manager-spec.md",
+      "full_match": "[text](/absolute/path/to/file.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/absolute/path/to/file.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`statuses/README.md`",
+      "url": "statuses/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/meta/STATE.md",
+      "full_match": "[`statuses/README.md`](statuses/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/meta/statuses/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`data/README.md`",
+      "url": "data/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/meta/STATE.md",
+      "full_match": "[`data/README.md`](data/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/meta/data/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`stack/README.md`",
+      "url": "stack/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/meta/STATE.md",
+      "full_match": "[`stack/README.md`](stack/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/meta/stack/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`AGENTS.md`",
+      "url": "../../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`AGENTS.md`](../../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`AGENTS.md`",
+      "url": "../../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`AGENTS.md`](../../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`AGENTS.md`",
+      "url": "../../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`AGENTS.md`](../../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../AGENTS.md`",
+      "url": "../../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../AGENTS.md`](../../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../GEMINI.md`",
+      "url": "../../GEMINI.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../GEMINI.md`](../../GEMINI.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../GEMINI.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../ROADMAP.md`",
+      "url": "../../ROADMAP.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../ROADMAP.md`](../../ROADMAP.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../ROADMAP.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../docs/project/meta/MISSION.md`",
+      "url": "../../docs/project/meta/MISSION.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../docs/project/meta/MISSION.md`](../../docs/project/meta/MISSION.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../docs/project/meta/MISSION.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../docs/architecture/project_structure.md`",
+      "url": "../../docs/architecture/project_structure.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../docs/architecture/project_structure.md`](../../docs/architecture/project_structure.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../docs/architecture/project_structure.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../docs/architecture/ADR-001-structure.md`",
+      "url": "../../docs/architecture/ADR-001-structure.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../docs/architecture/ADR-001-structure.md`](../../docs/architecture/ADR-001-structure.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../docs/architecture/ADR-001-structure.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../docs/leadership/TEAM.md`",
+      "url": "../../docs/leadership/TEAM.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../docs/leadership/TEAM.md`](../../docs/leadership/TEAM.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../docs/leadership/TEAM.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../tasks/active.md`",
+      "url": "../../tasks/active.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`../../tasks/active.md`](../../tasks/active.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../tasks/active.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "\ud83d\udcd6 Retour \u00e0 AGENTS.md (Manifeste)",
+      "url": "../../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[\ud83d\udcd6 Retour \u00e0 AGENTS.md (Manifeste)](../../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "\ud83e\udde0 Voir GEMINI.md (Vision)",
+      "url": "../../GEMINI.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[\ud83e\udde0 Voir GEMINI.md (Vision)](../../GEMINI.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../GEMINI.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "\ud83d\uddfa\ufe0f Voir ROADMAP.md (Plan)",
+      "url": "../../ROADMAP.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[\ud83d\uddfa\ufe0f Voir ROADMAP.md (Plan)](../../ROADMAP.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../ROADMAP.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "\ud83d\udc65 Voir l'\u00c9quipe (TEAM.md)",
+      "url": "../../docs/leadership/TEAM.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[\ud83d\udc65 Voir l'\u00c9quipe (TEAM.md)](../../docs/leadership/TEAM.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../docs/leadership/TEAM.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`AGENTS.md`",
+      "url": "../../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/README.md",
+      "full_match": "[`AGENTS.md`](../../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/../../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`registry.md`",
+      "url": "docs/project/standards/agents/registry.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/agent-capabilities.md",
+      "full_match": "[`registry.md`](docs/project/standards/agents/registry.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/project/standards/docs/project/standards/agents/registry.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "docs",
+      "url": "../../docs/...",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/reports/BRUTAL-AUDIT-REPORT-2026-01-16.md",
+      "full_match": "[docs](../../docs/...)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/reports/../../docs/...",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "services-transport.md",
+      "url": "services-transport.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[services-transport.md](services-transport.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/services-transport.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "guest-testimonials.md",
+      "url": "guest-testimonials.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[guest-testimonials.md](guest-testimonials.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/guest-testimonials.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "templates/report-style.css",
+      "url": "templates/report-style.css",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[templates/report-style.css](templates/report-style.css)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/templates/report-style.css",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "templates/reservation-report-template.md",
+      "url": "templates/reservation-report-template.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[templates/reservation-report-template.md](templates/reservation-report-template.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/templates/reservation-report-template.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../CLAUDE.md",
+      "url": "../CLAUDE.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[../CLAUDE.md](../CLAUDE.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/../CLAUDE.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../AGENTS.md",
+      "url": "../AGENTS.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[../AGENTS.md](../AGENTS.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/../AGENTS.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../ROADMAP.md",
+      "url": "../ROADMAP.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[../ROADMAP.md](../ROADMAP.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/../ROADMAP.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../state/README.md",
+      "url": "../state/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/INDEX.md",
+      "full_match": "[../state/README.md](../state/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/../state/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`docs/reports/2025-12-29-sync-investigation.md`",
+      "url": "../../../docs/reports/2025-12-29-sync-investigation.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/channel-mapping.md",
+      "full_match": "[`docs/reports/2025-12-29-sync-investigation.md`](../../../docs/reports/2025-12-29-sync-investigation.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/../../../docs/reports/2025-12-29-sync-investigation.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Investigation Report",
+      "url": "../../../docs/reports/2025-12-29-sync-investigation.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/channel-mapping.md",
+      "full_match": "[Investigation Report](../../../docs/reports/2025-12-29-sync-investigation.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/../../../docs/reports/2025-12-29-sync-investigation.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Room 04 File",
+      "url": "../../configs/hotel/facilities/rooms/04-double-superior.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/channel-mapping.md",
+      "full_match": "[Room 04 File](../../configs/hotel/facilities/rooms/04-double-superior.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/../../configs/hotel/facilities/rooms/04-double-superior.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Room 05 File",
+      "url": "../../configs/hotel/facilities/rooms/05-double-superior.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/channel-mapping.md",
+      "full_match": "[Room 05 File](../../configs/hotel/facilities/rooms/05-double-superior.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/platforms/hotelrunner/../../configs/hotel/facilities/rooms/05-double-superior.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../historical/changelog-promotions.md",
+      "url": "../historical/changelog-promotions.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/current.md",
+      "full_match": "[../historical/changelog-promotions.md](../historical/changelog-promotions.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../historical/changelog-promotions.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../state/current/reservations.md`",
+      "url": "../../state/current/reservations.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/CLAUDE.md",
+      "full_match": "[`../../state/current/reservations.md`](../../state/current/reservations.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../../state/current/reservations.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../../state/planned/pricing.md`",
+      "url": "../../state/planned/pricing.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/CLAUDE.md",
+      "full_match": "[`../../state/planned/pricing.md`](../../state/planned/pricing.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../../state/planned/pricing.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/01-deluxe-triple.md`",
+      "url": "rooms/01-deluxe-triple.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/01-deluxe-triple.md`](rooms/01-deluxe-triple.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/01-deluxe-triple.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/02-deluxe-double.md`",
+      "url": "rooms/02-deluxe-double.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/02-deluxe-double.md`](rooms/02-deluxe-double.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/02-deluxe-double.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/03-deluxe-triple.md`",
+      "url": "rooms/03-deluxe-triple.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/03-deluxe-triple.md`](rooms/03-deluxe-triple.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/03-deluxe-triple.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/04-double-superior.md`",
+      "url": "rooms/04-double-superior.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/04-double-superior.md`](rooms/04-double-superior.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/04-double-superior.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/05-double-superior.md`",
+      "url": "rooms/05-double-superior.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/05-double-superior.md`](rooms/05-double-superior.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/05-double-superior.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/06-executive-suite.md`",
+      "url": "rooms/06-executive-suite.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/06-executive-suite.md`](rooms/06-executive-suite.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/06-executive-suite.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/07-deluxe-king-suite.md`",
+      "url": "rooms/07-deluxe-king-suite.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/07-deluxe-king-suite.md`](rooms/07-deluxe-king-suite.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/07-deluxe-king-suite.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/08-deluxe-triple.md`",
+      "url": "rooms/08-deluxe-triple.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/08-deluxe-triple.md`](rooms/08-deluxe-triple.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/08-deluxe-triple.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/09-family-suite.md`",
+      "url": "rooms/09-family-suite.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/09-family-suite.md`](rooms/09-family-suite.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/09-family-suite.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/10-suite.md`",
+      "url": "rooms/10-suite.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/10-suite.md`](rooms/10-suite.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/10-suite.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/11-family-suite.md`",
+      "url": "rooms/11-family-suite.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/11-family-suite.md`](rooms/11-family-suite.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/11-family-suite.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/12-presidential-suite.md`",
+      "url": "rooms/12-presidential-suite.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[`rooms/12-presidential-suite.md`](rooms/12-presidential-suite.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms/12-presidential-suite.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Installations (spa, piscine, jardin, hall)",
+      "url": "../facilities/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[Installations (spa, piscine, jardin, hall)](../facilities/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../facilities/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Tarification pr\u00e9vue",
+      "url": "../../state/planned/pricing.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[Tarification pr\u00e9vue](../../state/planned/pricing.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../../state/planned/pricing.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "R\u00e9servations actuelles",
+      "url": "../../state/current/reservations.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/README.md",
+      "full_match": "[R\u00e9servations actuelles](../../state/current/reservations.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../../state/current/reservations.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../current/promotions.md",
+      "url": "../current/promotions.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/baseline.md",
+      "full_match": "[../current/promotions.md](../current/promotions.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../current/promotions.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "../execution/2025-12-20/promotions.md",
+      "url": "../execution/2025-12-20/promotions.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/baseline.md",
+      "full_match": "[../execution/2025-12-20/promotions.md](../execution/2025-12-20/promotions.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/../execution/2025-12-20/promotions.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms/`",
+      "url": "rooms/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms.md",
+      "full_match": "[`rooms/`](rooms/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/rooms",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "`shared/standards/state-management.md`",
+      "url": "../../../../shared/standards/state-management.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/README.md",
+      "full_match": "[`shared/standards/state-management.md`](../../../../shared/standards/state-management.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/../../../../shared/standards/state-management.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`current/reservations.md`",
+      "url": "current/reservations.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/README.md",
+      "full_match": "[`current/reservations.md`](current/reservations.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/reservations.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../configs/hotel/rooms.md`",
+      "url": "../configs/hotel/rooms.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/README.md",
+      "full_match": "[`../configs/hotel/rooms.md`](../configs/hotel/rooms.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/../configs/hotel/rooms.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../promotions/`",
+      "url": "../promotions/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/README.md",
+      "full_match": "[`../promotions/`](../promotions/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/../promotions",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "`../platform/rules.md`",
+      "url": "../platform/rules.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/README.md",
+      "full_match": "[`../platform/rules.md`](../platform/rules.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/../platform/rules.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`shared/standards/state-management.md`",
+      "url": "../../../../shared/standards/state-management.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/README.md",
+      "full_match": "[`shared/standards/state-management.md`](../../../../shared/standards/state-management.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/../../../../shared/standards/state-management.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`configs/hotel/rooms.md`",
+      "url": "../../configs/hotel/rooms.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/pricing.md",
+      "full_match": "[`configs/hotel/rooms.md`](../../configs/hotel/rooms.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/../../configs/hotel/rooms.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`rooms.md`",
+      "url": "../../configs/hotel/rooms.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/pricing.md",
+      "full_match": "[`rooms.md`](../../configs/hotel/rooms.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/../../configs/hotel/rooms.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`configs/hotel/`",
+      "url": "../../configs/hotel/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/README.md",
+      "full_match": "[`configs/hotel/`](../../configs/hotel/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/../../configs/hotel",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "`../../configs/hotel/`",
+      "url": "../../configs/hotel/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/README.md",
+      "full_match": "[`../../configs/hotel/`](../../configs/hotel/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/../../configs/hotel",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "`../execution/`",
+      "url": "../execution/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/README.md",
+      "full_match": "[`../execution/`](../execution/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/planned/../execution",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "`../../configs/hotel/rooms.md`",
+      "url": "../../configs/hotel/rooms.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/README.md",
+      "full_match": "[`../../configs/hotel/rooms.md`](../../configs/hotel/rooms.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/../../configs/hotel/rooms.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`../execution/`",
+      "url": "../execution/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/README.md",
+      "full_match": "[`../execution/`](../execution/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/../execution",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "../planned/assignments.md",
+      "url": "../planned/assignments.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/reserverations/reservations.md",
+      "full_match": "[../planned/assignments.md](../planned/assignments.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/docs/specs/knowledge/villa-thaifa/state/current/reserverations/../planned/assignments.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`statuses/README.md`",
+      "url": "statuses/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.context/statuses/README.md",
+      "full_match": "[`statuses/README.md`](statuses/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.context/statuses/statuses/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`spa.md`",
+      "url": "spa.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[`spa.md`](spa.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/spa.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`pool.md`",
+      "url": "pool.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[`pool.md`](pool.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/pool.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`garden.md`",
+      "url": "garden.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[`garden.md`](garden.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/garden.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "`hall.md`",
+      "url": "hall.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[`hall.md`](hall.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/hall.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Channel Mapping HotelRunner",
+      "url": "../../../platform/hotelrunner/channel-mapping.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[Channel Mapping HotelRunner](../../../platform/hotelrunner/channel-mapping.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/../../../platform/hotelrunner/channel-mapping.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "API Reference HotelRunner",
+      "url": "../../../platform/hotelrunner/api-reference.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[API Reference HotelRunner](../../../platform/hotelrunner/api-reference.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/../../../platform/hotelrunner/api-reference.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Index des chambres",
+      "url": "../hotel/README.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[Index des chambres](../hotel/README.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/../hotel/README.md",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Photos des installations",
+      "url": "../../images/",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/README.md",
+      "full_match": "[Photos des installations](../../images/)",
+      "validation": {
+        "valid": false,
+        "type": "directory",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/content/facilities/../../images",
+        "reason": "Directory not found"
+      }
+    },
+    {
+      "text": "Source 1",
+      "url": "url",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/commands/elevate.md",
+      "full_match": "[Source 1](url)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/commands/url",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Source 2",
+      "url": "url",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/commands/elevate.md",
+      "full_match": "[Source 2](url)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/commands/url",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Source 3",
+      "url": "url",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/commands/elevate.md",
+      "full_match": "[Source 3](url)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/commands/url",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Source 1",
+      "url": "url",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/agents/research-agent.md",
+      "full_match": "[Source 1](url)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/agents/url",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Source 2",
+      "url": "url",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/agents/research-agent.md",
+      "full_match": "[Source 2](url)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/agents/url",
+        "reason": "File not found"
+      }
+    },
+    {
+      "text": "Claude Code CLI - Decision Evaluator Agent",
+      "url": "../agents/decision-evaluator-agent.md",
+      "file": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/patterns/decision-evaluator-agent-pattern.md",
+      "full_match": "[Claude Code CLI - Decision Evaluator Agent](../agents/decision-evaluator-agent.md)",
+      "validation": {
+        "valid": false,
+        "type": "file",
+        "path": "/home/omar/omar-el-mountassir/projects/clients/villa-thaifa/.claude/patterns/../agents/decision-evaluator-agent.md",
+        "reason": "File not found"
+      }
+    }
+  ]
+}

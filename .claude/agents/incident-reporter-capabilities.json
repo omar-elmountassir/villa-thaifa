@@ -1,0 +1,15 @@
+{
+  "agent_id": "incident-reporter",
+  "description": "Incident documentation specialist. Creates structured incident reports when errors, failures, or unexpected behavior occurs. Use PROACTIVELY when any error or failure needs to be logged.",
+  "tools": [
+    "Read",
+    "Write",
+    "Glob"
+  ],
+  "model": "haiku",
+  "color": "orange",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

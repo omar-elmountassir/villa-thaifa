@@ -1,0 +1,17 @@
+{
+  "agent_id": "dashboard-generator",
+  "description": "Project health dashboard creator. Generates comprehensive HTML dashboards visualizing project metrics, agent status, and system health. Use PROACTIVELY for monitoring and periodic reporting.",
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep"
+  ],
+  "model": "sonnet",
+  "color": "red",
+  "permission_mode": "acceptEdits",
+  "skills": "dashboard-creation, data-visualization, metrics-aggregation",
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

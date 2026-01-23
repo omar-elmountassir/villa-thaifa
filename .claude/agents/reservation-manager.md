@@ -14,8 +14,8 @@ context_to_load:
     - $DOCS/agents/context/mandatory/
   domain_specific:
     - $DOCS/agents/context/domain/ops/
-    - $DOCS/knowledge/state/current/reservations.md
-    - $DOCS/knowledge/property/VILLA_THAIFA.json
+    - $DOCS/specs/knowledge/state/current/reservations.md
+    - $DOCS/specs/knowledge/property/VILLA_THAIFA.json
   mission_specific:
     - $DOCS/agents/context/mission/
 

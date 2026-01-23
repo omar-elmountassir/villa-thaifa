@@ -1,6 +1,6 @@
 # 🧪 TESTING SCENARIOS - Villa Thaifa
 
-> **Purpose**: Scénarios de test pour valider les 17 agents
+> **Purpose**: Scénarios de test pour valider les 23 agents
 > **Created**: 2026-01-16
 > **Status**: READY FOR TESTING
 > **Data**: MOCK DATA (à confirmer avec Said Thaifa)

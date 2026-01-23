@@ -14,8 +14,8 @@ context_to_load:
     - $DOCS/agents/context/mandatory/
   domain_specific:
     - $DOCS/agents/context/domain/tech/
-    - $DOCS/knowledge/platforms/hotelrunner/
-    - $DOCS/knowledge/platforms/booking/
+    - $DOCS/specs/knowledge/platforms/hotelrunner/
+    - $DOCS/specs/knowledge/platforms/booking/
   mission_specific:
     - $DOCS/agents/context/mission/
 

@@ -1,0 +1,17 @@
+{
+  "agent_id": "knowledge-interviewer",
+  "description": "Client knowledge interviewer. Conducts structured interviews to fill knowledge gaps in project documentation. Use PROACTIVELY when knowledge base has placeholders or TODOs.",
+  "tools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep"
+  ],
+  "model": "opus",
+  "color": "pink",
+  "permission_mode": "default",
+  "skills": "interviewing, knowledge-capture, documentation-filling",
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

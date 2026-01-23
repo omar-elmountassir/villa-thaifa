@@ -57,12 +57,12 @@ orchestration:
 capabilities: "docs/agents/booking-manager/capabilities.json"
 
 context_mandatory:
-  - docs/knowledge/mandatory/client-profile.md
-  - docs/knowledge/mandatory/business-model.md
+  - docs/specs/knowledge/mandatory/client-profile.md
+  - docs/specs/knowledge/mandatory/business-model.md
 
 context_domain:
-  - docs/knowledge/domain/operations/booking-policies.md
-  - docs/knowledge/domain/operations/platform-workflows.md
+  - docs/specs/knowledge/domain/operations/booking-policies.md
+  - docs/specs/knowledge/domain/operations/platform-workflows.md
 
 context_mission: []                          # Vide si pas de mission assignée
 
@@ -175,13 +175,13 @@ orchestration:
 capabilities: docs/agents/booking-manager/capabilities.json
 
 context_mandatory:
-  - docs/knowledge/mandatory/client-profile.md
-  - docs/knowledge/mandatory/operational-priorities.md
+  - docs/specs/knowledge/mandatory/client-profile.md
+  - docs/specs/knowledge/mandatory/operational-priorities.md
 
 context_domain:
-  - docs/knowledge/domain/operations/booking-policies.md
-  - docs/knowledge/domain/operations/platform-workflows.md
-  - docs/knowledge/domain/operations/seasonality-rules.md
+  - docs/specs/knowledge/domain/operations/booking-policies.md
+  - docs/specs/knowledge/domain/operations/platform-workflows.md
+  - docs/specs/knowledge/domain/operations/seasonality-rules.md
 
 dependencies:
   agents:
@@ -414,9 +414,9 @@ orchestration:
   can_work_independently: true
 capabilities: docs/agents/booking-manager/capabilities.json
 context_mandatory:
-  - docs/knowledge/mandatory/client-profile.md
+  - docs/specs/knowledge/mandatory/client-profile.md
 context_domain:
-  - docs/knowledge/domain/operations/booking-policies.md
+  - docs/specs/knowledge/domain/operations/booking-policies.md
 dependencies:
   agents:
     - pricing-analyst

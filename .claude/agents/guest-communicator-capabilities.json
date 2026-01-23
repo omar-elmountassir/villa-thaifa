@@ -1,0 +1,14 @@
+{
+  "agent_id": "guest-communicator",
+  "description": "Guest communication specialist. Drafts professional welcome messages, check-in instructions, and response templates. Use when creating or reviewing guest-facing communications.",
+  "tools": [
+    "Read",
+    "Write"
+  ],
+  "model": "sonnet",
+  "color": "pink",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "./schemas/paths.schema.json",
+  "version": "1.0.0",
+  "description": "Central path registry for dynamic path resolution across agents and documentation",
+  "updated": "2026-01-21",
+  "aliases": {
+    "ROOT": ".",
+    "DOCS": "docs",
+    "SPECS": "docs/specs",
+    "KNOWLEDGE": "docs/specs/knowledge",
+    "OTA": "docs/specs/knowledge/ota",
+    "AGENTS": ".claude/agents",
+    "REPORTS": "docs/reports/current",
+    "DATA": "src/data",
+    "ARCHIVE": "archive"
+  },
+  "files": {
+    "browser_protocols": "${OTA}/protocols/browser-protocols.md",
+    "property_config": "${KNOWLEDGE}/property/property-config.md",
+    "legal_info": "${KNOWLEDGE}/property/legal-info.md",
+    "rooms_data": "${DATA}/rooms.json",
+    "facilities_data": "${DATA}/facilities.json",
+    "ota_readme": "${OTA}/README.md",
+    "expedia_spec": "${OTA}/platforms/expedia.md",
+    "booking_spec": "${OTA}/platforms/booking.com.md",
+    "hotelrunner_spec": "${KNOWLEDGE}/platforms/hotelrunner/hotelrunner.md",
+    "rate_sync": "${OTA}/sync/rate-sync.md",
+    "availability_sync": "${OTA}/sync/availability-sync.md"
+  },
+  "directories": {
+    "agent_configs": "${AGENTS}",
+    "agent_context": "docs/agents/context",
+    "agent_capabilities": "docs/agents/capabilities",
+    "audit_reports": "${REPORTS}/audit",
+    "agent_reports": "${REPORTS}/agents",
+    "operations_reports": "${REPORTS}/operations",
+    "investigation_reports": "${REPORTS}/investigations",
+    "knowledge_client": "${KNOWLEDGE}/client",
+    "knowledge_property": "${KNOWLEDGE}/property",
+    "knowledge_platforms": "${KNOWLEDGE}/platforms",
+    "knowledge_ota": "${OTA}",
+    "knowledge_policies": "${KNOWLEDGE}/policies"
+  },
+  "notes": {
+    "usage": "Agents should reference paths using @path:key_name syntax",
+    "resolution": "Paths are resolved relative to project root",
+    "maintenance": "Update this file when directory structure changes"
+  }
+}

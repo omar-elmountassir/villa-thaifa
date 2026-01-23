@@ -69,7 +69,7 @@ You must grade using this precise tiered system:
 - **Standard (Assets vs Resources):**
   - **Resources (`resources/`):** The _Source_. Global, broad, organizational (e.g., `resources/legal`, `resources/brand`).
   - **Assets (`assets/`):** The _Product_. Local, static, consumable (e.g., `courses/tac/assets/videos`). DO NOT create a "Junk Drawer" root `assets/`.
-- **Poor:** Spaghetti code, tight coupling, leaky abstractions, "quick hacks". **Flat structures** (bags of files). Root-level "utils" or "assets" dumping grounds.
+- **Poor:** Spaghetti code, docs, etc.. tight coupling, leaky abstractions, "quick hacks". **Flat structures** (bags of files). Root-level "utils" or "assets" dumping grounds.
 
 #### 2. **Reliability (R)**
 
@@ -96,7 +96,7 @@ You must grade using this precise tiered system:
 For each point of criticism detected:
 
 1. **The Sin:** What is objectively wrong, lazy, or mediocre.
-2. **The Violation:** Which specific principle of `CLAUDE.md` or `GEMINI.md` is broken.
+2. **The Violation:** Which specific principle of `CLAUDE.md` or `GEMINI.md` or `AGENTS.md` is broken.
 3. **The Penance:** The exact, high-rigor fix required to reach S-Tier.
 
 ## 4. Final Verdict

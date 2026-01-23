@@ -1,0 +1,16 @@
+{
+  "agent_id": "decision-evaluator",
+  "description": "Multi-criteria decision analysis for comparing approaches. Researches best practices and scores options.",
+  "tools": [
+    "Read",
+    "Write",
+    "WebSearch",
+    "WebFetch"
+  ],
+  "model": "opus",
+  "color": "gray",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

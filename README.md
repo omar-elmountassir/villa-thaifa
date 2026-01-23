@@ -8,16 +8,16 @@ Ce projet vise à automatiser la gestion de la maison d'hôte, de la distributio
 
 ## 🧭 Navigation Rapide
 
-- **[MISSION.md](MISSION.md)** : Notre étoile du Nord. Quoi et Pourquoi.
+- **[MISSION.md](docs/project/meta/MISSION.md)** : Notre étoile du Nord. Quoi et Pourquoi.
 - **[ROADMAP.md](ROADMAP.md)** : Le plan de bataille. Quand et Comment.
-- **[STATE.md](STATE.md)** : L'état des lieux technique immédiat.
+- **[STATE.md](docs/project/meta/STATE.md)** : L'état des lieux technique immédiat.
 - **[GEMINI.md](GEMINI.md)** : Le cerveau de l'IA (Contexte & Mémoire).
 
 ## 🛠️ Accès Rapides
 
 - **Photos & Chambres**: [`content/facilities`](content/facilities)
 - **Knowledge Base**: [`docs/specs/knowledge`](docs/specs/knowledge)
-- **Admin**: [`admin/`](admin/)
+- **Admin**: [`src/app/admin`](src/app/admin) (Next.js Admin UI)
 
 ---
 

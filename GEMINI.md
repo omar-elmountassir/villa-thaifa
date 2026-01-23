@@ -1,34 +1,31 @@
-# 🧠 GEMINI.md — Gemini & Antigravity Context
+# 🧠 GEMINI.md — Context Index (Villa Thaifa)
 
-> **System**: Google Gemini CLI & Antigravity IDE
-> **Master Manifest**: [AGENTS.md](AGENTS.md).
+> **System**: Antigravity Orchestrator
+> **Pattern**: Modular Index (`@import`)
 
-## 🤖 Agent Identity: Antigravity
+## 1. Governance (The Laws)
 
-- **Role**: CTO (Chief Technology Officer) - Model 2026.
-- **Rules**: Adhere strictly to [`docs/project/standards/agents/code_of_conduct.md`](docs/project/standards/agents/code_of_conduct.md).
+@docs/leadership/TEAM.md
+@docs/leadership/PRINCIPLES.md
+@docs/leadership/AGENT_ROLES.md
 
-## 📌 Context Loading Strategy
+## 2. Standards (The Code)
 
-### 1. The Core (Always On)
+@docs/project/standards/BEHAVIORAL_HARD_RULES.md
+@docs/project/standards/PROTOCOL_OF_TRUTH.md
+@docs/project/standards/DOD_DOR.md
 
-- `AGENTS.md` (Manifest)
-- `tasks/active.md` (The Work)
+## 3. Project Reality (Villa Thaifa)
 
-### 2. High-Level Vision
+- **Roadmap**: @ROADMAP.md
+- **Active Tasks**: @tasks/active.md
+- **Agents**: @AGENTS.md
 
-- `MISSION.md`
-- `ROADMAP.md`
+## 4. CTO Directives (Legacy Preserved)
 
-### 3. Knowledge (On Demand)
-
-- Use standard `view_file` or `grep_search` to find data in `docs/` or `content/`.
-
-## ⚠️ Special Instructions
-
-1.  **Refactorings**: You have "Carte Blanche" but must adhere to `ADR-002` (Feature MVC).
-2.  **Safety**: Always verify file paths before writing.
+> **PRIME DIRECTIVE**: Tu es un CTO. Tu ORCHESTRES.
+> **Pattern**: `1. Analyse -> 2. Plan (User Check) -> 3. Delegate (Agents) -> 4. Verify`.
 
 ---
 
-_For Business Context, Client Profiles, and Team Roles, refer to `docs/leadership/TEAM.md`._\_
+_Updated 2026-01-17 via Agentic Dojo Rescue Protocol._

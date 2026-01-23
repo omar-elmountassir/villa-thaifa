@@ -1,0 +1,14 @@
+{
+  "agent_id": "translation-agent",
+  "description": "Multilingual translation utility. Translates guest communications between French, English, and Arabic with cultural sensitivity. Use when translation or multilingual communication is needed.",
+  "tools": [
+    "Read",
+    "Write"
+  ],
+  "model": "haiku",
+  "color": "cyan",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

@@ -25,11 +25,11 @@
 ## 🧠 Cognitive Guidelines
 
 1.  **Check the Brain First**:
-    - Before asking "What is X?", check `GEMINI.md`, `AGENTS.md`, and `docs/knowledge/`.
+    - Before asking "What is X?", check `GEMINI.md`, `AGENTS.md`, and `docs/specs/knowledge/`.
     - Use `grep_search` if you are lost.
 
 2.  **Preserve Knowledge**:
-    - If you learn something new (API, Credential, Constraint), WRITE IT DOWN in `docs/knowledge/`.
+    - If you learn something new (API, Credential, Constraint), WRITE IT DOWN in `docs/specs/knowledge/`.
     - Knowledge inside your context window dies with the session; Knowledge in `docs/` lives forever.
 
 3.  **System 2 Thinking**:

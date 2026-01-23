@@ -1,0 +1,16 @@
+{
+  "agent_id": "pricing-analyst",
+  "description": "Revenue optimization strategist. Analyzes occupancy data, competitor rates, and seasonal demand to produce pricing recommendations. Use PROACTIVELY when pricing strategy review or rate optimization is needed.",
+  "tools": [
+    "Read",
+    "Glob",
+    "Grep",
+    "WebSearch"
+  ],
+  "model": "opus",
+  "color": "blue",
+  "permission_mode": "plan",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

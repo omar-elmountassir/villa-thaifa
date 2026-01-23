@@ -1,0 +1,215 @@
+{
+  "root": "room-editor-root",
+  "elements": {
+    "room-editor-root": {
+      "key": "room-editor-root",
+      "type": "Section",
+      "props": {
+        "title": "Room Editor",
+        "className": "space-y-8"
+      },
+      "children": [
+        "basic-info-section",
+        "features-section",
+        "bedding-section",
+        "pricing-capacity-section",
+        "media-gallery-section",
+        "save-actions"
+      ]
+    },
+    "basic-info-section": {
+      "key": "basic-info-section",
+      "type": "Section",
+      "props": { "title": "Basic Information" },
+      "children": ["type-field", "number-field", "description-field"]
+    },
+    "type-field": {
+      "key": "type-field",
+      "type": "TextField",
+      "props": {
+        "label": "Room Type",
+        "path": "/type",
+        "placeholder": "e.g. Deluxe Suite"
+      }
+    },
+    "number-field": {
+      "key": "number-field",
+      "type": "TextField",
+      "props": {
+        "label": "Room Number",
+        "path": "/number",
+        "placeholder": "01"
+      }
+    },
+    "description-field": {
+      "key": "description-field",
+      "type": "TextField",
+      "props": {
+        "label": "Description",
+        "path": "/description",
+        "multiline": true,
+        "rows": 4,
+        "className": "col-span-full"
+      }
+    },
+    "features-section": {
+      "key": "features-section",
+      "type": "Section",
+      "props": {
+        "title": "Room Features & Amenities",
+        "className": "col-span-full"
+      },
+      "children": [
+        "features-view-field",
+        "features-floor-field",
+        "features-area-field",
+        "features-terrace-field",
+        "features-amenities-field"
+      ]
+    },
+    "features-view-field": {
+      "key": "features-view-field",
+      "type": "TextField",
+      "props": {
+        "path": "/features/view",
+        "label": "View (e.g. Garden View)"
+      }
+    },
+    "features-floor-field": {
+      "key": "features-floor-field",
+      "type": "TextField",
+      "props": {
+        "path": "/features/floor",
+        "label": "Floor"
+      }
+    },
+    "features-area-field": {
+      "key": "features-area-field",
+      "type": "TextField",
+      "props": {
+        "path": "/features/area",
+        "label": "Area (e.g. 35m²)"
+      }
+    },
+    "features-terrace-field": {
+      "key": "features-terrace-field",
+      "type": "TextField",
+      "props": {
+        "path": "/features/terrace",
+        "label": "Terrace Info"
+      }
+    },
+    "features-amenities-field": {
+      "key": "features-amenities-field",
+      "type": "ListField",
+      "props": {
+        "path": "/features/amenities",
+        "label": "Amenities"
+      }
+    },
+    "bedding-section": {
+      "key": "bedding-section",
+      "type": "Section",
+      "props": {
+        "title": "Bedding",
+        "className": "col-span-full"
+      },
+      "children": ["beds-field"]
+    },
+    "beds-field": {
+      "key": "beds-field",
+      "type": "ListField",
+      "props": {
+        "path": "/beds",
+        "label": "Beds Configuration"
+      }
+    },
+    "pricing-capacity-section": {
+      "key": "pricing-capacity-section",
+      "type": "Section",
+      "props": {
+        "title": "Pricing & Capacity",
+        "className": "col-span-full"
+      },
+      "children": [
+        "price-amount-field",
+        "price-currency-field",
+        "capacity-adults-field",
+        "capacity-children-field",
+        "capacity-description-field"
+      ]
+    },
+    "price-amount-field": {
+      "key": "price-amount-field",
+      "type": "NumberField",
+      "props": {
+        "path": "/price/amount",
+        "label": "Price per Night"
+      }
+    },
+    "price-currency-field": {
+      "key": "price-currency-field",
+      "type": "TextField",
+      "props": {
+        "path": "/price/currency",
+        "label": "Currency",
+        "placeholder": "EUR"
+      }
+    },
+    "capacity-adults-field": {
+      "key": "capacity-adults-field",
+      "type": "NumberField",
+      "props": {
+        "path": "/capacity/adults",
+        "label": "Max Adults"
+      }
+    },
+    "capacity-children-field": {
+      "key": "capacity-children-field",
+      "type": "NumberField",
+      "props": {
+        "path": "/capacity/children",
+        "label": "Max Children"
+      }
+    },
+    "capacity-description-field": {
+      "key": "capacity-description-field",
+      "type": "TextField",
+      "props": {
+        "path": "/capacity/description",
+        "label": "Capacity Description",
+        "placeholder": "e.g. up to 3 people"
+      }
+    },
+    "media-gallery-section": {
+      "key": "media-gallery-section",
+      "type": "Section",
+      "props": {
+        "title": "Media Gallery",
+        "className": "col-span-full"
+      },
+      "children": ["image-manager-field"]
+    },
+    "image-manager-field": {
+      "key": "image-manager-field",
+      "type": "ImageManager",
+      "props": {
+        "path": "/images",
+        "label": "Room Photos"
+      }
+    },
+    "save-actions": {
+      "key": "save-actions",
+      "type": "ActionPanel",
+      "props": {},
+      "children": ["save-btn"]
+    },
+    "save-btn": {
+      "key": "save-btn",
+      "type": "SaveButton",
+      "props": {
+        "label": "Save Changes"
+      }
+    }
+  }
+}

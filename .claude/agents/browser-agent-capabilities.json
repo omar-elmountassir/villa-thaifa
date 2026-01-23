@@ -1,0 +1,11 @@
+{
+  "agent_id": "browser-agent",
+  "description": "Browser automation specialist. Handles Chrome automation for scraping, form filling, and platform interactions. Use PROACTIVELY when browser operations are any web interface.",
+  "tools": ["Read", "Write", "mcp__claude-in-chrome__*"],
+  "model": "sonnet",
+  "color": "cyan",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-01-17",
+  "version": "1.0.0",
+  "total_agents": 22,
+  "project": "villa-thaifa",
+  "summary": {
+    "by_model": {
+      "sonnet": 11,
+      "opus": 8,
+      "haiku": 3
+    },
+    "by_permission_mode": {
+      "default": 14,
+      "plan": 8
+    },
+    "by_color": {
+      "red": 4,
+      "yellow": 3,
+      "gray": 3,
+      "purple": 2,
+      "green": 2,
+      "pink": 2,
+      "cyan": 2,
+      "white": 2,
+      "blue": 1,
+      "orange": 1
+    }
+  },
+  "agents": [
+    {
+      "agent_id": "pricing-analyst",
+      "model": "opus",
+      "color": "blue",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep", "WebSearch"],
+      "role": "Revenue optimization strategist"
+    },
+    {
+      "agent_id": "reservation-manager",
+      "model": "sonnet",
+      "color": "purple",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+      "role": "Reservation lifecycle engineer"
+    },
+    {
+      "agent_id": "calendar-agent",
+      "model": "sonnet",
+      "color": "green",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep"],
+      "role": "Room availability analyst"
+    },
+    {
+      "agent_id": "platform-validator",
+      "model": "sonnet",
+      "color": "yellow",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep"],
+      "role": "Platform data validator"
+    },
+    {
+      "agent_id": "guest-communicator",
+      "model": "sonnet",
+      "color": "pink",
+      "permission_mode": "default",
+      "tools": ["Read", "Write"],
+      "role": "Guest communication specialist"
+    },
+    {
+      "agent_id": "meta-agent",
+      "model": "opus",
+      "color": "red",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "WebFetch", "WebSearch"],
+      "role": "Agent configuration generator"
+    },
+    {
+      "agent_id": "research-agent",
+      "model": "haiku",
+      "color": "green",
+      "permission_mode": "default",
+      "tools": ["Read", "Glob", "Grep", "WebSearch"],
+      "role": "Market research specialist"
+    },
+    {
+      "agent_id": "security-auditor",
+      "model": "opus",
+      "color": "gray",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep", "WebSearch"],
+      "role": "Security compliance monitor"
+    },
+    {
+      "agent_id": "translation-agent",
+      "model": "haiku",
+      "color": "cyan",
+      "permission_mode": "default",
+      "tools": ["Read", "Write"],
+      "role": "Multilingual translator"
+    },
+    {
+      "agent_id": "data-sync-checker",
+      "model": "sonnet",
+      "color": "yellow",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep"],
+      "role": "Data synchronization validator"
+    },
+    {
+      "agent_id": "incident-reporter",
+      "model": "haiku",
+      "color": "orange",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit"],
+      "role": "Incident documentation specialist"
+    },
+    {
+      "agent_id": "html-report-generator",
+      "model": "opus",
+      "color": "gray",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit"],
+      "role": "HTML report builder"
+    },
+    {
+      "agent_id": "smart-contract-auditor",
+      "model": "opus",
+      "color": "red",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep"],
+      "role": "Smart contract analyzer"
+    },
+    {
+      "agent_id": "decision-evaluator",
+      "model": "opus",
+      "color": "gray",
+      "permission_mode": "plan",
+      "tools": ["Read", "Glob", "Grep", "WebSearch"],
+      "role": "Decision support analyst"
+    },
+    {
+      "agent_id": "claude-md-agent",
+      "model": "opus",
+      "color": "white",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob", "Grep", "WebSearch"],
+      "role": "Documentation maintainer"
+    },
+    {
+      "agent_id": "browser-agent",
+      "model": "sonnet",
+      "color": "cyan",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "mcp__claude-in-chrome__computer", "mcp__claude-in-chrome__navigate", "mcp__claude-in-chrome__read_page", "mcp__claude-in-chrome__find", "mcp__claude-in-chrome__form_input", "mcp__claude-in-chrome__screenshot", "mcp__claude-in-chrome__tabs_context_mcp", "mcp__claude-in-chrome__tabs_create_mcp", "mcp__claude-in-chrome__javascript_tool", "mcp__claude-in-chrome__get_page_text"],
+      "role": "Browser automation specialist"
+    },
+    {
+      "agent_id": "auditor",
+      "model": "sonnet",
+      "color": "purple",
+      "permission_mode": "default",
+      "tools": ["Read", "Write"],
+      "role": "Operations auditor"
+    },
+    {
+      "agent_id": "context-builder",
+      "model": "sonnet",
+      "color": "red",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+      "role": "Context preparation specialist"
+    },
+    {
+      "agent_id": "knowledge-interviewer",
+      "model": "opus",
+      "color": "pink",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+      "role": "Knowledge extraction specialist"
+    },
+    {
+      "agent_id": "test-runner",
+      "model": "sonnet",
+      "color": "yellow",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob", "Grep", "Bash"],
+      "role": "Test execution specialist"
+    },
+    {
+      "agent_id": "dashboard-generator",
+      "model": "sonnet",
+      "color": "red",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob", "Grep"],
+      "role": "Dashboard creation specialist"
+    },
+    {
+      "agent_id": "capability-extractor",
+      "model": "sonnet",
+      "color": "white",
+      "permission_mode": "default",
+      "tools": ["Read", "Write", "Edit", "Glob"],
+      "role": "Metadata extraction specialist"
+    }
+  ]
+}

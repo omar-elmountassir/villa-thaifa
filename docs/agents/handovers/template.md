@@ -83,7 +83,7 @@ Liste de toutes les tâches **terminées** pendant cette session.
 ```yaml
 tasks_completed:
   - "Created CLAUDE.md with 3-minute read format"
-  - "Standardized frontmatter for all 17 agents"
+  - "Standardized frontmatter for all 23 agents"
   - "Created docs/agents/registry.json with all agent metadata"
 ```
 
@@ -134,7 +134,7 @@ Liste **complète** des fichiers modifiés.
 files_modified:
   - ".claude/agents/pricing-analyst.md"
   - ".claude/agents/reservation-manager.md"
-  # ... all 17 agents
+  # ... all 23 agents
 ```
 
 ### 6. `files_created`
@@ -147,7 +147,7 @@ Liste **complète** des fichiers créés.
 files_created:
   - "CLAUDE.md"
   - "docs/agents/registry.json"
-  - "docs/knowledge/client/PROFILE.json"
+  - "docs/specs/knowledge/client/PROFILE.json"
   # ... etc
 ```
 
@@ -161,12 +161,12 @@ Contexte **détaillé** pour le prochain agent. Utiliser le format `|` pour le m
 context_for_next_agent: |
   Contexte de la session:
   - Nous avons créé le système de prompts agentique pour Villa Thaifa
-  - 17 agents ont maintenant un frontmatter standardisé avec:
+  - 23 agents ont maintenant un frontmatter standardisé avec:
     * agent_id, version, status, created, modified, created_by
     * context_to_load (mandatory, domain_specific, mission_specific)
     * dependencies, tools, output_format, domain, tags, changelog
   - Le registry.json est créé avec toutes les métadonnées des agents
-  - Les placeholders sont créés dans docs/knowledge/ (client, property, processes, communications, finance, leadership)
+  - Les placeholders sont créés dans docs/specs/knowledge/ (client, property, processes, communications, finance, leadership)
 
   Ce qui reste à faire:
   - Fixer les chemins obsolètes (el-mountassir → omar-el-mountassir)
@@ -225,10 +225,10 @@ tasks_completed:
   - "Created complete backup of villa-thaifa project"
   - "Created docs/agents/ structure (context, handovers, capabilities)"
   - "Created CLAUDE.md as single entry point (3 min read)"
-  - "Created docs/agents/registry.json with all 17 agents metadata"
+  - "Created docs/agents/registry.json with all 23 agents metadata"
   - "Created all knowledge folders with placeholders (client, property, processes, communications, finance)"
   - "Created leadership folder with VISION.md, DECISIONS.md, PRIORITIES.md, TEAM.md"
-  - "Standardized frontmatter for all 17 agents"
+  - "Standardized frontmatter for all 23 agents"
 
 tasks_in_progress:
   - "Fixing obsolete paths (el-mountassir → omar-el-mountassir)"
@@ -266,26 +266,26 @@ files_created:
   - "CLAUDE.md"
   - "docs/agents/registry.json"
   - "docs/agents/handovers/template.md"
-  - "docs/knowledge/INDEX.md"
-  - "docs/knowledge/client/README.md"
-  - "docs/knowledge/client/PROFILE.json"
-  - "docs/knowledge/client/PREFERENCES.md"
-  - "docs/knowledge/client/HISTORY.md"
-  - "docs/knowledge/client/COMMUNICATION.md"
-  - "docs/knowledge/property/README.md"
-  - "docs/knowledge/property/VILLA_THAIFA.json"
-  - "docs/knowledge/processes/README.md"
-  - "docs/knowledge/processes/check-in-out.json"
-  - "docs/knowledge/processes/housekeeping.json"
-  - "docs/knowledge/processes/maintenance.json"
-  - "docs/knowledge/processes/emergency.json"
-  - "docs/knowledge/communications/README.md"
-  - "docs/knowledge/communications/channels.json"
-  - "docs/knowledge/communications/protocols.md"
-  - "docs/knowledge/finance/README.md"
-  - "docs/knowledge/finance/rates.json"
-  - "docs/knowledge/finance/billing.json"
-  - "docs/knowledge/finance/accounting.md"
+  - "docs/specs/knowledge/INDEX.md"
+  - "docs/specs/knowledge/client/README.md"
+  - "docs/specs/knowledge/client/PROFILE.json"
+  - "docs/specs/knowledge/client/PREFERENCES.md"
+  - "docs/specs/knowledge/client/HISTORY.md"
+  - "docs/specs/knowledge/client/COMMUNICATION.md"
+  - "docs/specs/knowledge/property/README.md"
+  - "docs/specs/knowledge/property/VILLA_THAIFA.json"
+  - "docs/specs/knowledge/processes/README.md"
+  - "docs/specs/knowledge/processes/check-in-out.json"
+  - "docs/specs/knowledge/processes/housekeeping.json"
+  - "docs/specs/knowledge/processes/maintenance.json"
+  - "docs/specs/knowledge/processes/emergency.json"
+  - "docs/specs/knowledge/communications/README.md"
+  - "docs/specs/knowledge/communications/channels.json"
+  - "docs/specs/knowledge/communications/protocols.md"
+  - "docs/specs/knowledge/finance/README.md"
+  - "docs/specs/knowledge/finance/rates.json"
+  - "docs/specs/knowledge/finance/billing.json"
+  - "docs/specs/knowledge/finance/accounting.md"
   - "docs/leadership/README.md"
   - "docs/leadership/VISION.md"
   - "docs/leadership/DECISIONS.md"
@@ -299,10 +299,10 @@ context_for_next_agent: |
   1. Backup complet du projet
   2. Structure docs/agents/ créée (context, handovers, capabilities)
   3. CLAUDE.md créé comme point d'entrée unique (3 min read)
-  4. Registry.json créé avec toutes les métadonnées des 17 agents
+  4. Registry.json créé avec toutes les métadonnées des 23 agents
   5. Dossiers knowledge créés avec placeholders (client, property, processes, communications, finance)
   6. Dossier leadership créé avec VISION, DECISIONS, PRIORITIES, TEAM
-  7. Frontmatter standardisé pour tous les 17 agents avec:
+  7. Frontmatter standardisé pour tous les 23 agents avec:
      - agent_id, version, status, created, modified, created_by
      - context_to_load (mandatory, domain_specific, mission_specific)
      - dependencies, tools, output_format, domain, tags, changelog

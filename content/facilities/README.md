@@ -6,12 +6,12 @@
 
 ## Index des Installations
 
-| Installation | Description                     | Fichier                  |
-| ------------ | ------------------------------- | ------------------------ |
-| Spa & Hammam | Bien-être traditionnel marocain | [`spa.md`](spa.md)       |
-| Piscine      | Piscine extérieure              | [`pool.md`](pool.md)     |
-| Jardin       | Jardin dans la Palmeraie        | [`garden.md`](garden.md) |
-| Hall         | Salle de réception              | [`hall.md`](hall.md)     |
+| Installation | Description                     | Fichier                                                                                                                  |
+| ------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Spa & Hammam | Bien-être traditionnel marocain | À créer                                                                                                                  |
+| Piscine      | Piscine extérieure              | [`legacy/content_source/facilities/pool-garden/pool.md`](../../legacy/content_source/facilities/pool-garden/pool.md)     |
+| Jardin       | Jardin dans la Palmeraie        | [`legacy/content_source/facilities/pool-garden/garden.md`](../../legacy/content_source/facilities/pool-garden/garden.md) |
+| Hall         | Salle de réception              | [`legacy/content_source/facilities/hall/hall.md`](../../legacy/content_source/facilities/hall/hall.md)                   |
 
 ---
 
@@ -39,15 +39,15 @@ Chaque fiche chambre dans `rooms/` contient maintenant une section **Mapping Pla
 
 Voir aussi :
 
-- [Channel Mapping HotelRunner](../../../platform/hotelrunner/channel-mapping.md)
-- [API Reference HotelRunner](../../../platform/hotelrunner/api-reference.md)
+- [Channel Mapping HotelRunner](../../docs/specs/knowledge/platforms/hotelrunner/channel-mapping.md)
+- [API Reference HotelRunner](../../docs/specs/knowledge/platforms/hotelrunner/api-reference.md)
 
 ---
 
 ## Voir Aussi
 
-- [Index des chambres](../hotel/README.md)
-- [Photos des installations](../../images/) _(à organiser)_
+- [Index des chambres](../README.md)
+- [Photos des installations](../../public/images/facilities/) _(à organiser)_
 
 ---
 

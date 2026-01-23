@@ -1,0 +1,16 @@
+{
+  "agent_id": "research-agent",
+  "description": "Documentation researcher for LOW criticality topics. For HIGH criticality (config, security, architecture), use deep-research-agent instead.",
+  "tools": [
+    "WebSearch",
+    "WebFetch",
+    "Read",
+    "Write"
+  ],
+  "model": "haiku",
+  "color": "green",
+  "permission_mode": "default",
+  "skills": [],
+  "generated_at": "2026-01-17",
+  "version": "1.0.0"
+}

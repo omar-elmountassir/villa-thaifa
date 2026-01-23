@@ -14,7 +14,7 @@ context_to_load:
     - $DOCS/agents/context/mandatory/
   domain_specific:
     - $DOCS/agents/context/domain/ops/
-    - $DOCS/knowledge/communications/protocols.md
+    - $DOCS/specs/knowledge/communications/protocols.md
   mission_specific:
     - $DOCS/agents/context/mission/
 

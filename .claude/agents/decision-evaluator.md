@@ -1,6 +1,6 @@
 ---
 agent_id: decision-evaluator
-name: decision-evaluator-agent
+name: decision-evaluator
 version: "1.0.0"
 status: active
 created: "2026-01-15"
