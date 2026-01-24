@@ -27,22 +27,33 @@ Ce guide explique comment extraire automatiquement les données de réservations
 agent-browser --version
 ```
 
-### 2. Première Authentification (Une seule fois)
+### 2. Authentification Requise
 
-La première fois, vous devez créer le profile persistant :
+⚠️ **LIMITATION DÉCOUVERTE** : Le flag `--profile` d'agent-browser ne persiste pas les cookies de session correctement.
 
+**Solution de contournement actuelle** :
+
+**Option A - Authentification manuelle avant extraction** :
 ```bash
-# Ouvrir browser en mode visible
-agent-browser --headed --profile ~/.hotelrunner-profile open https://app.hotelrunner.com
+# 1. Ouvrir browser en mode visible
+agent-browser --headed open https://villa-thaifa.hotelrunner.com/login
 
-# Si reCAPTCHA apparaît : résolvez-le manuellement
-# Le profile sauvegardera la session
+# 2. Se connecter manuellement (résoudre reCAPTCHA si nécessaire)
 
-# Fermer
-agent-browser close
+# 3. Laisser le browser ouvert
+
+# 4. Dans un autre terminal, exécuter le script
+# (Le script utilisera la session browser active)
 ```
 
-**Après cette étape unique**, toutes les prochaines connexions seront automatiques !
+**Option B - Extraction manuelle via browser** :
+```bash
+# Utiliser agent-browser en mode interactif pour extraction ponctuelle
+agent-browser --headed open https://villa-thaifa.hotelrunner.com/admin/pms/reservations/all
+# Puis extraire manuellement avec eval/snapshot
+```
+
+**Note** : Nous travaillons sur une solution pour la persistence automatique des sessions.
 
 ---
 
