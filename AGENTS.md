@@ -36,6 +36,62 @@
 - **Architecture**: `docs/architecture/` (The Blueprints).
 - **Rescue**: We are currently in "Phase 1: Stabilization & Cleanup".
 
+## 🔧 Available Tools & Capabilities
+
+### **Browser Automation** - `agent-browser`
+
+**Status**: ✅ Installed & Operational (Jan 2026)
+
+Agent-browser is a fast headless browser automation CLI available globally. Use it via Bash for web automation tasks.
+
+**Installation**:
+```bash
+agent-browser --version  # Already installed globally
+```
+
+**Key Capabilities**:
+- **Navigation**: Open URLs, click elements, fill forms, submit data
+- **Extraction**: Snapshots with element refs (@e1, @e2...), get text/HTML/attributes
+- **Actions**: Click, type, hover, drag-drop, upload files, scroll
+- **Data Collection**: Screenshots (full-page), PDF export, JSON snapshots
+- **Automation**: Search forms, login flows, data scraping
+- **JavaScript**: Execute custom JS code on pages
+
+**Quick Examples**:
+```bash
+# Navigate and extract interactive elements
+agent-browser open https://example.com
+agent-browser snapshot -i -c  # Interactive elements with refs
+
+# Click by reference and capture
+agent-browser click @e12
+agent-browser screenshot --full output.png
+
+# Form automation
+agent-browser fill "input[name='search']" "query"
+agent-browser press Enter
+
+# Data extraction
+agent-browser get text "h1"
+agent-browser eval "document.title"
+agent-browser pdf output.pdf
+
+# Cleanup
+agent-browser close
+```
+
+**Sessions & Profiles**:
+- `--session <name>`: Isolated browser sessions
+- `--profile <path>`: Persistent browser profiles (saved cookies, auth)
+
+**Best Practices**:
+- Always close the browser with `agent-browser close` when done
+- Use snapshot refs (@eX) for reliable element targeting
+- Combine multiple commands with `&&` for workflows
+- Use `--json` flag for structured output parsing
+
+**Documentation**: Run `agent-browser --help` for full command reference
+
 ---
 
 _*Created during the "AI-First" Refactor - Jan 2026*_

@@ -20,6 +20,25 @@
 
 - When finishing a session, follow the protocol in `docs/project/standards/agents/collaboration_protocol.md`.
 
+### Available Tools
+
+**Browser Automation** - You have access to `agent-browser`, a headless browser automation CLI.
+
+- **Location**: Installed globally via npm
+- **Usage**: Via Bash tool
+- **Documentation**: [`sources/agent-browser/guide.md`](sources/agent-browser/guide.md)
+- **Quick Example**:
+  ```bash
+  agent-browser open https://example.com
+  agent-browser snapshot -i -c  # Get interactive elements
+  agent-browser click @e12      # Click by reference
+  agent-browser close
+  ```
+
+**Capabilities**: Web scraping, form automation, screenshots, PDF export, data extraction, JavaScript execution.
+
+**See**: [`AGENTS.md`](AGENTS.md) for full capabilities list.
+
 ---
 
-_For all other contexts (Vision, Architecture, Roadmap), refer to `AGENTS.md`._\_
+_For all other contexts (Vision, Architecture, Roadmap), refer to `AGENTS.md`._
