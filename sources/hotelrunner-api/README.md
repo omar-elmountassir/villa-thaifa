@@ -7,10 +7,13 @@ REST API integration for Villa Thaifa's property management system.
 | Info | Value |
 |------|-------|
 | **Type** | REST API (HR-v1) |
-| **Status** | ⏳ Credentials Pending |
+| **Status** | ⏸️ **On Hold - Analysis Required** |
 | **Base URL** | `https://am.hotelrunner.com/custom-apps/rest-api` |
 | **Rate Limit** | 250/day, 5/min |
 | **Docs** | [developers.hotelrunner.com](https://developers.hotelrunner.com/custom-apps/rest-api) |
+
+⚠️ **Project Paused**: Professional analysis of integration options required before proceeding.
+See [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md) for details.
 
 ## Authentication
 
@@ -29,14 +32,23 @@ HOTELRUNNER_HR_ID=<pending>
 
 ## Setup Status
 
-- [x] App configuration form filled
+- [x] Research completed - API location found
+- [x] Integration options identified (HR-v1 vs OTA-2015b)
+- [x] Documentation structure created
+- [x] Form requirements understood
+- [ ] ⏸️ **PAUSED**: Options analysis in progress
+- [ ] Decision on integration approach
 - [ ] App created in HotelRunner dashboard
-- [ ] Credentials copied to `.env.local`
+- [ ] Credentials obtained
 - [ ] Connection tested
 - [ ] Source enabled
 
-## Next Step
+## Next Steps
 
-**Complete app creation in HotelRunner dashboard** and copy TOKEN + HR_ID to `.env.local`.
+1. **Complete options analysis** - See [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md)
+2. **Decide on integration approach** (API vs browser automation vs other)
+3. **Only then**: Proceed with implementation
 
-See [guide.md](./guide.md) for detailed instructions.
+**Rationale**: Professional approach requires evaluating all alternatives before committing to a solution.
+
+See [SETUP.md](./SETUP.md) for detailed progress tracking.

@@ -7,8 +7,12 @@ Intégrer l'API HotelRunner (HR-v1 REST API) pour automatiser la gestion de Vill
 ## 📊 Statut Actuel
 
 **Date de création**: 2026-01-24 13:24
-**Statut**: ⏳ En cours - Attente credentials
-**Progression**: 60%
+**Statut**: ⏸️ **EN PAUSE - Analyse des options requise**
+**Progression**: 40% (recherche complétée, implémentation suspendue)
+
+⚠️ **IMPORTANT** : Le projet est mis en pause pour effectuer une analyse professionnelle approfondie des options d'intégration disponibles. L'approche initiale était trop précipitée ("à l'arrache").
+
+**Voir** : [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md) pour l'analyse complète des alternatives.
 
 ## ✅ Étapes Complétées
 
@@ -42,10 +46,37 @@ Intégrer l'API HotelRunner (HR-v1 REST API) pour automatiser la gestion de Vill
   - Recevoir mises à jour push (Confirmé, Modifié, Annulé)
   - Mettre à jour le calendrier des chambres
 
-## ⏳ Étapes En Cours
+## ⏸️ Projet En Pause - Analyse Requise
 
-### 4. Génération des Credentials (🔄 En cours maintenant)
+### Raison de la pause (2026-01-24 13:44)
 
+**Problème identifié** : Callback URL refusé (`https://localhost/hotelrunner/callback` - domaine invalide)
+
+**Réflexion critique** : On s'est lancés dans l'implémentation sans analyser toutes les options disponibles. Ce n'est pas une approche professionnelle.
+
+**Décision** : Mettre en pause et effectuer une analyse complète avant de continuer.
+
+### 4. Analyse des Options (🔄 En cours maintenant)
+
+**Voir** : [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md)
+
+Étapes à compléter :
+- [ ] Documenter cas d'usage précis Villa Thaifa
+- [ ] Lister données exactes nécessaires
+- [ ] Définir fréquence d'accès requise
+- [ ] Évaluer lecture seule vs lecture/écriture
+- [ ] Rechercher alternatives (Zapier, Make.com, browser automation)
+- [ ] Vérifier disponibilité domaine HTTPS pour webhooks
+- [ ] Calculer volume requêtes estimé vs rate limits (250/jour)
+- [ ] Créer matrice de décision
+- [ ] Valider choix avec Omar
+- [ ] Documenter rationale
+
+## ⏳ Étapes Suspendues (En attente décision)
+
+### Génération des Credentials (Suspendu)
+
+- [ ] Résoudre question callback URL (webhook.site ? example.com ? vraiment nécessaire ?)
 - [ ] Cliquer sur le bouton **"Créer"** dans le formulaire
 - [ ] Attendre confirmation de création
 - [ ] Naviguer vers l'onglet **"Identifiants"**
@@ -128,6 +159,11 @@ HR_ID: <en attente>
 - **13:28** - Création dossier source complet avec config, guide, README
 - **13:28** - Premier commit git
 - **13:30** - Création SETUP.md pour tracking systématique
+- **13:30** - Mise à jour AGENTS.md, CLAUDE.md, INDEX.md
+- **13:40** - Tentative création app : callback URL refusé (localhost invalide)
+- **13:44** - ⏸️ **PAUSE DÉCIDÉE** - Analyse professionnelle requise avant implémentation
+- **13:44** - Création OPTIONS-ANALYSIS.md pour évaluation complète des alternatives
+- **13:44** - Mise à jour SETUP.md - statut changé en "EN PAUSE"
 
 ## ⚠️ Pour les Agents AI
 
