@@ -175,13 +175,36 @@ python3 extract_reservations.py
 **Avantages Confirmés** (Test POC 2026-01-24):
 - ✅ Pas de rate limits (utilisation normale browser)
 - ✅ Pas de callback URL requis
-- ✅ Authentification persistante (pas de reCAPTCHA répété)
 - ✅ Accès à toutes sections dashboard
-- ✅ Production-ready (script créé et testé)
+- ✅ Extraction validée (96 réservations, 14 champs/réservation)
 
-**Profile Browser**: `~/.hotelrunner-profile` (sauvegarde session)
+⚠️ **LIMITATION CRITIQUE DÉCOUVERTE** (Tests 2026-01-24 14:25):
+- ❌ Le flag `--profile` d'agent-browser **NE PERSISTE PAS** les cookies de session
+- ❌ Authentification manuelle requise à chaque extraction
+- ❌ Script automatique (`extract_reservations.py`) bloqué sans intervention
+- ⚠️ Automatisation complète en attente investigation/workaround
 
-**Guide Complet**: [`sources/hotelrunner-api/EXTRACTION-GUIDE.md`](sources/hotelrunner-api/EXTRACTION-GUIDE.md)
+**Solution Actuelle** (Extraction Manuelle Fonctionnelle):
+```bash
+# 1. Ouvrir browser et s'authentifier
+agent-browser --headed open https://villa-thaifa.hotelrunner.com/login
+# (Login manuel - 2 min)
+
+# 2. Extraire réservations (session active)
+agent-browser open https://villa-thaifa.hotelrunner.com/admin/pms/reservations/all
+agent-browser eval "document.querySelectorAll('table tbody tr').length"  # 96 confirmé
+
+# 3. Sauvegarder et fermer
+# ... extraction ...
+agent-browser close
+```
+
+**Effort**: 5-10 minutes/jour pour extraction manuelle
+
+**Guides Complets**:
+- **[STATUS-FINAL.md](sources/hotelrunner-api/STATUS-FINAL.md)** - ⭐ Statut complet, limitation, recommandations
+- [EXTRACTION-GUIDE.md](sources/hotelrunner-api/EXTRACTION-GUIDE.md) - Guide avec workarounds
+- [TEST-RESULTS.md](sources/hotelrunner-api/TEST-RESULTS.md) - Tests détaillés + 4 solutions contournement
 
 ### **REST API Method** (Alternative disponible)
 

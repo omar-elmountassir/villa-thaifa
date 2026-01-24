@@ -240,6 +240,21 @@ agent-browser --profile ~/.browser-profiles/work open https://gmail.com
 # Already logged in!
 ```
 
+⚠️ **KNOWN LIMITATION** (Discovered 2026-01-24):
+
+**Issue**: Profile persistence may NOT work reliably for all websites
+- Tested with HotelRunner: Session cookies NOT saved between executions
+- Profile directory remains empty after browser close
+- Re-authentication required each time
+
+**Affected**: Complex auth systems, sites with specific cookie policies
+
+**Workaround**: Keep browser session active OR use cookie export/import manually
+
+**Status**: Under investigation - may be site-specific or tool limitation
+
+**See**: [`sources/hotelrunner-api/TEST-RESULTS.md`](../hotelrunner-api/TEST-RESULTS.md) for detailed case study
+
 ### Network & Storage
 
 ```bash
