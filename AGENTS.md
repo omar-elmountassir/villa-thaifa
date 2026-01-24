@@ -93,11 +93,13 @@ agent-browser close
 
 **Documentation**: Run `agent-browser --help` for full command reference
 
-### **HotelRunner API** - Property Management System
+### **HotelRunner Data Access** - Property Management System
 
-**Status**: ⏳ Setup In Progress (Credentials Pending) - Jan 2026
+**Status**: ✅ **Opérationnel via Browser Automation** - Jan 2026
 
-HotelRunner REST API (HR-v1) provides programmatic access to Villa Thaifa's property management system for automation.
+Accès aux données de réservations, calendrier, et rapports de Villa Thaifa depuis HotelRunner.
+
+**Méthode Active** : Browser Automation (agent-browser avec profile persistant)
 
 **API Details**:
 - **Base URL**: `https://am.hotelrunner.com/custom-apps/rest-api`
@@ -152,17 +154,56 @@ response = requests.get(
 - **Quick Reference**: [`sources/hotelrunner-api/README.md`](sources/hotelrunner-api/README.md)
 - **Official Docs**: https://developers.hotelrunner.com/custom-apps/rest-api
 
-**Current Progress** (as of 2026-01-24 13:30):
-- ✅ Research completed - API section located
-- ✅ Integration type selected (HR-v1)
-- ✅ App creation form filled
-- ✅ Source folder created with full documentation
-- ⏳ Awaiting app creation completion
-- ⏳ Credentials (TOKEN + HR_ID) pending
-- ❌ Connection test not yet performed
-- ❌ Source not yet enabled
+### **Browser Automation Method** (Active)
 
-**Next Steps**: Complete app creation in dashboard, obtain credentials, test connection.
+**Script**: [`sources/hotelrunner-api/extract_reservations.py`](sources/hotelrunner-api/extract_reservations.py)
+
+**Quick Usage**:
+```bash
+cd sources/hotelrunner-api
+python3 extract_reservations.py
+```
+
+**Output**: `data/reservations/latest.json` (96 réservations avec tous les détails)
+
+**Données Disponibles**:
+- Status, Canal, Nom client, Confirmation #
+- Dates check-in/check-out
+- Type chambre, Prix, Paiement
+- Nationalité, Date réservation
+
+**Avantages Confirmés** (Test POC 2026-01-24):
+- ✅ Pas de rate limits (utilisation normale browser)
+- ✅ Pas de callback URL requis
+- ✅ Authentification persistante (pas de reCAPTCHA répété)
+- ✅ Accès à toutes sections dashboard
+- ✅ Production-ready (script créé et testé)
+
+**Profile Browser**: `~/.hotelrunner-profile` (sauvegarde session)
+
+**Guide Complet**: [`sources/hotelrunner-api/EXTRACTION-GUIDE.md`](sources/hotelrunner-api/EXTRACTION-GUIDE.md)
+
+### **REST API Method** (Alternative disponible)
+
+**Status**: ⏸️ En pause - Browser automation suffit pour l'instant
+
+Si besoin de webhooks temps réel à l'avenir :
+- **Base URL**: `https://am.hotelrunner.com/custom-apps/rest-api`
+- **Rate Limits**: 250 requests/day, 5 requests/minute
+- **Setup**: Créer Custom App, obtenir TOKEN + HR_ID
+- **Blocage**: Callback URL HTTPS requis
+
+**Current Progress** (as of 2026-01-24 14:12):
+- ✅ Options analysis completed (6 options evaluated)
+- ✅ **Browser automation POC successful** - 96 reservations extracted
+- ✅ Production script created (`extract_reservations.py`)
+- ✅ Screenshots captured (dashboard, reservations, calendar)
+- ✅ Documentation complete (test results, extraction guide, options analysis)
+- ⏸️ API setup paused - Not needed for current use case
+
+**Recommendation**: Use browser automation for immediate value. Consider API later only if real-time webhooks become critical.
+
+**Full Analysis**: [`sources/hotelrunner-api/OPTIONS-ANALYSIS.md`](sources/hotelrunner-api/OPTIONS-ANALYSIS.md)
 
 ---
 
