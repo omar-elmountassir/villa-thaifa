@@ -2,7 +2,9 @@
 
 ## [Icon] Vision
 
-_*Transformer la gestion artisanale de Villa Thaifa en une "Enterprise Grade" hospitality platform reusable for any hospitality property*_
+_**Transformer Villa Thaifa par une "Intendance Numérique" d'excellence.**_
+
+Notre mission est de convertir une gestion artisanale et manuelle en une structure **"Enterprise Grade"**, agissant comme les gardiens technologiques de la charge mentale de M. Thaifa, tout en créant une plateforme hospitalière réutilisable.
 
 ## 🏁 Objectifs Principaux
 
@@ -14,12 +16,10 @@ _*Transformer la gestion artisanale de Villa Thaifa en une "Enterprise Grade" ho
 - Professionaliser le contenu (Photos HD, Descriptions EN/FR, Tarifs synchronisés).
 - _Livrable_: 3 Canaux actifs + Dashboard Channel Manager fonctionnel.
 
-### 2. Moyen/Long Terme (2026+) : "Automated Property"
+### 2. Moyen/Long Terme (2026+) : "Strategic Asset Management"
 
-**But**: Réduire la charge mentale de Said et Omar.
+**But**: Préparer l'avenir serein de l'établissement (Délégation ou Exit).
 
-- **Property Management System (PMS)** maison.
-- Gestion automatisée :
-  - Check-in/out (WhatsApp Bots?)
-  - Facturation & Finance
-  - Planning Ménage & Staff
+- **Intendance Autonome** : Réduire la charge mentale de Said et Omar à zéro via un PMS intelligent.
+- **Optimisation de l'Actif** : Maximiser la valeur de la propriété par des données propres et des process automatisés.
+- **Gestion automatisée** : Check-in/out, Finance, Planning Staff.

@@ -3,7 +3,7 @@
 > **Date demande**: 2026-01-24 14:45
 > **Demandeur**: Said Thaifa
 > **Priorité**: Normale
-> **Statut**: 📋 À faire
+> **Statut**: ✅ Terminé
 
 ---
 

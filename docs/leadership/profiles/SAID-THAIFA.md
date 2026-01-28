@@ -83,12 +83,12 @@
 
 ### 2.2 Protocole de Communication
 
-| Règle             | Détail                                |
-| ----------------- | ------------------------------------- |
-| **Ton**           | Formelle                              |
-| **Registre**      | Client senior — Respect sans rigidité |
-| **Canal préféré** | WhatsApp (confirmé)                   |
-| **Language**      | Dutch (Nederlands)                    |
+| Règle        | Détail                                                      |
+| ------------ | ----------------------------------------------------------- |
+| **Ton**      | Formel & Direct ("Action-Réaction")                         |
+| **Langue**   | **DUTCH FIRST** (Néerlandais)                               |
+| **Format**   | Double sortie (NL pour lui, FR pour Omar)                   |
+| **Standard** | 👉 [COMMUNICATION.md](../knowledge/client/COMMUNICATION.md) |
 
 ### 2.3 Pattern de Communication
 

@@ -3,13 +3,15 @@
 > **Date demande**: 2026-01-24 18:36
 > **Demandeur**: Said Thaifa
 > **Priorité**: Normale
-> **Statut**: 📋 À faire
+> **Statut**: ✅ Terminé
 
 ---
 
 ## 📝 Demande Client
 
 Étendre la grille tarifaire appliquée le 13 janvier 2026 jusqu'à la fin de l'année 2026 (31 décembre 2026).
+
+**Action**: Effectuée le 2026-01-24 à 20:10 via Bulk Update.
 
 ---
 

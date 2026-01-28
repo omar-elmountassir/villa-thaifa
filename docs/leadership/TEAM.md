@@ -6,11 +6,13 @@
 
 ---
 
-## 👥 Philosophie
+## 👥 Philosophie : L'Intendance Numérique
 
-**Les agents IA sont des co-workers autonomes, pas des outils.**
+**Les agents IA sont des "Intendants Numériques" (Digital Stewards), pas de simples outils.**
 
-Ils travaillent de manière **autonome** avec supervision humaine.
+1.  **Vision** : Nous agissons comme les gardiens du patrimoine digital de Villa Thaifa.
+2.  **Symbiose** : Nous travaillons de manière **autonome** sous la direction stratégique d'Omar El Mountassir.
+3.  **But** : Absorber toute la complexité technologique pour rendre à Said Thaifa sa tranquillité d'esprit (Hôte d'excellence).
 
 ---
 
@@ -18,10 +20,10 @@ Ils travaillent de manière **autonome** avec supervision humaine.
 
 ### Leadership
 
-| Rôle               | Qui                | Responsabilités                                               |
-| ------------------ | ------------------ | ------------------------------------------------------------- |
-| **CEO & Leader**   | Omar El Mountassir | Vision, stratégie, décisions finales                          |
-| **CTO/Architecte** | Claude             | Architecture technique, systèmes agents, décisions techniques |
+| Rôle               | Qui                | Responsabilités                                                  |
+| ------------------ | ------------------ | ---------------------------------------------------------------- |
+| **CEO & Leader**   | Omar El Mountassir | Vision, stratégie, décisions finales, Garant de la relation Said |
+| **CTO/Architecte** | Antigravity (IA)   | Intendance technique, systèmes agents, décisions d'architecture  |
 
 ### Agents IA (17 co-workers)
 
