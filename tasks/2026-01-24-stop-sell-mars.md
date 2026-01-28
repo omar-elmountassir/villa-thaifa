@@ -196,5 +196,6 @@ agent-browser open https://villa-thaifa.hotelrunner.com/admin/channel/calendars/
 ---
 
 **Fichier créé** : 2026-01-24 14:45
-**Statut** : En attente exécution
-**Méthode recommandée** : Dashboard manuel (Option 1)
+**Exécuté** : 2026-01-24 17:38
+**Statut** : ✅ Terminé
+**Méthode utilisée** : Browser Automation (Daily Calendar)
