@@ -7,12 +7,12 @@
 - Rooms reconciliation log:
   - `data/core/property/inventory/rooms/rooms-reconciliation-log.md`
 
-## Pending Canonical Hardening
+## Pending Canonical Hardening (isolated)
 
-- `data/core/property/inventory/amenities.md`
-- `data/core/property/inventory/facilities.md`
-- `data/core/property/inventory/beds.md`
-- `data/core/property/inventory/inventory.md`
+- `data/core/property/inventory/pending/amenities.md`
+- `data/core/property/inventory/pending/facilities.md`
+- `data/core/property/inventory/pending/beds.md`
+- `data/core/property/inventory/pending/inventory.md`
 
 ## Archived Sources
 
@@ -20,6 +20,6 @@
 - `archive/rooms/2026-02-13/rooms-4.md`
 - `archive/rooms/2026-02-13/rooms-legacy-checksums.sha256`
 
-## Backup Artifacts (decision pending)
+## Backup Artifacts (isolated)
 
-- Co-located backups in `data/core/property/inventory/rooms/` matching `*.backup-2026-02-13*`
+- `data/core/property/inventory/backups/rooms/*.backup-2026-02-13*`
