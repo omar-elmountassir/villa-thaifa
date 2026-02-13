@@ -6,4 +6,4 @@ Unprocessed or newly discovered items awaiting triage.
 | --- | --- | --- | --- | --- |
 | Inventory baseline review | `data/core/property/inventory/pending/inventory.md` | property_inventory | Omar+Agent | Triage for canonical role or legacy role |
 | Beds domain review | `data/core/property/inventory/pending/beds.md` | beds | Omar+Agent | Decide canonical schema and reconciliation strategy |
-| Finance dataset review | `data/finance/` | finance | Omar+Agent | Build initial inventory manifest for finance files |
+| Finance dataset review | `data/pending/finance/` | finance | Omar+Agent | Build initial inventory manifest for finance files |

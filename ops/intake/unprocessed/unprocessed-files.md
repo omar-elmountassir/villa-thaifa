@@ -8,6 +8,8 @@ This snapshot lists files requiring triage or consolidation decisions.
 - `data/core/property/inventory/pending/facilities.md`
 - `data/core/property/inventory/pending/beds.md`
 - `data/core/property/inventory/pending/inventory.md`
+- `data/pending/finance/billing.json`
+- `data/pending/finance/rates.json`
 
 ## Backup Candidates (Isolated)
 
