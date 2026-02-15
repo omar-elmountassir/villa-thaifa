@@ -2,7 +2,6 @@
 
 > Internal project notes, transcripts, and brainstorming.
 
-
 ---
 
 ## CONTACT
@@ -4761,7 +4760,7 @@ Villa thaifa workstream master v0.1.0
 
 Document · MD 
 
-🚨 MISSION URGENTE : Villa Thaifa Deadline : Lundi 12h00 Statut : CRITIQUE Objectif : Livrer de la valeur, pas de la perfection. 1. Ce que le client attend (Le "Must Have") Liste brute de ce qui doit être fait pour que le client soit content demain. _ [ ] Tâche 1 : ************************\_\_************************ _ ... _ [ ] Tâche N : ************************\_\_************************ 2. Les Bloquants Actuels Qu'est-ce qui t'empêche de le faire maintenant ? (Technique ou Mental) _ [ ] Accès manquant ? ********\_\_******** _ [ ] Outil non configuré ? ******\_****** _ .... 3. Plan d'Attaque (Lundi Matin) _ 09:00 -14:00... // a créer à la minute prêt 4. Note pour moi-même (Omar) _ "Je ne me sens pas prêt". Mais VibeKanban, mes agents IA etc sont prêt pour soutenir ce travail, pas pour l'empêcher. Il nous faut travailler sur mes inputs, les taĉhes / PRs / Requests (je sais pas quel est le mieu à dire concernant Vibe Kanban donc stp chercher Lux pour m'aider) . _ Utilise le dossier `~/projects/clients/villa-thaifa` (ou crée-le) et mets tout dedans. C'est ma seule préoccupation pour les 12 prochaines heures. _ Principle #1: KISS (Keep it simple, stupid): Even the greatest engineers fall off track, get distracted, feel overwhelmed, and get stuck. Whenever this happens, remember to keep it simple, stupid.
+🚨 MISSION URGENTE : Villa Thaifa Deadline : Lundi 12h00 Statut : CRITIQUE Objectif : Livrer de la valeur, pas de la perfection. 1. Ce que le client attend (Le "Must Have") Liste brute de ce qui doit être fait pour que le client soit content demain. _ [ ] Tâche 1 : **********\*\*\*\***********\_\_**********\*\*\*\*********** _ ... _ [ ] Tâche N : **********\*\*\*\***********\_\_**********\*\*\*\*********** 2. Les Bloquants Actuels Qu'est-ce qui t'empêche de le faire maintenant ? (Technique ou Mental) _ [ ] Accès manquant ? **\*\*\*\***\_\_**\*\*\*\*** _ [ ] Outil non configuré ? **\*\***\_**\*\*** _ .... 3. Plan d'Attaque (Lundi Matin) _ 09:00 -14:00... // a créer à la minute prêt 4. Note pour moi-même (Omar) _ "Je ne me sens pas prêt". Mais VibeKanban, mes agents IA etc sont prêt pour soutenir ce travail, pas pour l'empêcher. Il nous faut travailler sur mes inputs, les taĉhes / PRs / Requests (je sais pas quel est le mieu à dire concernant Vibe Kanban donc stp chercher Lux pour m'aider) . _ Utilise le dossier `~/projects/clients/villa-thaifa` (ou crée-le) et mets tout dedans. C'est ma seule préoccupation pour les 12 prochaines heures. _ Principle #1: KISS (Keep it simple, stupid): Even the greatest engineers fall off track, get distracted, feel overwhelmed, and get stuck. Whenever this happens, remember to keep it simple, stupid.
 
 Show more
 

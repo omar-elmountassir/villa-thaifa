@@ -2,7 +2,6 @@
 
 > Unified stakeholder reference: profiles, contacts, decisions, and team structure.
 
-
 ## Overview
 
 > **Quick Reference** pour les parties prenantes du projet
@@ -219,7 +218,6 @@ _Single Source of Truth for stakeholder relationships_
 _For detailed profiles, see [`profiles/`](./profiles/) directory_
 _Last updated: 2026-01-24 by Omar El Mountassir_
 
-
 ---
 
 ## Contact Information
@@ -274,7 +272,6 @@ _Last updated: 2026-01-24 by Omar El Mountassir_
 - Client senior — respect sans rigidité
 - Said et Nezha gèrent ensemble la Villa
 
-
 ### Communication Channels
 
 > **PROMPT SYSTÈME** : À respecter impérativement pour toute interaction avec Said Thaifa.
@@ -299,7 +296,6 @@ _Last updated: 2026-01-24 by Omar El Mountassir_
 ### Rapport Hebdomadaire (Interne/Email)
 
 ```markdown
-
 ## Semaine du [DATE]
 
 ### ✅ Accompli
@@ -400,11 +396,9 @@ Ne jamais dire "Je vais le faire". Dire "**C'est fait**".
 
 **Tags**: `protocol` `communication` `dutch` `client`
 
-
 ---
 
 ## Profiles
-
 
 ### Said Thaifa — Owner
 
@@ -873,7 +867,6 @@ _Detailed client profile - Part of docs/leadership/profiles/_
 _Original: legacy/archive_v1/admin/client/PROFILE.md (2025-12-20)_
 _Refactored: 2026-01-24 - Moved to new structure, cross-references added_
 
-
 ### Omar El Mountassir — Admin/Consultant
 
 > **Role**: CEO & Leader - Villa Thaifa Digital Transformation Project
@@ -1313,7 +1306,6 @@ Next: What happens after approval
 _Profile created: 2026-01-24_
 _Last updated: 2026-01-24_
 _Document owner: Omar El Mountassir_
-
 
 ---
 
@@ -1763,7 +1755,6 @@ _Base: 12 chambres × 365 jours × prix moyen ~200€_
 _Profil réorganisé — Structure 12 sections — 2025-12-20_
 _Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
 
-
 ## Overview
 
 | Field        | Value                                               |
@@ -1810,7 +1801,6 @@ _Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
 | ----- | ---- | ---------------------- |
 | Owner | Said | said_thaifa@hotmail.fr |
 | Admin | Omar | (El Mountassir)        |
-
 
 ### Omar — Quick Reference
 
@@ -1878,11 +1868,9 @@ _Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
 - **Preferences Detail**: `~/omar/identity/preferences.md`
 - **Operational Protocol**: `~/omar/operations/protocols/operating-protocol.md`
 
-
 ---
 
 ## Strategic Context
-
 
 ### Vision
 
@@ -1962,7 +1950,6 @@ Le succès sera atteint quand:
 
 **Tags**: `vision` `leadership` `omar` `strategy`
 
-
 ### Priorities
 
 > **Omar El Mountassir - CEO & Leader**
@@ -2039,7 +2026,6 @@ Le succès sera atteint quand:
 
 **Tags**: `priorities` `leadership` `planning`
 
-
 ### Preferences
 
 > **PLACEHOLDER FILE**
@@ -2086,7 +2072,6 @@ Le succès sera atteint quand:
 ---
 
 **Tags**: `placeholder` `to_complete` `client` `preferences`
-
 
 ### Key Decisions
 
@@ -2144,7 +2129,6 @@ Le succès sera atteint quand:
 
 **Tags**: `decisions` `leadership` `history`
 
-
 ### Engagement History
 
 > **PLACEHOLDER FILE**
@@ -2182,7 +2166,6 @@ Le succès sera atteint quand:
 ---
 
 **Tags**: `placeholder` `to_complete` `client` `history`
-
 
 ---
 
@@ -2311,7 +2294,6 @@ Exemples:
 
 **Tags**: `team` `agents` `organization`
 
-
 ---
 
 ## Email Intelligence (2026-02-09)
@@ -2404,7 +2386,6 @@ Three active workstreams identified from email correspondence:
 | 🟡 Medium | Submit legal form for MarocPME    | Said       | Pending |
 | 🟢 Low    | Optimize Booking.com Contact page | Omar/Agent | Backlog |
 
-
 ---
 
 ## Decision Log
@@ -2425,7 +2406,6 @@ Three active workstreams identified from email correspondence:
   - B) SQLite (Simpler)
 - [ ] **Resolution**: ...
 
-
 ## General Inquiries
 
 > **Purpose**: Non-blocking questions to deepen Agent understanding of the business/legacy context.
@@ -2437,14 +2417,11 @@ Three active workstreams identified from email correspondence:
 - **Why**: Content description mentions "New carpet", photos show tiles.
 - **Answer**: ...
 
-
 ---
 
 ## Profile Data (JSON)
 
-
 ```json
-
 {
   "_comment": "PLACEHOLDER FILE - À compléter avec les vraies données du client",
   "version": "1.0.0",
@@ -2489,5 +2466,4 @@ Three active workstreams identified from email correspondence:
     "Ajouter les préférences de reporting"
   ]
 }
-
 ```

@@ -52,6 +52,7 @@ skip_dirs:
   - .venv
   - __pycache__
   - .pytest_cache
+  - .ruff_cache
   - node_modules
   - .secrets
   - archives
@@ -60,6 +61,10 @@ skip_dirs:
 rules:
   # === ROOT-LEVEL FILES ===
   - match: "AGENTS.md"
+    category: agent:config
+  - match: "CLAUDE.md"
+    category: agent:config
+  - match: "GEMINI.md"
     category: agent:config
   - match: "README.md"
     category: agent:config
@@ -93,6 +98,8 @@ rules:
     category: source:data
   - match: "data/pending/**"
     category: source:data:pending
+  - match: "data/**"
+    category: source:data
 
   # === CODE ===
   - match: "scripts/**"

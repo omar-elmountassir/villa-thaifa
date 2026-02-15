@@ -13,7 +13,7 @@ from pathlib import Path
 import re
 import sys
 
-ROOMS_PATH = Path("data/core/property/inventory/rooms/rooms.md")
+ROOMS_PATH = Path("data/rooms/rooms.md")
 REQUIRED_COLUMNS = [
     "Room ID",
     "Room Number",

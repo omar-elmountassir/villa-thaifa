@@ -1,53 +1,14 @@
-# docs/ — Navigation and Authority Map
+# docs/ — Operational Documentation
 
-This folder includes active operations docs, historical references, and drafts.
-Use this file to avoid confusion.
+## Structure
 
-## 1) Active Operational Docs (authoritative first)
+- `agents/` — AI agent configs, browser automation, HotelRunner integration
+- `booking/` — OTA contracts, booking requests
+- `client/` — stakeholder profiles, admin notes, support contacts
+- `facilities/` — facility descriptions, transport services
+- `rooms/` — room media, photos, and per-room markdown profiles
+- `pending/` — unprocessed content awaiting triage
 
-- `docs/project/management/planning/`
-- `docs/project/templates/`
-- `docs/agents/instructions/`
-- `docs/project/management/missions/` (queue/completed workflow context)
-- `docs/content/active/`
+## Authority Rule
 
-## 2) Canonical Reference Docs (domain truth support)
-
-- `docs/knowledge/property/specs/`
-- selected files explicitly referenced by `AGENTS.md`, `ROADMAP.md`, and `ops/status/*`
-
-## 3) Historical / Reference Archive (not auto-authoritative)
-
-- `docs/reference/library/` (legacy dump from `library/` root)
-- `docs/reference/knowledge/library/`
-- `docs/reference/client/` (historical client context)
-- `docs/reference/architecture/` (old architectural docs)
-- `docs/reference/Api.md` (legacy API reference)
-- `docs/reference/knowledge/duplicates/`
-- `docs/content/reference/`
-
-These are valuable but potentially outdated or conflicting.
-Treat as contestable unless promoted into active operational docs.
-
-## 4) Backups (do not use as input)
-
-- `docs/backups/`
-
-Backup artifacts are retained for rollback only.
-Never use them as canonical or planning input.
-
-## 5) Draft / Unverified Docs
-
-- `docs/drafts/client-admin/drafts/`
-- `docs/content/pending/`
-
-Never treat draft files as canonical input without explicit review.
-
-## Usage Rule
-
-When sources conflict:
-
-1. prefer canonical data contracts and reconciliation logs
-2. then active operational docs
-3. then historical/reference docs
-4. then drafts
+When sources conflict: prefer canonical data (`data/`) → then active docs → then context reference.

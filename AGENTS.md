@@ -4,21 +4,25 @@
 
 ```
 villa-thaifa/
-├── context/              ← reference material (read-only, centralized)
+├── data/                 ← canonical source-of-truth
+│   ├── rooms/            ← room inventory, reconciliation, OTA exports
+│   ├── finance/          ← billing, rates (pending onboarding)
+│   ├── pending-domains/  ← amenities, beds, facilities (awaiting hardening)
+│   └── status/           ← per-domain tracking
+├── docs/                 ← operational documentation
+│   ├── agents/           ← AI agent configs + integrations
+│   ├── booking/          ← OTA contracts, booking requests
+│   ├── client/           ← stakeholder profiles, admin notes
+│   ├── facilities/       ← facility docs, transport
+│   ├── rooms/            ← room photos, per-room profiles
+│   └── pending/          ← unprocessed content
+├── context/              ← reference material (read-only)
 │   ├── meta/             ← architecture, planning, knowledge, templates
 │   └── audit/            ← history, quality reports, snapshots
-├── data/                 ← canonical source-of-truth data
-│   ├── core/property/    ← rooms, inventory, pending domains
-│   └── pending/          ← finance intake, unprocessed data
-├── docs/                 ← 3 concerns only
-│   ├── agents/           ← agent instructions, shared configs, browser specs
-│   ├── client/           ← stakeholder profiles, communications, admin drafts
-│   └── content/          ← media, photos, guest-facing material, room images
-├── scripts/              ← tooling (inventory, migration, verification)
-├── ops/                  ← operational status, intake manifests, logs
+├── ops/                  ← status dashboards, intake queue
+├── scripts/              ← validation and tooling
 ├── src/                  ← application code
-├── tests/                ← test suite
-└── archives/             ← historical backups
+└── tests/                ← test suite
 ```
 
 ## Mission
@@ -67,11 +71,9 @@ Use this sequence for every operational task:
 ## Git/GitHub Sync Policy
 
 1. Keep repo synced at least:
-
-- start of day
-- after each completed domain milestone
-- end of day
-
+   - start of day
+   - after each completed domain milestone
+   - end of day
 2. Work from short-lived branches with explicit scope.
 3. Never keep critical local-only changes unpushed.
 
@@ -85,28 +87,9 @@ All must be true:
 4. Legacy files are archived/deleted with explicit justification.
 5. Status files are updated.
 
-## Operational Files
+## Open Loops (Do Not Drop)
 
-- `ops/status/INDEX.md`
-- `ops/status/inbox.md`
-- `ops/status/working.md`
-- `ops/status/planned.md`
-- `ops/status/canonical.md`
-- `ops/status/archived.md`
-
-## Open Loops To Preserve (Do Not Drop)
-
-1. Pending inventory domain decisions:
-
-- `data/core/property/inventory/pending/amenities.md`
-- `data/core/property/inventory/pending/facilities.md`
-- `data/core/property/inventory/pending/beds.md`
-- `data/core/property/inventory/pending/inventory.md`
-
-2. Pending content triage:
-
-- `docs/content/pending/reference/` (large raw media + source markdown)
-
-3. SCM integration open item:
-
-- safe integration plan for `origin/main` vs `origin/bootstrap/2026-02-13-baseline`
+1. Pending data domains: `data/pending-domains/` (amenities, beds, facilities)
+2. Pending content triage: `docs/pending/`
+3. Finance data: `data/finance/` (billing/rates not yet onboarded)
+4. SCM branch merge: `bootstrap/2026-02-13-baseline` → `main`

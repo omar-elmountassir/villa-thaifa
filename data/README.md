@@ -1,25 +1,14 @@
-# data/ — Canonicalization Guidance
+# data/ — Canonical Source of Truth
 
-This data workspace is being normalized domain by domain.
+## Structure
+
+- `rooms/` — room inventory, reconciliation log, OTA exports
+- `finance/` — billing and rate data (pending onboarding)
+- `pending-domains/` — amenities, beds, facilities awaiting canonical hardening
+- `status/` — per-domain canonical/pending/archived tracking
 
 ## Authority Principle
 
 - Canonical files and reconciliation logs are authoritative.
-- Legacy files are contestable references until reconciled.
-
-## Inventory Domain Control
-
-Primary status file:
-
-- `data/core/property/inventory/STATUS.md`
-
-Per-state files:
-
-- `data/core/property/inventory/status/canonical.md`
-- `data/core/property/inventory/status/pending.md`
-- `data/core/property/inventory/status/archived.md`
-- `data/core/property/inventory/status/backups.md`
-
-## Pending Domains (Physically Isolated)
-
-- `data/pending/finance/` holds finance files not yet onboarded to canonical workflow.
+- Legacy/pending files are contestable until reconciled.
+- `STATUS.md` is the top-level status summary for all data domains.
