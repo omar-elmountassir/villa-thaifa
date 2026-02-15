@@ -14,7 +14,6 @@ villa-thaifa/
 │   ├── agents/           ← agent instructions, shared configs, browser specs
 │   ├── client/           ← stakeholder profiles, communications, admin drafts
 │   └── content/          ← media, photos, guest-facing material, room images
-├── config/               ← project configuration (labels, planning, agent JSON)
 ├── scripts/              ← tooling (inventory, migration, verification)
 ├── ops/                  ← operational status, intake manifests, logs
 ├── src/                  ← application code

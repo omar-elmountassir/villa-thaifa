@@ -1,0 +1,160 @@
+# Artifact Classification Rules
+# Used by scripts/artifact_inventory.py
+#
+# Matching order: rules evaluated top-to-bottom, first match wins
+# Pattern syntax:
+#   - "path/prefix/**"  → path starts with prefix
+#   - "*.ext"           → filename glob
+#   - "name"            → exact filename match
+#   - "~stem~"          → stem contains text (e.g., "~ADR~" matches "ADR-001.md")
+
+version: "1.0"
+
+taxonomy:
+  source:implementation:
+    description: "Scripts, source code, tests"
+  source:configuration:
+    description: "Project configuration"
+  source:data:
+    description: "Canonical source-of-truth data"
+  source:data:pending:
+    description: "Data awaiting reconciliation"
+
+  meta:planning:
+    description: "Planning docs, briefs, roadmaps"
+  meta:architecture:
+    description: "Architecture decisions, ADRs"
+  meta:knowledge:
+    description: "Knowledge articles, workflows, patterns"
+  meta:templates:
+    description: "Reusable templates and standards"
+
+  audit:quality:
+    description: "Reports, audits, test results"
+  audit:history:
+    description: "Session logs, summaries, change logs"
+  audit:snapshot:
+    description: "Structure dumps, temporary captures"
+
+  ops:status:
+    description: "Operational status and intake"
+  agent:config:
+    description: "Agent instructions, workspace files"
+  content:
+    description: "Guest-facing material, media"
+  client:data:
+    description: "Client profiles, communications"
+  unknown:
+    description: "Needs manual review"
+
+skip_dirs:
+  - .git
+  - .venv
+  - __pycache__
+  - .pytest_cache
+  - node_modules
+  - .secrets
+  - archives
+  - .claude
+
+rules:
+  # === ROOT-LEVEL FILES ===
+  - match: "AGENTS.md"
+    category: agent:config
+  - match: "README.md"
+    category: agent:config
+  - match: "*.toml"
+    category: source:configuration
+  - match: "Makefile"
+    category: source:configuration
+  - match: "*.lock"
+    category: source:configuration
+  - match: ".gitignore"
+    category: source:configuration
+
+  # === CONTEXT (CENTRALIZED) ===
+  - match: "context/meta/planning/**"
+    category: meta:planning
+  - match: "context/meta/architecture/**"
+    category: meta:architecture
+  - match: "context/meta/knowledge/**"
+    category: meta:knowledge
+  - match: "context/meta/templates/**"
+    category: meta:templates
+  - match: "context/audit/quality/**"
+    category: audit:quality
+  - match: "context/audit/history/**"
+    category: audit:history
+  - match: "context/audit/snapshots/**"
+    category: audit:snapshot
+
+  # === DATA ===
+  - match: "data/core/**"
+    category: source:data
+  - match: "data/pending/**"
+    category: source:data:pending
+
+  # === CODE ===
+  - match: "scripts/**"
+    category: source:implementation
+  - match: "src/**"
+    category: source:implementation
+  - match: "tests/**"
+    category: source:implementation
+
+  # === CONFIG ===
+  - match: "config/**"
+    category: source:configuration
+
+  # === OPS ===
+  - match: "ops/**"
+    category: ops:status
+
+  # === DOCS STRUCTURE ===
+  - match: "docs/agents/**"
+    category: agent:config
+  - match: "docs/client/**"
+    category: client:data
+  - match: "docs/content/**"
+    category: content
+  - match: "docs/drafts/**"
+    category: content
+
+  # === LEGACY DOCS/LIBRARY (if still present) ===
+  - match: "docs/library/**/artifacts/**"
+    category: audit:quality
+  - match: "docs/library/**/sessions/**"
+    category: audit:history
+  - match: "docs/library/**/reports/**"
+    category: audit:quality
+  - match: "docs/library/**/planning/**"
+    category: meta:planning
+  - match: "docs/library/**/knowledge/**"
+    category: meta:knowledge
+  - match: "docs/library/**/templates/**"
+    category: meta:templates
+
+  # === FILENAME CONVENTIONS ===
+  - match: "~ADR~"
+    category: meta:architecture
+  - match: "~TODO~"
+    category: meta:planning
+  - match: "~ROADMAP~"
+    category: meta:planning
+  - match: "~CHANGELOG~"
+    category: audit:history
+  - match: "~SESSION~"
+    category: audit:history
+  - match: "~REPORT~"
+    category: audit:quality
+  - match: "~TEST~"
+    category: audit:quality
+
+centralized_map:
+  meta:planning: context/meta/planning/
+  meta:architecture: context/meta/architecture/
+  meta:knowledge: context/meta/knowledge/
+  meta:templates: context/meta/templates/
+  audit:quality: context/audit/quality/
+  audit:history: context/audit/history/
+  audit:snapshot: context/audit/snapshots/
