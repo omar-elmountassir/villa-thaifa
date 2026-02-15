@@ -29,52 +29,55 @@ from typing import Optional
 CATEGORIES = {
     # Source — the product itself
     "source:implementation": "Scripts, source code, tests",
-    "source:configuration":  "Project configuration (pyproject.toml, Makefile, etc.)",
-    "source:data":           "Source-of-truth data (rooms, property, etc.)",
-    "source:data:pending":   "Data awaiting reconciliation/triage",
-
+    "source:configuration": "Project configuration (pyproject.toml, Makefile, etc.)",
+    "source:data": "Source-of-truth data (rooms, property, etc.)",
+    "source:data:pending": "Data awaiting reconciliation/triage",
     # Meta — what explains the product
-    "meta:planning":         "Planning docs, briefs, missions, roadmaps, TODOs",
-    "meta:architecture":     "Architecture decisions, decision records (ADRs)",
-    "meta:knowledge":        "Knowledge articles, workflows, patterns, research",
-    "meta:templates":        "Reusable templates and standards",
-
+    "meta:planning": "Planning docs, briefs, missions, roadmaps, TODOs",
+    "meta:architecture": "Architecture decisions, decision records (ADRs)",
+    "meta:knowledge": "Knowledge articles, workflows, patterns, research",
+    "meta:templates": "Reusable templates and standards",
     # Audit — what proves the product works
-    "audit:quality":         "Reports, audits, test results, isolation snapshots",
-    "audit:history":         "Session logs, summaries, handoffs, change logs",
-    "audit:snapshot":        "Structure dumps, temporary captures, scratch files",
-
+    "audit:quality": "Reports, audits, test results, isolation snapshots",
+    "audit:history": "Session logs, summaries, handoffs, change logs",
+    "audit:snapshot": "Structure dumps, temporary captures, scratch files",
     # Operational
-    "ops:status":            "Operational status and intake tracking",
-    "agent:config":          "Agent instructions, contracts, workspace files",
-    "content":               "Marketing content, guest-facing material, media refs",
-    "client:data":           "Client/stakeholder profiles, communication records",
-
+    "ops:status": "Operational status and intake tracking",
+    "agent:config": "Agent instructions, contracts, workspace files",
+    "content": "Marketing content, guest-facing material, media refs",
+    "client:data": "Client/stakeholder profiles, communication records",
     # Fallback
-    "unknown":               "Unclassified — needs manual review",
+    "unknown": "Unclassified — needs manual review",
 }
 
 # Proposed centralized structure for context categories
 CENTRALIZED_MAP = {
-    "meta:planning":      "context/meta/planning/",
-    "meta:architecture":  "context/meta/architecture/",
-    "meta:knowledge":     "context/meta/knowledge/",
-    "meta:templates":     "context/meta/templates/",
-    "audit:quality":      "context/audit/quality/",
-    "audit:history":      "context/audit/history/",
-    "audit:snapshot":     "context/audit/snapshots/",
+    "meta:planning": "context/meta/planning/",
+    "meta:architecture": "context/meta/architecture/",
+    "meta:knowledge": "context/meta/knowledge/",
+    "meta:templates": "context/meta/templates/",
+    "audit:quality": "context/audit/quality/",
+    "audit:history": "context/audit/history/",
+    "audit:snapshot": "context/audit/snapshots/",
 }
 
 
 # ── Skip Patterns ───────────────────────────────────────────────────
 
 SKIP_DIRS = {
-    ".git", ".venv", "__pycache__", ".pytest_cache",
-    "node_modules", ".secrets", "archives", ".claude",
+    ".git",
+    ".venv",
+    "__pycache__",
+    ".pytest_cache",
+    "node_modules",
+    ".secrets",
+    "archives",
+    ".claude",
 }
 
 
 # ── Classification Rules ────────────────────────────────────────────
+
 
 @dataclass
 class FileEntry:
@@ -93,13 +96,19 @@ def classify_file(rel_path: str, repo_root: Path) -> str:
 
     # ── Agent config at root ────────────────────────────────────
     if len(parts) == 1 and name in {
-        "agents.md", "claude.md", "gemini.md", "readme.md",
+        "agents.md",
+        "claude.md",
+        "gemini.md",
+        "readme.md",
     }:
         return "agent:config"
 
     # ── Project config at root ──────────────────────────────────
     if len(parts) == 1 and name in {
-        "pyproject.toml", "makefile", "uv.lock", ".gitignore",
+        "pyproject.toml",
+        "makefile",
+        "uv.lock",
+        ".gitignore",
         "changelog.md",
     }:
         return "source:configuration"
@@ -177,7 +186,7 @@ def classify_file(rel_path: str, repo_root: Path) -> str:
     return "unknown"
 
 
-def _classify_library(parts: tuple, name: str, stem: str) -> str:
+def _classify_library(parts: tuple[str, ...], name: str, stem: str) -> str:
     """Sub-classifier for docs/library/ which has the most scattered content."""
 
     # Known subdirectories
@@ -259,7 +268,7 @@ def _classify_library(parts: tuple, name: str, stem: str) -> str:
     return "unknown"
 
 
-def _classify_project(parts: tuple, name: str, stem: str) -> str:
+def _classify_project(parts: tuple[str, ...], name: str, stem: str) -> str:
     """Sub-classifier for docs/library/project/ subtree."""
     if _any_part(parts, {"reports"}):
         return "audit:quality"
@@ -298,15 +307,17 @@ def _classify_project(parts: tuple, name: str, stem: str) -> str:
 
 # ── Helpers ──────────────────────────────────────────────────────────
 
-def _starts_with(parts: tuple, prefix: tuple) -> bool:
-    return parts[:len(prefix)] == prefix
+
+def _starts_with(parts: tuple[str, ...], prefix: tuple[str, ...]) -> bool:
+    return parts[: len(prefix)] == prefix
 
 
-def _any_part(parts: tuple, candidates: set) -> bool:
+def _any_part(parts: tuple[str, ...], candidates: set[str]) -> bool:
     return bool(set(parts) & candidates)
 
 
 # ── Scanner ──────────────────────────────────────────────────────────
+
 
 def scan_repo(repo_root: Path) -> list[FileEntry]:
     """Walk the repo tree and classify every file."""
@@ -329,17 +340,20 @@ def scan_repo(repo_root: Path) -> list[FileEntry]:
             category = classify_file(rel_path, repo_root)
             suggested = CENTRALIZED_MAP.get(category)
 
-            entries.append(FileEntry(
-                rel_path=rel_path,
-                category=category,
-                size_bytes=size,
-                suggested_target=suggested,
-            ))
+            entries.append(
+                FileEntry(
+                    rel_path=rel_path,
+                    category=category,
+                    size_bytes=size,
+                    suggested_target=suggested,
+                )
+            )
 
     return entries
 
 
 # ── Report Generator ─────────────────────────────────────────────────
+
 
 def generate_manifest(entries: list[FileEntry]) -> str:
     """Generate a Markdown manifest from classified entries."""
@@ -458,17 +472,20 @@ def _fmt_size(size_bytes: int) -> str:
 
 def _now() -> str:
     from datetime import datetime, timezone
+
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 
 # ── CLI ──────────────────────────────────────────────────────────────
+
 
 def main():
     parser = argparse.ArgumentParser(
         description="Scan Villa Thaifa repo and generate artifact inventory."
     )
     parser.add_argument(
-        "--output", "-o",
+        "--output",
+        "-o",
         help="Write manifest to a file (default: stdout)",
         type=str,
         default=None,
@@ -505,9 +522,7 @@ def main():
         print(manifest)
 
     # Quick stats to stderr
-    context_count = sum(
-        1 for e in entries if e.category in CENTRALIZED_MAP
-    )
+    context_count = sum(1 for e in entries if e.category in CENTRALIZED_MAP)
     print(
         f"\nDone. {len(entries)} files scanned, "
         f"{context_count} context files identified.",
