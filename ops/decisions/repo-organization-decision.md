@@ -59,19 +59,37 @@ docs/core/ (foundational definitions):
   - `docs/research-repo-organization.md` (deleted)
   - `~/omar/knowledge/research/development/repo-organization/contracts-directory-decision.md` (deleted)
 
-### Governance Items — DECIDED (Full Governance, adapted for AI agents — 8.85/10)
+### Governance Items — APPROVED (Full Governance, adapted for AI agents — 8.85/10)
 
-- [ ] Add `LICENSE` at root (proprietary, protect IP)
-- [ ] Update `README.md` content (project overview + quick-start + links to docs/core/)
-- [ ] Create `.github/` directory (PR template, issue template for Linear integration, CODEOWNERS)
-- [ ] Add `CONTRIBUTING.md` at root — migrate workflow ("SCOUT, REPORT, QUESTIONS, ACTION") from AGENTS.md here. AGENTS.md references @CONTRIBUTING.md (DRY fix)
-- [ ] Add `CODE_OF_CONDUCT.md` at root — adapted for AI agents (behavioral boundaries, data ethics, decision constraints)
-- [ ] Add `SECURITY.md` at root — agent security policies (data access rules, secret handling, vulnerability reporting)
-- [ ] Update `AGENTS.md` — replace Mandatory Workflow section with @CONTRIBUTING.md reference, update File Organization Rules with new root files
-- [ ] Update `docs/core/STRUCTURE.md` — add new governance files to layout
-- [ ] Verify root file count stays under 15
+All governance items approved 2026-02-16. Implementation tracking via /repo-bootstrap skill.
+
+- [x] Add `LICENSE` at root (proprietary, protect IP)
+- [x] Update `README.md` content (project overview + quick-start + links to docs/core/)
+- [x] Create `.github/` directory (PR template, issue template for Linear integration, CODEOWNERS)
+- [x] Add `CONTRIBUTING.md` at root — migrate workflow ("SCOUT, REPORT, QUESTIONS, ACTION") from AGENTS.md here. AGENTS.md references @CONTRIBUTING.md (DRY fix)
+- [x] Add `CODE_OF_CONDUCT.md` at root — adapted for AI agents (behavioral boundaries, data ethics, decision constraints)
+- [x] Add `SECURITY.md` at root — agent security policies (data access rules, secret handling, vulnerability reporting)
+- [x] Update `AGENTS.md` — replace Mandatory Workflow section with @CONTRIBUTING.md reference, update File Organization Rules with new root files
+- [x] Update `docs/core/STRUCTURE.md` — add new governance files to layout
+- [x] Verify root file count stays under 15
 
 Full analysis: `~/omar/knowledge/research/development/repo-organization/governance-items-decision.md`
+
+---
+
+## repo-bootstrap Skill Decisions
+
+Decisions (all approved 2026-02-16):
+
+| # | Decision | Choice | Notes |
+|---|----------|--------|-------|
+| M | Villa Thaifa approach | Incremental fix | Score 7.8/10. Archive /context/, tidy structure, add governance, merge to main. |
+| 1 | Template engine | Copier | External tool with Jinja2, YAML config, template lifecycle management. |
+| 2 | Workflow in CONTRIBUTING.md | Preset-specific | SCOUT/REPORT for ops, Fork/Branch for library, etc. |
+| 3 | Git/GitHub init | Ask-first | Skill asks before git init and GitHub creation. |
+| 4 | Governance templates | Human-standard (with AI adaptation TBD) | Standard open-source format. Pending /decide on whether to adapt for AI agents. |
+| 5 | Skill name | /repo-bootstrap | Clearest combination of scope + intent. |
+| 6 | Implementation | Skill-only (+ GitHub Template Repos later) | Claude Code skill first. GitHub template repos as future enhancement. |
 
 ---
 
@@ -95,3 +113,12 @@ Full research sources archived in git history.
 **Does NOT belong here:** Policies, SLAs, processes → use `docs/policies/` when needed
 
 If docs/core/ grows beyond 5-7 files, reassess whether governance needs a separate namespace.
+
+---
+
+## Follow-up Items (from decisions)
+
+- [ ] /decide: Should governance templates (CODE_OF_CONDUCT, SECURITY) be adapted for AI agents or stay human-standard?
+- [ ] Create GitHub Template Repo(s) — not one template but multiple per project type. Skill templates should reference these repos.
+- [ ] Update skill if/when GitHub template repos are created (templates may point to repo templates)
+- [ ] Test skill-suggester.py via `claude -p` to verify auto-suggestions work
