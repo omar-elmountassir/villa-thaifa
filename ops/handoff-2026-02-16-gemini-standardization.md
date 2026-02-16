@@ -45,6 +45,7 @@ Standardized Gemini CLI integration and model delegation strategy.
 - [ ] Comprehensive model routing strategy (DSC-NEW in ~/omar/operational/productivity/TASKS.md) — needs dedicated session(s)
 - [ ] Merge bootstrap/2026-02-13-baseline → main
 - [ ] **Move facility images** from `docs/facilities/*/images/` → `data/property/facilities/*/images/` to match room pattern (DECIDED: move to data/). Mapping: `hall/images/`→`hall-reception/images/`, `pool-garden/images/`→split to `pool/images/` + `garden/images/`, `spa-hammam/images/`→`spa-hammam/images/`. Then delete empty `docs/facilities/`.
+- [ ] **Full migration audit** — The facility images were missed during Phase A consolidation. Before declaring data consolidation complete, run a thorough audit of the entire repo (`docs/`, `context/`, root) to find ANY remaining files that should have been migrated to `data/`. Nothing should be assumed complete without verification. Use `tree` + `find` to scan exhaustively.
 
 ## Image Duplication Check
 **Result: No duplicates found. Migration is clean.**
