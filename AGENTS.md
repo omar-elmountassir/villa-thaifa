@@ -68,7 +68,6 @@ Is it operational documentation (how-to, workflow, client info)?
     Is it a foundational definition?     --> docs/core/
     Is it a workflow or procedure?       --> docs/workflows/
     Is it client/stakeholder info?       --> docs/client/
-    Is it agent operational docs/logs?   --> docs/agents/{agent-name}/
   NO  |
       v
 Is it a script or automation tool?
@@ -127,7 +126,6 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 | `docs/core/` | MISSION.md, PRINCIPLES.md, STRUCTURE.md -- foundational definitions |
 | `docs/workflows/` | Operational procedure guides (pricing, etc.) |
 | `docs/client/` | Stakeholder profiles, admin notes, support contacts |
-| `docs/agents/` | Agent-facing operational docs and logs |
 
 ### context/ -- Read-Only Reference Material
 

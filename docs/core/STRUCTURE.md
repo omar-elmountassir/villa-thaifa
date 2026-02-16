@@ -24,8 +24,6 @@
 │
 ├── docs/                       operational documentation
 │   ├── core/                   foundational definitions (MISSION, PRINCIPLES, STRUCTURE)
-│   ├── agents/                 agent-facing operational docs (logs, guides)
-│   │   └── hotelrunner/
 │   ├── client/                 stakeholder profiles, admin notes, support contacts
 │   └── workflows/              operational workflows (pricing)
 │
