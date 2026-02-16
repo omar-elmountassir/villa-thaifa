@@ -1,9 +1,11 @@
 # Handoff: Gemini Workflow Standardization (2026-02-16)
 
 ## Session Summary
+
 Standardized Gemini CLI integration and model delegation strategy.
 
 ## Completed Work
+
 1. **Gemini skill updated** (~/.claude/skills/gemini/SKILL.md):
    - Default model changed to gemini-3-flash-preview (was gemini-3-pro-preview)
    - Fixed model IDs (gemini-3-flash-preview, not gemini-3-flash)
@@ -33,6 +35,7 @@ Standardized Gemini CLI integration and model delegation strategy.
 ## Facilities Directory Audit
 
 **docs/facilities/** contains 53 image files (all .jpg) across 3 subdirectories:
+
 - `hall/images/` — 18 images (hall/reception area photos)
 - `pool-garden/images/` — 25 images (pool and garden area photos)
 - `spa-hammam/images/` — 10 images (spa/hammam area photos)
@@ -42,12 +45,14 @@ Standardized Gemini CLI integration and model delegation strategy.
 **Decision:** Move images to `data/property/facilities/{facility}/images/` to match room pattern. To be done by the data consolidation session.
 
 ## Open Items
+
 - [ ] Comprehensive model routing strategy (DSC-NEW in ~/omar/operational/productivity/TASKS.md) — needs dedicated session(s)
 - [ ] Merge bootstrap/2026-02-13-baseline → main
 - [ ] **Move facility images** from `docs/facilities/*/images/` → `data/property/facilities/*/images/` to match room pattern (DECIDED: move to data/). Mapping: `hall/images/`→`hall-reception/images/`, `pool-garden/images/`→split to `pool/images/` + `garden/images/`, `spa-hammam/images/`→`spa-hammam/images/`. Then delete empty `docs/facilities/`.
 - [ ] **Full migration audit** — The facility images were missed during Phase A consolidation. Before declaring data consolidation complete, run a thorough audit of the entire repo (`docs/`, `context/`, root) to find ANY remaining files that should have been migrated to `data/`. Nothing should be assumed complete without verification. Use `tree` + `find` to scan exhaustively.
 
 ## Image Duplication Check
+
 **Result: No duplicates found. Migration is clean.**
 
 - `docs/rooms/` directory no longer exists on disk (exit code 2 from ls).
@@ -57,6 +62,7 @@ Standardized Gemini CLI integration and model delegation strategy.
 - No action needed on image duplication.
 
 ## Key Files Modified
+
 - ~/.claude/skills/gemini/SKILL.md
 - ~/.claude/rules/rules.md
 - ~/omar/knowledge/research/ai/google-ai-pro-tier.md

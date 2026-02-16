@@ -1,103 +1,118 @@
 {
-  "_comment": "PLACEHOLDER FILE - Grille tarifaire à compléter avec les vrais prix",
-  "version": "1.0.0",
-  "last_updated": "2026-01-15T12:00:00Z",
-  "status": "placeholder",
-  "currency": "MAD",
-  "rates": {
-    "room_types": [
-      {
-        "type": "TODO",
-        "base_rate": "TODO",
-        "seasonal_variations": {
-          "low_season": {
-            "months": ["TODO"],
-            "rate": "TODO"
-          },
-          "high_season": {
-            "months": ["TODO"],
-            "rate": "TODO"
-          },
-          "peak_season": {
-            "months": ["TODO"],
-            "rate": "TODO"
-          }
-        },
-        "occupancy_based_pricing": {
-          "1_person": "TODO",
-          "2_people": "TODO",
-          "extra_person": "TODO"
-        }
-      }
-    ],
-    "services": {
-      "breakfast": {
-        "included": true,
-        "extra_cost": "TODO"
-      },
-      "airport_transfer": {
-        "included": false,
-        "cost": "TODO",
-        "details": "TODO"
-      },
-      "laundry": {
-        "included": false,
-        "pricing": "TODO"
-      },
-      "guided_tours": {
-        "included": false,
-        "pricing": "TODO"
-      }
+  "version": "1.0",
+  "currency_primary": "EUR",
+  "currency_secondary": "MAD",
+  "exchange_rate": 10.72,
+  "last_updated": "2026-02-16",
+  "data_confidence": "owner_pending",
+  "rooms": [
+    {
+      "room_id": "R01",
+      "internal_name": "Deluxe Triple Room",
+      "category_code": "DELUXE_TRIPLE",
+      "base_rate_eur": 169,
+      "base_rate_mad": 1812,
+      "capacity": "3 adults",
+      "max_occupancy": 3
     },
-    "policies": {
-      "discounts": {
-        "long_stay": {
-          "nights_min": "TODO",
-          "discount_percentage": "TODO"
-        },
-        "early_booking": {
-          "days_in_advance": "TODO",
-          "discount_percentage": "TODO"
-        },
-        "returning_guest": {
-          "discount_percentage": "TODO"
-        }
-      },
-      "deposit": {
-        "percentage": "TODO",
-        "payment_methods": ["TODO"]
-      },
-      "cancellation": {
-        "free_cancellation_until": "TODO",
-        "penalties": {
-          "late_cancellation": "TODO",
-          "no_show": "TODO"
-        }
-      }
-    }
-  },
-  "pricing_strategy": {
-    "dynamic_pricing": {
-      "enabled": "TODO",
-      "factors": [
-        "Occupancy rate",
-        "Seasonality",
-        "Demand",
-        "Competitor pricing",
-        "Events in Marrakech"
-      ]
+    {
+      "room_id": "R02",
+      "internal_name": "Deluxe Double Room",
+      "category_code": "DELUXE_DOUBLE",
+      "base_rate_eur": 159,
+      "base_rate_mad": 1704,
+      "capacity": "2 adults",
+      "max_occupancy": 2
     },
-    "competitor_monitoring": {
-      "competitors": ["TODO"],
-      "frequency": "TODO"
+    {
+      "room_id": "R03",
+      "internal_name": "Deluxe Triple Room",
+      "category_code": "DELUXE_TRIPLE",
+      "base_rate_eur": 169,
+      "base_rate_mad": 1812,
+      "capacity": "3 adults",
+      "max_occupancy": 3
+    },
+    {
+      "room_id": "R04",
+      "internal_name": "Double Room Superior",
+      "category_code": "DOUBLE_SUPERIOR",
+      "base_rate_eur": 149,
+      "base_rate_mad": 1597,
+      "capacity": "2 adults",
+      "max_occupancy": 2
+    },
+    {
+      "room_id": "R05",
+      "internal_name": "Double Room Superior",
+      "category_code": "DOUBLE_SUPERIOR",
+      "base_rate_eur": 149,
+      "base_rate_mad": 1597,
+      "capacity": "2 adults",
+      "max_occupancy": 2
+    },
+    {
+      "room_id": "R06",
+      "internal_name": "Executive Suite",
+      "category_code": "EXECUTIVE_SUITE",
+      "base_rate_eur": 169,
+      "base_rate_mad": 1812,
+      "capacity": "3 adults",
+      "max_occupancy": 3
+    },
+    {
+      "room_id": "R07",
+      "internal_name": "Deluxe King Suite",
+      "category_code": "DELUXE_KING_SUITE",
+      "base_rate_eur": 329,
+      "base_rate_mad": 3527,
+      "capacity": "4 adults",
+      "max_occupancy": 4
+    },
+    {
+      "room_id": "R08",
+      "internal_name": "Deluxe Triple Room",
+      "category_code": "DELUXE_TRIPLE",
+      "base_rate_eur": 169,
+      "base_rate_mad": 1812,
+      "capacity": "3 adults",
+      "max_occupancy": 3
+    },
+    {
+      "room_id": "R09",
+      "internal_name": "Family Suite",
+      "category_code": "FAMILY_SUITE",
+      "base_rate_eur": 189,
+      "base_rate_mad": 2026,
+      "capacity": "4 adults",
+      "max_occupancy": 4
+    },
+    {
+      "room_id": "R10",
+      "internal_name": "Suite",
+      "category_code": "SUITE",
+      "base_rate_eur": 179,
+      "base_rate_mad": 1919,
+      "capacity": "3 adults",
+      "max_occupancy": 3
+    },
+    {
+      "room_id": "R11",
+      "internal_name": "Family Suite",
+      "category_code": "FAMILY_SUITE",
+      "base_rate_eur": 189,
+      "base_rate_mad": 2026,
+      "capacity": "4 adults",
+      "max_occupancy": 4
+    },
+    {
+      "room_id": "R12",
+      "internal_name": "Presidential Suite",
+      "category_code": "PRESIDENTIAL_SUITE",
+      "base_rate_eur": 449,
+      "base_rate_mad": 4813,
+      "capacity": "4 adults",
+      "max_occupancy": 4
     }
-  },
-  "tags": ["placeholder", "to_complete", "finance", "rates"],
-  "todo": [
-    "Ajouter tous les types de chambres avec prix",
-    "Documenter variations saisonnières",
-    "Lister tous les services supplémentaires",
-    "Définir politique de remises",
-    "Compléter politique d'annulation"
   ]
 }
