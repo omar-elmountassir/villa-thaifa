@@ -18,6 +18,190 @@
 
 **Foundational definitions** (MISSION, STRUCTURE, PRINCIPLES) live in `docs/core/`.
 
+**Data files** (JSON, structured markdown inventories) live in `data/`. Never place data in `docs/` or `context/`.
+
+**Operational artifacts** (audits, handoffs, decisions, status dashboards) live in `ops/`. Never place live operational state in `docs/` or `context/`.
+
+**Reference material** (architecture docs, planning docs, templates, agent configs) lives in `context/`. This directory is read-only -- agents consume but do not mutate its contents during normal operations.
+
+**Scripts and tooling** live in `scripts/`. Never place executable code in `docs/` or `ops/`.
+
+**Workflow documentation** (how-to guides for operational procedures) lives in `docs/workflows/`.
+
+**Client-facing documents** (stakeholder profiles, admin notes, support contacts) live in `docs/client/`.
+
+---
+
+## File Placement Decision Tree
+
+Use this flowchart when you are unsure where a new file belongs:
+
+```
+Is it structured domain data (JSON, inventory, profiles, rates)?
+  YES --> data/
+    Is it room data?        --> data/rooms/
+    Is it booking data?     --> data/bookings/
+    Is it financial data?   --> data/finance/
+    Is it property-level?   --> data/property/
+    Is it operational config (channels, housekeeping, etc.)? --> data/operations/
+    Is it a new domain not yet hardened? --> data/pending-domains/
+  NO  |
+      v
+Is it a live operational artifact (audit, decision, handoff, status, intake)?
+  YES --> ops/
+    Is it a decision record?     --> ops/decisions/
+    Is it an audit report?       --> ops/audit/
+    Is it a session handoff?     --> ops/handoff/
+    Is it a status dashboard?    --> ops/status/
+    Is it unprocessed incoming?  --> ops/intake/
+    Is it old/completed?         --> ops/archive/
+  NO  |
+      v
+Is it read-only reference material (architecture, planning, templates, agent configs)?
+  YES --> context/
+    Is it an agent config/README?       --> context/agents/{agent-name}/
+    Is it architecture or planning?     --> context/meta/{topic}/
+  NO  |
+      v
+Is it operational documentation (how-to, workflow, client info)?
+  YES --> docs/
+    Is it a foundational definition?     --> docs/core/
+    Is it a workflow or procedure?       --> docs/workflows/
+    Is it client/stakeholder info?       --> docs/client/
+    Is it agent operational docs/logs?   --> docs/agents/{agent-name}/
+  NO  |
+      v
+Is it a script or automation tool?
+  YES --> scripts/
+    Is it an audit script?        --> scripts/audit/
+    Is it integration-specific?   --> scripts/{integration-name}/
+  NO  |
+      v
+Is it a test?
+  YES --> tests/
+  NO  --> Ask Omar. Do not guess.
+```
+
+---
+
+## Directory Contract
+
+Each top-level directory has a defined purpose, inclusion criteria, and exclusion criteria.
+
+### data/ -- Canonical Source of Truth
+
+**Purpose:** The single authoritative location for all structured domain data.
+
+**What GOES here:** Room profiles, booking records, financial data (rates, billing), property configuration, operational configs (channels, housekeeping, check-in rules, emergency procedures, maintenance schedules), facility descriptions and images, inventory data.
+
+**What does NOT go here:** Documentation, operational artifacts (audits, decisions), scripts, reference material, anything that is not structured domain data.
+
+**Example files:** `data/rooms/R01/profile.md`, `data/finance/rates.json`, `data/operations/channels.json`, `data/property/facilities/spa-hammam.md`
+
+**Subdirectories:**
+
+| Directory | Contents |
+|-----------|----------|
+| `data/rooms/` | Per-room profiles (R01-R12/), master table, amenities, beds, reconciliation log |
+| `data/bookings/` | Exports, requests, reservations |
+| `data/finance/` | billing.json, rates.json |
+| `data/operations/` | Operational config JSON files (channels, check-in, emergency, housekeeping, maintenance) |
+| `data/property/` | Property-level config and facility data (descriptions + images) |
+| `data/pending-domains/` | Domains not yet fully hardened (staging area) |
+| `data/archive/` | Archived data versions |
+
+### docs/ -- Operational Documentation
+
+**Purpose:** Human-readable and agent-readable documentation for operating Villa Thaifa.
+
+**What GOES here:** Foundational definitions (mission, principles, structure), workflow guides, client and stakeholder information, agent operational docs and logs.
+
+**What does NOT go here:** Structured data (belongs in `data/`), live operational state like audits or decisions (belongs in `ops/`), read-only reference material (belongs in `context/`), scripts (belongs in `scripts/`).
+
+**Example files:** `docs/core/MISSION.md`, `docs/workflows/pricing.md`, `docs/client/stakeholders.md`
+
+**Subdirectories:**
+
+| Directory | Contents |
+|-----------|----------|
+| `docs/core/` | MISSION.md, PRINCIPLES.md, STRUCTURE.md -- foundational definitions |
+| `docs/workflows/` | Operational procedure guides (pricing, etc.) |
+| `docs/client/` | Stakeholder profiles, admin notes, support contacts |
+| `docs/agents/` | Agent-facing operational docs and logs |
+
+### context/ -- Read-Only Reference Material
+
+**Purpose:** Background reference material consumed by agents and humans. Not mutated during normal operations.
+
+**What GOES here:** Architecture documents, planning documents, knowledge references, templates, agent configuration files and READMEs.
+
+**What does NOT go here:** Live operational state (belongs in `ops/`), canonical data (belongs in `data/`), workflow documentation (belongs in `docs/`).
+
+**Example files:** `context/meta/architecture/system-overview.md`, `context/agents/booking/README.md`
+
+**Subdirectories:**
+
+| Directory | Contents |
+|-----------|----------|
+| `context/agents/` | Agent reference configs and READMEs (booking, browser, hotelrunner) |
+| `context/meta/` | Architecture, knowledge, planning, and template reference files |
+
+### ops/ -- Live Operational State
+
+**Purpose:** The active workspace for operational artifacts: audits, decisions, handoffs, status tracking, and incoming items.
+
+**What GOES here:** Audit reports, decision records, session handoff documents, status dashboards and snapshots, unprocessed intake items, migration logs.
+
+**What does NOT go here:** Canonical data (belongs in `data/`), documentation (belongs in `docs/`), reference material (belongs in `context/`), scripts (belongs in `scripts/`).
+
+**Example files:** `ops/decisions/2026-02-16-database-architecture.md`, `ops/status/canonical.md`, `ops/handoff/HANDOFF.md`
+
+**Subdirectories:**
+
+| Directory | Contents |
+|-----------|----------|
+| `ops/audit/` | Audit reports and quality checks |
+| `ops/decisions/` | Decision records with date prefix |
+| `ops/handoff/` | Session handoff docs (AI-SESSION-STARTER.md, HANDOFF.md) |
+| `ops/status/` | Status dashboards, snapshots, indexes |
+| `ops/intake/` | Unprocessed incoming items |
+| `ops/archive/` | Archived operational artifacts (by date) |
+
+### scripts/ -- Validation and Tooling
+
+**Purpose:** All executable code for validation, auditing, migration, and tooling.
+
+**What GOES here:** Validation scripts, audit automation, data migration tools, integration scripts, organization utilities.
+
+**What does NOT go here:** Documentation, data, operational artifacts.
+
+**Example files:** `scripts/validate_contracts.py`, `scripts/audit/artifact_inventory.py`, `scripts/organization/reorganize_room_images.py`
+
+**Subdirectories:**
+
+| Directory | Contents |
+|-----------|----------|
+| `scripts/audit/` | Audit scripts and rule definitions |
+| `scripts/hotelrunner/` | HotelRunner integration scripts |
+| `scripts/inventory/` | Inventory management scripts |
+| `scripts/organization/` | Repository organization utilities |
+
+### tests/ -- Test Suite
+
+**Purpose:** Pytest test files for validating scripts and data contracts.
+
+**What GOES here:** Test files (test_*.py), test fixtures, conftest.py.
+
+**What does NOT go here:** Production scripts, documentation, data.
+
+### logs/ -- Log Files (gitignored)
+
+**Purpose:** Runtime log output. Gitignored -- not committed to the repository.
+
+### tmp/ -- Temporary Files (gitignored)
+
+**Purpose:** Scratch space for temporary work. Gitignored -- not committed to the repository.
+
 ## Mission
 
 @docs/core/MISSION.md
@@ -81,7 +265,6 @@ All must be true:
 
 ## Open Loops (Do Not Drop)
 
-1. Pending data domains: `data/pending-domains/` (amenities, beds, facilities)
-2. Pending content triage: `docs/pending/`
-3. Finance data: `data/finance/` (billing/rates not yet onboarded)
-4. SCM branch merge: `bootstrap/2026-02-13-baseline` → `main`
+1. Pending data domains: `data/pending-domains/` -- facilities.md awaiting hardening into `data/property/`
+2. SCM branch merge: `bootstrap/2026-02-13-baseline` branch needs merge to `main`
+3. Loose ops files: Several handoff and audit files sit directly in `ops/` root instead of their subdirectories (`ops/handoff/`, `ops/audit/`)
