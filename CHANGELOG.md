@@ -8,9 +8,20 @@ The format is based on Keep a Changelog.
 
 ### Added
 
+- Linear approved as primary backlog/work management tool (score 8.675 vs GitHub Issues 7.225).
+- Comprehensive Linear migration preparation handoff: `ops/handoff/handoff-linear-migration-preparation.md`.
+- Audit backlog triage file: `~/omar/operations/productivity/audit-backlog-triage.md` (212 files across 3 directories).
+- Linear research: MCP deep-dive (40 tools), GitHub sync analysis, workspace setup best practices.
 - PreToolUse blocking hooks: `block-html-writes.sh` (forces Gemini delegation for HTML), `enforce-edit-over-write.sh` (forces Edit over Write on existing files).
 - Session handoff system: `ops/handoff/` with verify-first task instructions for cross-session continuity.
 - Mandatory post-edit verification rule in `rules.md` (independent agent verifies no content loss after edits).
+
+### Changed
+
+- Migration placement audit completed (436 files scanned, 13 violations fixed, 8 warnings logged).
+- Loose ops/ root files moved to correct subdirectories (handoff/, audit/, archive/).
+- `data/STATUS.md` moved to `ops/status/data-domain-status.md` per directory contract.
+- AGENTS.md Open Loops updated (replaced completed items with directory triage backlog).
 
 ### Changed
 
