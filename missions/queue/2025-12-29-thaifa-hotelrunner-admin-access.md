@@ -3,8 +3,8 @@ id: 2025-12-29-hotelrunner-admin-access
 type: mission
 status: queued
 priority: P1
-title: "Obtenir accès admin HotelRunner pour Omar"
-description: "Contacter le support HotelRunner pour demander/configurer l'accès admin pour omar@el-mountassir.com"
+title: "Obtain HotelRunner Admin Access for Omar"
+description: "Contact HotelRunner support to request/configure admin access for omar@el-mountassir.com"
 client: Villa Thaifa
 requested-by: Omar
 date-created: 2025-12-29
@@ -15,45 +15,45 @@ tags:
   - credentials
 ---
 
-# Obtenir accès admin HotelRunner pour Omar
+# Obtain HotelRunner Admin Access for Omar
 
-## Contexte
+## Context
 
-Dans le fichier `.env`, on a configuré:
+In the `.env` file, we have configured:
 
-```
+```text
 HOTELRUNNER_ADMIN_EMAIL=omar@el-mountassir.com
 HOTELRUNNER_ADMIN_PASSWORD=Na5%a?h5c9Rm2+K
 ```
 
-Cependant, cet accès admin n'est **pas encore actif**. Il faut contacter le support HotelRunner pour le configurer.
+However, this admin access is **not yet active**. HotelRunner support must be contacted to configure it.
 
-## Objectif
+## Objective
 
-Contacter le support HotelRunner pour:
+Contact HotelRunner support to:
 
-1. Demander comment ajouter un admin supplémentaire (omar@el-mountassir.com)
-2. Ou demander s'il faut une procédure spécifique
-3. Obtenir les instructions/confirmation
+1. Ask how to add an additional admin (omar@el-mountassir.com)
+2. Or ask if there is a specific procedure
+3. Obtain instructions/confirmation
 
-## Actions requises
+## Required Actions
 
-- [x] Contacter Ikram (support HWS) — voir `data/admin/client/CONTACT.md`
-- [ ] Expliquer le besoin: ajouter un compte admin pour Omar
-- [ ] Obtenir les instructions ou confirmation
-- [ ] Mettre à jour `.env` si les credentials changent
-- [ ] Tester la connexion
+- [x] Contact Ikram (HWS support) — see `data/admin/client/CONTACT.md`
+- [ ] Explain the need: add an admin account for Omar
+- [ ] Obtain instructions or confirmation
+- [ ] Update `.env` if credentials change
+- [ ] Test the connection
 
-## Ressources
+## Resources
 
-- Contact support: voir `data/admin/client/CONTACT.md`
-- Credentials actuels: voir `.env`
-- Documentation HotelRunner: voir `data/specs/platform/hotelrunner/`
+- Support contact: see `data/admin/client/CONTACT.md`
+- Current credentials: see `.env`
+- HotelRunner documentation: see `data/specs/platform/hotelrunner/`
 
 ## Notes
 
-Cette mission est **bloquante** pour les opérations automatisées sur HotelRunner avec le compte Omar. En attendant, on peut utiliser le compte de M. Thaifa si nécessaire.
+This mission is **blocking** for automated operations on HotelRunner with the Omar account. In the meantime, Mr. Thaifa's account can be used if necessary.
 
 ---
 
-_Créé: 2025-12-29_
+_Created: 2025-12-29_

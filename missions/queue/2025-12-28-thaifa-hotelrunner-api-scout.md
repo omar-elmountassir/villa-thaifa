@@ -5,7 +5,7 @@ status: queued
 priority: P2
 
 title: "Villa Thaifa — SCOUT HotelRunner Developer API"
-description: "Explorer les possibilités d'automatisation via l'API HotelRunner"
+description: "Explore automation possibilities via the HotelRunner API"
 
 client: Villa Thaifa
 requested-by: Omar El Mountassir
@@ -21,64 +21,64 @@ tags:
 
 # Mission: SCOUT HotelRunner Developer API
 
-## Contexte
+## Context
 
-Découverte d'une API développeur HotelRunner: https://developers.hotelrunner.com/
+Discovery of a HotelRunner developer API: <https://developers.hotelrunner.com/>
 
-Cette API pourrait permettre d'automatiser certaines opérations actuellement manuelles.
+This API could allow for the automation of certain operations that are currently manual.
 
-## Objectif
+## Objective
 
-Explorer et documenter les capacités de l'API HotelRunner pour évaluer les possibilités d'automatisation.
+Explore and document the capabilities of the HotelRunner API to evaluate automation possibilities.
 
-## Questions à Répondre
+## Questions to Answer
 
-### 1. Authentification
+### 1. Authentication
 
-- [ ] Quel type d'authentification ? (API Key, OAuth, etc.)
-- [ ] Comment obtenir les credentials ?
-- [ ] Y a-t-il des limites de rate ?
+- [ ] What type of authentication? (API Key, OAuth, etc.)
+- [ ] How to obtain credentials?
+- [ ] Are there rate limits?
 
-### 2. Endpoints Disponibles
+### 2. Available Endpoints
 
-- [ ] Gestion des réservations (CRUD) ?
-- [ ] Gestion des disponibilités/blocages ?
-- [ ] Gestion des tarifs ?
-- [ ] Synchronisation des canaux ?
-- [ ] Webhooks pour notifications ?
+- [ ] Reservation management (CRUD)?
+- [ ] Availability/blocking management?
+- [ ] Rate management?
+- [ ] Channel synchronization?
+- [ ] Webhooks for notifications?
 
 ### 3. Documentation
 
-- [ ] Qualité de la documentation ?
-- [ ] Exemples de code disponibles ?
-- [ ] SDK/Libraries officielles ?
+- [ ] Quality of documentation?
+- [ ] Code examples available?
+- [ ] Official SDK/Libraries?
 
-### 4. Cas d'Usage Potentiels
+### 4. Potential Use Cases
 
-- [ ] Automatiser les blocages de chambres
-- [ ] Créer des réservations programmatiquement
-- [ ] Synchroniser avec nos systèmes internes
-- [ ] Alertes automatiques (désynchronisation, etc.)
+- [ ] Automate room blockings
+- [ ] Create reservations programmatically
+- [ ] Synchronize with our internal systems
+- [ ] Automatic alerts (desynchronization, etc.)
 
-## Critères de Succès
+## Success Criteria
 
-- [ ] Documentation API lue et comprise
-- [ ] Rapport des capacités disponibles
-- [ ] Évaluation faisabilité automatisation
-- [ ] Recommandations pour Villa Thaifa
+- [ ] API documentation read and understood
+- [ ] Report of available capabilities
+- [ ] Automation feasibility assessment
+- [ ] Recommendations for Villa Thaifa
 
-## Livrables
+## Deliverables
 
-1. **Rapport SCOUT**: Résumé des capacités API
-2. **Évaluation**: Faisabilité pour Villa Thaifa
-3. **Roadmap**: Si pertinent, plan d'intégration
+1. **SCOUT Report**: Summary of API capabilities
+2. **Assessment**: Feasibility for Villa Thaifa
+3. **Roadmap**: If relevant, integration plan
 
 ## Notes
 
-- Mission de type RECHERCHE (pas d'exécution)
-- Priorité P2 (amélioration future, pas urgent)
-- Peut débloquer automatisations significatives
+- RESEARCH type mission (no execution)
+- Priority P2 (future improvement, not urgent)
+- Can unlock significant automations
 
 ---
 
-_Mission créée le 2025-12-28_
+_Mission created on 2025-12-28_

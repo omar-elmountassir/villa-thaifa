@@ -141,7 +141,7 @@ If significant changes were made this session:
 
 ## Output: If Blocked
 
-```
+```markdown
 # 🚫 SESSION CLOSURE BLOCKED
 
 > **ZERO TOLERANCE**: All issues must be fixed before closure.
@@ -150,11 +150,11 @@ If significant changes were made this session:
 
 ## ❌ Failed Guardrails
 
-| # | Guardrail | Status | Auto-Fix |
-|---|-----------|--------|----------|
-| 1 | Active Missions | ❌ FAIL | → Archiving now... |
-| 2 | Uncommitted Changes | ❌ FAIL | → Committing now... |
-| 3 | CHANGELOG | ❌ FAIL | → Updating now... |
+| #   | Guardrail           | Status  | Auto-Fix            |
+| --- | ------------------- | ------- | ------------------- |
+| 1   | Active Missions     | ❌ FAIL | → Archiving now...  |
+| 2   | Uncommitted Changes | ❌ FAIL | → Committing now... |
+| 3   | CHANGELOG           | ❌ FAIL | → Updating now...   |
 
 ---
 
@@ -171,7 +171,7 @@ If significant changes were made this session:
 
 ## Output: If Passed
 
-```
+```markdown
 # ✅ SESSION CLOSURE AUTHORIZED
 
 > **All guardrails PASSED. Session may be safely closed.**
@@ -180,34 +180,34 @@ If significant changes were made this session:
 
 ## 🛡️ Guardrails Status
 
-| Guardrail | Status |
-|-----------|--------|
-| Active Missions | ✅ PASSED |
+| Guardrail         | Status    |
+| ----------------- | --------- |
+| Active Missions   | ✅ PASSED |
 | Session Learnings | ✅ PASSED |
-| Uncaptured Items | ✅ PASSED |
-| Git Status | ✅ PASSED |
-| CHANGELOG | ✅ PASSED |
+| Uncaptured Items  | ✅ PASSED |
+| Git Status        | ✅ PASSED |
+| CHANGELOG         | ✅ PASSED |
 
 ---
 
 ## 📊 Session Summary
 
-| Metric | Value |
-|--------|-------|
-| 🗂️ Missions archived | [count] |
-| 📝 Learnings documented | [count] |
-| 💾 Commits made | [count] |
-| 📋 CHANGELOG | ✅ Updated |
+| Metric                  | Value      |
+| ----------------------- | ---------- |
+| 🗂️ Missions archived    | [count]    |
+| 📝 Learnings documented | [count]    |
+| 💾 Commits made         | [count]    |
+| 📋 CHANGELOG            | ✅ Updated |
 
 ---
 
 ## 🔮 Next Session
 
-| Info | Value |
-|------|-------|
+| Info           | Value                        |
+| -------------- | ---------------------------- |
 | 📬 Queue depth | **[count]** missions pending |
-| 🎯 Recommended | `[mission-name]` |
-| ⚡ Priority | [P0/P1/P2] |
+| 🎯 Recommended | `[mission-name]`             |
+| ⚡ Priority    | [P0/P1/P2]                   |
 
 ---
 

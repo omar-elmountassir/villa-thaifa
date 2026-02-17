@@ -71,6 +71,7 @@ For each task:
 **Prerequisite**: Hooks were installed in Session A but take effect on NEXT session start. This session IS that next session.
 
 **Step 1: Verify hooks are loaded**
+
 ```bash
 # Check settings.json has the hooks registered
 grep -c "block-html-writes\|enforce-edit-over-write" ~/.claude/settings.json
@@ -79,6 +80,7 @@ grep -c "block-html-writes\|enforce-edit-over-write" ~/.claude/settings.json
 
 **Step 2: Test HTML write blocking (Gemini delegation)**
 Try to write an HTML file directly:
+
 ```
 # In conversation, ask Claude to: "Write a simple HTML file at /tmp/test-hook.html"
 # Expected: BLOCKED — Claude should receive deny message and delegate to Gemini instead
@@ -86,18 +88,21 @@ Try to write an HTML file directly:
 
 **Step 3: Test Edit-over-Write enforcement**
 Try to use Write on an existing file:
+
 ```
 # In conversation, ask Claude to: "Use Write tool to update AGENTS.md"
 # Expected: BLOCKED — Claude should receive deny message and use Edit instead
 ```
 
 **Step 4: Test Write on NEW file passes**
+
 ```
 # In conversation, ask Claude to: "Create a new file at /tmp/test-new-file.md with content 'hello'"
 # Expected: ALLOWED — Write on new files should work normally
 ```
 
 **Step 5: Test skill-suggester integration**
+
 ```bash
 # Run non-interactive test:
 claude -p "create an HTML dashboard for room availability"
@@ -105,6 +110,7 @@ claude -p "create an HTML dashboard for room availability"
 ```
 
 **If any test fails**: Check hook scripts exist and are executable:
+
 ```bash
 ls -la ~/.claude/hooks/block-html-writes.sh ~/.claude/hooks/enforce-edit-over-write.sh
 # Both should be -rwxr-xr-x
@@ -145,7 +151,7 @@ These are DONE — do not redo:
 - [x] Branch merge: bootstrap/2026-02-13-baseline → main (pushed, branch deleted)
 - [x] New rule: mandatory post-edit verification agent (rules.md #5)
 - [x] Finance: rates.json + billing.json populated
-- [x] Gemini delegation blocking hook: `~/.claude/hooks/block-html-writes.sh` (blocks Write/Edit on *.html)
+- [x] Gemini delegation blocking hook: `~/.claude/hooks/block-html-writes.sh` (blocks Write/Edit on \*.html)
 - [x] Edit-over-Write blocking hook: `~/.claude/hooks/enforce-edit-over-write.sh` (blocks Write on existing files)
 - [x] Both hooks registered in `~/.claude/settings.json` PreToolUse, unit tested (3/3 pass)
 - [x] Hooks take effect on next session start (NOT in the session that created them)
