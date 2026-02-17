@@ -264,5 +264,4 @@ All must be true:
 ## Open Loops (Do Not Drop)
 
 1. Pending data domains: `data/pending-domains/` -- facilities.md awaiting hardening into `data/property/`
-2. SCM branch merge: `bootstrap/2026-02-13-baseline` branch needs merge to `main`
-3. Large directory triage: `context/meta/knowledge/` (54 files), `context/meta/planning/` (96 files), `ops/audit/quality/` (62 files) need triage for archiving vs reclassification
+2. Large directory triage: `context/meta/knowledge/` (54 files), `context/meta/planning/` (96 files), `ops/audit/quality/` (62 files) need triage for archiving vs reclassification

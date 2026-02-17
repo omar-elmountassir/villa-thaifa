@@ -6,33 +6,14 @@
 
 ## URGENT ISSUES (Fix First)
 
-### 1. Claude Still Does Work Instead of Delegating — CRITICAL
+### 1. Gemini Delegation Enforcement — RESOLVED (2026-02-17)
 
-**The Problem**: Omar repeatedly expressed frustration that Claude keeps executing work directly instead of delegating to Gemini and sub-agents. The skill-suggester hook fires correctly (unit tested, 8/8 pass) but Claude IGNORES the hook output and proceeds with direct execution anyway.
+**Status**: FIXED. Blocking PreToolUse hooks now installed and registered:
+- `~/.claude/hooks/block-html-writes.sh` — DENIES Write/Edit on *.html, forces /gemini delegation
+- `~/.claude/hooks/enforce-edit-over-write.sh` — DENIES Write on existing files, forces Edit
+- Both registered in `~/.claude/settings.json`, unit tested (3/3 pass)
 
-**Root Cause**: The hook outputs `additionalContext` (a suggestion). Claude's training bias overrides this and handles tasks directly instead of respecting delegation boundaries.
-
-**Current State**:
-
-- Hook: `~/.claude/hooks/skill-suggester.py` — outputs suggestions but no enforcement
-- Rules: `~/.claude/rules/rules.md` has "Output Routing Rule" (line ~450) and "AI Model Delegation" (line ~480) but Claude ignores them
-- Settings: `~/.claude/settings.json` has hook registered but no blocking mechanism
-
-**What's Needed**: A STRONGER enforcement mechanism. Investigate these options (in order):
-
-1. **PreToolUse hook** that BLOCKS `Write` and `Edit` on HTML files and returns error message forcing Gemini delegation
-2. **Explicit rule violation detection** in hook that detects when Claude is about to violate the delegation rule and forces acknowledgment
-3. **Test with `claude -p`** to verify end-to-end that hook enforcement actually works (not just unit tests)
-
-**Next Instance Action**: Before continuing any work, FIX THIS. It's Omar's #1 frustration. The hook exists but the mechanism is too weak.
-
-**Test Command**:
-
-```bash
-# In /home/director/villa-thaifa, run:
-claude -p ""
-# Verify that Claude calls Gemini instead of writing HTML directly
-```
+**Remaining**: End-to-end test needed. See `ops/handoff/handoff-remaining-tasks-2026-02-16.md` "Test Hooks + Skill-Suggester Integration" section for step-by-step test plan.
 
 ### 2. TTS Degraded (Secondary Issue)
 
@@ -64,13 +45,16 @@ claude -p ""
 
 ## PENDING TASKS (In Priority Order)
 
-| #      | Task                                                 | Priority | Owner       | Handoff File                                  | Blocker?                    |
-| ------ | ---------------------------------------------------- | -------- | ----------- | --------------------------------------------- | --------------------------- |
-| **29** | **FIX: Stronger Gemini delegation enforcement**      | CRITICAL | Next Claude | (this file — inline instructions above)       | YES — blocks all other work |
-| **24** | /decide: Governance templates (human vs AI-adapted)  | High     | Next Claude | `docs/plans/handoff-governance-decide.md`     | No                          |
-| **25** | Create GitHub Template Repos                         | Medium   | Next Claude | `docs/plans/handoff-github-template-repos.md` | No                          |
-| **26** | Integration test: skill-suggester.py via `claude -p` | High     | Next Claude | (inline — use test command above)             | No                          |
-| **30** | Audit all session outputs for language violations    | Medium   | Next Claude | (inline — scan modified files for French)     | No                          |
+| Task                                                 | Priority | Status      | Handoff File                                            |
+| ---------------------------------------------------- | -------- | ----------- | ------------------------------------------------------- |
+| ~~FIX: Gemini delegation enforcement~~               | ~~CRIT~~ | **DONE**    | (this file — see above)                                 |
+| Test hooks + skill-suggester end-to-end              | HIGH     | Pending     | `ops/handoff/handoff-remaining-tasks-2026-02-16.md`     |
+| /decide: Governance templates (human vs AI-adapted)  | High     | Pending     | `ops/handoff/handoff-governance-decide.md`              |
+| Language audit — scan for French                     | Medium   | Pending     | `ops/handoff/handoff-remaining-tasks-2026-02-16.md`     |
+| Design archive/lifecycle system                      | Medium   | Pending     | `ops/handoff/handoff-remaining-tasks-2026-02-16.md`     |
+| Create GitHub Template Repos                         | Low      | Pending     | `ops/handoff/handoff-github-template-repos.md`          |
+
+**Canonical task list**: `ops/handoff/handoff-remaining-tasks-2026-02-16.md` — all tasks with verify-first instructions.
 
 ---
 
