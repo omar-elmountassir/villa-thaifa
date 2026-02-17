@@ -99,15 +99,15 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 
 **Subdirectories:**
 
-| Directory | Contents |
-|-----------|----------|
-| `data/rooms/` | Per-room profiles (R01-R12/), master table, amenities, beds, reconciliation log |
-| `data/bookings/` | Exports, requests, reservations |
-| `data/finance/` | billing.json, rates.json |
-| `data/operations/` | Operational config JSON files (channels, check-in, emergency, housekeeping, maintenance) |
-| `data/property/` | Property-level config and facility data (descriptions + images) |
-| `data/pending-domains/` | Domains not yet fully hardened (staging area) |
-| `data/archive/` | Archived data versions |
+| Directory               | Contents                                                                                 |
+| ----------------------- | ---------------------------------------------------------------------------------------- |
+| `data/rooms/`           | Per-room profiles (R01-R12/), master table, amenities, beds, reconciliation log          |
+| `data/bookings/`        | Exports, requests, reservations                                                          |
+| `data/finance/`         | billing.json, rates.json                                                                 |
+| `data/operations/`      | Operational config JSON files (channels, check-in, emergency, housekeeping, maintenance) |
+| `data/property/`        | Property-level config and facility data (descriptions + images)                          |
+| `data/pending-domains/` | Domains not yet fully hardened (staging area)                                            |
+| `data/archive/`         | Archived data versions                                                                   |
 
 ### docs/ -- Operational Documentation
 
@@ -121,11 +121,11 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 
 **Subdirectories:**
 
-| Directory | Contents |
-|-----------|----------|
-| `docs/core/` | MISSION.md, PRINCIPLES.md, STRUCTURE.md -- foundational definitions |
-| `docs/workflows/` | Operational procedure guides (pricing, etc.) |
-| `docs/client/` | Stakeholder profiles, admin notes, support contacts |
+| Directory         | Contents                                                            |
+| ----------------- | ------------------------------------------------------------------- |
+| `docs/core/`      | MISSION.md, PRINCIPLES.md, STRUCTURE.md -- foundational definitions |
+| `docs/workflows/` | Operational procedure guides (pricing, etc.)                        |
+| `docs/client/`    | Stakeholder profiles, admin notes, support contacts                 |
 
 ### context/ -- Read-Only Reference Material
 
@@ -139,10 +139,10 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 
 **Subdirectories:**
 
-| Directory | Contents |
-|-----------|----------|
+| Directory         | Contents                                                            |
+| ----------------- | ------------------------------------------------------------------- |
 | `context/agents/` | Agent reference configs and READMEs (booking, browser, hotelrunner) |
-| `context/meta/` | Architecture, knowledge, planning, and template reference files |
+| `context/meta/`   | Architecture, knowledge, planning, and template reference files     |
 
 ### ops/ -- Live Operational State
 
@@ -156,14 +156,14 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 
 **Subdirectories:**
 
-| Directory | Contents |
-|-----------|----------|
-| `ops/audit/` | Audit reports and quality checks |
-| `ops/decisions/` | Decision records with date prefix |
-| `ops/handoff/` | Session handoff docs (AI-SESSION-STARTER.md, HANDOFF.md) |
-| `ops/status/` | Status dashboards, snapshots, indexes |
-| `ops/intake/` | Unprocessed incoming items |
-| `ops/archive/` | Archived operational artifacts (by date) |
+| Directory        | Contents                                                 |
+| ---------------- | -------------------------------------------------------- |
+| `ops/audit/`     | Audit reports and quality checks                         |
+| `ops/decisions/` | Decision records with date prefix                        |
+| `ops/handoff/`   | Session handoff docs (AI-SESSION-STARTER.md, HANDOFF.md) |
+| `ops/status/`    | Status dashboards, snapshots, indexes                    |
+| `ops/intake/`    | Unprocessed incoming items                               |
+| `ops/archive/`   | Archived operational artifacts (by date)                 |
 
 ### scripts/ -- Validation and Tooling
 
@@ -177,18 +177,18 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 
 **Subdirectories:**
 
-| Directory | Contents |
-|-----------|----------|
-| `scripts/audit/` | Audit scripts and rule definitions |
-| `scripts/hotelrunner/` | HotelRunner integration scripts |
-| `scripts/inventory/` | Inventory management scripts |
-| `scripts/organization/` | Repository organization utilities |
+| Directory               | Contents                           |
+| ----------------------- | ---------------------------------- |
+| `scripts/audit/`        | Audit scripts and rule definitions |
+| `scripts/hotelrunner/`  | HotelRunner integration scripts    |
+| `scripts/inventory/`    | Inventory management scripts       |
+| `scripts/organization/` | Repository organization utilities  |
 
 ### tests/ -- Test Suite
 
 **Purpose:** Pytest test files for validating scripts and data contracts.
 
-**What GOES here:** Test files (test_*.py), test fixtures, conftest.py.
+**What GOES here:** Test files (test\_\*.py), test fixtures, conftest.py.
 
 **What does NOT go here:** Production scripts, documentation, data.
 

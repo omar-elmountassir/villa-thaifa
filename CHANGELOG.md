@@ -8,6 +8,24 @@ The format is based on Keep a Changelog.
 
 ### Added
 
+- PreToolUse blocking hooks: `block-html-writes.sh` (forces Gemini delegation for HTML), `enforce-edit-over-write.sh` (forces Edit over Write on existing files).
+- Session handoff system: `ops/handoff/` with verify-first task instructions for cross-session continuity.
+- Mandatory post-edit verification rule in `rules.md` (independent agent verifies no content loss after edits).
+
+### Changed
+
+- Full repository restructuring: 200+ files moved to correct directories per AGENTS.md contract.
+- All 12 room profiles deduplicated (R01-R12, ~45% size reduction, zero content loss — Opus-verified).
+- `AGENTS.md` rewritten with File Placement Decision Tree + Directory Contract for unambiguous file navigation.
+- `STRUCTURE.md` updated to match post-consolidation filesystem.
+- `docs/README.md` updated to reflect new structure.
+- Finance data populated: `data/finance/rates.json` and `data/finance/billing.json`.
+- Bootstrap branch merged to main (branch deleted).
+
+## [2026-02-13] - Baseline
+
+### Added
+
 - Root governance baseline files: `AGENTS.md`, `README.md`, `CHANGELOG.md`.
 - Operational status system under `ops/status/`.
 - Unprocessed intake manifest at `ops/intake/unprocessed/manifest.csv`.
