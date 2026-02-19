@@ -1,254 +1,254 @@
-# Leçons Apprises — Villa Thaifa
+# Lessons Learned — Villa Thaifa
 
-> Ce fichier documente les erreurs et apprentissages pour éviter de les répéter.
-> À consulter par les futurs agents IA et humains travaillant sur ce dossier.
+> This file documents errors and learnings to prevent repetition.
+> To be consulted by future AI agents and humans working on this project.
 
 ---
 
-## [2025-12-19] Communication Client : Pattern Scout → Rapport → Action
+## [2025-12-19] Client Communication: Scout → Report → Action Pattern
 
-### L'erreur
+### The mistake
 
-Envoyé un message à Said demandant des infos (nom invité, tarif, nb adultes) **SANS** d'abord lui faire un rapport de ce qu'on avait découvert en tant qu'éclaireur/scout.
+Sent a message to Said asking for info (guest name, rate, number of adults) WITHOUT first reporting what we had discovered as a scout.
 
-**Contexte** : Mission de booking chambre 11 sur HotelRunner. On a réussi à se connecter, vérifié la disponibilité, préparé le formulaire — mais on a demandé des infos au client sans lui communiquer ces bonnes nouvelles d'abord.
+**Context**: Booking mission for room 11 on HotelRunner. We successfully connected, verified availability, prepared the form — but asked the client for info without first communicating the good news.
 
-**Impact** : Le client reçoit des questions sans contexte → impression qu'on ne maîtrise pas la situation.
+**Impact**: Client receives questions without context → impression that we don't have the situation under control.
 
-### Ce qui aurait dû être fait
+### What should have been done
 
 ```text
-1. SCOUT    → Explorer la plateforme, vérifier la faisabilité
-2. RAPPORT  → Tenir Omar informé des découvertes, puis déterminer si Omar (qui fait donc office de passerelle / pont entre notre équipe IA et nos clients) s'il doit remonter l'information et/ou la garder pour nous (notre équipe IA)
-3. QUESTIONS → Demander les infos manquantes (avec contexte)
-4. ACTION   → Exécuter quand tout est clair
+1. SCOUT    → Explore the platform, verify feasibility
+2. REPORT   → Keep Omar informed of discoveries, then determine if Omar (who serves as a bridge between our AI team and clients) should pass the information along or keep it internal
+3. QUESTIONS → Ask for missing info (with context)
+4. ACTION   → Execute once everything is clear
 ```
 
-### Pattern correct
+### Correct pattern
 
-| Phase         | Action                 | Exemple                                |
-| ------------- | ---------------------- | -------------------------------------- |
-| **Scout**     | Explorer en éclaireur  | Se connecter, vérifier dispo           |
-| **Rapport**   | Informer le client     | "Bonne nouvelle, la chambre est dispo" |
-| **Questions** | Demander ce qui manque | "Pour finaliser, j'ai besoin de..."    |
-| **Action**    | Exécuter               | Créer la réservation                   |
+| Phase         | Action                  | Example                                    |
+| ------------- | ----------------------- | ------------------------------------------ |
+| **Scout**     | Explore as a scout      | Connect, verify availability               |
+| **Report**    | Inform the client       | "Good news, the room is available"         |
+| **Questions** | Ask for what is missing | "To finalize, I need..."                   |
+| **Action**    | Execute                 | Create the reservation                     |
 
-### Checklist communication client
+### Client communication checklist
 
-Avant d'envoyer un message à Omar, vérifier :
+Before sending a message to Omar, verify:
 
-- [ ] Ai-je TOUT le **contexte** pour comprendre la situtation ou pas ?
-- [ ] Ai-je informé le Omar de ce que j'ai **découvert** ?
-- [ ] Omar a-t-il le **contexte** pour comprendre mes questions ?
-- [ ] Mon message montre-t-il qu'on **maîtrise** la situation ou pas ?
-- [ ] Ai-je fait preuve d'**empathie** (me mettre à sa place) ?
+- [ ] Do I have ALL the **context** to understand the situation?
+- [ ] Have I informed Omar of what I **discovered**?
+- [ ] Does Omar have the **context** to understand my questions?
+- [ ] Does my message show that we **have the situation under control**?
+- [ ] Have I shown **empathy** (putting myself in his place)?
 
-### Message correctif envoyé
+### Corrective message sent
 
-Après avoir réalisé l'erreur, message de suivi envoyé :
+After realizing the mistake, a follow-up message was sent:
 
 ```
-Au fait Omar, j'aurais dû commencer par ça :
+Actually Omar, I should have started with this:
 
-Bonne nouvelle — on a réussi à se connecter à HotelRunner et la chambre 11
-(suite familiale) est bien DISPONIBLE pour les 2 nuitées !
+Good news — we successfully connected to HotelRunner and room 11
+(family suite) is AVAILABLE for the 2 nights!
 
-Le formulaire de réservation est prêt, il me manque juste les infos que
-je t'ai demandées dans mon message précédent.
+The reservation form is ready, I just need the info I asked for
+in my previous message.
 
 [Entity name]
 ```
 
-### Leçon retenue
+### Lesson learned
 
-> **Ne jamais présumer que le client sait ce qu'on sait.**
-> Toujours faire un rapport avant de demander des actions/infos.
-> L'empathie client = se mettre à sa place et imaginer ce qu'il reçoit.
+> **Never assume the client knows what we know.**
+> Always report before asking for actions/info.
+> Client empathy = putting yourself in their place and imagining what they receive.
 
 ---
 
-## [2025-12-19] Ton de communication : Adapter le registre au contexte
+## [2025-12-19] Communication Tone: Adapt Register to Context
 
-### L'erreur
+### The mistake
 
-Messages proposés avec un ton trop informel/familier ("tu", style décontracté) pour un client de +60 ans dans un contexte professionnel.
+Messages drafted with too informal/casual a tone ("tu", casual style) for a client aged 60+ in a professional context.
 
-**Exemple problématique** :
+**Problematic example**:
 
 ```
-Au fait Said, j'aurais dû commencer par ça...
+Actually Said, I should have started with this...
 ```
 
-**Ce qui aurait dû être écrit** :
+**What should have been written**:
 
 ```
 Monsieur Thaifa,
 
-Veuillez m'excuser, j'aurais dû commencer par vous informer que...
+Please accept my apologies, I should have started by informing you that...
 ```
 
-### Facteurs à considérer
+### Factors to consider
 
-| Facteur  | Impact sur le registre          |
-| -------- | ------------------------------- |
-| Relation | Nouveau client → formel         |
-| Culture  | Maroc → respect des aînés       |
-| Enjeu    | High-ticket → professionnalisme |
+| Factor       | Impact on register              |
+| ------------ | ------------------------------- |
+| Relationship | New client → formal             |
+| Culture      | Morocco → respect for elders    |
+| Stakes       | High-ticket → professionalism   |
 
-### Registre correct pour ce client
+### Correct register for this client
 
-- ✅ **Vouvoiement** obligatoire
-- ✅ **Respect** sans rigidité corporate
-- ❌ Pas de : "Salut", "tu", abréviations familières
+- Formal register ("vous/vouvoiement") mandatory
+- Respect without corporate rigidity
+- Never use: "Salut", "tu", casual abbreviations
 
-### Adaptation au canal (WhatsApp)
+### Adaptation by channel (WhatsApp)
 
-| Situation                        | Approche                             |
-| -------------------------------- | ------------------------------------ |
-| **1er message du jour**          | Salutation + signature               |
-| **Messages suivants (même fil)** | Direct, fluide, pas de re-salutation |
-| **Message important/formel**     | Salutation + signature               |
+| Situation                      | Approach                              |
+| ------------------------------ | ------------------------------------- |
+| **First message of the day**   | Greeting + signature                  |
+| **Follow-up (same thread)**    | Direct, fluid, no repeated greeting   |
+| **Important/formal message**   | Greeting + signature                  |
 
-**Exemple fluide (message de suivi)** :
+**Fluid example (follow-up message)**:
 
 ```
-Excusez-moi, j'aurais dû commencer par là :
-Bonne nouvelle — [contenu]
+My apologies, I should have started with this:
+Good news — [content]
 ```
 
-**Pas besoin de** : "Monsieur Thaifa" + "Cordialement, Omar" à CHAQUE message.
+**No need for**: "Monsieur Thaifa" + "Cordialement, Omar" on EVERY message.
 
-### Checklist avant envoi message client
+### Pre-send checklist for client messages
 
-- [ ] Ai-je utilisé le vouvoiement ?
-- [ ] Le ton est-il adapté à l'âge et au statut du client ?
-- [ ] Y a-t-il une formule de politesse appropriée ?
-- [ ] Le message est-il structuré professionnellement ?
+- [ ] Did I use the formal register (vouvoiement)?
+- [ ] Is the tone adapted to the client's age and status?
+- [ ] Is there an appropriate courtesy phrase?
+- [ ] Is the message structured professionally?
 
-### Leçon retenue
+### Lesson learned
 
-> **Toujours adapter le registre de communication au contexte du client.**
-> En cas de doute, opter pour le registre le plus formel.
-> Un message trop formel est rarement mal perçu ; un message trop familier peut l'être.
+> **Always adapt communication register to the client's context.**
+> When in doubt, choose the more formal register.
+> A too-formal message is rarely poorly received; a too-casual one can be.
 
 ---
 
-## [2025-12-20] Livrables Client : Fichiers Prêts à l'Emploi
+## [2025-12-20] Client Deliverables: Ready-to-Use Files
 
-### L'erreur
+### The mistake
 
-Créé un fichier `.md` avec le message WhatsApp contenant des métadonnées, des sections d'explication, du contexte — alors qu'Omar avait besoin d'un fichier `.txt` prêt à copier-coller directement.
+Created a `.md` file with the WhatsApp message containing metadata, explanation sections, and context — when Omar needed a `.txt` file ready to copy-paste directly.
 
-**Ce qui a été fait** :
-
-```
-draft-message-rapport-reservations.md  ← Markdown avec métadonnées
-```
-
-**Ce qui était attendu** :
+**What was done**:
 
 ```
-2025-12-20-message-rapport-reservations.txt  ← Texte brut prêt à copier
+draft-message-rapport-reservations.md  ← Markdown with metadata
+```
+
+**What was expected**:
+
+```
+2025-12-20-message-rapport-reservations.txt  ← Plain text ready to copy
 ```
 
 ### Impact
 
-- Omar doit extraire manuellement le message du fichier markdown
-- Perte de temps
-- Friction inutile dans le workflow
+- Omar must manually extract the message from the markdown file
+- Wasted time
+- Unnecessary friction in the workflow
 
-### Ce qui aurait dû être fait
+### What should have been done
 
-Quand on prépare un livrable pour envoi client (message, email, document) :
+When preparing a client deliverable (message, email, document):
 
-| Type                 | Format           | Nommage                          |
-| -------------------- | ---------------- | -------------------------------- |
-| Message WhatsApp/SMS | `.txt`           | `YYYY-MM-DD-message-[sujet].txt` |
-| Email                | `.txt` ou `.eml` | `YYYY-MM-DD-email-[sujet].txt`   |
-| Rapport/Document     | `.pdf`           | `rapport-[sujet]-YYYY-MM-DD.pdf` |
-| Notes internes       | `.md`            | Libre                            |
+| Type                  | Format           | Naming                            |
+| --------------------- | ---------------- | --------------------------------- |
+| WhatsApp/SMS message  | `.txt`           | `YYYY-MM-DD-message-[subject].txt` |
+| Email                 | `.txt` or `.eml` | `YYYY-MM-DD-email-[subject].txt`  |
+| Report/Document       | `.pdf`           | `report-[subject]-YYYY-MM-DD.pdf` |
+| Internal notes        | `.md`            | Free                              |
 
-### Structure livrables
+### Deliverable structure
 
 ```
 communication/
 ├── whatsapp/
-│   ├── 2025-12-20-message-rapport-reservations.txt  ← Prêt à copier
-│   └── draft-*.md                                    ← Brouillons/notes
+│   ├── 2025-12-20-message-rapport-reservations.txt  ← Ready to copy
+│   └── draft-*.md                                    ← Drafts/notes
 │
-projects/[projet]/
+projects/[project]/
 └── deliverables/
-    └── rapport-[sujet]-YYYY-MM-DD.pdf               ← PDF final
+    └── report-[subject]-YYYY-MM-DD.pdf               ← Final PDF
 ```
 
-### Checklist avant création livrable client
+### Pre-creation checklist for client deliverables
 
-- [ ] Le fichier est-il **directement utilisable** sans extraction ?
-- [ ] Le format est-il adapté à l'usage (`.txt` pour copier, `.pdf` pour envoyer) ?
-- [ ] Le nommage inclut-il la **date** et le **sujet** ?
-- [ ] Le fichier est-il dans le **bon dossier** (deliverables/, whatsapp/) ?
+- [ ] Is the file **directly usable** without extraction?
+- [ ] Is the format appropriate for use (`.txt` to copy, `.pdf` to send)?
+- [ ] Does the naming include the **date** and **subject**?
+- [ ] Is the file in the **correct folder** (deliverables/, whatsapp/)?
 
-### Leçon retenue
+### Lesson learned
 
-> **Un livrable client doit être prêt à l'emploi, pas un document de travail.**
-> Toujours se demander : "Omar peut-il utiliser ce fichier immédiatement sans manipulation ?"
-> Si non → mauvais format ou mauvaise structure.
+> **A client deliverable must be ready to use, not a working document.**
+> Always ask: "Can Omar use this file immediately without manipulation?"
+> If no → wrong format or wrong structure.
 
 ---
 
-## [2025-12-22] Confusion Dates : Vérifier les Années
+## [2025-12-22] Date Confusion: Always Verify the Year
 
-### L'erreur
+### The mistake
 
-Dates mentionnées sans année explicite, créant confusion entre 2024 et 2025. Particulièrement problématique lors du passage d'année (décembre → janvier).
+Dates mentioned without an explicit year, creating confusion between 2024 and 2025. Particularly problematic during year transitions (December → January).
 
 ### Impact
 
-- Mauvaise compréhension des délais
-- Risque de planification incorrecte
-- Confusion dans l'historique des réservations
+- Misunderstanding of deadlines
+- Risk of incorrect planning
+- Confusion in reservation history
 
-### Ce qui doit être fait
+### What must be done
 
-| Situation                         | Action                     |
-| --------------------------------- | -------------------------- |
-| Client mentionne "le 20 décembre" | Demander/confirmer l'année |
-| Date proche du Nouvel An          | Double-vérifier l'année    |
-| Réservation pour "janvier"        | Clarifier 2025 ou 2026     |
+| Situation                          | Action                         |
+| ---------------------------------- | ------------------------------ |
+| Client mentions "December 20th"    | Ask/confirm the year           |
+| Date near New Year                 | Double-check the year          |
+| Reservation for "January"          | Clarify 2025 or 2026           |
 
-**Pattern de vérification** :
+**Verification pattern**:
 
-- Toujours spécifier l'année complète (ex: "20 décembre 2025")
-- Vérifier l'année quand un client mentionne juste le mois/jour
-- Attention particulière au passage d'année (déc → jan)
+- Always specify the full year (e.g., "December 20, 2025")
+- Check the year when a client mentions only month/day
+- Extra attention near year transitions (Dec → Jan)
 
-### Leçon retenue
+### Lesson learned
 
-> **Toujours vérifier l'année.** "Le 20 décembre" peut être 2024 ou 2025.
-> Ne jamais présumer — toujours expliciter.
+> **Always verify the year.** "December 20th" could be 2024 or 2025.
+> Never assume — always make it explicit.
 
 ---
 
-## Template pour futures leçons
+## Template for future lessons
 
 ```markdown
-## [YYYY-MM-DD] Titre court
+## [YYYY-MM-DD] Short title
 
-### L'erreur
+### The mistake
 
-[Description factuelle de ce qui s'est passé]
+[Factual description of what happened]
 
 ### Impact
 
-[Conséquences de l'erreur]
+[Consequences of the mistake]
 
-### Ce qui aurait dû être fait
+### What should have been done
 
-[La bonne approche]
+[The correct approach]
 
-### Leçon retenue
+### Lesson learned
 
-[Principe généralisable]
+[Generalizable principle]
 ```
 
 ## [2025-12-23] Room Structure Feedback from Said
@@ -271,176 +271,176 @@ Dates mentionnées sans année explicite, créant confusion entre 2024 et 2025. 
 
 ---
 
-## [2025-12-28] Économie des Commissions — CRITIQUE pour toutes les instances
+## [2025-12-28] Commission Economics — CRITICAL for all instances
 
-### Contexte Business
+### Business Context
 
-| Canal                     | Commission | Sur 1000€  |
-| ------------------------- | ---------- | ---------- |
-| Booking.com               | **25%**    | Net: 750€  |
-| Expedia, etc.             | ~15-25%    | Variable   |
-| Direct (téléphone, email) | **0%**     | Net: 1000€ |
+| Channel                    | Commission | On €1000   |
+| -------------------------- | ---------- | ---------- |
+| Booking.com                | **25%**    | Net: €750  |
+| Expedia, etc.              | ~15-25%    | Variable   |
+| Direct (phone, email)      | **0%**     | Net: €1000 |
 
-### Pourquoi c'est ÉNORME
+### Why this is HUGE
 
 ```
-Réservation directe = +33% de marge nette vs Booking.com
+Direct reservation = +33% net margin vs Booking.com
 ```
 
-**Villa Thaifa va connecter 20+ plateformes** → L'impact des commissions est MASSIF.
+**Villa Thaifa will connect 20+ platforms** → The commission impact is MASSIVE.
 
-### Implication pour les Agents IA
+### Implication for AI Agents
 
-> **M. Thaifa préfère les réservations directes quand possible.**
-> Ce n'est PAS juste une préférence personnelle — c'est une décision économique rationnelle.
-> Même pour des clients qui ne sont pas amis/famille.
+> **Mr. Thaifa prefers direct reservations when possible.**
+> This is NOT just a personal preference — it is a rational economic decision.
+> Even for clients who are not friends/family.
 
-**TOUJOURS COMPRENDRE**:
+**ALWAYS UNDERSTAND**:
 
-- Réservation "directe" sur HotelRunner = client qui a contacté directement = 0% commission
-- Réservation via Booking/Expedia = 25% de commission perdue
-- Quand M. Thaifa dit "réservation directe" → c'est pour économiser les commissions
+- "Direct" reservation on HotelRunner = client contacted directly = 0% commission
+- Reservation via Booking/Expedia = 25% commission lost
+- When Mr. Thaifa says "direct reservation" → it is to save on commissions
 
-### Leçon retenue
+### Lesson learned
 
-> **Les plateformes de réservation sont un canal d'ACQUISITION, pas l'objectif.**
-> L'objectif est de maximiser les revenus nets — les réservations directes y contribuent.
+> **Booking platforms are an ACQUISITION channel, not the goal.**
+> The goal is to maximize net revenue — direct reservations contribute to this.
 
 ---
 
-## [2025-12-28] Tunnel Vision — Cas Chambre 5 "Sync Bug"
+## [2025-12-28] Tunnel Vision — Room 5 "Sync Bug" Case
 
-### L'erreur (Tunnel Vision)
+### The mistake (Tunnel Vision)
 
-Une instance IA a vu:
+An AI instance saw:
 
-- Chambre 5 réservée sur HotelRunner (Benchekroum)
-- Mais pas visible sur Booking.com
+- Room 5 reserved on HotelRunner (Benchekroum)
+- But not visible on Booking.com
 
-**Conclusion hâtive**: "BUG DE SYNC! P0! INVESTIGATION URGENTE!"
+**Hasty conclusion**: "SYNC BUG! P0! URGENT INVESTIGATION!"
 
-### Ce qui a été manqué (ZOOM OUT)
+### What was missed (ZOOM OUT)
 
-La vraie question aurait dû être:
+The real question should have been:
 
-> "Cette réservation est-elle CENSÉE être sur Booking.com?"
+> "Is this reservation SUPPOSED to be on Booking.com?"
 
-**Réponse probable**: Non. C'est une réservation directe.
+**Probable answer**: No. It is a direct reservation.
 
-- Les réservations directes sont créées sur HotelRunner uniquement
-- Elles ne sont PAS synchronisées vers Booking.com automatiquement
-- Il faut bloquer manuellement les dates sur Booking.com
+- Direct reservations are created on HotelRunner only
+- They are NOT automatically synchronized to Booking.com
+- Dates must be manually blocked on Booking.com
 
-### Le vrai problème
+### The real problem
 
-Ce n'est pas un "bug de sync" — c'est:
+This is not a "sync bug" — it is:
 
-1. Un gap de connaissance sur le fonctionnement des plateformes
-2. Un workflow non documenté pour les réservations directes
+1. A knowledge gap about how the platforms work
+2. An undocumented workflow for direct reservations
 
-### Pattern Anti-Tunnel Vision
+### Anti-Tunnel Vision Pattern
 
-Avant de créer une mission "investigation de bug", TOUJOURS demander:
+Before creating a "bug investigation" mission, ALWAYS ask:
 
 ```
-1. Est-ce un bug ou un comportement que je ne comprends pas?
-2. Ai-je ZOOM OUT sur le contexte business?
-3. Ai-je vérifié les hypothèses de base?
+1. Is this a bug or a behavior I don't understand?
+2. Have I ZOOMED OUT on the business context?
+3. Have I verified the basic assumptions?
 ```
 
-### Documentation associée
+### Related documentation
 
-- Stratégie complète: `docs/strategic/2025-12-28-platform-mastery-strategy.md`
+- Full strategy: `docs/strategic/2025-12-28-platform-mastery-strategy.md`
 - Skill: `.claude/skills/tunnel-vision-prevention/`
 
 ---
 
-## [2025-12-28] Gap de Connaissance Plateformes
+## [2025-12-28] Platform Knowledge Gap
 
-### Constat
+### Finding
 
-Ni les agents IA ni Omar ne maîtrisent vraiment:
+Neither AI agents nor Omar fully understand:
 
 - HotelRunner (Channel Manager)
 - Booking.com Extranet
-- Le room mapping entre les deux
-- Les flux de synchronisation
+- The room mapping between the two
+- Synchronization flows
 
-### Risque
+### Risk
 
-Sans cette maîtrise:
+Without this understanding:
 
-- Erreurs de réservation possibles
-- Problèmes de sync incompris
-- Tunnel vision sur des "bugs" qui n'en sont pas
+- Possible reservation errors
+- Misunderstood sync issues
+- Tunnel vision on "bugs" that are not bugs
 
 ### Plan
 
-Un projet "Platform Mastery" est documenté dans:
+A "Platform Mastery" project is documented in:
 `docs/strategic/2025-12-28-platform-mastery-strategy.md`
 
-### Leçon retenue
+### Lesson learned
 
-> **Avant d'opérer sur une plateforme, s'assurer qu'on la comprend.**
-> Si on ne comprend pas → documenter le gap et planifier l'apprentissage.
-
----
-
-## [2025-12-28] HotelRunner — Workflow Ajustement de Prix
-
-### Découverte
-
-Pour modifier le prix lors d'une réservation manuelle sur HotelRunner:
-
-### Chemin
-
-```
-Réservations > Nouvelle réservation > 2. Sélectionner le type de chambre
-```
-
-### Étapes
-
-1. Sélectionner le type de chambre (ex: "Chambre Double Superieur")
-2. Cliquer sur le dropdown **"Nbre de chambres"**
-3. Sélectionner le nombre de chambres (ex: 1)
-4. Une fois sélectionné → un lien **"Ajustement de prix"** apparaît
-5. Cliquer sur "Ajustement de prix"
-6. Un menu pop-up s'ouvre permettant de modifier le prix
-
-### Cas d'usage
-
-- Réservations directes avec tarif négocié
-- Promos spéciales non configurées dans le système
-- Tarifs amis/famille
-
-### Leçon retenue
-
-> **Le prix n'est pas modifiable directement dans le champ.**
-> Il faut passer par "Ajustement de prix" qui apparaît APRÈS avoir sélectionné le nombre de chambres.
+> **Before operating on a platform, make sure you understand it.**
+> If you don't understand → document the gap and plan the learning.
 
 ---
 
-## [2025-12-28] Extension Chrome — Problèmes avec HotelRunner
+## [2025-12-28] HotelRunner — Price Adjustment Workflow
 
-### Problème observé
+### Discovery
 
-L'extension Claude in Chrome perd fréquemment la connexion avec les onglets HotelRunner. Les onglets se "détachent" après quelques interactions.
+To modify the price during a manual reservation on HotelRunner:
+
+### Path
+
+```
+Reservations > New reservation > 2. Select room type
+```
+
+### Steps
+
+1. Select the room type (e.g., "Double Superior Room")
+2. Click on the **"Number of rooms"** dropdown
+3. Select the number of rooms (e.g., 1)
+4. Once selected → a **"Price adjustment"** link appears
+5. Click "Price adjustment"
+6. A pop-up menu opens allowing you to modify the price
+
+### Use cases
+
+- Direct reservations with negotiated rate
+- Special promos not configured in the system
+- Friends/family rates
+
+### Lesson learned
+
+> **The price is not directly editable in the field.**
+> You must go through "Price adjustment" which appears AFTER selecting the number of rooms.
+
+---
+
+## [2025-12-28] Chrome Extension — Issues with HotelRunner
+
+### Observed problem
+
+The Claude in Chrome extension frequently loses connection with HotelRunner tabs. Tabs "detach" after a few interactions.
 
 ### Impact
 
-- Automatisation des réservations difficile
-- Nécessite de recréer des onglets fréquemment
-- Parfois impossible de compléter une tâche automatiquement
+- Reservation automation is difficult
+- Requires frequently recreating tabs
+- Sometimes impossible to complete a task automatically
 
-### Workaround actuel
+### Current workaround
 
-- Fournir des instructions manuelles détaillées à Omar
-- Omar exécute manuellement pendant que l'IA guide
+- Provide detailed manual instructions to Omar
+- Omar executes manually while AI guides
 
-### Investigation future
+### Future investigation
 
-- Vérifier si c'est un problème de permissions de l'extension
-- Tester avec d'autres navigateurs
-- Explorer l'API HotelRunner comme alternative
+- Check if it is an extension permissions issue
+- Test with other browsers
+- Explore HotelRunner API as an alternative
 
 ---

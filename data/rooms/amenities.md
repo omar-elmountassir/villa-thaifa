@@ -7,7 +7,7 @@ This document provides a detailed list of amenities available for each room at V
 | Room ID | Category | Amenity Name                                                                      |
 | ------- | -------- | --------------------------------------------------------------------------------- |
 | **R01** | View     | Garden view                                                                       |
-| **R01** | Outdoor  | Furnished patio RDC                                                               |
+| **R01** | Outdoor  | Furnished patio (Ground Floor)                                                    |
 | **R01** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R01** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R01** | Layout   | Laptop friendly workspace                                                         |
@@ -21,7 +21,7 @@ This document provides a detailed list of amenities available for each room at V
 | **R03** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R03** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R03** | Layout   | Laptop friendly workspace                                                         |
-| **R04** | View     | Pool view Accès direct                                                            |
+| **R04** | View     | Pool view (Direct access)                                                         |
 | **R04** | Outdoor  | Furnished patio                                                                   |
 | **R04** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R04** | Climate  | Air conditioning Independent, Heating Control                                     |
@@ -46,24 +46,24 @@ This document provides a detailed list of amenities available for each room at V
 | **R08** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R08** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R08** | Layout   | Laptop friendly workspace                                                         |
-| **R09** | View     | Pool view Accès direct                                                            |
-| **R09** | Outdoor  | Furnished patio Double terrasse                                                   |
+| **R09** | View     | Pool view (Direct access)                                                         |
+| **R09** | Outdoor  | Furnished patio (Double terrace)                                                  |
 | **R09** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R09** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R09** | Layout   | Laptop friendly workspace, Fireplace                                              |
-| **R10** | View     | Pool view Accès direct                                                            |
-| **R10** | Outdoor  | Furnished patio Double terrasse                                                   |
+| **R10** | View     | Pool view (Direct access)                                                         |
+| **R10** | Outdoor  | Furnished patio (Double terrace)                                                  |
 | **R10** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R10** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R10** | Layout   | Laptop friendly workspace                                                         |
-| **R11** | View     | Pool view Accès direct                                                            |
-| **R11** | Outdoor  | Furnished patio Double terrasse                                                   |
+| **R11** | View     | Pool view (Direct access)                                                         |
+| **R11** | Outdoor  | Furnished patio (Double terrace)                                                  |
 | **R11** | Bathroom | Shower/tub combination, Hair dryer                                                |
 | **R11** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R11** | Layout   | Laptop friendly workspace, Fireplace                                              |
 | **R12** | View     | Pool view **VERIFIED**                                                            |
-| **R12** | Outdoor  | Furnished patio **VERIFIED** - Double terrasse/Patio meublé                       |
-| **R12** | Bathroom | Shower only **VERIFIED** - Douche Italienne, Hair dryer                           |
+| **R12** | Outdoor  | Furnished patio **VERIFIED** - Double terrace/Furnished patio                     |
+| **R12** | Bathroom | Shower only **VERIFIED** - Italian shower, Hair dryer                             |
 | **R12** | Climate  | Air conditioning Independent, Heating Control                                     |
 | **R12** | Layout   | Laptop friendly workspace, Separate sitting area, Separate dining area            |
 

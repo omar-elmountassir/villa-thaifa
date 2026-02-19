@@ -7,24 +7,24 @@
 
 ## Said Thaifa (Owner)
 
-| Champ       | Valeur                   |
-| ----------- | ------------------------ |
-| WhatsApp    | +212 661-134194          |
-| Email       | <said_thaifa@hotmail.fr> |
-| Email       | <saidthaifa@gmail.com>   |
-| Langues     | Arabe (natif), Français (courant), Anglais (basique), Néerlandais (courant) |
+| Field     | Value                    |
+| --------- | ------------------------ |
+| WhatsApp  | +212 661-134194          |
+| Email     | <said_thaifa@hotmail.fr> |
+| Email     | <saidthaifa@gmail.com>   |
+| Languages | Arabic (native), French (fluent), English (basic), Dutch (fluent) |
 
-## Nezha Thaifa (Co-gérante / Épouse)
+## Nezha Thaifa (Co-manager / Wife)
 
-| Champ  | Valeur                                       |
-| ------ | -------------------------------------------- |
-| Rôle   | Co-gérante — accueil, petits-déjeuners       |
+| Field | Value                                         |
+| ----- | --------------------------------------------- |
+| Role  | Co-manager — reception, breakfasts            |
 
 ## Communication
 
-- Canal préféré: WhatsApp
-- Ton: Vouvoiement obligatoire — Formelle
-- Protocol: Scout → Rapport → Questions → Action
+- Preferred channel: WhatsApp
+- Tone: Formal register required (vouvoiement)
+- Protocol: Scout → Report → Questions → Action
 
 ---
 

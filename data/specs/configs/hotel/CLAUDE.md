@@ -1,41 +1,41 @@
-# Configuration Hôtel — CLAUDE.md
+# Hotel Configuration — CLAUDE.md
 
-> **Domaine** : Configuration des chambres et propriétés de Villa Thaifa
-> **Contexte parent** : `../../../CLAUDE.md` (hérite de toutes les règles du projet)
+> **Domain**: Room and property configuration for Villa Thaifa
+> **Parent context**: `../../../CLAUDE.md` (inherits all project rules)
 
 ---
 
-## Ce Répertoire
+## This Directory
 
-| Fichier    | Objectif                                  |
+| File       | Purpose                                   |
 | ---------- | ----------------------------------------- |
-| `rooms.md` | Inventaire, tarification, capacités       |
+| `rooms.md` | Inventory, pricing, capacities            |
 
-**Note** : Les autres données hôtelières ont été déplacées vers `../../state/` selon le standard de gestion d'état :
+**Note**: Other hotel data was moved to `../../state/` per state management standard:
 
-- Réservations actuelles → [`../../state/current/reservations.md`](../../state/current/reservations.md)
-- Tarification prévue → [`../../state/planned/pricing.md`](../../state/planned/pricing.md)
-
----
-
-## Règles Clés
-
-| Règle                  | Description                                             |
-| ---------------------- | ------------------------------------------------------- |
-| **SSOT**               | Ceci est la Source Unique de Vérité pour les données hôtel |
-| **Pas de calcul**      | Toujours utiliser les valeurs exactes de la plateforme  |
-| **Sauvegarde d'abord** | Avant modification, créer une sauvegarde dans `archive/` |
+- Current reservations → [`../../state/current/reservations.md`](../../state/current/reservations.md)
+- Planned pricing → [`../../state/planned/pricing.md`](../../state/planned/pricing.md)
 
 ---
 
-## Intégrité des Données
+## Key Rules
 
-Avant de modifier tout fichier dans ce répertoire :
-
-1. **Vérifier la source** — Les données viennent-elles de HotelRunner ou Booking.com ?
-2. **Créer une baseline** — `cp fichier.md archive/YYYY/QQ/snapshots/fichier-YYYY-MM-DD.md`
-3. **Valider après** — Vérification croisée avec la plateforme
+| Rule                | Description                                              |
+| ------------------- | -------------------------------------------------------- |
+| **SSOT**            | This is the Single Source of Truth for hotel data        |
+| **No calculation**  | Always use exact values from the platform                |
+| **Backup first**    | Before modification, create a backup in `archive/`       |
 
 ---
 
-_*Contexte hiérarchique pour data/specs/configs/hotel/*_
+## Data Integrity
+
+Before modifying any file in this directory:
+
+1. **Verify source** — Does data come from HotelRunner or Booking.com?
+2. **Create baseline** — `cp file.md archive/YYYY/QQ/snapshots/file-YYYY-MM-DD.md`
+3. **Validate after** — Cross-check with the platform
+
+---
+
+_*Hierarchical context for data/specs/configs/hotel/*_
