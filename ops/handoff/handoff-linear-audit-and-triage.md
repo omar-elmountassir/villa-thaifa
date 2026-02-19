@@ -80,43 +80,76 @@ The villa-thaifa codebase underwent massive restructuring (200+ files relocated,
 
 ---
 
-## Task Graph (execute in order)
+## Execution Roadmap — Next Sessions
 
-### Phase 1: Unblock (do first)
+### Dependency Chain
 
-1. **Activate Linear-GitHub integration** — No sync exists. Set up bidirectional sync between Linear VT team and github.com/omar-elmountassir/villa-thaifa
-2. **Update VT-26 P0 blocker** — Review against current codebase state. Likely done or nearly done. Close/update to unblock downstream issues
-3. **Fix Linear MCP tools for sub-agents** — The linear-agent sub-agent type couldn't load MCP tools. Investigate ToolSearch scope or agent config
+```
+VT-42 (GitHub integration fix)
+  └── VT-55 (archive old repo) [blocked]
+  └── enables GitHub ↔ Linear sync for all future work
 
-### Phase 2: Audit (depends on Phase 1)
+VT-43 (gitignore/PII strategy)
+  └── unblocks WhatsApp domain work (deferred SCAN-08)
 
-4. **Audit all 41 VT issues** — Compare each against current codebase. Close completed, update stale, flag overdue. Key items:
-   - VT-26: likely completed but we aren't sure.. (architecture audit done but might need to be reviewed or redo)
-   - VT-19: overdue anniversary event — needs decision
-   - SSOT Migration issues (VT-30 to VT-33): check relevance
-   - Room Management issues: check against current data/rooms/ state
+VT-51 (GitHub identity strategy)
+  └── VT-55 (archive old repo) [blocked]
 
-5. **Decide: consolidate 4 VT projects or keep separate** — After audit, evaluate if 4 projects still make sense or should merge into 1
+VT-44 (hook E2E test) — independent, can run anytime
+```
 
-### Phase 3: Scan + Triage (can parallel)
+### Recommended Execution Sequence
 
-6. **Scan ~/villa-thaifa/ for Linear-worthy items** — Find work items in files (TODOs, pending, open loops) that should be Linear issues. Key locations:
-   - AGENTS.md Open Loops section
-   - ops/intake/ (unprocessed items)
-   - ops/handoff/ (pending work from handoffs)
-   - data/pending-domains/ (domains awaiting hardening)
+**Wave 1 — Blockers (do first, can parallel)**:
+1. VT-42: Fix Linear GitHub integration (P1, 2pts) — verify Omar's config, test branch linking
+2. VT-43: Define gitignore strategy for SQLite/PII (P1, 4pts) — audit PII files, update .gitignore
+3. VT-44: E2E test delegation hooks (P1, 4pts) — run real HTML task, verify hook fires
 
-7. **Triage 212 files** — Three directories need triage:
-   - context/meta/knowledge/ (54 files) — archive obsolete, keep relevant
-   - context/meta/planning/ (96 files) — archive completed plans, keep active
-   - ops/audit/quality/ (62 files) — archive old audits, keep current
+**Wave 2 — Quick Wins (parallel, low effort)**:
+4. VT-52: Consolidate Said profile (P3, 2pts, Quick Win)
+5. VT-53: Review communications.md (P3, 1pt, Quick Win)
+6. VT-51: GitHub identity strategy (P3, 2pts) — decision session with Omar
 
-   **CRITICAL**: Follow the "Capture Before Archive" rule (universal.md). Before archiving ANY file:
-   - Read it completely
-   - Extract: tasks → Linear, decisions → ops/decisions/, knowledge → context/meta/knowledge/
-   - Verify extractions landed
-   - Only then archive
-   - Process in batches of 5-10 files
+**Wave 3 — Deep Work (sequential, high effort)**:
+7. VT-47: Move 10 misplaced docs (P2, 4pts) — read + move + update refs
+8. VT-48: Language audit French removal (P2, 8pts, Deep Work) — grep scan + remediate
+9. VT-49: Post-bootstrap migration audit (P2, 8pts, Deep Work) — exhaustive file scan
+10. VT-50: Process manifest.csv (P2, 4pts) — read CSV, create individual issues
+
+**Wave 4 — Epics (plan before executing)**:
+11. VT-45: Harden facilities domain (P2, 8pts, Deep Work) — needs Said input
+12. VT-46: Phase 3 triage 212 files (P2, 16pts, Deep Work) — triage reports ready at /tmp/
+13. VT-55: Archive old repo (P3, 1pt) — blocked by VT-51
+
+**Wave 5 — Decisions (require Omar)**:
+14. VT-54: TTS provider decision (P3, 2pts) — ElevenLabs vs alternatives
+
+**Deferred (not yet Linear issues)**:
+- Migrate stale GitHub issues (after VT-42)
+- WhatsApp domain work (after VT-43)
+- Archive/Lifecycle system design (strategic)
+- Governance templates decision (needs /decide)
+- WOS Architecture (strategic session)
+
+### Task Graph Instructions for Next Instance
+
+The next session MUST:
+1. Read this handoff document first
+2. Create atomic tasks via TaskCreate for the wave being worked on
+3. Set up blockedBy dependencies between tasks
+4. Mark tasks in_progress before starting, completed when done
+5. Delegate ALL execution to sub-agents (orchestrator = 0 MCP calls, 0 file writes for non-rules content)
+6. Update this handoff at end of session
+
+### Triage Reports (from Phase 3)
+
+These /tmp/ files contain the triage results. They are EPHEMERAL and will be lost on reboot:
+- `/tmp/triage-context-meta-knowledge.md` — 51 files: 28 keep, 21 archive, 2 extraction
+- `/tmp/triage-context-meta-planning.md` — 96 files: 29 keep, 53 archive, 14 extraction
+- `/tmp/triage-ops-audit-quality.md` — 62 files: 18 keep, 38 archive, 6 extraction
+- `/tmp/scan-items-evaluation.md` — 23 items evaluated, 14 promoted
+
+**CRITICAL**: If /tmp/ files are gone, VT-46 (triage epic) will need to re-run the triage agents. The file categorizations are also captured in the VT-46 issue description.
 
 ---
 
@@ -127,6 +160,13 @@ The villa-thaifa codebase underwent massive restructuring (200+ files relocated,
 - ops/intake/migration-path-validation.md: path compliance audit
 - context/meta/planning/linear-workflow.md: Linear workflow conventions
 - ops/handoff/handoff-linear-migration-preparation.md: prior Linear session handoff
+- Scan evaluation: /tmp/scan-items-evaluation.md (ephemeral)
+- Triage reports: /tmp/triage-*.md (ephemeral — will be lost on reboot)
+- Scan dashboard: ~/omar/artifacts/dashboards/vt-scan-consolidation-2026-02-19.html
+- Audit dashboard: ~/omar/artifacts/dashboards/vt-linear-audit-2026-02-19.html
+- Rules updated: ~/.claude/rules/rules.md (zero-tolerance delegation, 0 MCP)
+- Universal rules: ~/omar/core/resources/rules/universal.md (Completion Integrity, Task-First)
+- Delegate skill: ~/.claude/skills/delegate/SKILL.md (timeout guide, retry protocol)
 
 ---
 
@@ -135,6 +175,12 @@ The villa-thaifa codebase underwent massive restructuring (200+ files relocated,
 ```bash
 # Quick state check
 cd ~/villa-thaifa && git status && git log --oneline -5
+
+# Check Linear backlog
+# (delegate to sub-agent — orchestrator does NOT call MCP tools)
+
+# Check if triage reports survived reboot
+ls /tmp/triage-*.md /tmp/scan-items-evaluation.md 2>/dev/null || echo "Triage reports lost — VT-46 needs re-triage"
 ```
 
 ---
