@@ -5,14 +5,14 @@
 
 ## Quick Stats
 
-| Directory   | Files | Purpose                      |
-|-------------|-------|------------------------------|
-| data/       | 412   | Canonical source-of-truth    |
-| context/    | 156   | Read-only reference material |
-| docs/       | 42    | Operational documentation    |
-| ops/        | 18    | Live operational state       |
-| scripts/    | 8     | Validation and tooling       |
-| tests/      | 1     | Test suite                   |
+| Directory | Files | Purpose                      |
+| --------- | ----- | ---------------------------- |
+| data/     | 412   | Canonical source-of-truth    |
+| context/  | 156   | Read-only reference material |
+| docs/     | 42    | Operational documentation    |
+| ops/      | 18    | Live operational state       |
+| scripts/  | 8     | Validation and tooling       |
+| tests/    | 1     | Test suite                   |
 
 ---
 

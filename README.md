@@ -4,7 +4,7 @@ Operational workspace for Villa Thaifa digital transformation.
 
 ## Structure
 
-[Repository Structure](STRUCTURE.md)
+[Repository Structure](docs/core/STRUCTURE.md)
 
 ## Quick Start
 

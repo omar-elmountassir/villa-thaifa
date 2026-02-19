@@ -45,6 +45,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Documentation
 
+- add Capture Before Archive protocol to handoff triage instructions — Prevents archiving files without extracting actionable content first.
 - fix markdown lint warnings in handoff, regenerate changelog
 - add session handoff for Linear audit + file triage — - Handoff for next villa-thaifa session: audit 41 stale VT issues,
 - add structure freshness rule and commit step to mandatory workflow — - AGENTS.md: Add step 5 (COMMIT) to mandatory workflow sequence

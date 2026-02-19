@@ -21,6 +21,45 @@ The villa-thaifa codebase underwent massive restructuring (200+ files relocated,
 
 ---
 
+## Progress (2026-02-19 Session)
+
+### Phase 1: Unblock — COMPLETED
+1. **Linear-GitHub integration** — Already active. Discovered repo alignment issue: Linear points to `El-Mountassir/villa-thaifa-property-management` (old) but current repo is `omar-elmountassir/villa-thaifa`. Filed to `ops/intake/linear-github-repo-alignment.md`.
+2. **VT-26 P0 blocker** — Closed as Done. Architecture audit completed via Safe Harbor migration + February restructuring. 6 downstream issues unblocked.
+3. **Linear MCP tools** — Work from orchestrator, not sub-agents. Persisted in MEMORY.md.
+
+### Phase 2: Audit — COMPLETED
+- **15 issues closed** (total 41 → 26 remaining):
+  - Done (4): VT-15, VT-28, VT-29, VT-41
+  - Cancelled (11): VT-14, VT-16, VT-17, VT-18, VT-19, VT-20, VT-2, VT-30, VT-31, VT-32, VT-33
+- **VT-2 merged into VT-9** — sub-issues VT-3→8 re-parented
+- **SSOT Migration project** — all 4 issues closed as obsolete
+- **Anniversary event** — cancelled by Said, all 5 issues closed
+- **VT-22** (agent brief) kept open — partially done is NOT done
+- **Completion Integrity rule** added to universal.md
+- **Delegation Thresholds** strengthened in rules.md (zero tolerance)
+- Dashboard: `~/omar/artifacts/dashboards/vt-linear-audit-2026-02-19.html`
+
+### Phase 3: Scan + Triage — NOT STARTED
+Task graph created with atomic breakdown:
+- 3a (parallel): Scan 4 locations for Linear-worthy items
+- 3b (parallel): Triage 3 directories (212 files total) with Capture Before Archive
+- 3c: Create Linear issues from scan findings (blocked by 3a)
+- 3d: Verify + close handoff (blocked by all above)
+
+### Rules Updated This Session
+- `~/.claude/rules/rules.md`: Delegation Thresholds rewritten with zero-tolerance enforcement
+- `~/omar/core/resources/rules/universal.md`: Completion Integrity rule added
+- `~/.claude/skills/delegate/SKILL.md`: Gemini-from-Claude-Code pattern documented
+- `~/.claude/projects/-home-director-villa-thaifa/memory/MEMORY.md`: Gemini delegation pattern added
+
+### New Files Created
+- `ops/intake/linear-github-repo-alignment.md` — repo naming mismatch problem
+- `~/omar/artifacts/dashboards/vt-linear-audit-2026-02-19.html` — audit dashboard
+- `~/omar/knowledge/research/business/vt-linear-audit-verification-2026-02-19.md` — verification report (pending)
+
+---
+
 ## Task Graph (execute in order)
 
 ### Phase 1: Unblock (do first)
