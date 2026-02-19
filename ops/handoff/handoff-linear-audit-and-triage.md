@@ -178,7 +178,7 @@ VT-44 (hook E2E test) — independent, can run anytime
 |                         | VT-49 | Post-bootstrap migration audit  | P2       | 8pts   | **In Progress** | Audit complete. missions/ archived (5 issues VT-66-70). docs/reports/ deduped. data/specs/ plan ready.                                                                                                          |
 |                         | VT-50 | Process manifest.csv            | P2       | 4pts   | **Done**        | 7 issues created (VT-59-65). CSV archived.                                                                                                                                                                      |
 | **Wave 4 — Epics**      | VT-45 | Harden facilities domain        | P2       | 8pts   | Backlog         | needs Said input                                                                                                                                                                                                |
-|                         | VT-46 | Phase 3 triage — 212 files      | P2       | 16pts  | Backlog         | triage reports at `/tmp/`                                                                                                                                                                                       |
+|                         | VT-46 | Phase 3 triage — 212 files      | P2       | 16pts  | **Done**        | 185 files archived, credential eval consolidated                                                                                                                                                                |
 |                         | VT-55 | Archive old repo                | P3       | 1pt    | Blocked         | blocked by VT-51 (now done — unblocked)                                                                                                                                                                         |
 | **Wave 5 — Decisions**  | VT-54 | TTS provider decision           | P3       | 2pts   | Backlog         | ElevenLabs vs alternatives; requires Omar                                                                                                                                                                       |
 | **Deferred**            | —     | Migrate stale GitHub issues     | —        | —      | Deferred        | after VT-42                                                                                                                                                                                                     |
@@ -248,6 +248,10 @@ The next session MUST:
 | Research property config       | G10-G15 | Address, GPS, ratings, check-in times from web                   | Done   | property-config.json updated                                         |
 | Populate facility files        | G2    | Extract data from specs, OTA, Said's notes                         | Done   | 4 files populated, Said gaps remain                                  |
 | Said validation checklist      | G3+G5-G9 | Consolidated all owner_pending fields                           | Done   | data/admin/said-data-validation-checklist.md                         |
+| Remove 53 duplicate images     | VT-49    | MD5 verified, visual confirmed, git rm                          | Done   | R05-R09 DSC + R05 photos                                             |
+| Consolidate credential eval    | VT-46    | Merged archived copy, removed duplicate                         | Done   | Single canonical in knowledge/                                       |
+| Google Maps data               | G10-G15  | Address, GPS, 4.5 rating, phone, parking, WiFi, airport         | Done   | property-config.json                                                 |
+| Branch linking test            | VT-42    | Tested on Done + Backlog issues — NOT working                   | Open   | Issue sync works, branch linking doesn't                             |
 
 **New Linear issues this sub-session**: VT-59-65 (from manifest.csv), VT-66-70 (from missions/ extraction), VT-71-77 (validation gaps)
 
@@ -321,14 +325,14 @@ ls /tmp/triage-*.md /tmp/scan-items-evaluation.md 2>/dev/null || echo "Triage re
 
 ## Completion Status
 
-**Phases 1 & 2 COMPLETED; Phase 3 IN PROGRESS** as of 2026-02-19. (Triage of 209 files not yet complete.)
+**Phases 1 & 2 COMPLETED; Phase 3 COMPLETED** as of 2026-02-19. VT-46 done (185 files archived). 53 duplicate images removed. VT-42 remains open (branch linking broken). G3/G5-G6/G9: Said validation checklist created, awaiting Said.
 
 ### Linear State Post-Audit
 
 | Metric                      | Count  | Notes                                                                                        |
 | --------------------------- | ------ | -------------------------------------------------------------------------------------------- |
 | Total VT issues             | ~77    | Was 57; +VT-59-65 (manifest.csv), +VT-66-70 (missions/ extraction), +VT-71-77 (validation gaps) = 19 new this sub-session |
-| Done                        | ~21    | +VT-49, VT-55, VT-73, VT-75 closed this round; +VT-48 from earlier; VT-71/72/74/76/77 partially done (awaiting Said) |
+| Done                        | ~23    | +VT-46, VT-49, VT-55, VT-73, VT-75 closed this round; +VT-48 from earlier; VT-71/72/74/76/77 partially done (awaiting Said) |
 | Canceled                    | 11     | —                                                                                            |
 | Backlog                     | ~49    | VT-48, VT-49 in progress; remainder backlog                                                  |
 | New issues this session     | 16     | VT-42→VT-55 (14) + VT-56, VT-57 from GitHub migration                                        |
