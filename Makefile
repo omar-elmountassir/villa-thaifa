@@ -1,5 +1,6 @@
 .PHONY: sync test verify-contracts verify-domain verify-rooms
 .PHONY: structure-cards structure-filtered structure-update
+.PHONY: changelog
 
 sync:
 	uv sync
@@ -32,3 +33,10 @@ structure-filtered:
 # Update all structure documentation
 structure-update: structure-filtered structure-cards
 	@echo "Structure documentation updated."
+
+# ===========================================
+# Changelog
+# ===========================================
+
+changelog: ## Regenerate CHANGELOG.md from git history
+	git-cliff --output CHANGELOG.md

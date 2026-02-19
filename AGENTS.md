@@ -10,12 +10,12 @@ The codebase uses a tiered structure documentation approach to balance context r
 
 ### Available Structure Files
 
-| File                                 | Token Cost | When to Use                               |
-| ------------------------------------ | ---------- | ----------------------------------------- |
+| File                                 | Token Cost | When to Use                                     |
+| ------------------------------------ | ---------- | ----------------------------------------------- |
 | `docs/core/STRUCTURE.md`             | ~3KB       | General overview (hybrid: curated + auto-stats) |
-| `docs/core/STRUCTURE-card-{role}.md` | 1-2KB      | Role-specific context          |
-| `docs/core/STRUCTURE-filtered.txt`   | ~15KB      | Detailed exploration           |
-| `STRUCTURE.txt`                      | ~50KB      | Full tree (deep dive only)     |
+| `docs/core/STRUCTURE-card-{role}.md` | 1-2KB      | Role-specific context                           |
+| `docs/core/STRUCTURE-filtered.txt`   | ~15KB      | Detailed exploration                            |
+| `STRUCTURE.txt`                      | ~50KB      | Full tree (deep dive only)                      |
 
 ### Role-Based Structure Cards
 
@@ -55,6 +55,7 @@ After creating new directories or adding 3+ files in a single task, run `make st
 ### STRUCTURE.md Maintenance
 
 This file uses a hybrid model:
+
 - **Auto-generated**: Header stats (timestamp, file counts)
 - **Curated by humans**: ASCII tree and annotations
 
@@ -268,7 +269,7 @@ Use this sequence for every operational task:
 2. REPORT
 3. QUESTIONS
 4. ACTION
-5. COMMIT — After completing a major task (migration, restructure, feature), prompt Omar: "Ready to commit these changes?" Committing is Tier 3 (ASK) — never auto-commit, always prompt.
+5. COMMIT — Run `make changelog` to regenerate CHANGELOG.md, then prompt Omar: "Ready to commit?" Committing is Tier 3 (ASK) — never auto-commit, always prompt.
 
 ## Scope
 
