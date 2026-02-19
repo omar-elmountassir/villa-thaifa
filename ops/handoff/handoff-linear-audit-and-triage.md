@@ -109,9 +109,9 @@ VT-44 (hook E2E test) — independent, can run anytime
 3. VT-44: E2E test delegation hooks — DONE (closed in Linear). 4/4 tests passed.
 
 **Wave 2 — Quick Wins (parallel, low effort)**:
-4. VT-52: Consolidate Said profile (P3, 2pts, Quick Win)
-5. VT-53: Review communications.md (P3, 1pt, Quick Win)
-6. VT-51: GitHub identity strategy (P3, 2pts) — decision session with Omar
+4. VT-52: Consolidate Said profile — DONE (closed in Linear). Canonical: data/admin/client/PROFILE.md
+5. VT-53: Review communications.md — DONE (closed in Linear). Archived to ops/archive/2026-02/
+6. VT-51: GitHub identity strategy — DONE (Option B: migrate to org). Executed same session.
 
 **GitHub Migration — EXECUTED (2026-02-19)**:
 - Repo transferred: `omar-elmountassir/villa-thaifa` → `El-Mountassir/villa-thaifa`
@@ -121,6 +121,13 @@ VT-44 (hook E2E test) — independent, can run anytime
 - 2 old GitHub issues migrated to Linear: VT-56 (MarocPME form), VT-57 (website elements)
 - Remaining cleanup: see `ops/decisions/github-migration-to-org.md` § Cleanup Remaining
 - Omar manual actions: verify Linear integration, rotate 4 exposed passwords, remove old repo from EM team
+
+**Omar Manual Actions — PENDING**:
+- [ ] Rotate 4 exposed passwords (HotelRunner, Booking.com x2, OVH) — URGENT security
+- [ ] Remove redundant `omar-elmountassir` personal connection from Linear GitHub settings (https://linear.app/el-mountassir/settings/integrations/github)
+- [ ] Test branch linking: push a branch referencing a NEW VT issue (not VT-42 — it has a GitHub #2 conflict that prevents branch auto-linking). Use format: `omar/vt-XX-description`
+- [ ] Verify Linear branch auto-linking works on the clean issue
+- Full migration checklist: `ops/decisions/github-migration-to-org.md`
 
 **Wave 3 — Deep Work (sequential, high effort)**:
 7. VT-47: Move 10 misplaced docs (P2, 4pts) — read + move + update refs
