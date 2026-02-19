@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Added
 
+- VT-46 triage (185 files archived), Google Maps data, image visual review — - VT-46: Triage 212 files — 27 KEEP, 185 ARCHIVED across 3 directories
+- G2-G15 fixes, data/specs migration, old repo refs, Said checklist — - Migrate data/specs/ non-image files (36 archived to ops/archive/data-specs/)
+- Wave 3 follow-up — OTA titles, contract update, archive missions + reports — - Translate 12 room booking_label fields to English, add booking_label_fr
+- Wave 3 — translate 8 French files to English, process manifest.csv
 - add automated changelog generation via git-cliff — - Install git-cliff 2.12.0 for Conventional Commits → Keep a Changelog
 - migrate 14 Villa Thaifa files from ~/omar/ with contract-compliant paths — Audited and migrated VT-specific content from ~/omar/ to this repo:
 - complete agent team with 7 new specialized agents — - Add incident-reporter (orange): structured error documentation
@@ -45,6 +49,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Documentation
 
+- close VT-54, final handoff with session summary before compaction
+- final session update — handoff Phase 3 complete, 23 issues Done
+- fix handoff Phase 3 status, optimize readability with tables — - Correct Phase 3 from COMPLETED to IN PROGRESS (triage not done)
+- update handoff with Wave 2 completion and pending manual actions
+- update migration checklist and handoff with cleanup progress
+- add execution roadmap to handoff for next session — Replace completed Phase 1-3 task graph with 5-wave execution roadmap
 - add Capture Before Archive protocol to handoff triage instructions — Prevents archiving files without extracting actionable content first.
 - fix markdown lint warnings in handoff, regenerate changelog
 - add session handoff for Linear audit + file triage — - Handoff for next villa-thaifa session: audit 41 stale VT issues,
@@ -67,11 +77,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Fixed
 
+- mark all room rates CONFIRMED + locked until Dec 2026 — - rates.json: add locked_until and lock_source fields
+- remove 53 verified duplicate images, consolidate credential eval — - Remove 45 DSC7296-7319 duplicates from R05-R09 (MD5 verified vs R04)
+- sync room rates, merge Said's notes, add validation gap tracking — - G1: Fix rate mismatches in R02/R04/R05/R06 profiles (align with rates.json)
 - remove stale docs/agents/ references from AGENTS.md and STRUCTURE.md — Agent docs live in context/agents/ (reference) and ops/ (operational).
 
 ### Ops
 
+- complete Wave 1-2, execute GitHub migration to El-Mountassir org — Wave 1 (P1 blockers):
 - complete Linear audit Phase 3 — 14 new VT issues, 209-file triage — Phase 3 scan + triage completed:
 - complete Linear audit Phase 1-2 — close 15 stale VT issues, update handoff — Phase 1 (Unblock): Closed VT-26 P0 blocker, identified repo alignment issue.
+
+### Security
+
+- remove tracked passwords, harden gitignore for PII — - Remove WhatsApp chat containing 4 plaintext passwords from git tracking
 
 
