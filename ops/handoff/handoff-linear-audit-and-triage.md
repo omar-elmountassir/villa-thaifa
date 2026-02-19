@@ -180,7 +180,7 @@ VT-44 (hook E2E test) — independent, can run anytime
 | **Wave 4 — Epics**      | VT-45 | Harden facilities domain        | P2       | 8pts   | Backlog         | needs Said input                                                                                                                                                                                                |
 |                         | VT-46 | Phase 3 triage — 212 files      | P2       | 16pts  | **Done**        | 185 files archived, credential eval consolidated                                                                                                                                                                |
 |                         | VT-55 | Archive old repo                | P3       | 1pt    | Blocked         | blocked by VT-51 (now done — unblocked)                                                                                                                                                                         |
-| **Wave 5 — Decisions**  | VT-54 | TTS provider decision           | P3       | 2pts   | Backlog         | ElevenLabs vs alternatives; requires Omar                                                                                                                                                                       |
+| **Wave 5 — Decisions**  | VT-54 | TTS provider decision           | P3       | 2pts   | **Done**        | Piper default since 2026-02-17. ElevenLabs exhausted.                                                                                                                                                          |
 | **Deferred**            | —     | Migrate stale GitHub issues     | —        | —      | Deferred        | after VT-42                                                                                                                                                                                                     |
 |                         | —     | WhatsApp domain work            | —        | —      | Deferred        | after VT-43                                                                                                                                                                                                     |
 |                         | —     | Archive/Lifecycle system design | —        | —      | Deferred        | strategic session                                                                                                                                                                                               |
@@ -274,6 +274,44 @@ The next session MUST:
 - VT-49: Execute data/specs/ migration (~85 min after Omar answers 4 questions above). Close after migration done.
 - Migration plan reference: `~/omar/knowledge/research/development/vt-49-data-specs-migration-plan.md`
 
+### Session Summary (2026-02-19, continued)
+
+**Commits this session**:
+- `6ff9e25` fix handoff Phase 3 status, optimize readability with tables
+- `2a567d4` Wave 3 — translate 8 French files, process manifest.csv
+- `97acbad` Wave 3 follow-up — OTA titles, contract update, archive missions + reports
+- `70e5dcf` sync room rates, merge Said's notes, add validation gap tracking
+- `1410c50` G2-G15 fixes, data/specs migration, old repo refs, Said checklist
+- `5d344f1` VT-46 triage (185 files archived), Google Maps data, image visual review
+- `eb9c9b5` remove 53 verified duplicate images, consolidate credential eval
+- `d1a4d16` final session update — Phase 3 complete
+- `31be9a9` mark all room rates CONFIRMED + locked until Dec 2026
+
+**Linear issues closed this session**: VT-44, VT-46, VT-47, VT-48, VT-49, VT-50, VT-52, VT-53, VT-54, VT-55, VT-73, VT-75 (12 total)
+**Linear issues created this session**: VT-56-58, VT-59-65, VT-66-70, VT-71-77 (20 total)
+
+**Remaining open work**:
+
+| Item | Linear | Status | Blocker |
+| --- | --- | --- | --- |
+| Branch linking fix | VT-42 | Open | Omar: check GitHub app permissions in Linear settings |
+| Facility files completion | VT-71 | Partial | Said: dimensions, capacity, hours |
+| Room sizes confirmation | VT-72 | Pending | Said: physical measurements |
+| Terrace size conflicts | VT-74 | Pending | Said: on-site verification |
+| Floor assignments | VT-76 | Pending | Said: R04/R10 floor confirmation |
+| property-config TODOs | VT-77 | Partial | Mixed: some researchable, some Said |
+| Facilities hardening | VT-45 | Pending | Said meeting |
+| Image rename (160 files) | — | Deferred | Future session |
+
+**Key artifacts**:
+- Said validation checklist: `data/admin/said-data-validation-checklist.md`
+- Triage report: `~/omar/knowledge/research/development/vt-46-triage-report.md`
+- Migration plan: `~/omar/knowledge/research/development/vt-49-data-specs-migration-plan.md`
+- Image investigation: `~/omar/knowledge/research/development/vt-49-image-copy-investigation.md`
+- Validation audit: `~/omar/knowledge/research/development/validation-pdf-completeness-audit.md`
+
+---
+
 ### Triage Reports (from Phase 3)
 
 These `/tmp/` files are EPHEMERAL — lost on reboot:
@@ -332,7 +370,7 @@ ls /tmp/triage-*.md /tmp/scan-items-evaluation.md 2>/dev/null || echo "Triage re
 | Metric                      | Count  | Notes                                                                                        |
 | --------------------------- | ------ | -------------------------------------------------------------------------------------------- |
 | Total VT issues             | ~77    | Was 57; +VT-59-65 (manifest.csv), +VT-66-70 (missions/ extraction), +VT-71-77 (validation gaps) = 19 new this sub-session |
-| Done                        | ~23    | +VT-46, VT-49, VT-55, VT-73, VT-75 closed this round; +VT-48 from earlier; VT-71/72/74/76/77 partially done (awaiting Said) |
+| Done                        | ~24    | +VT-46, VT-49, VT-54, VT-55, VT-73, VT-75 closed this round; +VT-48 from earlier; VT-71/72/74/76/77 partially done (awaiting Said) |
 | Canceled                    | 11     | —                                                                                            |
 | Backlog                     | ~49    | VT-48, VT-49 in progress; remainder backlog                                                  |
 | New issues this session     | 16     | VT-42→VT-55 (14) + VT-56, VT-57 from GitHub migration                                        |
