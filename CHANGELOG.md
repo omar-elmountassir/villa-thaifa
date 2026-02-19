@@ -69,4 +69,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 - remove stale docs/agents/ references from AGENTS.md and STRUCTURE.md — Agent docs live in context/agents/ (reference) and ops/ (operational).
 
+### Ops
+
+- complete Linear audit Phase 1-2 — close 15 stale VT issues, update handoff — Phase 1 (Unblock): Closed VT-26 P0 blocker, identified repo alignment issue.
+
 
