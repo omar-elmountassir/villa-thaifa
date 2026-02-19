@@ -45,6 +45,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Documentation
 
+- add session handoff for Linear audit + file triage — - Handoff for next villa-thaifa session: audit 41 stale VT issues,
 - add structure freshness rule and commit step to mandatory workflow — - AGENTS.md: Add step 5 (COMMIT) to mandatory workflow sequence
 - update CHANGELOG with session work — Linear decision, migration audit, placement fixes, handoff preparation.
 - add Linear migration preparation handoff — Linear approved as primary backlog tool (score 8.675 vs GitHub Issues 7.225).

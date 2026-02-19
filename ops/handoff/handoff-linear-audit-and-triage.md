@@ -11,6 +11,7 @@
 The villa-thaifa codebase underwent massive restructuring (200+ files relocated, directory contract established, structure documentation system added, 14 files migrated from ~/omar/). Linear issues created before this restructuring are likely stale.
 
 **Current Linear state (as of 2026-02-19):**
+
 - 4 VT projects: Room Management, Q1 2026 Operations, OTA Integration, SSOT Migration (all Backlog status)
 - 41 total issues: 36 Backlog, 6 Done, 1 In Progress (VT-26 P0 blocker)
 - GitHub integration: NOT active
