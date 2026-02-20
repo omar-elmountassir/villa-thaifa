@@ -1,176 +1,176 @@
 # ROADMAP — Villa Thaifa Digital Operations
 
-> **Version** : [VERSION](VERSION.txt) > **Créé** : 2025-12-22
-> **Objectif** : Transformation digitale complète en 2 mois
+> **Version** : [VERSION](VERSION.txt) > **Created** : 2025-12-22
+> **Goal** : Complete digital transformation in 2 months
 
 ---
 
 ## 🎯 OVERVIEW
 
-| Élément                | Valeur                                         |
-| ---------------------- | ---------------------------------------------- |
-| **Scope**              | Gestion digitale complète Villa Thaifa         |
-| **Timeline**           | **2 mois** vers automatisation                 |
-| **Phase actuelle**     | Phase 1 — Cleanup & Fondation                  |
-| **Vision**             | Système réplicable pour **10+ établissements** |
-| **Statut contractuel** | ❌ Aucun contrat signé                         |
+| Element                | Value                                        |
+| ---------------------- | -------------------------------------------- |
+| **Scope**              | Complete digital management for Villa Thaifa |
+| **Timeline**           | **2 months** to achieve automation           |
+| **Current Phase**      | Phase 1 — Cleanup & Foundation               |
+| **Vision**             | Replicable system for **10+ properties**     |
+| **Contractual Status** | ❌ No contract signed                        |
 
 ### North Star
 
-> **Un consultant + agents IA = gestion complète de 10+ établissements hôteliers.**
+> **One consultant + AI agents = full management of 10+ hotel properties.**
 
-### Opportunité Go Siyaha
+### Go Siyaha Opportunity
 
-| Programme            | Financement                              | Plafond |
-| -------------------- | ---------------------------------------- | ------- |
-| Go Siyaha (MarocPME) | Jusqu'à **90%** des coûts digitalisation | 1M DH   |
+| Program              | Funding                                       | Ceiling |
+| -------------------- | --------------------------------------------- | ------- |
+| Go Siyaha (MarocPME) | Up to **90%** of digital transformation costs | 1M MAD  |
 
-→ Mission en queue : `2025-12-22-jisr-mokawala-investigation`
-
----
-
-## 🚀 PHASE 1: CLEANUP & FONDATION
-
-> **Semaine 1** | Status: 🟡 En cours
-
-### 1.1 Nettoyage chaos
-
-| Tâche                                 | Status               |
-| ------------------------------------- | -------------------- |
-| Fusionner CLAUDE.md (454→~120 lignes) | ✅ Done              |
-| Archiver fichiers obsolètes           | ✅ Done              |
-| Créer ROADMAP.md                      | ✅ Done (ce fichier) |
-| Recycler archives (extraire valeur)   | ✅ Done              |
-
-### 1.2 Formalisation relation
-
-| Tâche                                                                                           | Status     |
-| ----------------------------------------------------------------------------------------------- | ---------- |
-| Créer proposition commerciale                                                                   | 🔴 À faire |
-| Définir Statement of Work (SOW)                                                                 | 🔴 À faire |
-| Etudiez nos possiblités en termes de propositions à Mr Said afin de par la suite signer contrat | 🔴 À faire |
-| Faire signer contrat                                                                            | 🔴 À faire |
-
-### 1.3 Configuration HotelRunner
-
-| Tâche                                                      | Status      |
-| ---------------------------------------------------------- | ----------- |
-| Contact HWS établi avec Ikram ( HWS Support (HotelRunner)) | ✅ Done     |
-| Demande API en cours HWS Support (HotelRunner)             | ⏳ Waiting  |
-| Audit complet HotelRunner                                  | 🟡 À lancer |
-| Configuration pricing                                      | 🟡 Pending  |
-
-### Success Metrics Phase 1
-
-- [ ] CLAUDE.md < 150 lignes
-- [ ] Proposition commerciale prête
-- [ ] HotelRunner entièrement documenté
-- [ ] 0 fichiers orphelins
+→ Mission in queue : `2025-12-22-jisr-mokawala-investigation`
 
 ---
 
-## 🟠 PHASE 2: FORMALISATION & EXPANSION
+## 🚀 PHASE 1: CLEANUP & FOUNDATION
 
-> **Semaines 2-3**
+> **Week 1** | Status: 🟡 In Progress
 
-### 2.1 Relation formalisée
+### 1.1 Chaos Cleanup
 
-| Tâche                           | Dépendance            |
-| ------------------------------- | --------------------- |
-| Contrat signé avec M. Thaifa    | Proposition approuvée |
-| Accès officiels aux plateformes | Contrat signé         |
-| Grille tarifaire établie        | Scope défini          |
+| Task                             | Status              |
+| -------------------------------- | ------------------- |
+| Merge CLAUDE.md (454→~120 lines) | ✅ Done             |
+| Archive obsolete files           | ✅ Done             |
+| Create ROADMAP.md                | ✅ Done (this file) |
+| Recycle archives (extract value) | ✅ Done             |
 
-### 2.2 Setup plateformes OTA
+### 1.2 Relationship Formalization
 
-| Plateforme      | Statut         | Notes                         |
-| --------------- | -------------- | ----------------------------- |
-| Booking.com     | ✅ Actif       | Via HWS Support (HotelRunner) |
-| Expedia         | 🔴 À connecter | Via HWS Support (HotelRunner) |
-| Airbnb          | 🔴 À connecter | Via HWS Support (HotelRunner) |
-| +17 autres OTAs | 🔴 À évaluer   | Via HWS Support (HotelRunner) |
+| Task                                                              | Status   |
+| ----------------------------------------------------------------- | -------- |
+| Create commercial proposal                                        | 🔴 To Do |
+| Define Statement of Work (SOW)                                    | 🔴 To Do |
+| Study proposal options for Mr. Said prior to signing the contract | 🔴 To Do |
+| Get contract signed                                               | 🔴 To Do |
 
-### 2.3 Stratégie pricing
+### 1.3 HotelRunner Configuration
 
-| Élément                    | Status                              |
-| -------------------------- | ----------------------------------- |
-| Baseline prices documentés | ✅ Dans `data/specs/hotel/rooms.md` |
-| Seasonal adjustments       | 🟡 À définir                        |
-| Promotions strategy        | 🟡 En cours                         |
+| Task                                                     | Status       |
+| -------------------------------------------------------- | ------------ |
+| HWS contact established with Ikram (Support HotelRunner) | ✅ Done      |
+| API request in progress HWS Support (HotelRunner)        | ⏳ Waiting   |
+| Comprehensive HotelRunner audit                          | 🟡 To Launch |
+| Pricing configuration                                    | 🟡 Pending   |
+
+### Phase 1 Success Metrics
+
+- [ ] CLAUDE.md < 150 lines
+- [ ] Commercial proposal ready
+- [ ] HotelRunner fully documented
+- [ ] 0 orphan files
+
+---
+
+## 🟠 PHASE 2: FORMALIZATION & EXPANSION
+
+> **Weeks 2-3**
+
+### 2.1 Formalized Relationship
+
+| Task                           | Dependency        |
+| ------------------------------ | ----------------- |
+| Contract signed with M. Thaifa | Proposal approved |
+| Official platform access       | Contract signed   |
+| Pricing grid established       | Scope defined     |
+
+### 2.2 OTA Platforms Setup
+
+| Platform       | Status         | Notes                         |
+| -------------- | -------------- | ----------------------------- |
+| Booking.com    | ✅ Active      | Via HWS Support (HotelRunner) |
+| Expedia        | 🔴 To connect  | Via HWS Support (HotelRunner) |
+| Airbnb         | 🔴 To connect  | Via HWS Support (HotelRunner) |
+| +17 other OTAs | 🔴 To evaluate | Via HWS Support (HotelRunner) |
+
+### 2.3 Pricing Strategy
+
+| Element                    | Status                            |
+| -------------------------- | --------------------------------- |
+| Baseline prices documented | ✅ In `data/specs/hotel/rooms.md` |
+| Seasonal adjustments       | 🟡 To be defined                  |
+| Promotions strategy        | 🟡 In progress                    |
 
 ### 2.4 Go Siyaha Application
 
-| Tâche                          | Status     |
-| ------------------------------ | ---------- |
-| Vérifier éligibilité           | 🔴 À faire |
-| Préparer documents             | 🔴 À faire |
-| Soumettre candidature via Jisr | 🔴 À faire |
+| Task                        | Status   |
+| --------------------------- | -------- |
+| Verify eligibility          | 🔴 To Do |
+| Prepare documents           | 🔴 To Do |
+| Submit application via Jisr | 🔴 To Do |
 
-### Success Metrics Phase 2
+### Phase 2 Success Metrics
 
-- [ ] Contrat signé
-- [ ] 20+ canaux OTA actifs
-- [ ] Stratégie pricing documentée
-- [ ] Candidature Go Siyaha soumise
+- [ ] Contract signed
+- [ ] 20+ OTA channels active
+- [ ] Pricing strategy documented
+- [ ] Go Siyaha application submitted
 
 ---
 
-## 🟢 PHASE 3: AUTOMATISATION
+## 🟢 PHASE 3: AUTOMATION
 
-> **Semaines 4-6**
+> **Weeks 4-6**
 
-### 3.1 Gestion réservations automatisée
+### 3.1 Automated Reservation Management
 
-| Tâche                          | Dépendance               |
-| ------------------------------ | ------------------------ |
-| Workflow réservation documenté | Audit HotelRunner        |
-| Notifications automatiques     | API ou Chrome automation |
-| Guest communication templates  | Communication protocol   |
+| Task                            | Dependency               |
+| ------------------------------- | ------------------------ |
+| Reservation workflow documented | HotelRunner Audit        |
+| Automated notifications         | API or Chrome automation |
+| Guest communication templates   | Communication protocol   |
 
 ### 3.2 Analytics & Reporting
 
-| Rapport           | Fréquence | Automatisation |
-| ----------------- | --------- | -------------- |
-| Revenus           | Hebdo     | 🎯 Target      |
-| Taux d'occupation | Quotidien | 🎯 Target      |
-| Performance OTAs  | Mensuel   | 🎯 Target      |
+| Report          | Frequency | Automation |
+| --------------- | --------- | ---------- |
+| Revenue         | Weekly    | 🎯 Target  |
+| Occupancy Rate  | Daily     | 🎯 Target  |
+| OTA Performance | Monthly   | 🎯 Target  |
 
-### 3.3 Intégration technique
+### 3.3 Technical Integration
 
-| Option            | Status                      | Préférence  |
-| ----------------- | --------------------------- | ----------- |
-| API HotelRunner   | ⏳ En attente réponse Ikram | ⭐ Idéal    |
-| Chrome automation | ✅ Fonctionnel              | 🟡 Fallback |
-| Email parsing     | 🔴 À développer             | 🟠 Plan B   |
+| Option            | Status                       | Preference  |
+| ----------------- | ---------------------------- | ----------- |
+| HotelRunner API   | ⏳ Waiting for Ikram's reply | ⭐ Ideal    |
+| Chrome automation | ✅ Functional                | 🟡 Fallback |
+| Email parsing     | 🔴 To develop                | 🟠 Plan B   |
 
-### Success Metrics Phase 3
+### Phase 3 Success Metrics
 
-- [ ] -80% temps manuel sur réservations
-- [ ] Dashboard temps réel fonctionnel
-- [ ] Rapports automatisés hebdo
+- [ ] -80% manual time on reservations
+- [ ] Real-time dashboard functional
+- [ ] Automated weekly reports
 
 ---
 
-## 🔵 PHASE 4: SYSTÈME AGENT IA
+## 🔵 PHASE 4: AI AGENT SYSTEM
 
-> **Mois 2+**
+> **Months 2+**
 
-### 4.1 Capacités agent autonome
+### 4.1 Autonomous Agent Capabilities
 
-| Capacité                        | Priorité |
+| Capability                      | Priority |
 | ------------------------------- | -------- |
-| Répondre aux demandes de dispo  | 🔴 P0    |
-| Créer réservations              | 🔴 P0    |
-| Gérer pricing dynamique         | 🟠 P1    |
-| Générer rapports                | 🟠 P1    |
-| Communication guest (templates) | 🟡 P2    |
+| Reply to availability requests  | 🔴 P0    |
+| Create reservations             | 🔴 P0    |
+| Manage dynamic pricing          | 🟠 P1    |
+| Generate reports                | 🟠 P1    |
+| Guest communication (templates) | 🟡 P2    |
 
 ### 4.2 Architecture
 
 ```txt
-Omar (Oversight 2h/semaine)
+Omar (Oversight 2h/week)
     ↓
-Claude Code (Orchestrateur)
+Claude Code (Orchestrator)
     ↓
 ┌─────────────┬─────────────┬─────────────┐
 │ HotelRunner │ Booking.com │ WhatsApp    │
@@ -178,91 +178,91 @@ Claude Code (Orchestrateur)
 └─────────────┴─────────────┴─────────────┘
 ```
 
-### Success Metrics Phase 4
+### Phase 4 Success Metrics
 
-- [ ] Opérations 80%+ autonomes
-- [ ] Omar: max 2h/semaine oversight
-- [ ] SLA: réponse < 1h aux demandes
-
----
-
-## 📊 VISION LONG-TERME
-
-> **Année 2+**
-
-### Objectifs
-
-| Métrique                     | Cible           |
-| ---------------------------- | --------------- |
-| Établissements gérés         | 10+             |
-| Revenus récurrents           | €150K+/an       |
-| Temps Omar par établissement | < 30min/semaine |
-
-### Portfolio cible
-
-Inspirer des clients HWS existants :
-
-- Riads (ex: Riad Bianca)
-- Villas de luxe (ex: Villa Thaifa)
-- Maisons d'hôtes (ex: Auberge Azul)
-- Hotels boutique (ex: Kohinor)
-
-### Système réplicable
-
-```
-Template "Villa Thaifa"
-    → Clone pour nouvel établissement
-    → Personnaliser data/specs/
-    → Connecter aux plateformes
-    → Agent IA opérationnel en 1 semaine
-```
+- [ ] Operations 80%+ autonomous
+- [ ] Omar: max 2h/week oversight
+- [ ] SLA: response < 1h to requests
 
 ---
 
-## 📅 JALONS CRITIQUES
+## 📊 LONG-TERM VISION
+
+> **Year 2+**
+
+### Objectives
+
+| Metric                   | Target       |
+| ------------------------ | ------------ |
+| Properties managed       | 10+          |
+| Recurring Revenue        | €150K+/year  |
+| Omar's time per property | < 30min/week |
+
+### Target Portfolio
+
+Inspire existing HWS clients:
+
+- Riads (e.g., Riad Bianca)
+- Luxury villas (e.g., Villa Thaifa)
+- Guest houses (e.g., Auberge Azul)
+- Boutique hotels (e.g., Kohinor)
+
+### Replicable System
+
+```
+"Villa Thaifa" Template
+    → Clone for new property
+    → Customize data/specs/
+    → Connect to platforms
+    → AI agent operational in 1 week
+```
+
+---
+
+## 📅 CRITICAL MILESTONES
 
 | Date             | Milestone                    | Status     |
 | ---------------- | ---------------------------- | ---------- |
-| 22 Dec 2025      | RDV avec M. Thaifa           | ✅ Done    |
-| 24 Dec 2025      | Deadline décision Warembourg | ⏳ Pending |
-| **27 Dec 2025**  | Phase 1 complète             | 🎯 Target  |
-| **Mi-Jan 2026**  | Phase 2 complète             | 🎯 Target  |
-| **Fin Jan 2026** | Phase 3 complète             | 🎯 Target  |
-| **Mi-Fév 2026**  | Agent IA opérationnel        | 🎯 Target  |
+| Dec 22, 2025     | Meeting with Mr. Thaifa      | ✅ Done    |
+| Dec 24, 2025     | Deadline decision Warembourg | ⏳ Pending |
+| **Dec 27, 2025** | Phase 1 complete             | 🎯 Target  |
+| **Mid-Jan 2026** | Phase 2 complete             | 🎯 Target  |
+| **End Jan 2026** | Phase 3 complete             | 🎯 Target  |
+| **Mid-Feb 2026** | AI Agent operational         | 🎯 Target  |
 
 ---
 
-## 🔄 AMÉLIORATION CONTINUE
+## 🔄 CONTINUOUS IMPROVEMENT
 
 ### Cadence
 
-| Fréquence | Action                       |
+| Frequency | Action                       |
 | --------- | ---------------------------- |
-| Quotidien | Check réservations, blockers |
-| Hebdo     | Rapport revenus, KPIs        |
-| Bi-hebdo  | Sync avec M. Thaifa          |
-| Mensuel   | Revue ROADMAP, ajustements   |
+| Daily     | Check reservations, blockers |
+| Weekly    | Revenue report, KPIs         |
+| Bi-weekly | Sync with Mr. Thaifa         |
+| Monthly   | ROADMAP review, adjustments  |
 
-### Métriques à tracker
+### Metrics to Track
 
-| KPI                        | Baseline  | Target         |
-| -------------------------- | --------- | -------------- |
-| Temps par réservation      | 15-20 min | < 5 min        |
-| Taux occupation            | ?         | +10%           |
-| Revenus mensuels           | ?         | Baseline + 20% |
-| Part réservations directes | ~0%       | 20%+           |
-
----
-
-## 📚 RÉFÉRENCES
-
-| Document                  | Purpose                  |
-| ------------------------- | ------------------------ |
-| `CLAUDE.md`               | Context IA               |
-| `data/specs/`             | Specs métier (SSOT)      |
-| `docs/lessons-learned.md` | Erreurs & apprentissages |
-| `.env` / `.env.example`   | Accès plateformes        |
+| KPI                   | Baseline  | Target         |
+| --------------------- | --------- | -------------- |
+| Time per reservation  | 15-20 min | < 5 min        |
+| Occupancy rate        | ?         | +10%           |
+| Monthly revenue       | ?         | Baseline + 20% |
+| Direct bookings share | ~0%       | 20%+           |
 
 ---
 
-_*ROADMAP v0.0.1-alpha.0 — Document vivant, mis à jour au fil de l'exécution*_
+## 📚 REFERENCES
+
+| Document                  | Purpose               |
+| ------------------------- | --------------------- |
+| `CLAUDE.md`               | AI Context            |
+| `data/specs/`             | Business Specs (SSOT) |
+| `docs/lessons-learned.md` | Mistakes & learnings  |
+| `.env` / `.env.example`   | Platform credentials  |
+
+---
+
+_ROADMAP v0.0.1-alpha.0 — Living document, updated iteratively_

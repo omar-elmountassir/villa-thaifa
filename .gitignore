@@ -22,6 +22,12 @@
 *.sqlite
 *.sqlite3
 
+# PII & EXPORTS (Guest Data)
+data/bookings/exports/
+data/bookings/requests/
+data/pending-domains/whatsapp/
+data/rooms/exports/
+
 # WhatsApp exports (contain PII)
 WhatsApp Chat*.md
 WhatsApp Chat*.txt

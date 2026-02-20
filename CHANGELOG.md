@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Added
 
+- rename 160 spec images with descriptive names and normalized directories — - 14 subdirectories renamed to lowercase/hyphenated convention
 - VT-46 triage (185 files archived), Google Maps data, image visual review — - VT-46: Triage 212 files — 27 KEEP, 185 ARCHIVED across 3 directories
 - G2-G15 fixes, data/specs migration, old repo refs, Said checklist — - Migrate data/specs/ non-image files (36 archived to ops/archive/data-specs/)
 - Wave 3 follow-up — OTA titles, contract update, archive missions + reports — - Translate 12 room booking_label fields to English, add booking_label_fr

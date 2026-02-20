@@ -79,6 +79,8 @@ Run `make structure-update` to refresh stats. Manually update tree when adding t
 
 **Operational artifacts** (audits, handoffs, decisions, status dashboards) live in `ops/`. Never place live operational state in `docs/` or `context/`.
 
+**Archived content** (fully processed, completed, or deprecated files) lives in `archive/` at the root. NOTE: `ops/archive/` contains unprocessed historical legacies from past migrations; be aware these may not have been fully actioned. When archiving newly completed work, use `archive/`.
+
 **Reference material** (architecture docs, planning docs, templates, agent configs) lives in `context/`. This directory is read-only -- agents consume but do not mutate its contents during normal operations.
 
 **Scripts and tooling** live in `scripts/`. Never place executable code in `docs/` or `ops/`.
@@ -111,7 +113,10 @@ Is it a live operational artifact (audit, decision, handoff, status, intake)?
     Is it a session handoff?     --> ops/handoff/
     Is it a status dashboard?    --> ops/status/
     Is it unprocessed incoming?  --> ops/intake/
-    Is it old/completed?         --> ops/archive/
+  NO  |
+      v
+Is it fully processed and ready to be archived completely?
+  YES --> archive/
   NO  |
       v
 Is it read-only reference material (architecture, planning, templates, agent configs)?
@@ -220,7 +225,13 @@ Each top-level directory has a defined purpose, inclusion criteria, and exclusio
 | `ops/handoff/`   | Session handoff docs (AI-SESSION-STARTER.md, HANDOFF.md) |
 | `ops/status/`    | Status dashboards, snapshots, indexes                    |
 | `ops/intake/`    | Unprocessed incoming items                               |
-| `ops/archive/`   | Archived operational artifacts (by date)                 |
+| `ops/archive/`   | Unprocessed legacy/historical migrations (WARNING)       |
+
+### archive/ -- Global Archive
+
+**Purpose:** The final resting place for fully verified, actioned, and deprecated files.
+**What GOES here:** Old documents, completed audits, deprecated architecture files, past handoffs that are no longer relevant.
+**Example files:** `archive/2026-01-old-strategy.md`
 
 ### scripts/ -- Validation and Tooling
 
@@ -341,7 +352,7 @@ All must be true:
 
 - Teams: `VT` (Villa Thaifa), `EM` (El Mountassir)
 - Issue format: `EM-XXX` or `VT-XXX`
-- Workflow conventions: `context/meta/planning/linear-workflow.md`
+- Workflow conventions: `~/omar/operational/productivity/protocols/linear-workflow.md`
 
 **Session-local tasks**: Use `TaskCreate` for breaking a Linear issue into execution steps within a single session. Linear = WHAT needs doing, TaskCreate = HOW to do it this session.
 

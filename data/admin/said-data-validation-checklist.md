@@ -45,10 +45,10 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Garden view — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Terrace / patio**: Listed as having a furnished patio — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -60,7 +60,7 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Garden view — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Terrace**: Listed as having a 40 m² furnished terrace — is this correct?
       Correct? Yes / No — Actual terrace size: **\_\_\_** m²
@@ -77,10 +77,10 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Garden view — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Terrace**: Listed as having a small terrace (~3–4 m²) and furnished patio — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -106,10 +106,10 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Pool view — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Balcony**: Listed as having a furnished balcony — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - ~~**Rate (PRIORITY)**~~: **RESOLVED** — Rate confirmed at 159 EUR/night, locked until 2026-12-31.
 
@@ -126,7 +126,7 @@
       Actual terrace size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Pool + Atlas Mountain + Garden views — is this correct?
-      Correct? Yes / No — If no, actual view(s): ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view(s): \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - ~~**Rate (PRIORITY)**~~: **RESOLVED** — Rate confirmed at 179 EUR/night, locked until 2026-12-31.
 
@@ -146,10 +146,10 @@
       Actual terrace size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Pool + Atlas Mountain + Garden views — is this correct?
-      Correct? Yes / No — If no, actual view(s): ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view(s): \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Features**: Listed as having a fireplace and separate sitting/dining area — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -161,10 +161,10 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Garden view — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Balcony**: Listed as having a furnished balcony — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -176,10 +176,10 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Pool view with direct pool access — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Features**: Listed as having a double terrace, fireplace, and direct pool access — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -194,10 +194,10 @@
       Floor: **\_\_\_** (e.g., Ground Floor / First Floor / Second Floor)
 
 - [ ] **View**: Listed as Pool view with direct pool access — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Features**: Listed as having a double terrace and direct pool access — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -209,10 +209,10 @@
       Actual size: **\_\_\_** m²
 
 - [ ] **View**: Listed as Pool view with direct pool access — is this correct?
-      Correct? Yes / No — If no, actual view: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — If no, actual view: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Features**: Listed as having a separate salon, fireplace, and double terrace — is this correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -223,7 +223,7 @@
 R12 size and floor are already confirmed from multiple sources. Only one item needs verification:
 
 - [ ] **Features**: Listed as having a dining room, salon/living area, Italian shower, small bar, and double terrace — is this correct?
-      Correct? Yes / No — Notes (add or remove anything): ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes (add or remove anything): \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -244,13 +244,13 @@ R12 size and floor are already confirmed from multiple sources. Only one item ne
       Count: **\_\_\_**
 
 - [ ] **Massage treatments**: What types of massage are offered?
-      Types: ****\*\*****\_\_\_****\*\*****
+      Types: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Massage pricing**: What is the price per massage session?
       Price: **\_\_\_** MAD
 
 - [ ] **Booking policy**: Is advance reservation required? Current note says "minimum 4 guests" — is this correct?
-      Correct? Yes / No — Actual policy: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Actual policy: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ### Pool
 
@@ -270,7 +270,7 @@ R12 size and floor are already confirmed from multiple sources. Only one item ne
       Sunbeds: **\_\_\_** | Parasols: **\_\_\_**
 
 - [ ] **Pool bar**: Is there a pool bar?
-      Yes / No — If yes, what does it serve? ****\*\*****\_\_\_****\*\*****
+      Yes / No — If yes, what does it serve? \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ### Garden
 
@@ -289,7 +289,7 @@ R12 size and floor are already confirmed from multiple sources. Only one item ne
       Capacity: **\_\_\_** persons
 
 - [ ] **Event usage**: Can the hall be rented for private events?
-      Yes / No — If yes, conditions: ****\*\*****\_\_\_****\*\*****
+      Yes / No — If yes, conditions: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 
@@ -298,7 +298,7 @@ R12 size and floor are already confirmed from multiple sources. Only one item ne
 ### Address and Contact
 
 - [ ] **Full address**: Current record is "Route de Fès, Km 12, Marrakech" — is this complete and correct?
-      Full address: ****\*\*****\_\_\_****\*\*****
+      Full address: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **GPS coordinates**: Do you have the exact GPS coordinates for the property?
       Coordinates: **\_\_\_** N, **\_\_\_** E (or Google Maps link)
@@ -312,44 +312,44 @@ R12 size and floor are already confirmed from multiple sources. Only one item ne
       Actual check-out time: **\_\_\_**
 
 - [ ] **Late check-in**: Is late check-in available? If yes, what is the latest time and is there a fee?
-      Available? Yes / No | Latest time: **\_\_\_** | Fee: ****\*\*****\_\_\_****\*\*****
+      Available? Yes / No | Latest time: **\_\_\_** | Fee: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Early check-in / late check-out**: Are these available on request? Is there a fee?
-      Available? Yes / No | Fee policy: ****\*\*****\_\_\_****\*\*****
+      Available? Yes / No | Fee policy: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ### Policies
 
 - [ ] **Cancellation policy**: What is the cancellation policy (e.g., free cancellation up to X days before arrival)?
-      Policy: ****\*\*****\_\_\_****\*\*****
+      Policy: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Payment methods**: What payment methods are accepted (cash, card, bank transfer)?
-      Accepted methods: ****\*\*****\_\_\_****\*\*****
+      Accepted methods: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Children policy**: Are children allowed? Any age restrictions or extra fees?
-      Policy: ****\*\*****\_\_\_****\*\*****
+      Policy: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Pets policy**: Are pets allowed?
-      Yes / No — If yes, conditions: ****\*\*****\_\_\_****\*\*****
+      Yes / No — If yes, conditions: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ### Services
 
 - [ ] **Airport transfer**: Current record says 200 MAD flat rate via Mr. Zakaria (+212 6 69 25 36 20). Is this still correct?
-      Correct? Yes / No — Updated details: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Updated details: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Mr. Zakaria's last name**: What is the driver's full name?
-      Full name: ****\*\*****\_\_\_****\*\*****
+      Full name: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Laundry service**: Is laundry service available for guests?
-      Yes / No — If yes, pricing: ****\*\*****\_\_\_****\*\*****
+      Yes / No — If yes, pricing: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Room service**: Is room service available?
-      Yes / No — If yes, hours and menu scope: ****\*\*****\_\_\_****\*\*****
+      Yes / No — If yes, hours and menu scope: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **WiFi**: What type of WiFi connection is provided (fiber / ADSL / 4G)? What is the approximate speed?
       Type: **\_\_\_** | Speed: **\_\_\_** Mbps
 
 - [ ] **Parking**: Parking is listed as free. Is this still correct?
-      Correct? Yes / No — Notes: ****\*\*****\_\_\_****\*\*****
+      Correct? Yes / No — Notes: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 - [ ] **Ratings**: Do you have your current TripAdvisor and Google ratings?
       TripAdvisor: **\_\_\_** / 5 | Google: **\_\_\_** / 5
@@ -372,7 +372,7 @@ Once all items above are filled in, this checklist becomes the authoritative sou
 
 **Validated by**: Said Thaifa
 **Date**: **\_** / **\_** / 2026
-**Signature**: ****\*\*****\_\_\_****\*\*****
+**Signature**: \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 
 ---
 

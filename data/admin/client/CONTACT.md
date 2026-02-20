@@ -7,18 +7,18 @@
 
 ## Said Thaifa (Owner)
 
-| Field     | Value                    |
-| --------- | ------------------------ |
-| WhatsApp  | +212 661-134194          |
-| Email     | <said_thaifa@hotmail.fr> |
-| Email     | <saidthaifa@gmail.com>   |
+| Field     | Value                                                             |
+| --------- | ----------------------------------------------------------------- |
+| WhatsApp  | +212 661-134194                                                   |
+| Email     | <said_thaifa@hotmail.fr>                                          |
+| Email     | <saidthaifa@gmail.com>                                            |
 | Languages | Arabic (native), French (fluent), English (basic), Dutch (fluent) |
 
 ## Nezha Thaifa (Co-manager / Wife)
 
-| Field | Value                                         |
-| ----- | --------------------------------------------- |
-| Role  | Co-manager — reception, breakfasts            |
+| Field | Value                              |
+| ----- | ---------------------------------- |
+| Role  | Co-manager — reception, breakfasts |
 
 ## Communication
 

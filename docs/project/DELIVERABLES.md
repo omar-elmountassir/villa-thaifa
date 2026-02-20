@@ -1,292 +1,292 @@
-# Livrables Produit — Villa Thaifa
+# Product Deliverables — Villa Thaifa
 
-> **Client:** M. Said Thaifa
-> **Projet:** Transformation digitale Villa Thaifa (12 chambres, Marrakech)
-> **Date:** Janvier 2026
+> **Client:** Mr. Said Thaifa
+> **Project:** Villa Thaifa Digital Transformation (12 rooms, Marrakech)
+> **Date:** January 2026
 > **Version:** 1.0
 
 ---
 
-## Sommaire Exécutif
+## Executive Summary
 
-Ce document définit les livrables finaux du projet de transformation digitale de Villa Thaifa. L'objectif est de moderniser la gestion opérationnelle de l'établissement, réduire les tâches manuelles de 80%, et optimiser le revenu par chambre.
-
----
-
-## 1. Livrables Opérationnels
-
-### 1.1 Système de Gestion des Réservations
-
-| Livrable | Description | Bénéfice |
-|----------|-------------|----------|
-| **Tableau de bord centralisé** | Vue temps réel des 12 chambres (disponibilité, occupation, revenus) | Visibilité instantanée |
-| **Assignation automatique** | Attribution intelligente des chambres selon préférences client | Gain de temps |
-| **Calendrier unifié** | Vue consolidée de toutes les réservations (toutes sources) | Zéro conflit |
-| **Historique complet** | Traçabilité de chaque réservation (création, modification, annulation) | Audit et contrôle |
-
-**Format de livraison:** Interface web + exports PDF/Excel
-
-### 1.2 Synchronisation Multi-Plateformes
-
-| Plateforme | Fonctionnalité | Commission |
-|------------|----------------|------------|
-| **Booking.com** | Synchronisation bidirectionnelle automatique | 25% → objectif 15% |
-| **Airbnb** | Disponibilités et tarifs synchronisés | ~15% |
-| **Expedia** | Distribution élargie marché international | ~15% |
-| **HotelRunner** | Channel manager central (20+ OTAs) | Fixe mensuel |
-| **Direct** | Réservations sans intermédiaire | 0% |
-
-**Livrable:** Configuration complète et fonctionnelle de toutes les plateformes
-
-### 1.3 Communication Client Automatisée
-
-| Type de Message | Déclencheur | Canal |
-|-----------------|-------------|-------|
-| **Confirmation de réservation** | À la réservation | WhatsApp/Email |
-| **Instructions d'arrivée** | J-2 avant check-in | WhatsApp |
-| **Message de bienvenue** | Jour d'arrivée | WhatsApp |
-| **Suivi séjour** | J+1 après arrivée | WhatsApp |
-| **Demande d'avis** | Après check-out | Email |
-
-**Format de livraison:** Templates prêts à l'emploi (.txt) + système d'envoi
+This document defines the final deliverables for the Villa Thaifa digital transformation project. The goal is to modernize the property's operational management, reduce manual tasks by 80%, and optimize revenue per room.
 
 ---
 
-## 2. Livrables Stratégiques
+## 1. Operational Deliverables
 
-### 2.1 Stratégie Tarifaire Optimisée
+### 1.1 Reservation Management System
 
-| Composant | Description |
-|-----------|-------------|
-| **Grille tarifaire de base** | Prix par type de chambre (8 catégories) |
-| **Coefficients saisonniers** | Haute saison (+30%), basse saison (-15%) |
-| **Tarifs événementiels** | Festivals, congrès, fêtes (+20-50%) |
-| **Règles de yield** | Ajustement selon taux d'occupation |
+| Deliverable               | Description                                                           | Benefit            |
+| ------------------------- | --------------------------------------------------------------------- | ------------------ |
+| **Centralized Dashboard** | Real-time view of all 12 rooms (availability, occupancy, revenue)     | Instant visibility |
+| **Automatic Assignment**  | Intelligent room allocation based on guest preferences                | Time savings       |
+| **Unified Calendar**      | Consolidated view of all reservations (all sources)                   | Zero conflicts     |
+| **Complete History**      | Tracking for every reservation (creation, modification, cancellation) | Audit and control  |
 
-**Objectif:** Marge nette de €120 à €450 par nuit selon chambre
+**Delivery Format:** Web interface + PDF/Excel exports
 
-### 2.2 Tableau de Bord Analytique
+### 1.2 Multi-Platform Synchronization
 
-| KPI | Fréquence | Utilité |
-|-----|-----------|---------|
-| **Taux d'occupation** | Quotidien | Pilotage opérationnel |
-| **RevPAR** (Revenu par chambre disponible) | Hebdomadaire | Performance globale |
-| **ADR** (Prix moyen par nuit) | Hebdomadaire | Positionnement prix |
-| **Source des réservations** | Mensuel | Optimisation canaux |
-| **Commissions payées** | Mensuel | Contrôle des coûts |
+| Platform        | Feature                                   | Commission        |
+| --------------- | ----------------------------------------- | ----------------- |
+| **Booking.com** | Automatic two-way synchronization         | 25% → target 15%  |
+| **Airbnb**      | Availability and pricing synced           | ~15%              |
+| **Expedia**     | Broader international market distribution | ~15%              |
+| **HotelRunner** | Central channel manager (20+ OTAs)        | Fixed monthly fee |
+| **Direct**      | Reservations without intermediaries       | 0%                |
 
-**Format de livraison:** Rapport automatisé + alertes sur seuils
+**Deliverable:** Complete and functional configuration of all platforms
 
-### 2.3 Réduction de la Dépendance OTAs
+### 1.3 Automated Guest Communication
 
-| Métrique | Situation Actuelle | Objectif 6 mois | Objectif 12 mois |
-|----------|-------------------|-----------------|------------------|
-| **% Booking.com** | 100% | 70% | 50% |
-| **% Airbnb/Expedia** | 0% | 20% | 30% |
-| **% Réservations directes** | 0% | 10% | 20% |
-| **Commission moyenne** | 25% | 18% | 12% |
+| Message Type                 | Trigger             | Channel        |
+| ---------------------------- | ------------------- | -------------- |
+| **Reservation Confirmation** | Upon booking        | WhatsApp/Email |
+| **Arrival Instructions**     | D-2 before check-in | WhatsApp       |
+| **Welcome Message**          | Day of arrival      | WhatsApp       |
+| **Stay Follow-up**           | D+1 after arrival   | WhatsApp       |
+| **Review Request**           | After check-out     | Email          |
 
-**Économie projetée:** €15,000 à €30,000/an en commissions réduites
-
----
-
-## 3. Livrables Techniques
-
-### 3.1 Infrastructure Digitale
-
-| Composant | Technologie | Rôle |
-|-----------|-------------|------|
-| **Channel Manager** | HotelRunner | Distribution multi-plateformes |
-| **Base de données** | Fichiers structurés (SSOT) | Source unique de vérité |
-| **Automatisation** | Agents IA | Tâches répétitives |
-| **Rapports** | PDF/Excel automatisés | Suivi et décision |
-
-### 3.2 Intégrations API
-
-| Intégration | Fonctionnalité | Priorité |
-|-------------|----------------|----------|
-| **HotelRunner API** | Gestion programmatique des disponibilités | P0 |
-| **Booking.com API** | Synchronisation avancée | P1 |
-| **WhatsApp Business** | Communication client automatisée | P2 |
-
-### 3.3 Documentation Opérationnelle
-
-| Document | Contenu | Utilisateur |
-|----------|---------|-------------|
-| **Manuel opérationnel** | Procédures quotidiennes | Personnel Villa Thaifa |
-| **Guide des plateformes** | Utilisation HotelRunner, Booking | M. Thaifa |
-| **Playbook de pricing** | Règles d'ajustement tarifaire | Décideur |
-| **Templates de communication** | Messages types par situation | Équipe accueil |
+**Delivery Format:** Ready-to-use templates (.txt) + sending system
 
 ---
 
-## 4. Calendrier de Livraison
+## 2. Strategic Deliverables
 
-### Phase 1: Fondations (Janvier 2026)
+### 2.1 Optimized Pricing Strategy
 
-| Semaine | Livrable | Statut |
-|---------|----------|--------|
-| S1 | Configuration HotelRunner complète | En cours |
-| S1 | Grille tarifaire validée (12 chambres) | En cours |
-| S2 | Toutes réservations assignées | Planifié |
-| S2 | Templates WhatsApp livrés | Planifié |
+| Component                 | Description                                |
+| ------------------------- | ------------------------------------------ |
+| **Baseline Pricing Grid** | Price per room type (8 categories)         |
+| **Seasonal Coefficients** | High season (+30%), low season (-15%)      |
+| **Event Rates**           | Festivals, conventions, holidays (+20-50%) |
+| **Yield Rules**           | Adjustment based on occupancy rate         |
 
-### Phase 2: Expansion (Février 2026)
+**Objective:** Net margin of €120 to €450 per night depending on the room
 
-| Semaine | Livrable | Statut |
-|---------|----------|--------|
-| S1-S2 | Airbnb connecté et synchronisé | Planifié |
-| S2-S3 | Expedia connecté et synchronisé | Planifié |
-| S4 | Premier rapport mensuel automatisé | Planifié |
+### 2.2 Analytical Dashboard
 
-### Phase 3: Optimisation (Mars 2026)
+| KPI                                     | Frequency | Utility              |
+| --------------------------------------- | --------- | -------------------- |
+| **Occupancy Rate**                      | Daily     | Operational steering |
+| **RevPAR** (Revenue Per Available Room) | Weekly    | Overall performance  |
+| **ADR** (Average Daily Rate)            | Weekly    | Price positioning    |
+| **Reservation Source**                  | Monthly   | Channel optimization |
+| **Commissions Paid**                    | Monthly   | Cost control         |
 
-| Semaine | Livrable | Statut |
-|---------|----------|--------|
-| S1-S2 | Dashboard analytique opérationnel | Planifié |
-| S3 | Moteur de réservation directe (si applicable) | Planifié |
-| S4 | Système de communication client complet | Planifié |
+**Delivery Format:** Automated report + threshold alerts
 
-### Phase 4: Autonomie (Avril 2026+)
+### 2.3 OTA Dependency Reduction
 
-| Livrable | Description |
-|----------|-------------|
-| **Système autonome** | Agents IA gérant 90% des opérations quotidiennes |
-| **Supervision légère** | Maximum 2h/semaine d'intervention humaine |
-| **Rapports automatiques** | Envoi hebdomadaire sans intervention |
+| Metric                 | Current Situation | 6-Month Target | 12-Month Target |
+| ---------------------- | ----------------- | -------------- | --------------- |
+| **% Booking.com**      | 100%              | 70%            | 50%             |
+| **% Airbnb/Expedia**   | 0%                | 20%            | 30%             |
+| **% Direct Bookings**  | 0%                | 10%            | 20%             |
+| **Average Commission** | 25%               | 18%            | 12%             |
+
+**Projected Savings:** €15,000 to €30,000/year in reduced commissions
 
 ---
 
-## 5. Métriques de Succès
+## 3. Technical Deliverables
 
-### 5.1 KPIs Opérationnels
+### 3.1 Digital Infrastructure
 
-| KPI | Baseline | Cible Phase 1 | Cible Phase 4 |
-|-----|----------|---------------|---------------|
-| **Temps de réponse réservation** | >24h | <4h | <1h (auto) |
-| **Erreurs d'assignation** | Inconnu | <5% | 0% |
-| **Conflits de calendrier** | Possibles | 0 | 0 |
+| Component           | Technology              | Role                         |
+| ------------------- | ----------------------- | ---------------------------- |
+| **Channel Manager** | HotelRunner             | Multi-platform distribution  |
+| **Database**        | Structured files (SSOT) | Single source of truth       |
+| **Automation**      | AI Agents               | Repetitive tasks             |
+| **Reports**         | Automated PDF/Excel     | Tracking and decision making |
 
-### 5.2 KPIs Financiers
+### 3.2 API Integrations
 
-| KPI | Baseline | Cible 6 mois | Cible 12 mois |
-|-----|----------|--------------|---------------|
-| **Taux d'occupation** | ~50% | 60% | 70% |
-| **RevPAR** | ~€100 | €132 | €175 |
-| **Commission moyenne** | 25% | 18% | 12% |
+| Integration           | Feature                              | Priority |
+| --------------------- | ------------------------------------ | -------- |
+| **HotelRunner API**   | Programmatic availability management | P0       |
+| **Booking.com API**   | Advanced synchronization             | P1       |
+| **WhatsApp Business** | Automated guest communication        | P2       |
 
-### 5.3 KPIs Qualité
+### 3.3 Operational Documentation
 
-| KPI | Baseline | Objectif |
-|-----|----------|----------|
-| **Note Booking.com** | 9.3/10 | Maintenir ≥9.0 |
-| **Satisfaction communication** | Non mesuré | >90% |
-| **Temps de formation** | N/A | <2h pour nouveau staff |
+| Document                    | Content                        | User               |
+| --------------------------- | ------------------------------ | ------------------ |
+| **Operational Manual**      | Daily procedures               | Villa Thaifa staff |
+| **Platform Guide**          | Using HotelRunner, Booking.com | Mr. Thaifa         |
+| **Pricing Playbook**        | Rules for rate adjustments     | Decision maker     |
+| **Communication Templates** | Standard messages by situation | Reception team     |
+
+---
+
+## 4. Delivery Schedule
+
+### Phase 1: Foundations (January 2026)
+
+| Week | Deliverable                        | Status      |
+| ---- | ---------------------------------- | ----------- |
+| W1   | Complete HotelRunner configuration | In progress |
+| W1   | Validated pricing grid (12 rooms)  | In progress |
+| W2   | All reservations assigned          | Planned     |
+| W2   | WhatsApp templates delivered       | Planned     |
+
+### Phase 2: Expansion (February 2026)
+
+| Week  | Deliverable                    | Status  |
+| ----- | ------------------------------ | ------- |
+| W1-W2 | Airbnb connected and synced    | Planned |
+| W2-W3 | Expedia connected and synced   | Planned |
+| W4    | First automated monthly report | Planned |
+
+### Phase 3: Optimization (March 2026)
+
+| Week  | Deliverable                           | Status  |
+| ----- | ------------------------------------- | ------- |
+| W1-W2 | Operational analytical dashboard      | Planned |
+| W3    | Direct booking engine (if applicable) | Planned |
+| W4    | Complete guest communication system   | Planned |
+
+### Phase 4: Autonomy (April 2026+)
+
+| Deliverable           | Description                                |
+| --------------------- | ------------------------------------------ |
+| **Autonomous System** | AI agents handling 90% of daily operations |
+| **Light Oversight**   | Maximum 2h/week of human intervention      |
+| **Automated Reports** | Weekly sending without intervention        |
+
+---
+
+## 5. Success Metrics
+
+### 5.1 Operational KPIs
+
+| KPI                           | Baseline | Phase 1 Target | Phase 4 Target |
+| ----------------------------- | -------- | -------------- | -------------- |
+| **Reservation Response Time** | >24h     | <4h            | <1h (auto)     |
+| **Assignment Errors**         | Unknown  | <5%            | 0%             |
+| **Calendar Conflicts**        | Possible | 0              | 0              |
+
+### 5.2 Financial KPIs
+
+| KPI                    | Baseline | 6-Month Target | 12-Month Target |
+| ---------------------- | -------- | -------------- | --------------- |
+| **Occupancy Rate**     | ~50%     | 60%            | 70%             |
+| **RevPAR**             | ~€100    | €132           | €175            |
+| **Average Commission** | 25%      | 18%            | 12%             |
+
+### 5.3 Quality KPIs
+
+| KPI                            | Baseline     | Target            |
+| ------------------------------ | ------------ | ----------------- |
+| **Booking.com Rating**         | 9.3/10       | Maintain ≥9.0     |
+| **Communication Satisfaction** | Not measured | >90%              |
+| **Training Time**              | N/A          | <2h for new staff |
 
 ---
 
 ## 6. Exclusions
 
-Les éléments suivants ne sont **PAS** inclus dans ce projet:
+The following items are **NOT** included in this project:
 
-| Exclusion | Raison |
-|-----------|--------|
-| Refonte du site web | Projet séparé si demandé |
-| Application mobile dédiée | Non prioritaire pour 12 chambres |
-| PMS commercial (Hotelogix, etc.) | Système sur-mesure plus adapté |
-| Gestion comptable/facturation | Domaine comptable séparé |
-| Formation du personnel terrain | Manuels fournis, formation externe |
-
----
-
-## 7. Prérequis et Dépendances
-
-### 7.1 Prérequis Client
-
-| Prérequis | Responsable | Statut |
-|-----------|-------------|--------|
-| Accès admin HotelRunner | M. Thaifa | ✅ Obtenu |
-| Accès extranet Booking.com | M. Thaifa | ✅ Obtenu |
-| Validation de la grille tarifaire | M. Thaifa | ⏳ En attente |
-| Informations chambres 7 et 12 (premium) | M. Thaifa | ⏳ En attente |
-
-### 7.2 Dépendances Externes
-
-| Dépendance | Fournisseur | Statut |
-|------------|-------------|--------|
-| Accès API HotelRunner | Ikram (HWS Support) | ⏳ En attente |
-| Setup Airbnb | Airbnb Partner | Planifié |
-| Setup Expedia | Expedia Partner Central | Planifié |
+| Exclusion                        | Reason                              |
+| -------------------------------- | ----------------------------------- |
+| Website redesign                 | Separate project if requested       |
+| Dedicated mobile app             | Not a priority for 12 rooms         |
+| Commercial PMS (Hotelogix, etc.) | Custom system is more suitable      |
+| Accounting/invoicing management  | Separate accounting domain          |
+| On-site staff training           | Manuals provided, external training |
 
 ---
 
-## 8. Valeur Livrée
+## 7. Prerequisites and Dependencies
 
-### 8.1 Gains Quantifiables
+### 7.1 Client Prerequisites
 
-| Catégorie | Gain Estimé | Calcul |
-|-----------|-------------|--------|
-| **Économie commissions** | €15,000-30,000/an | Passage de 25% à 12% moyen |
-| **Occupation améliorée** | €50,000-100,000/an | +20% occupation × 12 chambres |
-| **Temps économisé** | 15-20h/semaine | Automatisation 80% des tâches |
+| Prerequisite                         | Responsible | Status      |
+| ------------------------------------ | ----------- | ----------- |
+| HotelRunner admin access             | Mr. Thaifa  | ✅ Obtained |
+| Booking.com extranet access          | Mr. Thaifa  | ✅ Obtained |
+| Pricing grid validation              | Mr. Thaifa  | ⏳ Pending  |
+| Premium rooms (7 and 12) information | Mr. Thaifa  | ⏳ Pending  |
 
-### 8.2 Gains Qualitatifs
+### 7.2 External Dependencies
 
-| Bénéfice | Impact |
-|----------|--------|
-| **Tranquillité d'esprit** | Système fiable, moins de stress |
-| **Visibilité** | Données claires pour décider |
-| **Professionnalisme** | Communication client impeccable |
-| **Scalabilité** | Système prêt pour croissance |
-
----
-
-## 9. Support et Maintenance
-
-### 9.1 Période de Transition
-
-| Service | Durée | Inclus |
-|---------|-------|--------|
-| **Accompagnement initial** | 4 semaines | Configuration + formation |
-| **Support réactif** | 3 mois | Corrections et ajustements |
-| **Optimisations** | 6 mois | Améliorations continues |
-
-### 9.2 Maintenance Continue
-
-| Type | Fréquence | Contenu |
-|------|-----------|---------|
-| **Vérification sync** | Hebdomadaire | Contrôle intégrité données |
-| **Rapport performance** | Mensuel | KPIs et recommandations |
-| **Revue tarifaire** | Trimestriel | Ajustement selon marché |
+| Dependency             | Provider                | Status     |
+| ---------------------- | ----------------------- | ---------- |
+| HotelRunner API access | Ikram (HWS Support)     | ⏳ Pending |
+| Airbnb setup           | Airbnb Partner          | Planned    |
+| Expedia setup          | Expedia Partner Central | Planned    |
 
 ---
 
-## Annexes
+## 8. Delivered Value
 
-### A. Inventaire des Chambres
+### 8.1 Quantifiable Gains
 
-| Chambre | Type | Capacité | Prix Net Cible |
-|---------|------|----------|----------------|
-| 1, 3, 8 | Deluxe Triple | 3 | €150 |
-| 2 | Deluxe Double | 2 | €150 |
-| 4, 5 | Double Superior | 2 | €120 |
-| 6 | Executive Suite | 3 | €180 |
-| 7 | Deluxe King Suite | 4 | €330 |
-| 9, 11 | Family Suite | 4 | €170-180 |
-| 10 | Suite | 3 | €200 |
-| 12 | Presidential Suite | 4 | €450 |
+| Category               | Estimated Gain       | Calculation                      |
+| ---------------------- | -------------------- | -------------------------------- |
+| **Commission Savings** | €15,000-30,000/year  | Dropping from 25% to 12% average |
+| **Improved Occupancy** | €50,000-100,000/year | +20% occupancy × 12 rooms        |
+| **Time Saved**         | 15-20h/week          | 80% task automation              |
 
-### B. Glossaire
+### 8.2 Qualitative Gains
 
-| Terme | Définition |
-|-------|------------|
-| **OTA** | Online Travel Agency (Booking, Airbnb, Expedia) |
-| **Channel Manager** | Outil de distribution multi-plateformes |
-| **RevPAR** | Revenue Per Available Room (revenu/chambre disponible) |
-| **ADR** | Average Daily Rate (prix moyen par nuit vendue) |
-| **SSOT** | Single Source of Truth (source unique de données) |
+| Benefit             | Impact                         |
+| ------------------- | ------------------------------ |
+| **Peace of Mind**   | Reliable system, less stress   |
+| **Visibility**      | Clear data for decision making |
+| **Professionalism** | Flawless guest communication   |
+| **Scalability**     | System ready for growth        |
 
 ---
 
-_Document préparé pour M. Said Thaifa — Villa Thaifa, Marrakech_
-_Version 1.0 — Janvier 2026_
+## 9. Support and Maintenance
+
+### 9.1 Transition Period
+
+| Service              | Duration | Included                 |
+| -------------------- | -------- | ------------------------ |
+| **Initial Support**  | 4 weeks  | Configuration + training |
+| **Reactive Support** | 3 months | Fixes and adjustments    |
+| **Optimizations**    | 6 months | Continuous improvements  |
+
+### 9.2 Ongoing Maintenance
+
+| Type                   | Frequency | Content                    |
+| ---------------------- | --------- | -------------------------- |
+| **Sync Verification**  | Weekly    | Data integrity check       |
+| **Performance Report** | Monthly   | KPIs and recommendations   |
+| **Pricing Review**     | Quarterly | Adjustment based on market |
+
+---
+
+## Appendices
+
+### A. Room Inventory
+
+| Room    | Type               | Capacity | Target Net Price |
+| ------- | ------------------ | -------- | ---------------- |
+| 1, 3, 8 | Deluxe Triple      | 3        | €150             |
+| 2       | Deluxe Double      | 2        | €150             |
+| 4, 5    | Double Superior    | 2        | €120             |
+| 6       | Executive Suite    | 3        | €180             |
+| 7       | Deluxe King Suite  | 4        | €330             |
+| 9, 11   | Family Suite       | 4        | €170-180         |
+| 10      | Suite              | 3        | €200             |
+| 12      | Presidential Suite | 4        | €450             |
+
+### B. Glossary
+
+| Term                | Definition                                      |
+| ------------------- | ----------------------------------------------- |
+| **OTA**             | Online Travel Agency (Booking, Airbnb, Expedia) |
+| **Channel Manager** | Multi-platform distribution tool                |
+| **RevPAR**          | Revenue Per Available Room                      |
+| **ADR**             | Average Daily Rate                              |
+| **SSOT**            | Single Source of Truth                          |
+
+---
+
+_Document prepared for Mr. Said Thaifa — Villa Thaifa, Marrakech_
+_Version 1.0 — January 2026_

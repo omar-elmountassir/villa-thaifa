@@ -1,228 +1,234 @@
 # HotelRunner API - Setup & Progress Tracking
 
-## 🎯 Objectif
+## 🎯 Goal
 
-Intégrer l'API HotelRunner (HR-v1 REST API) pour automatiser la gestion de Villa Thaifa via AI agents.
+Integrate the HotelRunner API (HR-v1 REST API) to automate Villa Thaifa management via AI agents.
 
-## 📊 Statut Actuel
+## 📊 Current Status
 
-**Date de création**: 2026-01-24 13:24
-**Statut**: ⏸️ **EN PAUSE - Analyse des options requise**
-**Progression**: 40% (recherche complétée, implémentation suspendue)
+**Creation Date**: 2026-01-24 13:24
+**Status**: ⏸️ **PAUSED - Options analysis required**
+**Progress**: 40% (research completed, implementation suspended)
 
-⚠️ **IMPORTANT** : Le projet est mis en pause pour effectuer une analyse professionnelle approfondie des options d'intégration disponibles. L'approche initiale était trop précipitée ("à l'arrache").
+⚠️ **IMPORTANT**: The project is paused to conduct a thorough professional analysis of the available integration options. The initial approach was too rushed ("hacky").
 
-**Voir** : [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md) pour l'analyse complète des alternatives.
+**See**: [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md) for the complete analysis of alternatives.
 
-## ✅ Étapes Complétées
+## ✅ Completed Steps
 
-### 1. Recherche et Documentation (✅ Fait)
+### 1. Research and Documentation (✅ Done)
 
-- [x] Recherche de la section API dans le dashboard HotelRunner
-- [x] Localisation: Custom Apps → Créez votre app
-- [x] Identification des types d'intégration disponibles (HR-v1 vs OTA-2015b)
-- [x] Décision: **HR-v1** (REST API moderne, JSON, plus simple pour AI automation)
+- [x] Search for API section in the HotelRunner dashboard
+- [x] Location: Custom Apps → Create your app
+- [x] Identification of available integration types (HR-v1 vs OTA-2015b)
+- [x] Decision: **HR-v1** (Modern REST API, JSON, simpler for AI automation)
 
-### 2. Création du Dossier Source (✅ Fait - 2026-01-24 13:28)
+### 2. Source Folder Creation (✅ Done - 2026-01-24 13:28)
 
-- [x] Création de `/sources/hotelrunner-api/`
-- [x] config.json créé avec structure API complète
-- [x] guide.md créé avec documentation détaillée
-- [x] README.md créé pour référence rapide
-- [x] SETUP.md créé pour tracking (ce fichier)
-- [x] Commit git: `feat: add HotelRunner REST API source configuration`
+- [x] Creation of `/sources/hotelrunner-api/`
+- [x] config.json created with full API structure
+- [x] guide.md created with detailed documentation
+- [x] README.md created for quick reference
+- [x] SETUP.md created for tracking (this file)
+- [x] Git commit: `feat: add HotelRunner REST API source configuration`
 
-### 3. Formulaire de Création App (✅ Fait - 2026-01-24 13:21)
+### 3. App Creation Form (✅ Done - 2026-01-24 13:21)
 
-- [x] **Nom de l'application**: Villa Thaifa PMS - AI Automation
-- [x] **E-mail technique**: omar@el-mountassir.com
-- [x] **Utilisateur d'intégration**: Sélectionné dans dropdown
-- [x] **URL de rappel**: <https://localhost/hotelrunner/callback>
-- [x] **Enforce SSL**: ✅ Activé
-- [x] **Type d'intégration**: HR-v1 (REST API)
-- [x] **Permissions**: ✅ Toutes cochées
-  - Récupérer la liste des chambres
-  - Récupérer les réservations
-  - Recevoir mises à jour push (Confirmé, Modifié, Annulé)
-  - Mettre à jour le calendrier des chambres
+- [x] **Application name**: Villa Thaifa PMS - AI Automation
+- [x] **Technical email**: omar@el-mountassir.com
+- [x] **Integration user**: Selected in dropdown
+- [x] **Callback URL**: <https://localhost/hotelrunner/callback>
+- [x] **Enforce SSL**: ✅ Enabled
+- [x] **Integration type**: HR-v1 (REST API)
+- [x] **Permissions**: ✅ All checked
+  - Get room list
+  - Get reservations
+  - Receive push updates (Confirmed, Modified, Canceled)
+  - Update room calendar
 
-## ⏸️ Projet En Pause - Analyse Requise
+## ⏸️ Project Paused - Analysis Required
 
-### Raison de la pause (2026-01-24 13:44)
+### Reason for pause (2026-01-24 13:44)
 
-**Problème identifié** : Callback URL refusé (`https://localhost/hotelrunner/callback` - domaine invalide)
+**Identified issue**: Callback URL rejected (`https://localhost/hotelrunner/callback` - invalid domain)
 
-**Réflexion critique** : On s'est lancés dans l'implémentation sans analyser toutes les options disponibles. Ce n'est pas une approche professionnelle.
+**Critical reflection**: We rushed into implementation without analyzing all available options. This is not a professional approach.
 
-**Décision** : Mettre en pause et effectuer une analyse complète avant de continuer.
+**Decision**: Pause and conduct a full analysis before proceeding.
 
-### 4. Analyse des Options (✅ Complétée)
+### 4. Options Analysis (✅ Completed)
 
-**Voir** : [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md)
+**See**: [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md)
 
-Étapes complétées :
-- [x] Documenter 6 options d'intégration disponibles
-- [x] Rechercher alternatives (Browser automation, Zapier, Make.com, etc.)
-- [x] **TEST BROWSER AUTOMATION** - POC réussi !
-- [x] Documenter résultats concrets dans [../../tmp/hotelrunner-browser-test-results.md](../../tmp/hotelrunner-browser-test-results.md)
-- [x] Créer screenshots (réservations, calendrier)
-- [x] Mettre à jour OPTIONS-ANALYSIS.md avec résultats test
+Completed steps:
 
-### 5. Test Browser Automation (✅ SUCCÈS - 2026-01-24 14:06)
+- [x] Document 6 available integration options
+- [x] Research alternatives (Browser automation, Zapier, Make.com, etc.)
+- [x] **BROWSER AUTOMATION TEST** - POC successful!
+- [x] Document concrete results in [../../tmp/hotelrunner-browser-test-results.md](../../tmp/hotelrunner-browser-test-results.md)
+- [x] Create screenshots (reservations, calendar)
+- [x] Update OPTIONS-ANALYSIS.md with test results
 
-**Objectif** : Tester viabilité browser automation vs API
+### 5. Browser Automation Test (✅ SUCCESS - 2026-01-24 14:06)
 
-**Commande** :
+**Goal**: Test browser automation viability vs API
+
+**Command**:
+
 ```bash
 agent-browser --headed --profile ~/.hotelrunner-profile open https://app.hotelrunner.com
 ```
 
-**Résultats** :
-- ✅ **Authentification réussie SANS reCAPTCHA** (profile persistant)
-- ✅ **96 réservations** accessibles avec toutes données
-- ✅ **Navigation complète** dashboard (Calendrier, Rapports, PMS, etc.)
-- ✅ **Aucun rate limit** (utilisation normale browser)
-- ✅ **Mode visible** (--headed) → On voit l'agent en action
-- ✅ **Screenshots** créés pour documentation
+**Results**:
 
-**Données extraites confirmées** :
-- Statut, Canal, Nom client, Numéro confirmation
-- Dates arrivée/départ, Type chambre
-- Prix total, Paiement, Type inventaire
-- Nationalité, Date réservation, Confirmation status
+- ✅ **Authentication successful WITHOUT reCAPTCHA** (persistent profile)
+- ✅ **96 reservations** accessible with all data
+- ✅ **Full navigation** of dashboard (Calendar, Reports, PMS, etc.)
+- ✅ **No rate limits** (normal browser usage)
+- ✅ **Visible mode** (--headed) → You can see the agent in action
+- ✅ **Screenshots** created for documentation
 
-**Conclusion** : Browser automation **immédiatement opérationnel** pour Villa Thaifa
+**Confirmed extracted data**:
 
-**Documentation** : [../../tmp/hotelrunner-browser-test-results.md](../../tmp/hotelrunner-browser-test-results.md)
+- Status, Channel, Guest name, Confirmation number
+- Check-in/Check-out dates, Room type
+- Total price, Payment, Inventory type
+- Nationality, Booking date, Confirmation status
 
-### 6. Script d'Extraction Quotidienne (✅ Créé - 2026-01-24 14:12)
+**Conclusion**: Browser automation is **immediately operational** for Villa Thaifa
 
-**Script** : [extract_reservations.py](./extract_reservations.py)
+**Documentation**: [../../tmp/hotelrunner-browser-test-results.md](../../tmp/hotelrunner-browser-test-results.md)
 
-**Fonctionnalités** :
-- Extraction automatique réservations quotidiennes
-- Sauvegarde JSON avec timestamp
-- Utilise profile persistant (pas de reCAPTCHA)
-- Logging complet
-- Gestion d'erreurs
+### 6. Daily Extraction Script (✅ Created - 2026-01-24 14:12)
 
-**Usage** :
+**Script**: [extract_reservations.py](./extract_reservations.py)
+
+**Features**:
+
+- Automatic daily reservations extraction
+- JSON save with timestamp
+- Uses persistent profile (no reCAPTCHA)
+- Full logging
+- Error handling
+
+**Usage**:
+
 ```bash
 cd /home/omar/omar-el-mountassir/projects/clients/villa-thaifa/sources/hotelrunner-api
 python extract_reservations.py
 ```
 
-## ⏳ Étapes Suspendues (En attente décision)
+## ⏳ Suspended Steps (Awaiting decision)
 
-### Génération des Credentials (Suspendu)
+### Credentials Generation (Suspended)
 
-- [ ] Résoudre question callback URL (webhook.site ? example.com ? vraiment nécessaire ?)
-- [ ] Cliquer sur le bouton **"Créer"** dans le formulaire
-- [ ] Attendre confirmation de création
-- [ ] Naviguer vers l'onglet **"Identifiants"**
-- [ ] Copier **TOKEN**
-- [ ] Copier **HR_ID**
+- [ ] Resolve callback URL question (webhook.site? example.com? really necessary?)
+- [ ] Click the **"Create"** button in the form
+- [ ] Wait for creation confirmation
+- [ ] Navigate to the **"Credentials"** tab
+- [ ] Copy **TOKEN**
+- [ ] Copy **HR_ID**
 
-## 📋 Prochaines Étapes
+## 📋 Next Steps
 
-### 5. Sauvegarde des Credentials
+### 5. Save Credentials
 
-- [ ] Ouvrir `.env.local`
-- [ ] Ajouter les valeurs:
+- [ ] Open `.env.local`
+- [ ] Add values:
   ```bash
-  HOTELRUNNER_TOKEN=<valeur_copiée>
-  HOTELRUNNER_HR_ID=<valeur_copiée>
+  HOTELRUNNER_TOKEN=<copied_value>
+  HOTELRUNNER_HR_ID=<copied_value>
   ```
-- [ ] Sauvegarder le fichier
-- [ ] ⚠️ **NE PAS COMMITER** .env.local (déjà dans .gitignore)
+- [ ] Save the file
+- [ ] ⚠️ **DO NOT COMMIT** `.env.local` (already in .gitignore)
 
-### 6. Test de Connexion
+### 6. Connection Test
 
-- [ ] Créer script de test `test_hotelrunner_api.py`
-- [ ] Tester l'authentification
-- [ ] Tester GET /rooms (liste des chambres)
-- [ ] Vérifier la réponse API
-- [ ] Documenter les résultats
+- [ ] Create test script `test_hotelrunner_api.py`
+- [ ] Test authentication
+- [ ] Test GET /rooms (room list)
+- [ ] Verify API response
+- [ ] Document results
 
-### 7. Activation de la Source
+### 7. Source Activation
 
-- [ ] Modifier `config.json`: `"enabled": false` → `"enabled": true`
-- [ ] Valider la configuration
+- [ ] Modify `config.json`: `"enabled": false` → `"enabled": true`
+- [ ] Validate configuration
 - [ ] Commit: `feat: enable HotelRunner API source with credentials`
 
-### 8. Documentation Agent
+### 8. Agent Documentation
 
-- [ ] Mettre à jour CLAUDE.md
-- [ ] Mettre à jour AGENTS.md
-- [ ] Mettre à jour docs/leadership/INDEX.md
-- [ ] Créer exemples d'usage pour agents
+- [ ] Update CLAUDE.md
+- [ ] Update AGENTS.md
+- [ ] Update docs/leadership/INDEX.md
+- [ ] Create usage examples for agents
 
-### 9. Intégration Avancée
+### 9. Advanced Integration
 
-- [ ] Configurer webhooks pour notifications temps réel
-- [ ] Créer scripts d'automatisation
-- [ ] Tester les différents endpoints
-- [ ] Documenter les cas d'usage Villa Thaifa
+- [ ] Configure webhooks for real-time notifications
+- [ ] Create automation scripts
+- [ ] Test different endpoints
+- [ ] Document Villa Thaifa use cases
 
-## 📝 Notes Importantes
+## 📝 Important Notes
 
-### Credentials à Obtenir
+### Required Credentials
 
 ```
-TOKEN: <en attente>
-HR_ID: <en attente>
+TOKEN: <pending>
+HR_ID: <pending>
 ```
 
 ### Rate Limits
 
-- **250 requêtes / jour** maximum
-- **5 requêtes / minute** maximum
-- ⚠️ Planifier l'automatisation en conséquence
+- **250 requests / day** maximum
+- **5 requests / minute** maximum
+- ⚠️ Plan your automation accordingly
 
-### Documentation Officielle
+### Official Documentation
 
 - **API Docs**: https://developers.hotelrunner.com/custom-apps/rest-api
 - **Base URL**: https://am.hotelrunner.com/custom-apps/rest-api
 
-### Contact Support
+### Support Contact
 
 - **Omar**: omar@el-mountassir.com
 - **HotelRunner**: integrations@hotelrunner.com
 
-## 🔄 Historique des Changements
+## 🔄 Change History
 
 ### 2026-01-24
 
-- **13:24** - Recherche documentation HotelRunner API
-- **13:21** - Remplissage formulaire création app (étapes 1-7)
-- **13:24** - Choix confirmé: HR-v1 (REST API)
-- **13:28** - Création dossier source complet avec config, guide, README
-- **13:28** - Premier commit git
-- **13:30** - Création SETUP.md pour tracking systématique
-- **13:30** - Mise à jour AGENTS.md, CLAUDE.md, INDEX.md
-- **13:40** - Tentative création app : callback URL refusé (localhost invalide)
-- **13:44** - ⏸️ **PAUSE DÉCIDÉE** - Analyse professionnelle requise avant implémentation
-- **13:44** - Création OPTIONS-ANALYSIS.md pour évaluation complète des alternatives
-- **13:44** - Mise à jour SETUP.md - statut changé en "EN PAUSE"
+- **13:24** - Researched HotelRunner API documentation
+- **13:21** - Filled app creation form (steps 1-7)
+- **13:24** - Confirmed choice: HR-v1 (REST API)
+- **13:28** - Created full source folder with config, guide, README
+- **13:28** - First git commit
+- **13:30** - Created SETUP.md for systematic tracking
+- **13:30** - Updated AGENTS.md, CLAUDE.md, INDEX.md
+- **13:40** - App creation attempt: callback URL rejected (invalid localhost)
+- **13:44** - ⏸️ **PAUSE DECISION** - Professional analysis required before implementation
+- **13:44** - Created OPTIONS-ANALYSIS.md for full alternatives evaluation
+- **13:44** - Updated SETUP.md - status changed to "PAUSED"
 
-## ⚠️ Pour les Agents AI
+## ⚠️ For AI Agents
 
-### Où trouver les informations?
+### Where to find information?
 
 1. **Configuration**: `/sources/hotelrunner-api/config.json`
-2. **Guide d'usage**: `/sources/hotelrunner-api/guide.md`
-3. **Progress tracking**: `/sources/hotelrunner-api/SETUP.md` (ce fichier)
-4. **Credentials**: `.env.local` (une fois ajoutés)
+2. **Usage Guide**: `/sources/hotelrunner-api/guide.md`
+3. **Progress tracking**: `/sources/hotelrunner-api/SETUP.md` (this file)
+4. **Credentials**: `.env.local` (once added)
 
-### Avant d'utiliser l'API
+### Before using the API
 
-1. Vérifier que credentials existent dans `.env.local`
-2. Lire le guide complet: `guide.md`
-3. Respecter les rate limits (250/jour, 5/min)
-4. Logger toutes les opérations importantes
+1. Verify credentials exist in `.env.local`
+2. Read the full guide: `guide.md`
+3. Respect rate limits (250/day, 5/min)
+4. Log all important operations
 
-### État Actuel
+### Current State
 
-🔴 **Source désactivée** - En attente des credentials TOKEN et HR_ID
+🔴 **Source disabled** - Waiting for TOKEN and HR_ID credentials
 
-Une fois les credentials obtenus, la source sera activée et prête à l'usage.
+Once credentials are obtained, the source will be activated and ready for use.

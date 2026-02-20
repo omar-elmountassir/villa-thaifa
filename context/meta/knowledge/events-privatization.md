@@ -1,286 +1,286 @@
-# Politique Événements & Privatisation — Villa Thaifa
+# Events & Privatization Policy — Villa Thaifa
 
 > **Status**: ✅ Active
-> **Dernière mise à jour**: 2026-01-28
-> **Source**: Said Thaifa (propriétaire)
-> **Autorité**: Document officiel pour agents et communications clients
+> **Last updated**: 2026-01-28
+> **Source**: Said Thaifa (owner)
+> **Authority**: Official document for agents and client communications
 
 ---
 
-## 📋 Résumé Exécutif
+## 📋 Executive Summary
 
-Villa Thaifa **accepte les événements privés** et la **privatisation complète** de la propriété pour :
+Villa Thaifa **accepts private events** and **full property privatization** for:
 
-- Anniversaires
-- Mariages
-- Séminaires d'entreprise
-- Retraites de groupe
-- Événements familiaux
+- Birthdays
+- Weddings
+- Corporate seminars
+- Group retreats
+- Family events
 
-**Capacité maximale** : 37 adultes (12 chambres)
-**Tarif privatisation** : **2 000 € / nuit** (hors prestations, hors spa/hammam)
-
----
-
-## 🏨 Capacité & Configuration
-
-### Capacité Totale par Chambre
-
-| Chambre   | Type                 | Adultes        | Configuration              |
-| --------- | -------------------- | -------------- | -------------------------- |
-| 01        | Deluxe Triple Room   | 3              | 1 Lit King + 1 Canapé-lit  |
-| 02        | Deluxe Double Room   | 2              | 1 Lit King                 |
-| 03        | Deluxe Triple Room   | 3              | 1 Lit King + 1 Canapé-lit  |
-| 04        | Double Room Superior | 2              | 1 Lit King                 |
-| 05        | Double Room Superior | 2              | 1 Lit King                 |
-| 06        | Executive Suite      | 3              | 1 Lit King + 1 Canapé-lit  |
-| 07        | Deluxe King Suite    | 4              | 1 Lit King + 2 Canapés-lit |
-| 08        | Deluxe Triple Room   | 3              | 1 Lit King + 1 Canapé-lit  |
-| 09        | Family Suite         | 4              | 1 Lit King + 2 Canapés-lit |
-| 10        | Suite                | 3              | 1 Lit King + 1 Canapé-lit  |
-| 11        | Family Suite         | 4              | 1 Lit King + 2 Canapés-lit |
-| 12        | Presidential Suite   | 4              | 1 Lit King + 2 Canapés-lit |
-| **TOTAL** | **12 chambres**      | **37 adultes** | —                          |
-
-### Capacité Enfants
-
-**⚠️ À CLARIFIER AVEC SAID** :
-
-- Âge limite enfants (gratuit vs payant) ?
-- Tarif enfant supplémentaire ?
-- Lits bébé disponibles ?
-- Lit d'appoint pour enfants ?
-
-**Note temporaire** : Groupe de 20 adultes + 10 enfants = **techniquement possible** si configuration adaptée.
+**Maximum capacity**: 37 adults (12 rooms)
+**Privatization rate**: **€2,000 / night** (excluding services, excluding spa/hammam)
 
 ---
 
-## 💰 Tarification Privatisation
+## 🏨 Capacity & Configuration
 
-### Tarif de Base
+### Total Capacity by Room
 
-| Item                       | Tarif              | Inclus                                                                    | Exclu                                                                  |
-| -------------------------- | ------------------ | ------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **Privatisation complète** | **2 000 € / nuit** | • 12 chambres<br>• Accès piscine infinity<br>• Accès jardins<br>• Parking | • Petit-déjeuner<br>• Repas<br>• Spa/Hammam<br>• Prestations événement |
+| Room      | Type                 | Adults        | Configuration            |
+| --------- | -------------------- | ------------- | ------------------------ |
+| 01        | Deluxe Triple Room   | 3             | 1 King Bed + 1 Sofa Bed  |
+| 02        | Deluxe Double Room   | 2             | 1 King Bed               |
+| 03        | Deluxe Triple Room   | 3             | 1 King Bed + 1 Sofa Bed  |
+| 04        | Double Room Superior | 2             | 1 King Bed               |
+| 05        | Double Room Superior | 2             | 1 King Bed               |
+| 06        | Executive Suite      | 3             | 1 King Bed + 1 Sofa Bed  |
+| 07        | Deluxe King Suite    | 4             | 1 King Bed + 2 Sofa Beds |
+| 08        | Deluxe Triple Room   | 3             | 1 King Bed + 1 Sofa Bed  |
+| 09        | Family Suite         | 4             | 1 King Bed + 2 Sofa Beds |
+| 10        | Suite                | 3             | 1 King Bed + 1 Sofa Bed  |
+| 11        | Family Suite         | 4             | 1 King Bed + 2 Sofa Beds |
+| 12        | Presidential Suite   | 4             | 1 King Bed + 2 Sofa Beds |
+| **TOTAL** | **12 rooms**         | **37 adults** | —                        |
 
-### Prestations Supplémentaires
+### Children Capacity
 
-**⚠️ TARIFS À CONFIRMER AVEC SAID** :
+**⚠️ TO CLARIFY WITH SAID**:
 
-| Prestation           | Tarif estimé                           | Statut         |
-| -------------------- | -------------------------------------- | -------------- |
-| Petit-déjeuner       | 160.90 MAD/pers (source : profil Said) | ⏳ À confirmer |
-| Spa/Hammam           | Sur devis                              | ⏳ À confirmer |
-| Décoration événement | Sur devis                              | ⏳ À confirmer |
-| Traiteur externe     | Autorisé ? Supplément ?                | ⏳ À clarifier |
-| Restaurant interne   | Menu groupe sur devis                  | ⏳ À confirmer |
-| Animation/Musique    | Autorisé ? Horaires ?                  | ⏳ À clarifier |
+- Child age limit (free vs paid)?
+- Additional child rate?
+- Baby cots available?
+- Extra bed for children?
 
-### Exemple de Calcul (Groupe 30 pers, 3 nuits)
+**Temporary note**: Group of 20 adults + 10 children = **technically possible** if configuration adapted.
+
+---
+
+## 💰 Privatization Pricing
+
+### Base Rate
+
+| Item                   | Rate               | Included                                                              | Excluded                                                   |
+| ---------------------- | ------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Full Privatization** | **€2,000 / night** | • 12 rooms<br>• Infinity pool access<br>• Gardens access<br>• Parking | • Breakfast<br>• Meals<br>• Spa/Hammam<br>• Event services |
+
+### Additional Services
+
+**⚠️ RATES TO CONFIRM WITH SAID**:
+
+| Service             | Estimated Rate                           | Status        |
+| ------------------- | ---------------------------------------- | ------------- |
+| Breakfast           | 160.90 MAD/person (source: Said profile) | ⏳ To confirm |
+| Spa/Hammam          | On quote                                 | ⏳ To confirm |
+| Event Decoration    | On quote                                 | ⏳ To confirm |
+| External Caterer    | Allowed? Surcharge?                      | ⏳ To clarify |
+| Internal Restaurant | Group menu on quote                      | ⏳ To confirm |
+| Entertainment/Music | Allowed? Time limits?                    | ⏳ To clarify |
+
+### Example Calculation (Group of 30 people, 3 nights)
 
 ```
-Privatisation : 3 nuits × 2 000 € = 6 000 €
+Privatization: 3 nights × €2,000 = €6,000
 
-Options possibles :
-+ Petit-déjeuner : 30 pers × 3 jours × ~13 € = ~1 170 €
-+ Repas événement (anniversaire) : Sur devis
-+ Spa/Hammam (groupe) : Sur devis
-+ Décoration : Sur devis
+Possible options:
++ Breakfast: 30 people × 3 days × ~€13 = ~€1,170
++ Event meal (birthday): On quote
++ Spa/Hammam (group): On quote
++ Decoration: On quote
 
-TOTAL ESTIMÉ : 7 000 - 10 000 € (selon options)
+ESTIMATED TOTAL: €7,000 - €10,000 (depending on options)
 ```
 
-**Note** : Conversion MAD → EUR à confirmer (taux actuel ~1 EUR = 11 MAD)
+**Note**: MAD → EUR conversion to confirm (current rate ~1 EUR = 11 MAD)
 
 ---
 
-## 🎉 Services Événementiels Disponibles
+## 🎉 Available Event Services
 
-### Espaces Événementiels
+### Event Spaces
 
-| Espace                | Capacité       | Usage               | Équipements           |
-| --------------------- | -------------- | ------------------- | --------------------- |
-| **Hall**              | ⏳ À confirmer | Réception, repas    | ⏳ À documenter       |
-| **Jardin**            | Extérieur      | Cocktail, cérémonie | Palmeraie, verdure    |
-| **Piscine Infinity**  | —              | Ambiance, photos    | Ouverte toute l'année |
-| **Restaurant Thaifa** | ⏳ À confirmer | Repas groupe        | Cuisine marocaine     |
+| Space                 | Capacity      | Usage              | Equipment           |
+| --------------------- | ------------- | ------------------ | ------------------- |
+| **Hall**              | ⏳ To confirm | Reception, meals   | ⏳ To document      |
+| **Garden**            | Outdoor       | Cocktail, ceremony | Palmeraie, greenery |
+| **Infinity Pool**     | —             | Ambiance, photos   | Open all year       |
+| **Thaifa Restaurant** | ⏳ To confirm | Group meals        | Moroccan cuisine    |
 
-**⚠️ À CLARIFIER AVEC SAID** :
+**⚠️ TO CLARIFY WITH SAID**:
 
-- Capacité exacte hall pour repas assis (30 personnes OK ?)
-- Sonorisation disponible ?
-- Mobilier événementiel (tables, chaises supplémentaires) ?
-- Autorisation musique (horaires limites ?) ?
+- Exact hall capacity for seated meals (30 people OK?)
+- Sound system available?
+- Event furniture (extra tables, chairs)?
+- Music permission (time limits?)?
 
-### Prestations Incluses
+### Included Services
 
-✅ **Inclus dans la privatisation** :
+✅ **Included in privatization**:
 
-- Accès exclusif à toute la propriété
-- 12 chambres (37 adultes max)
-- Piscine infinity
-- Jardins de la Palmeraie
-- Parking gratuit
+- Exclusive access to the entire property
+- 12 rooms (37 adults max)
+- Infinity pool
+- Palmeraie gardens
+- Free parking
 - Wi-Fi
-- Climatisation / Chauffage
-- Sécurité 24h/24
+- Air conditioning / Heating
+- 24/7 security
 
-❌ **Non inclus** :
+❌ **Not included**:
 
-- Petit-déjeuner
-- Repas (déjeuner, dîner)
+- Breakfast
+- Meals (lunch, dinner)
 - Spa & Hammam
-- Décoration événementielle
-- Traiteur
-- Animation / DJ
-- Transport (navette aéroport disponible sur devis)
+- Event decoration
+- Caterer
+- Entertainment / DJ
+- Transport (airport shuttle available on quote)
 
 ---
 
-## 📅 Conditions de Réservation
+## 📅 Booking Conditions
 
-**⚠️ À DÉFINIR AVEC SAID** :
+**⚠️ TO DEFINE WITH SAID**:
 
-| Condition             | Détail                        | Statut         |
-| --------------------- | ----------------------------- | -------------- |
-| **Acompte**           | % du total ?                  | ⏳ À confirmer |
-| **Solde**             | Avant arrivée ? À l'arrivée ? | ⏳ À confirmer |
-| **Annulation**        | Politique remboursement ?     | ⏳ À confirmer |
-| **Caution**           | Montant ?                     | ⏳ À confirmer |
-| **Délai réservation** | Préavis minimum ?             | ⏳ À confirmer |
+| Condition            | Detail                      | Status        |
+| -------------------- | --------------------------- | ------------- |
+| **Deposit**          | % of total?                 | ⏳ To confirm |
+| **Balance**          | Before arrival? At arrival? | ⏳ To confirm |
+| **Cancellation**     | Refund policy?              | ⏳ To confirm |
+| **Security Deposit** | Amount?                     | ⏳ To confirm |
+| **Booking Notice**   | Minimum advance notice?     | ⏳ To confirm |
 
-**Recommandation** : Établir conditions claires pour événements (caution plus élevée, acompte 50%, etc.)
-
----
-
-## 🚫 Restrictions & Règles
-
-**⚠️ À CLARIFIER AVEC SAID** :
-
-### Questions à poser pour compléter cette section :
-
-1. **Décoration** : Autorisée ? Restrictions (clous, scotch, etc.) ?
-2. **Musique** : Autorisée ? Horaire limite (ex: 23h) ?
-3. **Traiteur externe** : Autorisé ? Supplément cuisine ?
-4. **Alcool** : Autorisé ? BYO possible ?
-5. **Fumeurs** : Zones autorisées ?
-6. **Animaux** : Autorisés pour événements ?
-7. **Feux d'artifice** : Autorisés ?
-8. **Nombre invités externes** : Limité aux résidents ou invités jour autorisés ?
-
-**Note** : La plupart des villas de luxe à Marrakech imposent :
-
-- Musique autorisée jusqu'à 23h-minuit
-- Traiteur externe OK avec supplément
-- Caution majorée pour événements
+**Recommendation**: Establish clear conditions for events (higher security deposit, 50% prepayment, etc.)
 
 ---
 
-## 📞 Process de Réservation Événements
+## 🚫 Restrictions & Rules
 
-### Étape 1 : Demande Client
+**⚠️ TO CLARIFY WITH SAID**:
 
-- Date événement
-- Nombre personnes (adultes + enfants)
-- Type événement
-- Prestations souhaitées
+### Questions to ask to complete this section:
 
-### Étape 2 : Vérification Disponibilité
+1. **Decoration**: Allowed? Restrictions (nails, tape, etc.)?
+2. **Music**: Allowed? Time limit (e.g., 11 PM)?
+3. **External Caterer**: Allowed? Kitchen surcharge?
+4. **Alcohol**: Allowed? BYO possible?
+5. **Smoking**: Designated areas?
+6. **Pets**: Allowed for events?
+7. **Fireworks**: Allowed?
+8. **Number of external guests**: Limited to residents or day guests allowed?
 
-- Vérifier calendrier HotelRunner
-- Confirmer aucune réservation existante
-- Valider capacité OK pour le groupe
+**Note**: Most luxury villas in Marrakech impose:
 
-### Étape 3 : Proposition Commerciale
-
-- Tarif privatisation (2 000 €/nuit)
-- Options prestations
-- Total estimé
-- Conditions de réservation
-
-### Étape 4 : Validation Said
-
-- Approbation proposition
-- Validation dates
-- Confirmation tarifs
-
-### Étape 5 : Confirmation Client
-
-- Envoi proposition formelle
-- Réception acompte
-- Blocage dates dans HotelRunner
+- Music allowed until 11 PM-Midnight
+- External caterer OK with surcharge
+- Increased security deposit for events
 
 ---
 
-## 📊 Positionnement Marché
+## 📞 Event Booking Process
 
-### Benchmark Concurrence Marrakech
+### Step 1: Client Request
 
-**Source** : Recherche web 2026-01-28
+- Event date
+- Number of people (adults + children)
+- Event type
+- Requested services
 
-| Villa               | Capacité   | Tarif privatisation  | Services             |
-| ------------------- | ---------- | -------------------- | -------------------- |
-| Villa Taj Marrakech | 10-52 pers | ⏳ Non publié        | Mariages, événements |
-| Villa Taj Omayma    | 10-52 pers | ⏳ Non publié        | Événements privés    |
-| Autres villas luxe  | Variable   | 1 500 - 5 000 €/nuit | Événements courants  |
+### Step 2: Availability Check
 
-**Positionnement Villa Thaifa** :
+- Check HotelRunner calendar
+- Confirm no existing bookings
+- Validate capacity OK for the group
 
-- ✅ Tarif compétitif (2 000 €/nuit)
-- ✅ Note exceptionnelle (9.3/10 Booking.com)
-- ✅ Cadre Palmeraie (calme, verdure)
-- ⏳ À développer : Visibilité web pour événements
+### Step 3: Commercial Proposal
 
----
+- Privatization rate (€2,000/night)
+- Service options
+- Estimated total
+- Booking conditions
 
-## 📚 Historique & Références
+### Step 4: Said Validation
 
-### Demandes Événements Reçues
+- Proposal approval
+- Dates validation
+- Rate confirmation
 
-| Date       | Client            | Événement    | Personnes               | Dates          | Statut      |
-| ---------- | ----------------- | ------------ | ----------------------- | -------------- | ----------- |
-| 2026-01-28 | [Client WhatsApp] | Anniversaire | 20 adultes + 10 enfants | 14-17 mai 2026 | 🔄 En cours |
+### Step 5: Client Confirmation
 
----
-
-## ✅ Actions Requises
-
-**Pour compléter cette documentation** :
-
-- [ ] Clarifier politique enfants avec Said
-- [ ] Confirmer tarif petit-déjeuner groupe
-- [ ] Définir tarifs spa/hammam pour groupes
-- [ ] Établir conditions réservation événements (acompte, annulation, caution)
-- [ ] Documenter capacité hall pour repas
-- [ ] Clarifier restrictions (musique, décoration, traiteur externe)
-- [ ] Créer grille tarifaire prestations événementielles
-- [ ] Photographier espaces événementiels (hall, jardin)
-- [ ] Créer brochure événements/privatisation
+- Send formal proposal
+- Receive deposit
+- Block dates in HotelRunner
 
 ---
 
-## 📖 Voir Aussi
+## 📊 Market Positioning
 
-- [Inventaire Chambres](../../data/core/inventory.yaml)
-- [Profil Said Thaifa](../../../leadership/profiles/SAID-THAIFA.md)
-- [Installations](../../../../content/reference/facilities/)
-- [Tarifs Standard](../pricing/standard-rates.md) (à créer)
+### Marrakech Competition Benchmark
+
+**Source**: Web search 2026-01-28
+
+| Villa               | Capacity     | Privatization Rate    | Services         |
+| ------------------- | ------------ | --------------------- | ---------------- |
+| Villa Taj Marrakech | 10-52 people | ⏳ Not published      | Weddings, events |
+| Villa Taj Omayma    | 10-52 people | ⏳ Not published      | Private events   |
+| Other luxury villas | Variable     | €1,500 - €5,000/night | Common events    |
+
+**Villa Thaifa Positioning**:
+
+- ✅ Competitive rate (€2,000/night)
+- ✅ Exceptional rating (9.3/10 Booking.com)
+- ✅ Palmeraie setting (quiet, greenery)
+- ⏳ To develop: Web visibility for events
 
 ---
 
-## 📝 Notes Internes
+## 📚 History & References
+
+### Received Event Requests
+
+| Date       | Client            | Event    | People                  | Dates           | Status         |
+| ---------- | ----------------- | -------- | ----------------------- | --------------- | -------------- |
+| 2026-01-28 | [WhatsApp Client] | Birthday | 20 adults + 10 children | May 14-17, 2026 | 🔄 In progress |
+
+---
+
+## ✅ Required Actions
+
+**To complete this documentation**:
+
+- [ ] Clarify child policy with Said
+- [ ] Confirm group breakfast rate
+- [ ] Define group spa/hammam rates
+- [ ] Establish event booking conditions (deposit, cancellation, security deposit)
+- [ ] Document hall capacity for meals
+- [ ] Clarify restrictions (music, decoration, external caterer)
+- [ ] Create event services pricing grid
+- [ ] Photograph event spaces (hall, garden)
+- [ ] Create event/privatization brochure
+
+---
+
+## 📖 See Also
+
+- [Room Inventory](../../data/core/inventory.yaml)
+- [Said Thaifa Profile](../../../leadership/profiles/SAID-THAIFA.md)
+- [Facilities](../../../../content/reference/facilities/)
+- [Standard Rates](../pricing/standard-rates.md) (to create)
+
+---
+
+## 📝 Internal Notes
 
 ```
-[2026-01-28] Création document suite demande client anniversaire 30 pers.
-             Infos confirmées par Said : 2k€/nuit privatisation hors prestations.
-             Nombreux détails à clarifier (voir section Actions Requises).
+[2026-01-28] Document creation following client request for 30 pers birthday.
+             Info confirmed by Said: €2k/night privatization excluding services.
+             Many details to clarify (see Required Actions section).
 
-[2026-01-28] Prochaine étape : Vérifier dispo 14-17 mai 2026 via HotelRunner.
+[2026-01-28] Next step: Check availability May 14-17 2026 via HotelRunner.
 ```
 
 ---
 
-_Document vivant — Mise à jour régulière recommandée_
-_Autorité : Said Thaifa (propriétaire)_
-_Responsable : Omar El Mountassir (consultant)_
-_Usage : Communication clients, agents IA, opérations_
+_Living document — Regular update recommended_
+_Authority: Said Thaifa (owner)_
+_Responsible: Omar El Mountassir (consultant)_
+_Usage: Client communication, AI agents, operations_

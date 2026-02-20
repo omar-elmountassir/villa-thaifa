@@ -180,7 +180,7 @@ VT-44 (hook E2E test) — independent, can run anytime
 | **Wave 4 — Epics**      | VT-45 | Harden facilities domain        | P2       | 8pts   | Backlog         | needs Said input                                                                                                                                                                                                |
 |                         | VT-46 | Phase 3 triage — 212 files      | P2       | 16pts  | **Done**        | 185 files archived, credential eval consolidated                                                                                                                                                                |
 |                         | VT-55 | Archive old repo                | P3       | 1pt    | Blocked         | blocked by VT-51 (now done — unblocked)                                                                                                                                                                         |
-| **Wave 5 — Decisions**  | VT-54 | TTS provider decision           | P3       | 2pts   | **Done**        | Piper default since 2026-02-17. ElevenLabs exhausted.                                                                                                                                                          |
+| **Wave 5 — Decisions**  | VT-54 | TTS provider decision           | P3       | 2pts   | **Done**        | Piper default since 2026-02-17. ElevenLabs exhausted.                                                                                                                                                           |
 | **Deferred**            | —     | Migrate stale GitHub issues     | —        | —      | Deferred        | after VT-42                                                                                                                                                                                                     |
 |                         | —     | WhatsApp domain work            | —        | —      | Deferred        | after VT-43                                                                                                                                                                                                     |
 |                         | —     | Archive/Lifecycle system design | —        | —      | Deferred        | strategic session                                                                                                                                                                                               |
@@ -231,27 +231,46 @@ The next session MUST:
 
 **Work completed this sub-session (Wave 3 follow-up):**
 
-| Item                                    | Issue | Description                                               | Status | Outcome                                      |
-| --------------------------------------- | ----- | --------------------------------------------------------- | ------ | -------------------------------------------- |
-| Fix G1 rate mismatches                  | VT-49 | Sync R02/R04/R05/R06 profile rates with rates.json       | Done   | 4 rooms corrected, MAD rates also fixed     |
-| Update rates.json from HotelRunner      | VT-49 | Capture confirmed pricing for all 12 rooms               | Done   | Decision recorded in ops/decisions/         |
-| Deprecation notice rooms.md             | VT-49 | Add SSOT notice pointing to R01-R12/profile.md           | Done   | Read-only summary                           |
-| Merge chambre_et_vue.md                 | VT-49 | Extract Said's notes into R03/R06/R07 profiles + property-config | Done | Terrace sizes, spa policy added        |
-| Image copy error investigation          | VT-49 | MD5 verify R05-R09 duplicates of R04 images              | Done   | 45 duplicate files confirmed                |
-| Validation PDF completeness audit       | VT-48/49 | Check all fields from original sign-off template         | Done   | 15 gaps found (G1-G15), 7 Linear issues created |
-| Create Linear issues for gaps           | VT-48/49 | G2-G15 tracked as VT-71 through VT-77                   | Done   | 7 issues in backlog                        |
+| Item                               | Issue    | Description                                                      | Status | Outcome                                         |
+| ---------------------------------- | -------- | ---------------------------------------------------------------- | ------ | ----------------------------------------------- |
+| Fix G1 rate mismatches             | VT-49    | Sync R02/R04/R05/R06 profile rates with rates.json               | Done   | 4 rooms corrected, MAD rates also fixed         |
+| Update rates.json from HotelRunner | VT-49    | Capture confirmed pricing for all 12 rooms                       | Done   | Decision recorded in ops/decisions/             |
+| Deprecation notice rooms.md        | VT-49    | Add SSOT notice pointing to R01-R12/profile.md                   | Done   | Read-only summary                               |
+| Merge chambre_et_vue.md            | VT-49    | Extract Said's notes into R03/R06/R07 profiles + property-config | Done   | Terrace sizes, spa policy added                 |
+| Image copy error investigation     | VT-49    | MD5 verify R05-R09 duplicates of R04 images                      | Done   | 45 duplicate files confirmed                    |
+| Validation PDF completeness audit  | VT-48/49 | Check all fields from original sign-off template                 | Done   | 15 gaps found (G1-G15), 7 Linear issues created |
+| Create Linear issues for gaps      | VT-48/49 | G2-G15 tracked as VT-71 through VT-77                            | Done   | 7 issues in backlog                             |
 
-| data/specs/ migration          | VT-49 | 36 .md files archived, 160 images left for rename                  | Done   | ops/archive/data-specs/                                              |
-| Old repo ref cleanup           | VT-55 | 3 active files updated to El-Mountassir/villa-thaifa               | Done   | cliff.toml, linear-workflow, linear-github-setup                     |
-| Fix R01/R06 sizes              | G7-G8 | Align header sizes with YAML values                                | Done   | R01: 44m², R06: 40m² (owner_pending)                                 |
-| Fix R07 sofa beds              | G4    | Align header with YAML: 2 sofa beds                                | Done   | VT-73 closed                                                         |
-| Research property config       | G10-G15 | Address, GPS, ratings, check-in times from web                   | Done   | property-config.json updated                                         |
-| Populate facility files        | G2    | Extract data from specs, OTA, Said's notes                         | Done   | 4 files populated, Said gaps remain                                  |
-| Said validation checklist      | G3+G5-G9 | Consolidated all owner_pending fields                           | Done   | data/admin/said-data-validation-checklist.md                         |
-| Remove 53 duplicate images     | VT-49    | MD5 verified, visual confirmed, git rm                          | Done   | R05-R09 DSC + R05 photos                                             |
-| Consolidate credential eval    | VT-46    | Merged archived copy, removed duplicate                         | Done   | Single canonical in knowledge/                                       |
-| Google Maps data               | G10-G15  | Address, GPS, 4.5 rating, phone, parking, WiFi, airport         | Done   | property-config.json                                                 |
-| Branch linking test            | VT-42    | Tested on Done + Backlog issues — NOT working                   | Open   | Issue sync works, branch linking doesn't                             |
+**Work completed this sub-session (latest):**
+
+| Item | Issue | Description | Status | Outcome |
+| ---- | ----- | ----------- | ------ | ------- |
+| Rename 160 spec images | #85 | Renamed 14 dirs + 160 files to lowercase/hyphenated convention | Done | Commit 5c5d19c — r01-r11, pool-garden, spa-hammam, hall |
+| VT-42 branch linking guide | VT-42 | Gemini researched Linear GitHub branch linking fix | Done | Guide at ~/omar/knowledge/research/development/vt-42-github-branch-linking-guide.md |
+| Browser investigation VT-42 | VT-42 | Browser agent diagnosed root cause: branch prefix mismatch (omar ≠ omar-elmountassir) | Done | Webhook confirmed working (200 OK). Root cause: username prefix. |
+| Option C applied + tested | VT-42 | Omar changed Linear format to identifier-title. Test branch vt-42-test-option-c pushed. | Testing | Branch pushed, awaiting confirmed link on VT-42. Clean up test branch after. |
+| VT-42 deep investigation | VT-42 | Browser + Gemini + researcher: full investigation of branch auto-linking | Done | Root cause: "Branches" sidebar feature doesn't work despite correct config. Issue sync (commits/PR titles) works fine. Tested: Option C format change, lowercase/uppercase branches, Draft PR — none triggered sidebar. Recommendation: close as "good enough" or escalate to Linear support. |
+| Image rename committed | #85 | 160 images + 14 dirs renamed, committed 5c5d19c | Done | Pushed to main |
+| ---------------------------------- | -------- | ---------------------------------------------------------------- | ------ | ----------------------------------------------- |
+| Fix G1 rate mismatches             | VT-49    | Sync R02/R04/R05/R06 profile rates with rates.json               | Done   | 4 rooms corrected, MAD rates also fixed         |
+| Update rates.json from HotelRunner | VT-49    | Capture confirmed pricing for all 12 rooms                       | Done   | Decision recorded in ops/decisions/             |
+| Deprecation notice rooms.md        | VT-49    | Add SSOT notice pointing to R01-R12/profile.md                   | Done   | Read-only summary                               |
+| Merge chambre_et_vue.md            | VT-49    | Extract Said's notes into R03/R06/R07 profiles + property-config | Done   | Terrace sizes, spa policy added                 |
+| Image copy error investigation     | VT-49    | MD5 verify R05-R09 duplicates of R04 images                      | Done   | 45 duplicate files confirmed                    |
+| Validation PDF completeness audit  | VT-48/49 | Check all fields from original sign-off template                 | Done   | 15 gaps found (G1-G15), 7 Linear issues created |
+| Create Linear issues for gaps      | VT-48/49 | G2-G15 tracked as VT-71 through VT-77                            | Done   | 7 issues in backlog                             |
+
+| data/specs/ migration | VT-49 | 36 .md files archived, 160 images left for rename | Done | ops/archive/data-specs/ |
+| Old repo ref cleanup | VT-55 | 3 active files updated to El-Mountassir/villa-thaifa | Done | cliff.toml, linear-workflow, linear-github-setup |
+| Fix R01/R06 sizes | G7-G8 | Align header sizes with YAML values | Done | R01: 44m², R06: 40m² (owner_pending) |
+| Fix R07 sofa beds | G4 | Align header with YAML: 2 sofa beds | Done | VT-73 closed |
+| Research property config | G10-G15 | Address, GPS, ratings, check-in times from web | Done | property-config.json updated |
+| Populate facility files | G2 | Extract data from specs, OTA, Said's notes | Done | 4 files populated, Said gaps remain |
+| Said validation checklist | G3+G5-G9 | Consolidated all owner_pending fields | Done | data/admin/said-data-validation-checklist.md |
+| Remove 53 duplicate images | VT-49 | MD5 verified, visual confirmed, git rm | Done | R05-R09 DSC + R05 photos |
+| Consolidate credential eval | VT-46 | Merged archived copy, removed duplicate | Done | Single canonical in knowledge/ |
+| Google Maps data | G10-G15 | Address, GPS, 4.5 rating, phone, parking, WiFi, airport | Done | property-config.json |
+| Branch linking test | VT-42 | Tested on Done + Backlog issues — NOT working | Open | Issue sync works, branch linking doesn't |
 
 **New Linear issues this sub-session**: VT-59-65 (from manifest.csv), VT-66-70 (from missions/ extraction), VT-71-77 (validation gaps)
 
@@ -277,6 +296,7 @@ The next session MUST:
 ### Session Summary (2026-02-19, continued)
 
 **Commits this session**:
+
 - `6ff9e25` fix handoff Phase 3 status, optimize readability with tables
 - `2a567d4` Wave 3 — translate 8 French files, process manifest.csv
 - `97acbad` Wave 3 follow-up — OTA titles, contract update, archive missions + reports
@@ -286,24 +306,26 @@ The next session MUST:
 - `eb9c9b5` remove 53 verified duplicate images, consolidate credential eval
 - `d1a4d16` final session update — Phase 3 complete
 - `31be9a9` mark all room rates CONFIRMED + locked until Dec 2026
+- `5c5d19c` feat: rename 160 spec images with descriptive names and normalized directories
 
 **Linear issues closed this session**: VT-44, VT-46, VT-47, VT-48, VT-49, VT-50, VT-52, VT-53, VT-54, VT-55, VT-73, VT-75 (12 total)
 **Linear issues created this session**: VT-56-58, VT-59-65, VT-66-70, VT-71-77 (20 total)
 
 **Remaining open work**:
 
-| Item | Linear | Status | Blocker |
-| --- | --- | --- | --- |
-| Branch linking fix | VT-42 | Open | Omar: check GitHub app permissions in Linear settings |
-| Facility files completion | VT-71 | Partial | Said: dimensions, capacity, hours |
-| Room sizes confirmation | VT-72 | Pending | Said: physical measurements |
-| Terrace size conflicts | VT-74 | Pending | Said: on-site verification |
-| Floor assignments | VT-76 | Pending | Said: R04/R10 floor confirmation |
-| property-config TODOs | VT-77 | Partial | Mixed: some researchable, some Said |
-| Facilities hardening | VT-45 | Pending | Said meeting |
-| Image rename (160 files) | — | Deferred | Future session |
+| Item                      | Linear | Status   | Blocker                                               |
+| ------------------------- | ------ | -------- | ----------------------------------------------------- |
+| Branch linking fix        | VT-42  | Investigated — Decision Pending | Omar: close as good-enough (issue sync works) or escalate to Linear support. Research: ~/omar/knowledge/research/development/vt-42-branch-linking-deep-research.md |
+| Facility files completion | VT-71  | Partial  | Said: dimensions, capacity, hours                     |
+| Room sizes confirmation   | VT-72  | Pending  | Said: physical measurements                           |
+| Terrace size conflicts    | VT-74  | Pending  | Said: on-site verification                            |
+| Floor assignments         | VT-76  | Pending  | Said: R04/R10 floor confirmation                      |
+| property-config TODOs     | VT-77  | Partial  | Mixed: some researchable, some Said                   |
+| Facilities hardening      | VT-45  | Pending  | Said meeting                                          |
+| Image rename (160 files)  | #85    | Done     | Commit 5c5d19c                                        |
 
 **Key artifacts**:
+
 - Said validation checklist: `data/admin/said-data-validation-checklist.md`
 - Triage report: `~/omar/knowledge/research/development/vt-46-triage-report.md`
 - Migration plan: `~/omar/knowledge/research/development/vt-49-data-specs-migration-plan.md`
@@ -334,7 +356,7 @@ These `/tmp/` files are EPHEMERAL — lost on reboot:
 | `AGENTS.md`                                                         | Directory contract + open loops                   |
 | `ops/intake/migration-conflict-check.md`                            | Migration audit from this session                 |
 | `ops/intake/migration-path-validation.md`                           | Path compliance audit                             |
-| `context/meta/planning/linear-workflow.md`                          | Linear workflow conventions                       |
+| `~/omar/operational/productivity/protocols/linear-workflow.md`       | Linear workflow conventions                       |
 | `ops/handoff/handoff-linear-migration-preparation.md`               | Prior Linear session handoff                      |
 | `/tmp/scan-items-evaluation.md`                                     | Scan evaluation — ephemeral                       |
 | `/tmp/triage-*.md`                                                  | Triage reports — ephemeral (lost on reboot)       |
@@ -367,15 +389,15 @@ ls /tmp/triage-*.md /tmp/scan-items-evaluation.md 2>/dev/null || echo "Triage re
 
 ### Linear State Post-Audit
 
-| Metric                      | Count  | Notes                                                                                        |
-| --------------------------- | ------ | -------------------------------------------------------------------------------------------- |
-| Total VT issues             | ~77    | Was 57; +VT-59-65 (manifest.csv), +VT-66-70 (missions/ extraction), +VT-71-77 (validation gaps) = 19 new this sub-session |
+| Metric                      | Count  | Notes                                                                                                                              |
+| --------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Total VT issues             | ~77    | Was 57; +VT-59-65 (manifest.csv), +VT-66-70 (missions/ extraction), +VT-71-77 (validation gaps) = 19 new this sub-session          |
 | Done                        | ~24    | +VT-46, VT-49, VT-54, VT-55, VT-73, VT-75 closed this round; +VT-48 from earlier; VT-71/72/74/76/77 partially done (awaiting Said) |
-| Canceled                    | 11     | —                                                                                            |
-| Backlog                     | ~49    | VT-48, VT-49 in progress; remainder backlog                                                  |
-| New issues this session     | 16     | VT-42→VT-55 (14) + VT-56, VT-57 from GitHub migration                                        |
-| New issues this sub-session | 19     | VT-59-65 (manifest.csv), VT-66-70 (missions/ extraction), VT-71-77 (validation gaps)          |
-| SSOT Migration project      | Closed | All 4 issues closed as obsolete                                                              |
+| Canceled                    | 11     | —                                                                                                                                  |
+| Backlog                     | ~49    | VT-48, VT-49 in progress; remainder backlog                                                                                        |
+| New issues this session     | 16     | VT-42→VT-55 (14) + VT-56, VT-57 from GitHub migration                                                                              |
+| New issues this sub-session | 19     | VT-59-65 (manifest.csv), VT-66-70 (missions/ extraction), VT-71-77 (validation gaps)                                               |
+| SSOT Migration project      | Closed | All 4 issues closed as obsolete                                                                                                    |
 
 ### Remaining Work (tracked in Linear)
 

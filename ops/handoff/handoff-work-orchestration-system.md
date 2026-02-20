@@ -191,7 +191,7 @@ Before this handoff was created, the following was completed:
 
 1. This file (the strategic framing)
 2. `ops/handoff/handoff-linear-migration-preparation.md` (detailed work breakdown)
-3. `context/meta/planning/linear-workflow.md` (current conventions)
+3. `~/omar/operational/productivity/protocols/linear-workflow.md` (current conventions)
 4. `~/omar/knowledge/research/productivity/linear-workspace-audit-2026-02-17.md` (audit data)
 5. `~/omar/knowledge/research/productivity/linear-mcp-deep-dive.md` (MCP capabilities)
 6. `~/omar/knowledge/research/productivity/backlog-tool-decision.md` (decision rationale)

@@ -1,248 +1,248 @@
-# Données Booking.com — Villa Thaifa
+# Booking.com Data — Villa Thaifa
 
-**Dernière mise à jour** : 2025-12-23
-**Source** : <https://www.booking.com/hotel/ma/riad-salim-amp-spa.html>
-**ID Propriété** : riad-salim-amp-spa
-
----
-
-## Scores des Avis (80 avis)
-
-| Catégorie                | Score | Statut                  |
-| ------------------------ | ----- | ----------------------- |
-| **Général**              | 9.3   | Formidable              |
-| **Personnel**            | 9.7   | Exceptionnel            |
-| **Équipements**          | 9.3   | Excellent               |
-| **Propreté**             | 9.4   | Excellent               |
-| **Confort**              | 9.4   | Excellent               |
-| **Rapport qualité-prix** | 8.9   | Très bien               |
-| **Emplacement**          | 8.2   | Bien                    |
-| **WiFi gratuit**         | 8.8   | Très bien               |
-| **Petit-déjeuner**       | 10    | Parfait                 |
-| **Note couples**         | 8.4   | Bien (pour 2 personnes) |
+**Last updated**: 2025-12-23
+**Source**: <https://www.booking.com/hotel/ma/riad-salim-amp-spa.html>
+**Property ID**: riad-salim-amp-spa
 
 ---
 
-## Types de Chambres
+## Review Scores (80 reviews)
 
-| Type de Chambre      | Lits                   | Capacité Max | Notes            |
-| -------------------- | ---------------------- | ------------ | ---------------- |
-| Superior Double Room | 1 lit king             | 2            | Chambres 4, 5    |
-| Deluxe Double Room   | 1 lit king             | 2            | Chambre 2        |
-| Deluxe Triple Room   | 1 king + 1 canapé-lit  | 3            | Chambres 1, 3, 8 |
-| Executive Suite      | 1 king + 1 canapé-lit  | 3            | Chambre 6        |
-| Suite                | 1 king + 1 canapé-lit  | 3            | Chambre 10       |
-| Deluxe King Suite    | 1 king + 2 canapés-lit | 4            | Chambre 7        |
-| Family Suite         | 1 king + 2 canapés-lit | 4            | Chambres 9, 11   |
-| Presidential Suite   | 1 king + 2 canapés-lit | 4            | Chambre 12       |
-
----
-
-## Règlement Intérieur
-
-| Règle                 | Détails                                        |
-| --------------------- | ---------------------------------------------- |
-| **Arrivée**           | 14:00 - 00:00                                  |
-| **Départ**            | 11:00 - 00:00                                  |
-| **Âge minimum**       | 18 ans                                         |
-| **Enfants**           | 2+ bienvenus ; 13+ facturés comme adultes      |
-| **Animaux**           | Non autorisés                                  |
-| **Heures de silence** | 00:00 - 06:00                                  |
-| **Fumeurs**           | Espace désigné uniquement                      |
-| **Pièce d'identité**  | Photo d'identité + carte de crédit à l'arrivée |
-| **Groupes**           | 10+ chambres = politiques différentes          |
+| Category            | Score | Status              |
+| ------------------- | ----- | ------------------- |
+| **Overall**         | 9.3   | Superb              |
+| **Staff**           | 9.7   | Exceptional         |
+| **Facilities**      | 9.3   | Excellent           |
+| **Cleanliness**     | 9.4   | Excellent           |
+| **Comfort**         | 9.4   | Excellent           |
+| **Value for money** | 8.9   | Very good           |
+| **Location**        | 8.2   | Good                |
+| **Free WiFi**       | 8.8   | Very good           |
+| **Breakfast**       | 10    | Perfect             |
+| **Couples rating**  | 8.4   | Good (for 2 people) |
 
 ---
 
-## Politique Enfants & Occupation
+## Room Types
 
-> **Source** : Booking.com Extranet (admin.booking.com)
-> **Dernière mise à jour** : 2025-12-23
-
-### Acceptation des Enfants
-
-| Paramètre            | Configuration                              |
-| -------------------- | ------------------------------------------ |
-| **Enfants acceptés** | ✅ Oui                                     |
-| **Âge minimum**      | Tous les âges                              |
-| **Type tarifs**      | Standard (même tarif tout l'établissement) |
-| **Tarifs flexibles** | ❌ Désactivé                               |
-
-### Tarification par Tranche d'Âge
-
-| Tranche d'âge | Tarif             | Notes                                     |
-| ------------- | ----------------- | ----------------------------------------- |
-| **0-2 ans**   | Gratuit           | Bébés — inclus dans le total de personnes |
-| **3-12 ans**  | 30€/nuit/enfant   | Tarif fixe                                |
-| **13-17 ans** | 100% tarif adulte | Facturés comme adultes                    |
-| **18+ ans**   | Tarif adulte      | —                                         |
-
-### Règle de Facturation Enfants
-
-> **Important** : Tous les enfants ne sont PAS facturés au tarif enfant.
-> Certains enfants (au-delà du max tarif enfant) sont facturés au tarif adulte.
-
-### Occupation par Type de Chambre
-
-| Type de Chambre                 | Pers. Max | Adultes Max | Enfants Max | Enfants Tarif Enfant Max | Bébés Max |
-| ------------------------------- | --------- | ----------- | ----------- | ------------------------ | --------- |
-| Chambre Double Supérieure       | 2         | 2           | 1           | 1                        | 1         |
-| Chambre Double Deluxe           | 2         | 2           | 1           | 1                        | 1         |
-| Chambre Triple Deluxe           | 3         | 3           | 2           | 2                        | 1         |
-| Suite                           | 3         | 3           | 1           | 1                        | 1         |
-| Suite Exécutive                 | 3         | 3           | 1           | 1                        | 1         |
-| Suite Deluxe avec Lit King-Size | 4         | 4           | 2           | 2                        | 1         |
-| Suite Familiale                 | 4         | 4           | 3           | 3                        | 1         |
-| Suite Présidentielle            | 4         | 4           | 3           | 3                        | 1         |
-
-> **Note** : Les bébés sont inclus dans le nombre total de personnes max.
-> La formulation des conditions peut s'afficher différemment pour les clients.
-
-### Mapping Chambres ↔ Types Booking.com
-
-| Chambre | Type Booking.com                | Enfants Tarif Enfant Max |
-| ------- | ------------------------------- | ------------------------ |
-| 1, 3, 8 | Chambre Triple Deluxe           | 2                        |
-| 2       | Chambre Double Deluxe           | 1                        |
-| 4, 5    | Chambre Double Supérieure       | 1                        |
-| 6       | Suite Exécutive                 | 1                        |
-| 7       | Suite Deluxe avec Lit King-Size | 2                        |
-| 9, 11   | Suite Familiale                 | 3                        |
-| 10      | Suite                           | 1                        |
-| 12      | Suite Présidentielle            | 3                        |
+| Room Type            | Beds                 | Max Capacity | Notes         |
+| -------------------- | -------------------- | ------------ | ------------- |
+| Superior Double Room | 1 king bed           | 2            | Rooms 4, 5    |
+| Deluxe Double Room   | 1 king bed           | 2            | Room 2        |
+| Deluxe Triple Room   | 1 king + 1 sofa bed  | 3            | Rooms 1, 3, 8 |
+| Executive Suite      | 1 king + 1 sofa bed  | 3            | Room 6        |
+| Suite                | 1 king + 1 sofa bed  | 3            | Room 10       |
+| Deluxe King Suite    | 1 king + 2 sofa beds | 4            | Room 7        |
+| Family Suite         | 1 king + 2 sofa beds | 4            | Rooms 9, 11   |
+| Presidential Suite   | 1 king + 2 sofa beds | 4            | Room 12       |
 
 ---
 
-## Petit-déjeuner
+## House Rules
 
-| Attribut     | Valeur               |
-| ------------ | -------------------- |
-| **Prix**     | MAD 160,90/personne  |
-| **Horaires** | 08:30 - 11:00        |
-| **Types**    | Continental, Halal   |
-| **Score**    | 10/10 (Exceptionnel) |
+| Rule               | Details                                      |
+| ------------------ | -------------------------------------------- |
+| **Check-in**       | 14:00 - 00:00                                |
+| **Check-out**      | 11:00 - 00:00                                |
+| **Minimum age**    | 18 years                                     |
+| **Children**       | 2+ welcome; 13+ charged as adults            |
+| **Pets**           | Not allowed                                  |
+| **Quiet hours**    | 00:00 - 06:00                                |
+| **Smoking**        | Designated smoking area only                 |
+| **Identification** | Photo ID + credit card required upon arrival |
+| **Groups**         | 10+ rooms = different policies apply         |
 
-**Aliments inclus** :
+---
 
-- Pain, Pâtisseries, Pancakes
-- Beurre, Fromage, Œufs
-- Spécialités locales, Confiture
-- Boissons fraîches
+## Children & Occupancy Policy
+
+> **Source**: Booking.com Extranet (admin.booking.com)
+> **Last updated**: 2025-12-23
+
+### Children Acceptance
+
+| Setting              | Configuration                            |
+| -------------------- | ---------------------------------------- |
+| **Children allowed** | ✅ Yes                                   |
+| **Minimum age**      | All ages                                 |
+| **Rate type**        | Standard (same rate for entire property) |
+| **Flexible rates**   | ❌ Disabled                              |
+
+### Pricing by Age Group
+
+| Age Group       | Rate            | Notes                                 |
+| --------------- | --------------- | ------------------------------------- |
+| **0-2 years**   | Free            | Infants — included in total occupancy |
+| **3-12 years**  | €30/night/child | Fixed rate                            |
+| **13-17 years** | 100% adult rate | Charged as adults                     |
+| **18+ years**   | Adult rate      | —                                     |
+
+### Children Billing Rule
+
+> **Important**: Not all children are billed at the child rate.
+> Some children (beyond the max child rate limit) are billed at the adult rate.
+
+### Occupancy by Room Type
+
+| Room Type            | Max Guests | Max Adults | Max Children | Max Children (Child Rate) | Max Infants |
+| -------------------- | ---------- | ---------- | ------------ | ------------------------- | ----------- |
+| Superior Double Room | 2          | 2          | 1            | 1                         | 1           |
+| Deluxe Double Room   | 2          | 2          | 1            | 1                         | 1           |
+| Deluxe Triple Room   | 3          | 3          | 2            | 2                         | 1           |
+| Suite                | 3          | 3          | 1            | 1                         | 1           |
+| Executive Suite      | 3          | 3          | 1            | 1                         | 1           |
+| Deluxe King Suite    | 4          | 4          | 2            | 2                         | 1           |
+| Family Suite         | 4          | 4          | 3            | 3                         | 1           |
+| Presidential Suite   | 4          | 4          | 3            | 3                         | 1           |
+
+> **Note**: Infants are included in the maximum total guest count.
+> Policy wording might display differently to guests.
+
+### Room Mapping ↔ Booking.com Types
+
+| Room    | Booking.com Type     | Max Children (Child Rate) |
+| ------- | -------------------- | ------------------------- |
+| 1, 3, 8 | Deluxe Triple Room   | 2                         |
+| 2       | Deluxe Double Room   | 1                         |
+| 4, 5    | Superior Double Room | 1                         |
+| 6       | Executive Suite      | 1                         |
+| 7       | Deluxe King Suite    | 2                         |
+| 9, 11   | Family Suite         | 3                         |
+| 10      | Suite                | 1                         |
+| 12      | Presidential Suite   | 3                         |
+
+---
+
+## Breakfast
+
+| Attribute | Value              |
+| --------- | ------------------ |
+| **Price** | MAD 160.90/person  |
+| **Hours** | 08:30 - 11:00      |
+| **Types** | Continental, Halal |
+| **Score** | 10/10 (Perfect)    |
+
+**Included items**:
+
+- Bread, Pastries, Pancakes
+- Butter, Cheese, Eggs
+- Local specialties, Jam
+- Cold beverages
 
 ---
 
 ## Restaurant "Thaifa's restaurant"
 
-| Attribut       | Valeur                                                      |
-| -------------- | ----------------------------------------------------------- |
-| **Cuisine**    | Marocaine                                                   |
-| **Service**    | Petit-déjeuner, Déjeuner, Dîner                             |
-| **Régimes**    | Halal, Végétarien                                           |
-| **Point fort** | "Le meilleur tajine qu'on ait mangé au Maroc" (avis client) |
+| Attribute     | Value                                              |
+| ------------- | -------------------------------------------------- |
+| **Cuisine**   | Moroccan                                           |
+| **Service**   | Breakfast, Lunch, Dinner                           |
+| **Diets**     | Halal, Vegetarian                                  |
+| **Highlight** | "The best tagine we ate in Morocco" (guest review) |
 
 ---
 
-## Équipements
+## Facilities
 
-### Piscine & Extérieur
+### Pool & Outdoors
 
-- Piscine à débordement (ouverte toute l'année, gratuite)
-- Terrasse solarium avec transats
-- Jardin avec mobilier d'extérieur
-- Serviettes piscine/plage fournies
-- Parasols
+- Infinity pool (open year-round, free)
+- Sun terrace with loungers
+- Garden with outdoor furniture
+- Pool/beach towels provided
+- Sun umbrellas
 
-### Spa & Bien-être
+### Spa & Wellness
 
-- Bain turc/Hammam (supplément)
-- Massage (supplément)
+- Turkish bath/Hammam (surcharge)
+- Massage (surcharge)
 - Hammam
 
 ### Services
 
-- WiFi gratuit (toutes les chambres)
-- Parking privé gratuit (garage, accessible)
-- Navette aéroport (supplément)
-- Location de voiture
-- Conciergerie
-- Consigne à bagages
-- Ménage quotidien
-- Service de repassage/blanchisserie (supplément)
-- Arrivée/départ express
-- Arrivée/départ privé
+- Free WiFi (all rooms)
+- Free private parking (garage, accessible)
+- Airport shuttle (surcharge)
+- Car rental
+- Concierge service
+- Luggage storage
+- Daily housekeeping
+- Ironing/laundry service (surcharge)
+- Express check-in/out
+- Private check-in/out
 
-### Sécurité
+### Security
 
-- Sécurité 24h/24
-- Vidéosurveillance (espaces communs, extérieur)
-- Coffre-fort dans les chambres
-- Accès par clé
-- Alarme de sécurité
-- Extincteurs
-- Détecteurs de fumée
+- 24-hour security
+- CCTV (common areas, outside)
+- In-room safe
+- Key access
+- Security alarm
+- Fire extinguishers
+- Smoke alarms
 
-### Équipements des Chambres
+### Room Amenities
 
-- Climatisation
-- Chauffage
-- TV écran plat (câble/satellite)
-- Dressing
-- Armoire
-- Vue sur jardin
-- Prise près du lit
-- Lits extra-longs (> 2 m)
-- Moustiquaire
+- Air conditioning
+- Heating
+- Flat-screen TV (cable/satellite)
+- Dressing room
+- Wardrobe
+- Garden view
+- Socket near the bed
+- Extra-long beds (> 2 m)
+- Mosquito net
 
-### Divertissement
+### Entertainment
 
-- Billard (supplément)
-- Événements sportifs en direct (diffusion)
-- Salon commun/espace TV
+- Billiards (surcharge)
+- Live sports events (broadcast)
+- Shared lounge/TV area
 - Bar
-- Café sur place
+- Coffee house on site
 
 ---
 
 ## Distances
 
-| Destination                   | Distance |
-| ----------------------------- | -------- |
-| **Centre-ville**              | 12 km    |
-| **Palais de la Bahia**        | 12 km    |
-| **Musée Dar Si Said**         | 13 km    |
-| **Jardins Majorelle**         | 13 km    |
-| **Djemaa El Fna**             | 15 km    |
-| **Gare de Marrakech**         | 15 km    |
-| **Aéroport Marrakech-Menara** | 17 km    |
-| **Jardins de la Ménara**      | 18 km    |
+| Destination                  | Distance |
+| ---------------------------- | -------- |
+| **City center**              | 12 km    |
+| **Bahia Palace**             | 12 km    |
+| **Dar Si Said Museum**       | 13 km    |
+| **Majorelle Gardens**        | 13 km    |
+| **Djemaa El Fna**            | 15 km    |
+| **Marrakech Train Station**  | 15 km    |
+| **Marrakech-Menara Airport** | 17 km    |
+| **Menara Gardens**           | 18 km    |
 
 ---
 
-## Langues Parlées
+## Languages Spoken
 
-- Arabe
-- Anglais
-- Français
-- Néerlandais
-
----
-
-## Paiements
-
-- Booking.com gère le paiement pour le compte de l'hôtel
-- Espèces nécessaires pour les extras sur place
+- Arabic
+- English
+- French
+- Dutch
 
 ---
 
-## Description de la Propriété (Officielle)
+## Payments
 
-> **Confort Moderne :** Villa Thaifa à Marrakech propose un hôtel récemment rénové avec une piscine à débordement, une terrasse solarium et un jardin luxuriant. Les clients profitent du WiFi gratuit, d'un restaurant familial et d'un bar.
+- Booking.com handles the payment on behalf of the hotel
+- Cash required for on-site extras
+
+---
+
+## Property Description (Official)
+
+> **Modern Comfort:** Villa Thaifa in Marrakech offers a recently renovated hotel with an infinity pool, sun terrace, and lush garden. Guests enjoy free WiFi, an in-house family-friendly restaurant, and a bar.
 >
-> **Expérience Culinaire :** Le restaurant traditionnel sert une cuisine marocaine avec des options halal et végétariennes. Le petit-déjeuner comprend des spécialités locales, des pâtisseries fraîches et une variété de boissons.
+> **Dining Experience:** The traditional restaurant serves Moroccan cuisine with halal and vegetarian options. Breakfast includes local specialties, fresh pastries, and a variety of beverages.
 >
-> **Emplacement Pratique :** Situé à 17 km de l'aéroport Marrakech-Menara, Villa Thaifa est proche d'attractions telles que le Palais de la Bahia (12 km) et Djemaa El Fna (15 km). Un parking privé gratuit est disponible sur place.
+> **Convenient Location:** Located 17 km from Marrakech-Menara Airport, Villa Thaifa is close to attractions like the Bahia Palace (12 km) and Djemaa El Fna (15 km). Free private parking is available on site.
 
 ---
 
-_Source de vérité pour les données de la plateforme Booking.com_
-_Mis à jour le 2025-12-23_
+_Source of truth for Booking.com platform data_
+_Updated on 2025-12-23_

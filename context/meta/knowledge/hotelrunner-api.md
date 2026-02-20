@@ -1,46 +1,46 @@
 # 🏨 HotelRunner API Knowledge Base
 
-> **Dernière mise à jour**: 12 Janvier 2026
+> **Last updated**: January 12, 2026
 > **Source**: https://developers.hotelrunner.com/
 
-## 🔐 Authentification
+## 🔐 Authentication
 
-- **Méthode**: En-têtes HTTP (Headers)
-- **Paramètres Requis**:
-  - `HR_ID`: Code identifiant la propriété.
-  - `TOKEN`: Clé secrète.
-- **Obtention**:
-  - Directement dans le panneau "My Property" (admin) du dashboard HotelRunner.
-  - **Verdict**: Disponible pour Villa Thaifa (Owner Access).
+- **Method**: HTTP Headers
+- **Required Parameters**:
+  - `HR_ID`: Property identifier code.
+  - `TOKEN`: Secret key.
+- **Acquisition**:
+  - Directly in the "My Property" panel (admin) of the HotelRunner dashboard.
+  - **Verdict**: Available for Villa Thaifa (Owner Access).
 
-## 🚀 Capabilities (Capabilities)
+## 🚀 Capabilities
 
 ### 1. Inventory (Rooms & Rates)
 
-- **Read**: `Get Room List` (Codes `inv_code` des types de chambres).
+- **Read**: `Get Room List` (`inv_code` codes for room types).
 - **Update**: Availability, Rates, Stop Sell.
-- **Utilité**: Permet de mettre à jour tarifs/dispos depuis un fichier central (ex: Markdown ou Excel futur).
+- **Utility**: Allows updating rates/availability from a central file (e.g., Markdown or future Excel).
 
 ### 2. Channels (OTAs)
 
-- **Read**: Liste des canaux connectés.
-- **Update**: Activer/Désactiver un canal.
-- **Limitations**: Ne permet pas forcément de _configurer_ un canal la première fois (souvent nécessite UI OAuth), mais utile pour le monitoring.
+- **Read**: List of connected channels.
+- **Update**: Enable/Disable a channel.
+- **Limitations**: Doesn't necessarily allow _configuring_ a channel for the first time (often requires OAuth UI), but useful for monitoring.
 
 ### 3. Reservations
 
-- **Read**: Historique.
-- **Push**: Webhooks pour nouvelles réservations (JSON/XML).
+- **Read**: History.
+- **Push**: Webhooks for new reservations (JSON/XML).
 
-## ⚠️ Limites
+## ⚠️ Limits
 
-- **Rate Limit**: 250 requêtes/jour (5/min).
-- **Usage**: Suffisant pour synchronisation périodique, pas pour du temps réel haute fréquence.
+- **Rate Limit**: 250 requests/day (5/min).
+- **Usage**: Sufficient for periodic synchronization, not for high-frequency real-time.
 
-## ✅ Plan d'Action API
+## ✅ API Action Plan
 
-1.  Récupérer `HR_ID` et `TOKEN` dans le dashboard (Manuellement ou Browser Agent).
-2.  Stocker dans `.env.local` (ex: `HOTELRUNNER_token`).
-3.  Créer des outils (Scripts Node ou MCP) pour lire l'inventaire sans browser.
+1.  Retrieve `HR_ID` and `TOKEN` in the dashboard (Manually or Browser Agent).
+2.  Store in `.env.local` (e.g., `HOTELRUNNER_TOKEN`).
+3.  Create tools (Node Scripts or MCP) to read inventory without a browser.
 
 ![API Auth Details](hr_api_auth_details.png)

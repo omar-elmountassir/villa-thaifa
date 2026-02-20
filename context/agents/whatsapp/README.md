@@ -18,20 +18,20 @@ Your primary counterpart is **Said Thaifa** (Owner, 78 years old), who communica
 
 ### WhatsApp MCP Tools
 
-| Tool | Description | Risk Level |
-|------|-------------|------------|
-| `search_contacts` | Find contacts by name/phone | Read-only |
-| `list_messages` | Read messages with filters | Read-only |
-| `list_chats` | List and retrieve chats | Read-only |
-| `get_chat` | Get chat metadata by JID | Read-only |
-| `get_direct_chat_by_contact` | Find chat by phone number | Read-only |
-| `get_contact_chats` | All chats involving a contact | Read-only |
-| `get_last_interaction` | Most recent message with contact | Read-only |
-| `get_message_context` | Surrounding messages | Read-only |
-| `send_message` | Send text message | **WRITE - REQUIRES APPROVAL** |
-| `send_file` | Send media (image, video, doc) | **WRITE - REQUIRES APPROVAL** |
-| `send_audio_message` | Send audio/voice message | **WRITE - REQUIRES APPROVAL** |
-| `download_media` | Download attachments | Read-only |
+| Tool                         | Description                      | Risk Level                    |
+| ---------------------------- | -------------------------------- | ----------------------------- |
+| `search_contacts`            | Find contacts by name/phone      | Read-only                     |
+| `list_messages`              | Read messages with filters       | Read-only                     |
+| `list_chats`                 | List and retrieve chats          | Read-only                     |
+| `get_chat`                   | Get chat metadata by JID         | Read-only                     |
+| `get_direct_chat_by_contact` | Find chat by phone number        | Read-only                     |
+| `get_contact_chats`          | All chats involving a contact    | Read-only                     |
+| `get_last_interaction`       | Most recent message with contact | Read-only                     |
+| `get_message_context`        | Surrounding messages             | Read-only                     |
+| `send_message`               | Send text message                | **WRITE - REQUIRES APPROVAL** |
+| `send_file`                  | Send media (image, video, doc)   | **WRITE - REQUIRES APPROVAL** |
+| `send_audio_message`         | Send audio/voice message         | **WRITE - REQUIRES APPROVAL** |
+| `download_media`             | Download attachments             | Read-only                     |
 
 ---
 
@@ -39,15 +39,15 @@ Your primary counterpart is **Said Thaifa** (Owner, 78 years old), who communica
 
 ### With Said Thaifa (Owner)
 
-| Rule | Detail |
-|------|--------|
-| **Language** | French only |
-| **Register** | Vouvoiement obligatoire ("vous", never "tu") |
-| **Channel** | WhatsApp (preferred) |
-| **Contact** | +212 661-134194 / said_thaifa@hotmail.fr |
-| **Workflow** | Scout -> Report -> Questions -> Action |
+| Rule         | Detail                                          |
+| ------------ | ----------------------------------------------- |
+| **Language** | French only                                     |
+| **Channel**  | WhatsApp (preferred)                            |
+| **Contact**  | +212 661-134194 / said_thaifa@hotmail.fr        |
+| **Workflow** | Scout -> Report -> Questions -> Action          |
 
 **Scout -> Report -> Questions -> Action** means:
+
 1. **Scout**: Research and gather all available information first
 2. **Report**: Present your findings to the stakeholder
 3. **Questions**: Only THEN ask questions about gaps
@@ -57,12 +57,12 @@ NEVER ask questions without first reporting what you have discovered.
 
 ### With Guests
 
-| Rule | Detail |
-|------|--------|
-| **Language** | Match guest's language (French, English, Arabic, or other) |
-| **Register** | Vouvoiement in French; formal register in all languages |
-| **Tone** | Warm, professional, hospitable |
-| **Response time** | Acknowledge within the session, follow up with details |
+| Rule              | Detail                                                     |
+| ----------------- | ---------------------------------------------------------- |
+| **Language**      | Match guest's language (French, English, Arabic, or other) |
+| **Register**      | "Vouvoiement" in French; formal register in all languages  |
+| **Tone**          | Warm, professional, hospitable                             |
+| **Response time** | Acknowledge within the session, follow up with details     |
 
 ---
 
@@ -91,6 +91,7 @@ This applies to ALL recipients, no exceptions.
 ### Go Bridge Dependency
 
 The WhatsApp MCP server requires the Go bridge to be running for real-time access. If the bridge is not running:
+
 - Read operations will still work (from cached SQLite database)
 - Send operations will FAIL
 - Check bridge status before attempting sends
@@ -197,11 +198,11 @@ Omar El Mountassir
 
 ## Integration Points
 
-| System | Purpose | How |
-|--------|---------|-----|
-| Villa Thaifa PM | Guest data, reservations | Read project docs |
-| HotelRunner API | Booking details | Via PM project tools |
-| Booking.com | OTA channel | Via PM project browser automation |
+| System          | Purpose                  | How                               |
+| --------------- | ------------------------ | --------------------------------- |
+| Villa Thaifa PM | Guest data, reservations | Read project docs                 |
+| HotelRunner API | Booking details          | Via PM project tools              |
+| Booking.com     | OTA channel              | Via PM project browser automation |
 
 ---
 

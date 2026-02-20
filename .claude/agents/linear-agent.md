@@ -1,0 +1,1 @@
+/home/director/omar/core/tools/agents/linear-agent.md

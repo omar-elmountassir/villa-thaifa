@@ -1,112 +1,112 @@
-# Workflow : Communication Invités
+# Workflow: Guest Communication
 
-> Process pour communiquer avec les invités/clients.
-
----
-
-## Règles Fondamentales
-
-| Règle                                   | Application                               |
-| --------------------------------------- | ----------------------------------------- |
-| **Vouvoiement**                         | TOUJOURS avec M. Thaifa et clients        |
-| **SCOUT → REPORT → QUESTIONS → ACTION** | Ne jamais demander sans d'abord rapporter |
-| **Ton formel**                          | Client senior = respect sans rigidité     |
+> Process for communicating with guests/clients.
 
 ---
 
-## Pattern de Communication
+## Fundamental Rules
 
-### 1. SCOUT — Explorer d'abord
+| Rule                                    | Application                              |
+| --------------------------------------- | ---------------------------------------- |
+| **Vouvoiement (Formal "You")**          | ALWAYS with Mr. Thaifa and clients       |
+| **SCOUT → REPORT → QUESTIONS → ACTION** | Never ask without reporting first        |
+| **Formal Tone**                         | Senior client = respect without rigidity |
 
-```
-Avant de contacter le client :
-- Vérifier les infos disponibles
-- Préparer ce qu'on sait déjà
-- Identifier ce qui manque
-```
+---
 
-### 2. REPORT — Informer de nos découvertes
+## Communication Pattern
 
-```
-"Bonjour M. [Nom],
-
-Bonne nouvelle — [ce qu'on a découvert/accompli].
-[Détails pertinents]"
-```
-
-### 3. QUESTIONS — Demander ce qui manque (avec contexte)
+### 1. SCOUT — Explore first
 
 ```
-"Pour finaliser, j'aurais besoin de :
-- [Info 1]
-- [Info 2]
+Before contacting the client:
+- Check available information
+- Prepare what we already know
+- Identify what is missing
+```
 
-Cordialement,
+### 2. REPORT — Inform of our findings
+
+```
+"Hello Mr. [Name],
+
+Good news — [what we discovered/accomplished].
+[Relevant details]"
+```
+
+### 3. QUESTIONS — Ask for what's missing (with context)
+
+```
+"To finalize, I would need:
+- [Item 1]
+- [Item 2]
+
+Best regards,
 Omar"
 ```
 
-### 4. ACTION — Exécuter quand tout est clair
+### 4. ACTION — Execute when everything is clear
 
 ```
-Une fois toutes les infos reçues :
-1. Confirmer la compréhension
-2. Exécuter l'action
-3. Confirmer le résultat au client
+Once all information is received:
+1. Confirm understanding
+2. Execute the action
+3. Confirm the result to the client
 ```
 
 ---
 
-## Formats Messages
+## Message Formats
 
-### WhatsApp — 1er message du jour
+### WhatsApp — 1st message of the day
 
 ```
-Bonjour M. [Nom],
+Hello Mr. [Name],
 
-[Contenu]
+[Content]
 
-Cordialement,
+Best regards,
 Omar El Mountassir
 ```
 
-### WhatsApp — Messages suivants (même fil)
+### WhatsApp — Following messages (same thread)
 
 ```
-[Contenu direct, pas de re-salutation]
+[Direct content, no re-greeting]
 ```
 
-### Message Important/Formel
+### Important/Formal Message
 
 ```
-Bonjour M. [Nom],
+Hello Mr. [Name],
 
-[Contenu structuré avec sections si nécessaire]
+[Structured content with sections if necessary]
 
-Restant à votre disposition,
+At your disposal,
 Omar El Mountassir
-Consultant Digital - Villa Thaifa
+Digital Consultant - Villa Thaifa
 ```
 
 ---
 
-## Fichiers de sortie
+## Output Files
 
-| Type             | Destination                                          | Format                   |
-| ---------------- | ---------------------------------------------------- | ------------------------ |
-| Message WhatsApp | `data/communication/whatsapp/YYYY-MM-DD-{sujet}.txt` | Texte brut prêt à copier |
-| Email            | `data/communication/email/YYYY-MM-DD-{sujet}.txt`    | Texte brut               |
-| Rapport client   | `archive/YYYY/QQ/execution/deliverables/`            | PDF                      |
+| Type             | Destination                                            | Format                 |
+| ---------------- | ------------------------------------------------------ | ---------------------- |
+| WhatsApp Message | `data/communication/whatsapp/YYYY-MM-DD-{subject}.txt` | Raw text ready to copy |
+| Email            | `data/communication/email/YYYY-MM-DD-{subject}.txt`    | Raw text               |
+| Client Report    | `archive/YYYY/QQ/execution/deliverables/`              | PDF                    |
 
 ---
 
-## Anti-patterns à éviter
+## Anti-patterns to avoid
 
-| ❌ Mauvais              | ✅ Bon                  |
-| ----------------------- | ----------------------- |
-| "Salut Said"            | "Bonjour M. Thaifa"     |
-| Questions sans contexte | REPORT avant QUESTIONS  |
-| Tutoiement              | Vouvoiement TOUJOURS    |
-| Message mur de texte    | Structure avec sections |
+| ❌ Bad                      | ✅ Good                  |
+| --------------------------- | ------------------------ |
+| "Hi Said"                   | "Hello Mr. Thaifa"       |
+| Questions without context   | REPORT before QUESTIONS  |
+| Tutoiement (Informal "You") | Vouvoiement ALWAYS       |
+| Wall of text message        | Structured with sections |
 
 ---
 

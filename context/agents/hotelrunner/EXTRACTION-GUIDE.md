@@ -1,102 +1,107 @@
 # HotelRunner Data Extraction Guide
 
-> **Status**: ✅ Opérationnel (Browser Automation)
+> **Status**: ✅ Operational (Browser Automation)
 > **Date**: 2026-01-24
-> **Méthode**: agent-browser avec profile persistant
+> **Method**: agent-browser with persistent profile
 
 ---
 
-## 🎯 Vue d'Ensemble
+## 🎯 Overview
 
-Ce guide explique comment extraire automatiquement les données de réservations depuis HotelRunner via browser automation.
+This guide explains how to automatically extract booking data from HotelRunner via browser automation.
 
-**Avantages** :
-- ✅ Pas de configuration API complexe
-- ✅ Pas de rate limits (250/jour)
-- ✅ Pas de callback URL requis
-- ✅ Authentification persistante (pas de reCAPTCHA répété)
+**Advantages**:
+
+- ✅ No complex API configuration
+- ✅ No rate limits (250/day)
+- ✅ No custom callback URL required
+- ✅ Persistent authentication (no repeated reCAPTCHA)
 
 ---
 
-## 📋 Prérequis
+## 📋 Prerequisites
 
 ### 1. Installation
 
 ```bash
-# agent-browser déjà installé globalement
+# agent-browser already installed globally
 agent-browser --version
 ```
 
-### 2. Authentification Requise
+### 2. Authentication Required
 
-⚠️ **LIMITATION DÉCOUVERTE** : Le flag `--profile` d'agent-browser ne persiste pas les cookies de session correctement.
+⚠️ **LIMITATION DISCOVERED**: The `--profile` flag of agent-browser does not correctly persist session cookies.
 
-**Solution de contournement actuelle** :
+**Current workarounds**:
 
-**Option A - Authentification manuelle avant extraction** :
+**Option A - Manual authentication before extraction**:
+
 ```bash
-# 1. Ouvrir browser en mode visible
+# 1. Open browser in headed mode
 agent-browser --headed open https://villa-thaifa.hotelrunner.com/login
 
-# 2. Se connecter manuellement (résoudre reCAPTCHA si nécessaire)
+# 2. Login manually (solve reCAPTCHA if necessary)
 
-# 3. Laisser le browser ouvert
+# 3. Leave the browser open
 
-# 4. Dans un autre terminal, exécuter le script
-# (Le script utilisera la session browser active)
+# 4. In another terminal, run the script
+# (The script will use the active browser session)
 ```
 
-**Option B - Extraction manuelle via browser** :
+**Option B - Manual extraction via browser**:
+
 ```bash
-# Utiliser agent-browser en mode interactif pour extraction ponctuelle
+# Use agent-browser in interactive mode for one-off extraction
 agent-browser --headed open https://villa-thaifa.hotelrunner.com/admin/pms/reservations/all
-# Puis extraire manuellement avec eval/snapshot
+# Then extract manually with eval/snapshot
 ```
 
-**Note** : Nous travaillons sur une solution pour la persistence automatique des sessions.
+**Note**: We are working on a solution to persist sessions automatically.
 
 ---
 
-## 🚀 Utilisation
+## 🚀 Usage
 
-### Script d'Extraction Quotidienne
+### Daily Extraction Script
 
-**Fichier** : [`extract_reservations.py`](./extract_reservations.py)
+**File**: [`extract_reservations.py`](./extract_reservations.py)
 
-**Exécution manuelle** :
+**Manual execution**:
+
 ```bash
 cd /home/omar/omar-el-mountassir/projects/clients/villa-thaifa/sources/hotelrunner-api
 python3 extract_reservations.py
 ```
 
-**Sortie** :
+**Output**:
+
 ```
 data/reservations/
-├── reservations_20260124_140630.json  # Extraction avec timestamp
+├── reservations_20260124_140630.json  # Timestamped extraction
 ├── reservations_20260124_153045.json
-└── latest.json                        # Dernière extraction (lien rapide)
+└── latest.json                        # Latest extraction (symlink or copy)
 
 logs/
-└── extract_20260124.log               # Logs quotidiens
+└── extract_20260124.log               # Daily logs
 ```
 
-### Automatisation (Cron)
+### Automation (Cron)
 
-Pour exécution quotidienne automatique :
+For automatic daily execution:
 
 ```bash
-# Éditer crontab
+# Edit crontab
 crontab -e
 
-# Ajouter (exécution tous les jours à 6h00)
+# Add (runs every day at 6:00 AM)
 0 6 * * * cd /home/omar/omar-el-mountassir/projects/clients/villa-thaifa/sources/hotelrunner-api && /usr/bin/python3 extract_reservations.py >> logs/cron.log 2>&1
 ```
 
 ---
 
-## 📊 Format des Données
+## 📊 Data Format
 
-### Structure JSON
+### JSON Structure
 
 ```json
 {
@@ -110,73 +115,76 @@ crontab -e
       "channel": "Online",
       "client_name": "Famille Benchekroune",
       "confirmation_number": "R194048877",
-      "check_in": "31 Déc. 2025 15:00",
-      "check_out": "02 Janv. 2026 11:00",
-      "room_type": "Suite de Luxe King Size",
+      "check_in": "31 Dec. 2025 15:00",
+      "check_out": "02 Jan. 2026 11:00",
+      "room_type": "Deluxe King Size Suite",
       "total": "880 €",
-      "payment_total": "373,45 €",
-      "inventory_type": "Confirmé",
+      "payment_total": "373.45 €",
+      "inventory_type": "Confirmed",
       "confirmation_status": "No-show",
-      "booking_date": "Mercredi 31 Décembre 2025 15:51",
+      "booking_date": "Wednesday 31 December 2025 15:51",
       "nationality": "MA"
     }
-    // ... autres réservations
+    // ... other reservations
   ]
 }
 ```
 
-### Champs Disponibles
+### Available Fields
 
-| Champ | Description | Exemple |
-|-------|-------------|---------|
-| `status` | Statut réservation | No-show, Confirmé, Annulé |
-| `room` | Numéro chambre | 101, 205 |
-| `channel` | Canal réservation | Online, Booking.com, Direct |
-| `client_name` | Nom du client | Famille Benchekroune |
-| `confirmation_number` | Numéro confirmation | R194048877 |
-| `check_in` | Date/heure arrivée | 31 Déc. 2025 15:00 |
-| `check_out` | Date/heure départ | 02 Janv. 2026 11:00 |
-| `room_type` | Type de chambre | Suite de Luxe King Size |
-| `total` | Prix total | 880 € |
-| `payment_total` | Montant payé | 373,45 € |
-| `inventory_type` | Type inventaire | Confirmé, Modifié |
-| `confirmation_status` | Statut confirmation | No-show, Confirmed |
-| `booking_date` | Date réservation | Mercredi 31 Décembre 2025 15:51 |
-| `nationality` | Nationalité client | MA (Maroc) |
+| Field                 | Description         | Example                          |
+| --------------------- | ------------------- | -------------------------------- |
+| `status`              | Reservation status  | No-show, Confirmed, Canceled     |
+| `room`                | Room number         | 101, 205                         |
+| `channel`             | Booking channel     | Online, Booking.com, Direct      |
+| `client_name`         | Guest name          | Famille Benchekroune             |
+| `confirmation_number` | Confirmation number | R194048877                       |
+| `check_in`            | Arrival date/time   | 31 Dec. 2025 15:00               |
+| `check_out`           | Departure date/time | 02 Jan. 2026 11:00               |
+| `room_type`           | Room type           | Deluxe King Size Suite           |
+| `total`               | Total price         | 880 €                            |
+| `payment_total`       | Amount paid         | 373.45 €                         |
+| `inventory_type`      | Inventory type      | Confirmed, Modified              |
+| `confirmation_status` | Confirmation status | No-show, Confirmed               |
+| `booking_date`        | Booking date        | Wednesday 31 December 2025 15:51 |
+| `nationality`         | Guest nationality   | MA (Morocco)                     |
 
 ---
 
-## 🔧 Personnalisation
+## 🔧 Customization
 
-### Modifier le Script
+### Modifying the Script
 
-Le script [`extract_reservations.py`](./extract_reservations.py) peut être personnalisé :
+The [`extract_reservations.py`](./extract_reservations.py) script can be customized:
 
-**1. Changer l'URL source** :
+**1. Change source URL**:
+
 ```python
-# Ligne 72
+# Line 72
 url = 'https://villa-thaifa.hotelrunner.com/admin/pms/reservations/all'
 
 # Alternatives:
-# - /admin/channel/calendars/occupancies?f=1  (Calendrier)
-# - /admin/reports  (Rapports)
-# - /admin/pms/overview  (Vue d'ensemble PMS)
+# - /admin/channel/calendars/occupancies?f=1  (Calendar)
+# - /admin/reports  (Reports)
+# - /admin/pms/overview  (PMS Overview)
 ```
 
-**2. Filtrer les données** :
-```python
-# Après extraction, filtrer par status
-active_reservations = [r for r in reservations if r['status'] == 'Confirmé']
+**2. Filter data**:
 
-# Filtrer par date
+```python
+# After extraction, filter by status
+active_reservations = [r for r in reservations if r['status'] == 'Confirmed']
+
+# Filter by date
 import datetime
 today = datetime.date.today()
-# ... logique de filtrage
+# ... filtering logic
 ```
 
-**3. Ajouter exports** :
+**3. Add exports**:
+
 ```python
-# Export CSV
+# CSV Export
 import csv
 with open('reservations.csv', 'w') as f:
     writer = csv.DictWriter(f, fieldnames=reservations[0].keys())
@@ -186,130 +194,137 @@ with open('reservations.csv', 'w') as f:
 
 ---
 
-## 📈 Cas d'Usage
+## 📈 Use Cases
 
-### 1. Extraction Quotidienne
+### 1. Daily Extraction
 
-**Objectif** : Backup quotidien des réservations
+**Goal**: Daily backup of reservations
 
 ```bash
-# Cron à 6h tous les jours
+# Cron at 6 AM every day
 0 6 * * * cd .../sources/hotelrunner-api && python3 extract_reservations.py
 ```
 
-### 2. Intégration AI Agents
+### 2. AI Agent Integration
 
-**Objectif** : Agents lisent les dernières réservations
+**Goal**: Agents read the latest reservations
 
 ```python
-# Dans votre agent
+# In your agent
 import json
 
 with open('sources/hotelrunner-api/data/reservations/latest.json') as f:
     data = json.load(f)
     reservations = data['reservations']
 
-# Traiter les réservations
+# Process reservations
 for res in reservations:
-    if res['status'] == 'Confirmé':
-        # ... logique agent
+    if res['status'] == 'Confirmed':
+        # ... agent logic
 ```
 
-### 3. Rapports Automatiques
+### 3. Automated Reports
 
-**Objectif** : Générer rapports hebdomadaires
+**Goal**: Generate weekly reports
 
 ```python
-# Script séparé
+# Separate script
 import json
 from collections import Counter
 
 with open('data/reservations/latest.json') as f:
     data = json.load(f)
 
-# Stats par canal
+# Stats by channel
 channels = Counter(r['channel'] for r in data['reservations'])
-print("Réservations par canal:", channels)
+print("Reservations by channel:", channels)
 
-# Stats par statut
+# Stats by status
 statuses = Counter(r['status'] for r in data['reservations'])
-print("Réservations par statut:", statuses)
+print("Reservations by status:", statuses)
 ```
 
 ---
 
 ## 🐛 Troubleshooting
 
-### Problème : "Not authenticated"
+### Issue: "Not authenticated"
 
-**Cause** : Profile expiré ou jamais créé
+**Cause**: Profile expired or never created
 
-**Solution** :
+**Solution**:
+
 ```bash
-# Re-créer profile en mode visible
+# Re-create profile in headed mode
 agent-browser --headed --profile ~/.hotelrunner-profile open https://app.hotelrunner.com
-# Login manuellement
+# Login manually
 agent-browser close
 ```
 
-### Problème : "Command timed out"
+### Issue: "Command timed out"
 
-**Cause** : Page lente à charger
+**Cause**: Page slow to load
 
-**Solution** : Augmenter timeout dans le script
+**Solution**: Increase timeout in the script
+
 ```python
-# Ligne 30
-timeout=60  # Au lieu de 30
+# Line 30
+timeout=60  # Instead of 30
 ```
 
-### Problème : "Failed to parse JSON"
+### Issue: "Failed to parse JSON"
 
-**Cause** : Structure page changée
+**Cause**: Page structure changed
 
-**Solution** : Vérifier la structure HTML
+**Solution**: Check the HTML structure
+
 ```bash
 agent-browser --headed open https://villa-thaifa.hotelrunner.com/admin/pms/reservations/all
-agent-browser snapshot -c  # Voir structure
+agent-browser snapshot -c  # View structure
 ```
 
-### Problème : Browser ne se ferme pas
+### Issue: Browser doesn't close
 
-**Solution** :
+**Solution**:
+
 ```bash
-# Fermer manuellement
+# Close manually
 agent-browser close
 
-# Ou tuer le processus
+# Or kill the process
 pkill -f chromium
 ```
 
 ---
 
-## 📚 Ressources
+## 📚 Resources
 
-**Documentation** :
-- [Test Results](../../tmp/hotelrunner-browser-test-results.md) - Résultats POC
-- [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md) - Analyse complète options
+**Documentation**:
+
+- [Test Results](../../tmp/hotelrunner-browser-test-results.md) - POC Results
+- [OPTIONS-ANALYSIS.md](./OPTIONS-ANALYSIS.md) - Complete options analysis
 - [SETUP.md](./SETUP.md) - Progress tracking
-- [agent-browser guide](../agent-browser/guide.md) - Documentation outil
+- [agent-browser guide](../agent-browser/guide.md) - Tool documentation
 
-**Scripts** :
-- [`extract_reservations.py`](./extract_reservations.py) - Script principal
-- Plus de scripts à venir (calendrier, rapports, etc.)
+**Scripts**:
+
+- [`extract_reservations.py`](./extract_reservations.py) - Main script
+- More scripts to come (calendar, reports, etc.)
 
 ---
 
 ## ✅ Checklist
 
-Avant première utilisation :
-- [ ] agent-browser installé (`agent-browser --version`)
-- [ ] Profile créé (`~/.hotelrunner-profile` existe)
-- [ ] Première auth manuelle réussie
-- [ ] Test extraction manuelle OK
-- [ ] (Optionnel) Cron configuré pour automatisation
+Before first use:
+
+- [ ] agent-browser installed (`agent-browser --version`)
+- [ ] Profile created (`~/.hotelrunner-profile` exists)
+- [ ] Initial manual auth successful
+- [ ] Manual extraction test OK
+- [ ] (Optional) Cron configured for automation
 
 ---
 
-**Créé par** : Craft Agent
-**Date** : 2026-01-24
-**Status** : ✅ Production-ready
+**Created by**: Craft Agent
+**Date**: 2026-01-24
+**Status**: ✅ Production-ready

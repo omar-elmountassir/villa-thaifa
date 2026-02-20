@@ -1,122 +1,122 @@
-# Brief Villa Thaifa
+# Villa Thaifa Brief
 
 ## Metadata
 
-— Session 2026-01-08 (12h-14h)
+— Session 2026-01-08 (12 PM - 2 PM)
 
-## État Actuel
+## Current State
 
-| Aspect       | Status                                                                                                                                                                     |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Contrat**  | ❌ AUCUN — Formalisation urgente                                                                                                                                           |
-| **Phase**    | 1 (Cleanup & Fondation) — En cours                                                                                                                                         |
-| **Repo**     | 329 fichiers, pas bien structuré - une refonte complète est obligatoire et avoir une app avec db, frontend, backend etc // S'inspirer / réutiiliser les démos d'IndyDevDan |
-| **Code app** | ❌ INEXISTANT — Système doc/ops uniquement                                                                                                                                 |
-
----
-
-## Leçons Passées (À Retenir)
-
-1. **Scout → Rapport → Questions → Action** — Toujours rapporter les découvertes AVANT de demander des infos
-2. **Ton formel avec M. Thaifa** — Vouvoiement obligatoire, respect des aînés
-3. **Livrables prêts à l'emploi** — `.txt` pour WhatsApp, pas `.md` avec métadonnées
-4. **Économie commissions** — Direct = 0%, Booking = 25% perdu (impact MASSIF)
-5. **Anti Tunnel Vision** — Zoom out avant de crier "bug"
-6. **94% confidence rule** — Si < 94% confiance → STOP & ASK Omar
+| Aspect       | Status                                                                                                                                                                |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Contract** | ❌ NONE — Urgent formalization required                                                                                                                               |
+| **Phase**    | 1 (Cleanup & Foundation) — In progress                                                                                                                                |
+| **Repo**     | 329 files, poorly structured - a complete refactoring is mandatory, building an app with db, frontend, backend etc. // Draw inspiration from / reuse IndyDevDan demos |
+| **App Code** | ❌ NON-EXISTENT — Doc/ops system only                                                                                                                                 |
 
 ---
 
-## Ce Qui Manque Pour "Transformer en App"
+## Past Lessons (To Remember)
 
-### Option A: App Web de Gestion
+1. **Scout → Report → Questions → Action** — Always report findings BEFORE asking for information
+2. **Formal tone with Mr. Thaifa** — Respectful addressing ("vous"), respect for elders is mandatory
+3. **Ready-to-use deliverables** — `.txt` for WhatsApp, no `.md` with metadata
+4. **Commission savings** — Direct = 0%, Booking = 25% lost (MASSIVE impact)
+5. **Anti Tunnel Vision** — Zoom out before calling it a "bug"
+6. **94% confidence rule** — If < 94% confidence → STOP & ASK Omar
+
+---
+
+## What is Missing to "Transform into an App"
+
+### Option A: Management Web App
 
 ```sh
 villa-thaifa-app/
 ├── frontend/          # React/Next.js dashboard
-│   ├── reservations/  # Vue calendrier
-│   ├── pricing/       # Gestion tarifs
+│   ├── reservations/  # Calendar view
+│   ├── pricing/       # Pricing management
 │   └── reports/       # Analytics
-├── backend/           # API Node/Python
-│   ├── hotelrunner/   # Intégration API (create an MCP for our agents??)
-│   ├── booking/       # Sync Booking.com  (do they have an MCP for our agents??)
-│   └── .../           # Sync all other plateforms (do they have an MCP for our agents??)
-└── mobile/            # PWA ou React Native ## PAS LA PRIORITé !!
+├── backend/           # Node/Python API
+│   ├── hotelrunner/   # API integration (create an MCP for our agents??)
+│   ├── booking/       # Booking.com sync (do they have an MCP for our agents??)
+│   └── .../           # Sync all other platforms (do they have an MCP for our agents??)
+└── mobile/            # PWA or React Native ## NOT A PRIORITY !!
 ```
 
-### Option B: Automation-First (Plus réaliste court-terme)
+### Option B: Automation-First (More realistic short-term)
 
 ```sh
-Garder structure actuelle + ajouter:
+Keep current structure + add:
 ├── scripts/
 │   ├── sync-hotelrunner.py    # API automation
-│   ├── daily-report.py        # Rapports auto
+│   ├── daily-report.py        # Auto reports
 │   └── notification-bot.py    # WhatsApp/Telegram
 └── infra/
     └── cron/                   # Scheduled tasks
 ```
 
-### Option C: Hybrid (Recommandé)
+### Option C: Hybrid (Recommended)
 
-1. **Court-terme**: Scripts automation sur structure existante
-2. **Moyen-terme**: Dashboard web simple (Streamlit/Gradio)
-3. **Long-terme**: Full app avec backend API
-
----
-
-## Priorités Demain 12h
-
-### P0 — Décisions Stratégiques
-
-1. **App ou Automation d'abord?** (Option A/B/C)
-2. **Contrat M. Thaifa** — Quand?
-3. **Go Siyaha** — Financement 90% — Investiguer?
-
-### P1 — Technique
-
-1. **API HotelRunner** — Statut demande à Ikram?
-2. **Stack technique** — Si app: Next.js? Python? Autre?
-3. **IndyDevDan curriculum** — Quoi utiliser?
-
-### P2 — Organisation
-
-1. **Lien el-mountassir → villa-thaifa** — Comment intégrer?
-2. **Vibe Kanban** — Pour gestion missions?
+1. **Short-term**: Automation scripts on top of the existing structure
+2. **Medium-term**: Simple web dashboard (Streamlit/Gradio)
+3. **Long-term**: Full app with backend API
 
 ---
 
-## Questions Ouvertes
+## Priorities Tomorrow 12 PM
 
-1. "Transformer en app" = quoi exactement?
-   [x] Dashboard web de gestion pour M. Thaifa et pour nous (Omar + agents IA)
-   [?] Scripts automation backend ? Pourquoi pas à voir si on peut combiner le tout
+### P0 — Strategic Decisions
 
-2. Quelle est la timeline réaliste?
-   [x] Cette semaine (Preuve de Concept/ Minimum Viable Product fonctionnel / Minimum Lovable Product/ prototype rapide)
+1. **App or Automation first?** (Option A/B/C)
+2. **Mr. Thaifa's Contract** — When?
+3. **Go Siyaha** — 90% funding — Investigate?
 
-3. API HotelRunner — Réponse d'Ikram?
-   [x] Oui, accès obtenu https://developers.hotelrunner.com/
+### P1 — Technical
+
+1. **HotelRunner API** — Request status with Ikram?
+2. **Tech stack** — If app: Next.js? Python? Other?
+3. **IndyDevDan curriculum** — What to use?
+
+### P2 — Organization
+
+1. **Link el-mountassir → villa-thaifa** — How to integrate?
+2. **Vibe Kanban** — For mission management?
 
 ---
 
-## Ressources
+## Open Questions
 
-### Resources Disponibles
+1. "Transform into an app" = what exactly?
+   [x] Custom web dashboard for Mr. Thaifa and for us (Omar + AI agents)
+   [?] Backend automation scripts? Why not see if we can combine everything
 
-| Ressource               | Location    | Usage                      |
+2. What is the realistic timeline?
+   [x] This week (Proof of Concept / Minimum Viable Product / Minimum Lovable Product / fast prototype)
+
+3. HotelRunner API — Reply from Ikram?
+   [x] Yes, access granted https://developers.hotelrunner.com/
+
+---
+
+## Resources
+
+### Available Resources
+
+| Resource                | Location    | Usage                      |
 | ----------------------- | ----------- | -------------------------- |
-| IndyDevDan curriculum   | À localiser | Patterns agent             |
-| Vibe Kanban             | À activer   | Gestion projet             |
+| IndyDevDan curriculum   | To locate   | Agent patterns             |
+| Vibe Kanban             | To activate | Project management         |
 | Core Four               | ops/        | Model/Context/Prompt/Tools |
-| docs/lessons-learned.md | Ce repo     | Erreurs à éviter           |
+| docs/lessons-learned.md | This repo   | Mistakes to avoid          |
 
 ---
 
 ## North Star
 
-> **Un M-Shaped Generalist + agents IA = gestion complète de 10+ établissements hôteliers.**
+> **One M-Shaped Generalist + AI agents = full management of 10+ hotel properties.**
 
-Villa Thaifa = premier établissement template.
+Villa Thaifa = first template property.
 
 ---
 
-_*Préparé par Claude Code — 2026-01-08 01:30*_
+_Prepared by Claude Code — 2026-01-08 01:30_

@@ -1,60 +1,60 @@
-# ADR-001: Architecture Structure - Domains vs Areas
+# Architecture ADR-001: Domains vs Areas Structure
 
 > **Date**: 2026-01-12
 > **Status**: ACCEPTED
 > **Deciders**: Omar, Antigravity
 > **Context**: Definition of the future codebase structure for Villa Thaifa PMS.
 
-## 1. Contexte
+## 1. Context
 
-Nous construisons une plateforme de **Property Management System (PMS)**.
-Ce n'est pas un simple site vitrine ("Experience"), c'est un outil de gestion ("Business Truth").
+We are building a **Property Management System (PMS)** platform.
+This is not a simple showcase website ("Experience"), it's a management tool ("Business Truth").
 
-Les fonctionnalités clés sont :
+Key features include:
 
-- **Réservations** (Règles conditionnelles, conflits de dates)
-- **Tarification** (Saisons, promos, calculs complexes)
-- **Channel Manager** (Synchro HotelRunner, Mapping)
-- **Finance** (Revenus, Dépenses)
+- **Reservations** (Conditional rules, date conflicts)
+- **Pricing** (Seasons, promos, complex calculations)
+- **Channel Manager** (HotelRunner Sync, Mapping)
+- **Finance** (Revenues, Expenses)
 
 ## 2. Options
 
 ### Option A: `src/areas/` (Feature/UI Driven)
 
-- Organisation par écran : `Dashboard`, `Settings`, `BookingPage`.
-- **Avantage** : Facile pour faire des vues rapides.
-- **Inconvénient** : La logique métier (ex: "Calculer prix") se retrouve dupliquée ou cachée dans les contrôleurs de vue.
+- Organization by screen: `Dashboard`, `Settings`, `BookingPage`.
+- **Advantage**: Easy to build quick views.
+- **Disadvantage**: Business logic (e.g., "Calculate price") gets duplicated or hidden within view controllers.
 
 ### Option B: `src/domains/` (Domain Driven - RECOMMENDED)
 
-- Organisation par "Vérité Métier" : `Reservations`, `Pricing`, `Channels`.
-- **Avantage** :
-  - La logique de "Comment on calcule un prix" est isolée de "Comment on l'affiche".
-  - Indispensable pour un système qui va avoir plusieurs interfaces (Web, WhatsApp Bot, API interne).
-  - Future-proof pour l'IA (Les agents comprennent mieux les concepts isolés).
+- Organization by "Business Truth": `Reservations`, `Pricing`, `Channels`.
+- **Advantage**:
+  - The logic for "How we calculate a price" is isolated from "How we display it".
+  - Essential for a system that will have multiple interfaces (Web, WhatsApp Bot, internal API).
+  - Future-proof for AI (Agents better understand isolated concepts).
 
-## 3. Décision Recommandée : `domains/`
+## 3. Recommended Decision: `domains/`
 
-Nous choisissons l'approche **Domain-Driven** car Villa Thaifa est un projet à forte densité de règles métier.
+We choose the **Domain-Driven** approach because Villa Thaifa is a project with high business rule density.
 
-### Structure Cible (Draft)
+### Target Structure (Draft)
 
 ```text
 src/
 ├── domains/
-│   ├── booking/        (Logique de réservation, Dispos)
-│   ├── pricing/        (Saisons, Promos, Calculs)
-│   ├── inventory/      (Chambres, Maintenance)
-│   └── accounting/     (Revenus, Factures)
-├── apps/               (Nos interfaces / Areas)
-│   ├── admin-web/      (Dashboard React/Next)
-│   └── whatsapp-bot/   (Agent conversationnel)
-└── core/               (Infra partagée, DB)
+│   ├── booking/        (Reservation logic, Availability)
+│   ├── pricing/        (Seasons, Promos, Calculations)
+│   ├── inventory/      (Rooms, Maintenance)
+│   └── accounting/     (Revenues, Invoices)
+├── apps/               (Our interfaces / Areas)
+│   ├── admin-web/      (React/Next Dashboard)
+│   └── whatsapp-bot/   (Conversational Agent)
+└── core/               (Shared infra, DB)
 ```
 
-## 4. Stack Technique (À Définir)
+## 4. Technical Stack (To Be Defined)
 
-Cette structure fonctionne bien avec :
+This structure plays well with:
 
-- **Backend / API** : Node.js (NestJS ou Hono) ou Python (FastAPI).
-- **Frontend** : Next.js ou Vite.
+- **Backend / API**: Node.js (NestJS or Hono) or Python (FastAPI).
+- **Frontend**: Next.js or Vite.

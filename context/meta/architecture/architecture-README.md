@@ -1,18 +1,18 @@
 # 🏡 Villa Thaifa — Digital Transformation
 
-> **Statut**: En cours de construction
-> **Dernière MAJ**: 12 Janvier 2026
+> **Status**: Under construction
+> **Last Update**: January 12, 2026
 > **Version**: [VERSION](VERSION.txt)
 
-Bienvenue dans le repository de transformation digitale de la Villa Thaifa.
-Ce projet vise à automatiser la gestion de la maison d'hôte, de la distribution (OTAs) à la gestion opérationnelle.
+Welcome to the digital transformation repository of Villa Thaifa.
+This project aims to automate the management of the guest house, from distribution (OTAs) to operational management.
 
-## 🏗️ Architecture des Données (2026)
+## 🏗️ Data Architecture (2026)
 
-Nous avons migré d'une structure de fichiers plats vers une base de données solide pour préparer l'Apps Web.
+We have migrated from a flat-file structure to a robust database to prepare for the Web Apps.
 
 - **Database**: `property.db` (SQLite)
 
 ---
 
-_Géré par Omar El Mountassir & Antigravity_
+_Managed by Omar El Mountassir & Antigravity_

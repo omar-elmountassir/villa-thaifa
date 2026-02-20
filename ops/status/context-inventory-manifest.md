@@ -875,8 +875,8 @@ _Unclassified — needs manual review_
 - `context/meta/planning/hotelrunner-poc-2025-12-19.md`
 - `context/meta/planning/implementation_plan_expedia.md`
 - `context/meta/planning/jisr-mokawala-investigation-2025-12.md`
-- `context/meta/planning/linear-github-setup.md`
-- `context/meta/planning/linear-workflow.md`
+- `~/omar/operational/productivity/protocols/linear-github-setup.md` (moved 2026-02-19)
+- `~/omar/operational/productivity/protocols/linear-workflow.md` (moved 2026-02-19)
 - `context/meta/planning/management--briefs--2025-12-22-hws-introduction.md`
 - `context/meta/planning/missions--README.md`
 - `context/meta/planning/onboarding_capture_v1.md`
