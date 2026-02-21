@@ -51,13 +51,15 @@
 | Booking.com rating  | 9.3/10 (80 reviews) — "Wonderful"                                                   | Confirmed                  |
 | Google rating       | 4.5/5 (22 reviews)                                                                  | Confirmed                  |
 | Total rooms         | 12                                                                                  | Confirmed                  |
+| Total beds          | 25                                                                                  | Confirmed (data/rooms/rooms.md — sum of Beds column) |
+| Max guests          | 37                                                                                  | Confirmed (data/rooms/rooms.md — sum of Max Occupancy column) |
 | Languages spoken    | Arabic, Dutch, English, French                                                      | Confirmed                  |
 | Check-in            | 14:00 (early check-in on request)                                                   | Confirmed                  |
 | Check-out           | 12:00 (late check-out on request) — Omar decision 2026-02-20                        | Confirmed                  |
 | Cancellation        | Free up to 72h before 18:00 on check-in day. Late cancel/no-show: 1st night + taxes | Confirmed                  |
 | Deposit required    | No                                                                                  | Confirmed                  |
 | Children policy     | Allowed. Ages 2-12: €30/person/night (existing bed)                                 | Confirmed (OTA)            |
-| Pets policy         | DISPUTED — see §6                                                                   | Awaiting: Said             |
+| Pets policy         | Not allowed                                                                         | Confirmed (Omar 2026-02-21) |
 | Smoking policy      | Designated smoking areas                                                            | Confirmed (Expedia Step 4) |
 | Pool                | Infinity pool, heated, open year-round                                              | Confirmed                  |
 | Spa / Hammam        | Yes — reservation required, minimum 4 guests                                        | Confirmed                  |
@@ -146,7 +148,7 @@
 
 | #   | Conflict         | Source A                                   | Source B / C                                              | Status         |
 | --- | ---------------- | ------------------------------------------ | --------------------------------------------------------- | -------------- |
-| 1   | Pets policy      | property-config.json: "Allowed, no charge" | booking-com-data.md: "Not allowed" / Expedia Step 4: "No" | Awaiting: Said |
+| 1   | Pets policy      | property-config.json: "Allowed, no charge" | booking-com-data.md: "Not allowed" / Expedia Step 4: "No" | **RESOLVED: Not allowed — Omar 2026-02-21** |
 | 2   | R06 terrace size | rooms.md: 100 m²                           | Said's handwritten notes: ~120 m²                         | Awaiting: Said |
 | 3   | R07 terrace size | rooms.md: 60 m²                            | Said's handwritten notes: 80-100 m²                       | Awaiting: Said |
 
@@ -191,7 +193,7 @@
 | #   | Item                                | Impact                          | Ref                                        |
 | --- | ----------------------------------- | ------------------------------- | ------------------------------------------ |
 | 1   | Sign Trip.com GDA contract          | New OTA channel at 18% vs 25%   | said-pending-questions.md §PO2             |
-| 2   | Pets policy confirmation            | Guest-facing OTA policy error   | said-pending-questions.md §C1              |
+| 2   | ~~Pets policy confirmation~~        | ~~Guest-facing OTA policy error~~ **RESOLVED: Not allowed (Omar 2026-02-21)** | said-pending-questions.md §C1 |
 | 3   | R06 + R07 terrace size confirmation | Room listing accuracy           | said-pending-questions.md §C2–C3           |
 | 4   | Legal entity info (MarocPME)        | MOUS-17509 blocked              | said-pending-questions.md §F1              |
 | 5   | Website preferences                 | Site creation blocked           | said-pending-questions.md §8               |

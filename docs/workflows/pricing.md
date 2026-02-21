@@ -67,10 +67,10 @@ Wait for explicit validation
 
 ## Points of Attention
 
-| Risk                       | Mitigation                               |
-| -------------------------- | ---------------------------------------- |
-| HotelRunner/Booking desync | Verify propagation after 15 min          |
-| Input error                | Double-check before validation           |
+| Risk                       | Mitigation                      |
+| -------------------------- | ------------------------------- |
+| HotelRunner/Booking desync | Verify propagation after 15 min |
+| Input error                | Double-check before validation  |
 | Conflicting promotions     | Check `data/finance/rates.json` |
 
 ---

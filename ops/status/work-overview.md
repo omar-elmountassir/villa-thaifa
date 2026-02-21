@@ -2,7 +2,7 @@
 
 > **Generated:** 2026-02-21
 > **Scope:** Pending actionable work only. Completed items excluded.
-> **Total Tasks:** 24 | **Actionable Now:** 14 | **Blocked:** 10
+> **Total Tasks:** 20 | **Actionable Now:** 10 | **Blocked:** 10
 
 ---
 
@@ -32,8 +32,6 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 | #   | Title                                         | Omar Role | Priority | Omar Time | Due        | Action Needed                                  |
 | --- | --------------------------------------------- | --------- | -------- | --------- | ---------- | ---------------------------------------------- |
-| 148 | Commit PROJECT-CONTRACT.md + browser changes  | Approve   | P1       | 2m        | 2026-02-21 | Say "commit" to trigger git commit             |
-| 143 | Cross-reference repo data vs Said items       | Review    | P1       | 5m        | 2026-02-21 | Review agent output; confirm resolved items    |
 | 137 | Scrape Booking.com for Villa Thaifa data      | Review    | P1       | 10m       | 2026-02-21 | Verify scrape completeness                     |
 | 138 | Web research (Google, TripAdvisor, etc.)      | Review    | P1       | 5m        | 2026-02-21 | Verify web sources cover open Said items       |
 | 140 | New rule: output actionable-first             | Review    | P2       | 5m        | —          | Approve or reject proposed rule text           |
@@ -51,32 +49,28 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Table A — Identity & Status
 
-| #   | Title                                              | Status  | Priority | Workstream                | Domain   | Type       | Labels                        |
-| --- | -------------------------------------------------- | ------- | -------- | ------------------------- | -------- | ---------- | ----------------------------- |
-| 143 | Cross-reference repo data vs Said items            | Todo    | P1       | A — Reduce Said Items     | data     | analysis   | Awaiting: Review              |
-| 137 | Scrape Booking.com for Villa Thaifa data           | Todo    | P1       | A — Reduce Said Items     | data     | research   | Awaiting: Review              |
-| 138 | Web research (Google, TripAdvisor, etc.)           | Todo    | P1       | A — Reduce Said Items     | data     | research   | Awaiting: Review              |
-| 139 | Clean up research/report files (actionable only)   | Todo    | P1       | B — Repo Cleanup          | infra    | cleanup    | —                             |
-| 145 | Fix 4 minor stale paths in .claude/ files          | Todo    | P1       | B — Repo Cleanup          | infra    | bug        | —                             |
-| 150 | Update truth.md with capacity (25 beds, 37 guests) | Todo    | P1       | B — Repo Cleanup          | data     | update     | —                             |
-| 148 | Commit PROJECT-CONTRACT.md + browser changes       | Todo    | P1       | B — Repo Cleanup          | infra    | chore      | Awaiting: Omar                |
-| 140 | New rule: output actionable-first                  | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              |
-| 141 | New rule: auto-archive completed files             | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              |
-| 142 | New rule: human bandwidth management               | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              |
-| 149 | Consolidate delegation rules → delegate skill      | Todo    | P2       | C — Nova Self-Improvement | rules    | refactor   | Awaiting: Omar                |
-| 147 | Close stale issues VT-42, VT-43, VT-48, VT-49      | Blocked | P2       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           |
-| 146 | Update VT-78/79/80/81 with resolved items          | Blocked | P2       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           |
-| 104 | Expedia Step 6                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: Expedia              |
-| 108 | Expedia Step 7                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #104                 |
-| 106 | Expedia Step 8                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #108                 |
-| 107 | Expedia Step 9                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #106                 |
-| 105 | Expedia Step 10                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #107                 |
-| 109 | Expedia Step 11                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #105                 |
-| 110 | Expedia Step 12                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #109                 |
-| 80  | VT-71: Facility files                              | Blocked | P3       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                |
-| 81  | VT-72/74/76: Room data gaps                        | Blocked | P3       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                |
-| 83  | VT-45: Harden facilities domain                    | Blocked | P3       | F — Said-Blocked          | data     | hardening  | Awaiting: Said, Awaiting: #80 |
-| 144 | Plan Said-facing Vercel app                        | Blocked | P4       | G — Future                | app      | planning   | Blocked: #137, #138, #143     |
+| #   | Title                                              | Status  | Priority | Workstream                | Domain   | Type       | Labels                        | Initiative                  | Project Health |
+| --- | -------------------------------------------------- | ------- | -------- | ------------------------- | -------- | ---------- | ----------------------------- | --------------------------- | -------------- |
+| 137 | Scrape Booking.com for Villa Thaifa data           | Todo    | P1       | A — Reduce Said Items     | data     | research   | Awaiting: Review              | Villa Thaifa Operations     | On Track       |
+| 138 | Web research (Google, TripAdvisor, etc.)           | Todo    | P1       | A — Reduce Said Items     | data     | research   | Awaiting: Review              | Villa Thaifa Operations     | On Track       |
+| 139 | Clean up research/report files (actionable only)   | Todo    | P1       | B — Repo Cleanup          | infra    | cleanup    | —                             | Villa Thaifa Operations     | On Track       |
+| 140 | New rule: output actionable-first                  | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
+| 141 | New rule: auto-archive completed files             | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
+| 142 | New rule: human bandwidth management               | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
+| 149 | Consolidate delegation rules → delegate skill      | Todo    | P2       | C — Nova Self-Improvement | rules    | refactor   | Awaiting: Omar                | Nova System                 | On Track       |
+| 147 | Close stale issues VT-42, VT-43, VT-48, VT-49      | Blocked | P2       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           | Villa Thaifa Operations     | At Risk        |
+| 146 | Update VT-78/79/80/81 with resolved items          | Blocked | P2       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           | Villa Thaifa Operations     | At Risk        |
+| 104 | Expedia Step 6                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: Expedia              | Expedia Onboarding          | At Risk        |
+| 108 | Expedia Step 7                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #104                 | Expedia Onboarding          | At Risk        |
+| 106 | Expedia Step 8                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #108                 | Expedia Onboarding          | At Risk        |
+| 107 | Expedia Step 9                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #106                 | Expedia Onboarding          | At Risk        |
+| 105 | Expedia Step 10                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #107                 | Expedia Onboarding          | At Risk        |
+| 109 | Expedia Step 11                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #105                 | Expedia Onboarding          | At Risk        |
+| 110 | Expedia Step 12                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #109                 | Expedia Onboarding          | At Risk        |
+| 80  | VT-71: Facility files                              | Blocked | P3       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                | Villa Thaifa Operations     | At Risk        |
+| 81  | VT-72/74/76: Room data gaps                        | Blocked | P3       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                | Villa Thaifa Operations     | At Risk        |
+| 83  | VT-45: Harden facilities domain                    | Blocked | P3       | F — Said-Blocked          | data     | hardening  | Awaiting: Said, Awaiting: #80 | Villa Thaifa Operations     | At Risk        |
+| 144 | Plan Said-facing Vercel app                        | Blocked | P4       | G — Future                | app      | planning   | Blocked: #137, #138           | Villa Thaifa Operations     | On Track       |
 
 ---
 
@@ -84,13 +78,9 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 | #   | Owner                  | Model  | Estimate | Autonomy | Confidence | Risk |
 | --- | ---------------------- | ------ | -------- | -------- | ---------- | ---- |
-| 143 | Sonnet                 | Sonnet | M (30m)  | ACT      | High       | Low  |
 | 137 | Sonnet + browser-agent | Sonnet | L (1h)   | ACT      | Med        | Med  |
 | 138 | Sonnet (researcher)    | Sonnet | M (30m)  | ACT      | Med        | Low  |
 | 139 | Sonnet                 | Sonnet | M (30m)  | ACT      | High       | Low  |
-| 145 | Haiku                  | Haiku  | XS (5m)  | ACT      | High       | Low  |
-| 150 | Haiku                  | Haiku  | XS (5m)  | ACT      | High       | Low  |
-| 148 | Orchestrator           | —      | XS (5m)  | ASK      | High       | Low  |
 | 140 | Sonnet                 | Sonnet | S (15m)  | INFORM   | High       | Low  |
 | 141 | Sonnet                 | Sonnet | S (15m)  | INFORM   | High       | Med  |
 | 142 | Sonnet                 | Sonnet | S (15m)  | INFORM   | Med        | Low  |
@@ -115,13 +105,9 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 | #   | Omar Role | Omar Time | Said Time | Contact | Due        | Quality Gate                                  |
 | --- | --------- | --------- | --------- | ------- | ---------- | --------------------------------------------- |
-| 143 | Review    | 5m        | 0m        | None    | 2026-02-21 | Cross-ref against said-pending-questions.md   |
 | 137 | Review    | 10m       | 0m        | None    | 2026-02-21 | Verify scrape completeness vs item list       |
 | 138 | Review    | 5m        | 0m        | None    | 2026-02-21 | Verify coverage of open Said items            |
 | 139 | None      | 0m        | 0m        | None    | 2026-02-21 | No actionable content lost; git verifiable    |
-| 145 | None      | 0m        | 0m        | None    | 2026-02-21 | All stale refs resolved; paths valid          |
-| 150 | None      | 0m        | 0m        | None    | 2026-02-21 | truth.md shows 25 beds, 37 guests             |
-| 148 | Approve   | 2m        | 0m        | None    | 2026-02-21 | Omar explicit approval before commit          |
 | 140 | Review    | 5m        | 0m        | None    | —          | Rule consistent with existing rule set        |
 | 141 | Review    | 5m        | 0m        | None    | —          | Rule tested on sample archived files          |
 | 142 | Review    | 5m        | 0m        | None    | —          | Rule integrates with mode system              |
@@ -144,32 +130,28 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Table D — Dependencies & Traceability
 
-| #   | Blocks | Blocked By       | Unlocks                          | Parent | Linear Ref                 | Branch | Cycle |
-| --- | ------ | ---------------- | -------------------------------- | ------ | -------------------------- | ------ | ----- |
-| 143 | #144   | None             | Reduces Said items; enables #144 | None   | VT-71, VT-72, VT-74, VT-76 | —      | —     |
-| 137 | #144   | None             | Reduces Said items; enables #144 | None   | VT-71, VT-72               | —      | —     |
-| 138 | None   | None             | Reduces Said items               | None   | —                          | —      | —     |
-| 139 | None   | None             | Cleaner ~/omar/knowledge/        | None   | —                          | —      | —     |
-| 145 | None   | None             | .claude/ refs clean              | None   | —                          | —      | —     |
-| 150 | None   | None             | truth.md accurate                | None   | VT-77                      | —      | —     |
-| 148 | None   | Omar approval    | Clean git state                  | None   | —                          | —      | —     |
-| 140 | None   | None             | Better Nova behavior             | None   | —                          | —      | —     |
-| 141 | None   | None             | Better Nova behavior             | None   | —                          | —      | —     |
-| 142 | None   | None             | Better Nova behavior             | None   | —                          | —      | —     |
-| 149 | None   | None             | Cleaner CLAUDE.md/rules.md       | None   | —                          | —      | —     |
-| 147 | None   | MCP Linear       | Linear backlog clean             | None   | VT-42, VT-43, VT-48, VT-49 | —      | —     |
-| 146 | None   | MCP Linear       | Linear issues up to date         | None   | VT-78, VT-79, VT-80, VT-81 | —      | —     |
-| 104 | #108   | Expedia platform | Step 7 unblocked                 | VT-82  | VT-82                      | —      | —     |
-| 108 | #106   | #104             | Step 8 unblocked                 | VT-82  | VT-82                      | —      | —     |
-| 106 | #107   | #108             | Step 9 unblocked                 | VT-82  | VT-82                      | —      | —     |
-| 107 | #105   | #106             | Step 10 unblocked                | VT-82  | VT-82                      | —      | —     |
-| 105 | #109   | #107             | Step 11 unblocked                | VT-82  | VT-82                      | —      | —     |
-| 109 | #110   | #105             | Step 12 unblocked                | VT-82  | VT-82                      | —      | —     |
-| 110 | None   | #109             | Expedia live                     | VT-82  | VT-82                      | —      | —     |
-| 80  | #83    | Said             | Facility data complete; #83      | None   | VT-71                      | —      | —     |
-| 81  | #83    | Said             | Room data complete; #83          | None   | VT-72, VT-74, VT-76        | —      | —     |
-| 83  | None   | #80, #81, Said   | Facilities domain hardened       | None   | VT-45                      | —      | —     |
-| 144 | None   | #137, #138, #143 | Vercel app design approved       | None   | —                          | —      | —     |
+| #   | Blocks | Blocked By       | Unlocks                          | Parent | Linear Ref                 | Branch | Cycle | Project                  | Related Issues |
+| --- | ------ | ---------------- | -------------------------------- | ------ | -------------------------- | ------ | ----- | ------------------------ | -------------- |
+| 137 | #144   | None             | Reduces Said items; enables #144 | None   | VT-71, VT-72               | —      | —     | Data Consolidation       | #138           |
+| 138 | None   | None             | Reduces Said items               | None   | —                          | —      | —     | Data Consolidation       | #137           |
+| 139 | None   | None             | Cleaner ~/omar/knowledge/        | None   | —                          | —      | —     | Repo Cleanup             | —              |
+| 140 | None   | None             | Better Nova behavior             | None   | —                          | —      | —     | Nova Self-Improvement    | #141, #142     |
+| 141 | None   | None             | Better Nova behavior             | None   | —                          | —      | —     | Nova Self-Improvement    | #140, #142     |
+| 142 | None   | None             | Better Nova behavior             | None   | —                          | —      | —     | Nova Self-Improvement    | #140, #141     |
+| 149 | None   | None             | Cleaner CLAUDE.md/rules.md       | None   | —                          | —      | —     | Nova Self-Improvement    | —              |
+| 147 | None   | MCP Linear       | Linear backlog clean             | None   | VT-42, VT-43, VT-48, VT-49 | —      | —     | Linear Maintenance       | #146           |
+| 146 | None   | MCP Linear       | Linear issues up to date         | None   | VT-78, VT-79, VT-80, VT-81 | —      | —     | Linear Maintenance       | #147           |
+| 104 | #108   | Expedia platform | Step 7 unblocked                 | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 108 | #106   | #104             | Step 8 unblocked                 | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 106 | #107   | #108             | Step 9 unblocked                 | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 107 | #105   | #106             | Step 10 unblocked                | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 105 | #109   | #107             | Step 11 unblocked                | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 109 | #110   | #105             | Step 12 unblocked                | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 110 | None   | #109             | Expedia live                     | VT-82  | VT-82                      | —      | —     | Expedia Onboarding       | —              |
+| 80  | #83    | Said             | Facility data complete; #83      | None   | VT-71                      | —      | —     | Data Consolidation       | #81            |
+| 81  | #83    | Said             | Room data complete; #83          | None   | VT-72, VT-74, VT-76        | —      | —     | Data Consolidation       | #80            |
+| 83  | None   | #80, #81, Said   | Facilities domain hardened       | None   | VT-45                      | —      | —     | Data Consolidation       | —              |
+| 144 | None   | #137, #138       | Vercel app design approved       | None   | —                          | —      | —     | Said-Facing App          | —              |
 
 ---
 
@@ -184,26 +166,6 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ---
 
-#### #143 — Cross-reference existing repo data against Said items
-
-- **Status**: Todo | **Priority**: P1 | **Workstream**: A — Reduce Said Items
-- **Domain**: data | **Type**: analysis | **Labels**: Awaiting: Review
-- **Owner**: Sonnet | **Estimate**: M (30m) | **Model**: Sonnet
-- **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
-- **Omar Role**: Review | **Omar Time**: 5m | **Said Time**: 0m | **Contact**: None
-- **Due**: 2026-02-21 | **Quality Gate**: All items in said-pending-questions.md cross-checked; resolved items moved to Resolution Log
-- **Prerequisites**: Read said-pending-questions.md, data/property/, data/rooms/, data/finance/
-- **Related Files**: `data/admin/said-pending-questions.md`, `data/property/property-config.json`, `data/rooms/rooms.md`, `ops/status/truth.md`
-- **Blocks**: #144 | **Blocked By**: None | **Unlocks**: Reduces Said item list; feeds #144
-- **Parent**: None | **Sub-tasks**: None | **Linear**: VT-71, VT-72, VT-74, VT-76 | **Branch**: — | **Cycle**: —
-- **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
-- **Triage Date**: — | **Milestone**: —
-- **Attempt History**: None
-- **Description**: Systematically compare every open item in said-pending-questions.md against all existing repo data (property-config.json, rooms.md, rates.json, billing.json, facilities/\*.md). Mark any item that can be resolved from existing data without Said's input.
-- **Output**: Updated `data/admin/said-pending-questions.md` with resolved items moved to Resolution Log; summary of remaining incompressible items
-
----
-
 #### #137 — Scrape Booking.com for Villa Thaifa data
 
 - **Status**: Todo | **Priority**: P1 | **Workstream**: A — Reduce Said Items
@@ -212,8 +174,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Med (scraping can fail or be blocked) | **Reversibility**: Easy
 - **Omar Role**: Review | **Omar Time**: 10m | **Said Time**: 0m | **Contact**: None
 - **Due**: 2026-02-21 | **Quality Gate**: Raw extraction file created; at least 10 Said items addressed
+- **Initiative**: Villa Thaifa Operations | **Project**: Data Consolidation | **Project Health**: On Track
 - **Prerequisites**: browser-agent Chrome access; Booking.com Villa Thaifa listing URL
 - **Related Files**: `data/admin/said-pending-questions.md`, `data/property/property-config.json`
+- **Related Issues**: #138
 - **Blocks**: #144 | **Blocked By**: None | **Unlocks**: Reduces Said items; enables #144
 - **Parent**: None | **Sub-tasks**: None | **Linear**: VT-71, VT-72 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -232,8 +196,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: Review | **Omar Time**: 5m | **Said Time**: 0m | **Contact**: None
 - **Due**: 2026-02-21 | **Quality Gate**: Multiple sources consulted; findings cross-referenced
+- **Initiative**: Villa Thaifa Operations | **Project**: Data Consolidation | **Project Health**: On Track
 - **Prerequisites**: None
 - **Related Files**: `data/admin/said-pending-questions.md`, `data/property/property-config.json`
+- **Related Issues**: #137
 - **Blocks**: None | **Blocked By**: None | **Unlocks**: Reduces Said items
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -259,8 +225,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy (git restore)
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: None
 - **Due**: 2026-02-21 | **Quality Gate**: No actionable items lost; git diff shows only non-actionable files removed
+- **Initiative**: Villa Thaifa Operations | **Project**: Repo Cleanup | **Project Health**: On Track
 - **Prerequisites**: None
 - **Related Files**: `~/omar/knowledge/research/development/`
+- **Related Issues**: —
 - **Blocks**: None | **Blocked By**: None | **Unlocks**: Cleaner knowledge base
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -268,66 +236,6 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Attempt History**: None
 - **Description**: Audit ~/omar/knowledge/research/development/ for stale report files generated by past sessions that are no longer actionable (e.g., one-time migration analyses, superseded plans, old audit dumps). Archive or delete non-actionable files; keep anything with lasting reference value.
 - **Output**: Cleaned `~/omar/knowledge/research/development/`; archive log if files moved
-
----
-
-#### #145 — Fix 4 minor stale paths in .claude/ files
-
-- **Status**: Todo | **Priority**: P1 | **Workstream**: B — Repo Cleanup
-- **Domain**: infra | **Type**: bug | **Labels**: —
-- **Owner**: Haiku | **Estimate**: XS (5m) | **Model**: Haiku
-- **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
-- **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: None
-- **Due**: 2026-02-21 | **Quality Gate**: All 4 stale paths resolved; grep for old paths returns 0 matches
-- **Prerequisites**: None
-- **Related Files**: `~/.claude/` configuration files
-- **Blocks**: None | **Blocked By**: None | **Unlocks**: Clean .claude/ configuration
-- **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
-- **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
-- **Triage Date**: — | **Milestone**: —
-- **Attempt History**: None
-- **Description**: Four stale file paths exist in .claude/ configuration files, likely pointing to old data/specs/ or data/core/ paths that were renamed in the repo consolidation. Identify and update all 4 to their current canonical paths.
-- **Output**: Updated .claude/ files with corrected paths
-
----
-
-#### #150 — Update truth.md with capacity (25 beds, 37 guests)
-
-- **Status**: Todo | **Priority**: P1 | **Workstream**: B — Repo Cleanup
-- **Domain**: data | **Type**: update | **Labels**: —
-- **Owner**: Haiku | **Estimate**: XS (5m) | **Model**: Haiku
-- **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
-- **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: None
-- **Due**: 2026-02-21 | **Quality Gate**: truth.md §2 reflects 25 beds, 37 guests; matches property-config.json
-- **Prerequisites**: GP1 and GP2 resolved (already done per said-pending-questions.md Resolution Log)
-- **Related Files**: `ops/status/truth.md`, `data/property/property-config.json`
-- **Blocks**: None | **Blocked By**: None | **Unlocks**: Accurate source of truth
-- **Parent**: None | **Sub-tasks**: None | **Linear**: VT-77 | **Branch**: — | **Cycle**: —
-- **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
-- **Triage Date**: — | **Milestone**: —
-- **Attempt History**: None
-- **Description**: GP1 (total beds = 25) and GP2 (max guests = 37) were resolved on 2026-02-21 per the said-pending-questions.md Resolution Log. Update truth.md §2 Property Configuration to reflect these confirmed values explicitly.
-- **Output**: Updated `ops/status/truth.md` §2
-
----
-
-#### #148 — Commit PROJECT-CONTRACT.md + browser-agent changes
-
-- **Status**: Todo | **Priority**: P1 | **Workstream**: B — Repo Cleanup
-- **Domain**: infra | **Type**: chore | **Labels**: Awaiting: Omar
-- **Owner**: Orchestrator | **Estimate**: XS (5m) | **Model**: —
-- **Autonomy**: ASK | **Confidence**: High | **Risk**: Low | **Reversibility**: Low (git history public)
-- **Omar Role**: Approve | **Omar Time**: 2m | **Said Time**: 0m | **Contact**: None
-- **Due**: 2026-02-21 | **Quality Gate**: Omar says "commit" or equivalent; git status clean after
-- **Prerequisites**: Omar's explicit approval
-- **Related Files**: `PROJECT-CONTRACT.md`, browser-agent definition files
-- **Blocks**: None | **Blocked By**: Omar approval | **Unlocks**: Clean working tree; sync with remote
-- **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
-- **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
-- **Triage Date**: — | **Milestone**: —
-- **Attempt History**: None
-- **Description**: PROJECT-CONTRACT.md and browser-agent changes are staged but not committed. This is a Tier 3 (ASK) operation — requires Omar's explicit approval before running `git commit`. Run `make changelog` first, then commit.
-- **Output**: Git commit on main; clean working tree
 
 ---
 
@@ -346,8 +254,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: INFORM | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: Review | **Omar Time**: 5m | **Said Time**: 0m | **Contact**: None
 - **Due**: — | **Quality Gate**: Rule is consistent with existing mode system; no conflicts with other rails
+- **Initiative**: Nova System | **Project**: Nova Self-Improvement | **Project Health**: On Track
 - **Prerequisites**: None
 - **Related Files**: `~/.claude/rules/rules.md`, `~/omar/core/resources/rules/universal.md`
+- **Related Issues**: #141, #142
 - **Blocks**: None | **Blocked By**: None | **Unlocks**: Better structured Nova outputs
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -366,8 +276,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: INFORM | **Confidence**: High | **Risk**: Med (wrong archive = lost work) | **Reversibility**: Easy (git restore)
 - **Omar Role**: Review | **Omar Time**: 5m | **Said Time**: 0m | **Contact**: None
 - **Due**: — | **Quality Gate**: Rule integrates with Preserve First + Capture Before Archive; no conflict
+- **Initiative**: Nova System | **Project**: Nova Self-Improvement | **Project Health**: On Track
 - **Prerequisites**: None
 - **Related Files**: `~/omar/core/resources/rules/universal.md`, `~/.claude/rules/rules.md`
+- **Related Issues**: #140, #142
 - **Blocks**: None | **Blocked By**: None | **Unlocks**: Automatic housekeeping after task completion
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -386,8 +298,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: INFORM | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: Review | **Omar Time**: 5m | **Said Time**: 0m | **Contact**: None
 - **Due**: — | **Quality Gate**: Rule covers Said time, Omar time, contact thresholds explicitly
+- **Initiative**: Nova System | **Project**: Nova Self-Improvement | **Project Health**: On Track
 - **Prerequisites**: None
 - **Related Files**: `~/omar/core/resources/rules/universal.md`, `~/.claude/CLAUDE.md`
+- **Related Issues**: #140, #141
 - **Blocks**: None | **Blocked By**: None | **Unlocks**: Smarter human-time accounting in task planning
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -406,8 +320,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ASK | **Confidence**: Med | **Risk**: Med (affects all agent behavior) | **Reversibility**: Easy (revert skill)
 - **Omar Role**: Decide | **Omar Time**: 15m | **Said Time**: 0m | **Contact**: None
 - **Due**: — | **Quality Gate**: Delegate skill is complete; CLAUDE.md/rules.md delegation sections trimmed; no behavioral regression
+- **Initiative**: Nova System | **Project**: Nova Self-Improvement | **Project Health**: On Track
 - **Prerequisites**: Omar's conceptual approval before starting
 - **Related Files**: `~/.claude/skills/delegate.md`, `~/.claude/rules/rules.md`, `~/.claude/CLAUDE.md`
+- **Related Issues**: —
 - **Blocks**: None | **Blocked By**: None | **Unlocks**: Single source of truth for delegation logic
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -433,8 +349,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy (reopen)
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Linear
 - **Due**: — | **Quality Gate**: VT-42, VT-43, VT-48, VT-49 status = Canceled in Linear
+- **Initiative**: Villa Thaifa Operations | **Project**: Linear Maintenance | **Project Health**: At Risk
 - **Prerequisites**: MCP Linear tools available (requires session restart)
 - **Related Files**: Linear issues VT-42, VT-43, VT-48, VT-49
+- **Related Issues**: #146
 - **Blocks**: None | **Blocked By**: MCP Linear unavailable | **Unlocks**: Cleaner Linear backlog
 - **Parent**: None | **Sub-tasks**: None | **Linear**: VT-42, VT-43, VT-48, VT-49 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -453,8 +371,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Linear
 - **Due**: — | **Quality Gate**: VT-78/79/80/81 have current resolution notes; statuses accurate
+- **Initiative**: Villa Thaifa Operations | **Project**: Linear Maintenance | **Project Health**: At Risk
 - **Prerequisites**: MCP Linear tools available (requires session restart)
 - **Related Files**: Linear issues VT-78, VT-79, VT-80, VT-81
+- **Related Issues**: #147
 - **Blocks**: None | **Blocked By**: MCP Linear unavailable | **Unlocks**: Linear state matches repo state
 - **Parent**: None | **Sub-tasks**: None | **Linear**: VT-78, VT-79, VT-80, VT-81 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -481,8 +401,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 6 marked complete in Expedia dashboard; Step 7 unblocked
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: Expedia platform access (Step 5 unblocked by Expedia tax team — VT-82)
 - **Related Files**: `context/agents/browser/`, `data/rooms/`
+- **Related Issues**: —
 - **Blocks**: #108 | **Blocked By**: Expedia platform access | **Unlocks**: Step 7 (#108)
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -501,8 +423,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 7 complete; Step 8 unblocked
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: #104 complete
 - **Related Files**: `context/agents/browser/`
+- **Related Issues**: —
 - **Blocks**: #106 | **Blocked By**: #104 | **Unlocks**: Step 8 (#106)
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -521,8 +445,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 8 complete; Step 9 unblocked
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: #108 complete
 - **Related Files**: `context/agents/browser/`
+- **Related Issues**: —
 - **Blocks**: #107 | **Blocked By**: #108 | **Unlocks**: Step 9 (#107)
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -541,8 +467,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 9 complete; Step 10 unblocked
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: #106 complete
 - **Related Files**: `context/agents/browser/`
+- **Related Issues**: —
 - **Blocks**: #105 | **Blocked By**: #106 | **Unlocks**: Step 10 (#105)
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -561,8 +489,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 10 complete; Step 11 unblocked
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: #107 complete
 - **Related Files**: `context/agents/browser/`
+- **Related Issues**: —
 - **Blocks**: #109 | **Blocked By**: #107 | **Unlocks**: Step 11 (#109)
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -581,8 +511,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 11 complete; Step 12 unblocked
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: #105 complete
 - **Related Files**: `context/agents/browser/`
+- **Related Issues**: —
 - **Blocks**: #110 | **Blocked By**: #105 | **Unlocks**: Step 12 (#110)
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -601,8 +533,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 0m | **Contact**: Expedia
 - **Due**: — | **Quality Gate**: Step 12 complete; Expedia channel live
+- **Initiative**: Expedia Onboarding | **Project**: Expedia Onboarding | **Project Health**: At Risk
 - **Prerequisites**: #109 complete
 - **Related Files**: `context/agents/browser/`, `data/operations/channels.json`
+- **Related Issues**: —
 - **Blocks**: None | **Blocked By**: #109 | **Unlocks**: Expedia channel active; update channels.json
 - **Parent**: VT-82 | **Sub-tasks**: None | **Linear**: VT-82 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -628,8 +562,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 30m+ | **Contact**: Said
 - **Due**: — | **Quality Gate**: All owner_pending fields in facilities/\*.md resolved; validation passes
+- **Initiative**: Villa Thaifa Operations | **Project**: Data Consolidation | **Project Health**: At Risk
 - **Prerequisites**: Said's physical confirmation of spa/pool/garden/hall specs (said-data-validation-checklist.md)
 - **Related Files**: `data/property/facilities/spa-hammam.md`, `data/property/facilities/pool.md`, `data/property/facilities/garden.md`, `data/property/facilities/hall-reception.md`, `data/admin/said-pending-questions.md §3`
+- **Related Issues**: #81
 - **Blocks**: #83 | **Blocked By**: Said confirmation | **Unlocks**: Facility data complete; #83 unblocked
 - **Parent**: None | **Sub-tasks**: None | **Linear**: VT-71 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -648,14 +584,16 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: None | **Omar Time**: 0m | **Said Time**: 30m+ | **Contact**: Said
 - **Due**: — | **Quality Gate**: All data_confidence: owner_pending fields resolved; conflicts C1-C3 closed
+- **Initiative**: Villa Thaifa Operations | **Project**: Data Consolidation | **Project Health**: At Risk
 - **Prerequisites**: Said's physical walk-through (said-data-validation-checklist.md §Rooms)
 - **Related Files**: `data/rooms/R01-R12/profile.md`, `data/rooms/rooms.md`, `data/admin/said-pending-questions.md §2`, `ops/decisions/open-conflicts-registry.md`
+- **Related Issues**: #80
 - **Blocks**: #83 | **Blocked By**: Said confirmation | **Unlocks**: Room data complete; #83 unblocked
 - **Parent**: None | **Sub-tasks**: None | **Linear**: VT-72, VT-74, VT-76 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
 - **Triage Date**: — | **Milestone**: —
 - **Attempt History**: None
-- **Description**: Update R01-R11 room profiles with Said's confirmed measurements and specs. Resolve conflicts C1 (pets policy), C2 (R06 terrace size), C3 (R07 terrace size). Confirm floor assignments for R04 and R10. Verify R07 sofa bed count.
+- **Description**: Update R01-R11 room profiles with Said's confirmed measurements and specs. C1 (pets policy) is RESOLVED — not allowed. Resolve remaining conflicts C2 (R06 terrace size), C3 (R07 terrace size). Confirm floor assignments for R04 and R10. Verify R07 sofa bed count.
 - **Output**: Updated room profiles; resolved conflict entries in open-conflicts-registry.md
 
 ---
@@ -668,8 +606,10 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: Review | **Omar Time**: 5m | **Said Time**: 30m+ | **Contact**: Said
 - **Due**: — | **Quality Gate**: Facilities domain passes validation script; no owner_pending fields remain; Definition of Done met
+- **Initiative**: Villa Thaifa Operations | **Project**: Data Consolidation | **Project Health**: At Risk
 - **Prerequisites**: #80 complete, #81 complete, Said confirmation
 - **Related Files**: `data/property/facilities/`, `data/pending-domains/`, `scripts/validate_contracts.py`
+- **Related Issues**: —
 - **Blocks**: None | **Blocked By**: #80, #81, Said | **Unlocks**: Facilities domain fully hardened
 - **Parent**: None | **Sub-tasks**: None | **Linear**: VT-45 | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
@@ -689,14 +629,16 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 #### #144 — Plan Said-facing Vercel app
 
 - **Status**: Blocked | **Priority**: P4 | **Workstream**: G — Future
-- **Domain**: app | **Type**: planning | **Labels**: Blocked: #137, #138, #143
+- **Domain**: app | **Type**: planning | **Labels**: Blocked: #137, #138
 - **Owner**: Opus | **Estimate**: L (1h) | **Model**: Opus
 - **Autonomy**: ASK | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
 - **Omar Role**: Decide | **Omar Time**: 30m | **Said Time**: 0m | **Contact**: None
 - **Due**: 2026-02-22 | **Quality Gate**: Design doc approved by Omar; scope, tech stack, and Said UX requirements defined
-- **Prerequisites**: #137 complete, #138 complete, #143 complete (need full picture of remaining Said items to scope the app)
+- **Initiative**: Villa Thaifa Operations | **Project**: Said-Facing App | **Project Health**: On Track
+- **Prerequisites**: #137 complete, #138 complete (need full picture of remaining Said items to scope the app)
 - **Related Files**: `data/admin/said-pending-questions.md`, `~/omar/professional/projects/lhcm-os/`
-- **Blocks**: None | **Blocked By**: #137, #138, #143 | **Unlocks**: Said-facing app development; reduces Said communication overhead
+- **Related Issues**: —
+- **Blocks**: None | **Blocked By**: #137, #138 | **Unlocks**: Said-facing app development; reduces Said communication overhead
 - **Parent**: None | **Sub-tasks**: None | **Linear**: — | **Branch**: — | **Cycle**: —
 - **Created**: 2026-02-21 | **Updated**: 2026-02-21 | **Started**: — | **Completed**: —
 - **Triage Date**: — | **Milestone**: —
@@ -716,8 +658,8 @@ flowchart TD
     classDef low fill:#6b7280,color:#fff,stroke:#4b5563
     classDef blocked fill:#374151,color:#9ca3af,stroke:#4b5563,stroke-dasharray:5 5
 
-    A["Workstream A\nReduce Said Items\n#143, #137, #138\n3 tasks"]
-    B["Workstream B\nRepo Cleanup\n#139, #145, #150, #148\n4 tasks"]
+    A["Workstream A\nReduce Said Items\n#137, #138\n2 tasks"]
+    B["Workstream B\nRepo Cleanup\n#139\n1 task"]
     C["Workstream C\nNova Self-Improvement\n#140, #141, #142, #149\n4 tasks"]
     D["Workstream D\nLinear Maintenance\n#147, #146\n⚠ Needs MCP\n2 tasks"]
     E["Workstream E\nExpedia Onboarding\n#104→108→106→107→105→109→110\n⚠ Needs Expedia access\n7 tasks"]
@@ -746,8 +688,8 @@ flowchart TD
 
 | Phase | Run                                           | Mode       | Est. time |
 | ----- | --------------------------------------------- | ---------- | --------- |
-| 1     | A in parallel (143+137+138) + B (139+145+150) | Parallel   | ~1h 30m   |
-| 2     | Review A+B results, Omar approves #148 commit | Omar       | ~20m      |
+| 1     | A in parallel (137+138) + B (139)             | Parallel   | ~1h 30m   |
+| 2     | Review A+B results                            | Omar       | ~15m      |
 | 3     | C in parallel (140+141+142+149)               | Parallel   | ~1h       |
 | 4     | D after MCP session restart                   | Sequential | ~30m      |
 | 5     | G after A complete (tomorrow max)             | Sequential | ~1h       |
