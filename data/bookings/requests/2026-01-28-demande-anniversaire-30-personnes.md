@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demande Événement - 30 Personnes - Villa Thaifa</title>
+    <title>Event Request - 30 People - Villa Thaifa</title>
     <style>
         * {
             margin: 0;
@@ -374,66 +374,66 @@
     <div class="container">
         <!-- HEADER -->
         <div class="header">
-            <h1>🎂 Demande Événement - Anniversaire</h1>
-            <div class="date">📅 Reçu le 28 janvier 2026 - 20h16</div>
+            <h1>🎂 Event Request - Birthday</h1>
+            <div class="date">📅 Received January 28, 2026 - 8:16 PM</div>
             <div>
-                <span class="badge">30 Personnes</span>
-                <span class="badge">14-17 Mai 2026</span>
-                <span class="badge">3 Nuits</span>
+                <span class="badge">30 People</span>
+                <span class="badge">May 14-17, 2026</span>
+                <span class="badge">3 Nights</span>
             </div>
         </div>
 
         <!-- CONTENT -->
         <div class="content">
 
-            <!-- SECTION 1: MESSAGE CLIENT -->
+            <!-- SECTION 1: CLIENT MESSAGE -->
             <section class="section">
                 <h2 class="section-title">
                     <span class="icon">💬</span>
-                    Message du Client
+                    Client Message
                 </h2>
 
                 <div class="client-message">
-                    <p><strong>[20:16]</strong> Nous souhaitons organiser un anniversaire à Marrakech</p>
-                    <p><strong>[20:16]</strong> Cherchons des villas pour accueillir 20 adultes et 10 enfants</p>
-                    <p><strong>[20:16]</strong> Du 14 au 17 mai</p>
-                    <p><strong>[20:16]</strong> Est ce que vous avez des disponibilités et villas à nous proposer pour cette occasion</p>
+                    <p><strong>[20:16]</strong> We would like to organize a birthday party in Marrakech</p>
+                    <p><strong>[20:16]</strong> Looking for villas to accommodate 20 adults and 10 children</p>
+                    <p><strong>[20:16]</strong> From May 14 to 17</p>
+                    <p><strong>[20:16]</strong> Do you have availability and villas to offer for this occasion</p>
                 </div>
 
                 <div class="alert alert-warning">
-                    <strong>⚠️ ATTENTION :</strong> Le client demande "des villas" (pluriel). Il pense peut-être que Villa Thaifa a plusieurs bâtiments ou cherche plusieurs propriétés séparées.<br><br>
-                    <strong>Villa Thaifa = UNE SEULE propriété avec 12 chambres.</strong>
+                    <strong>⚠️ ATTENTION:</strong> The client asks for "villas" (plural). They might think that Villa Thaifa has several buildings or are looking for several separate properties.<br><br>
+                    <strong>Villa Thaifa = A SINGLE property with 12 rooms.</strong>
                 </div>
             </section>
 
-            <!-- SECTION 2: ANALYSE CAPACITÉ -->
+            <!-- SECTION 2: CAPACITY ANALYSIS -->
             <section class="section">
                 <h2 class="section-title">
                     <span class="icon">🏨</span>
-                    Analyse Capacité Villa Thaifa
+                    Villa Thaifa Capacity Analysis
                 </h2>
 
                 <div class="capacity-grid">
                     <div class="capacity-card">
                         <div class="number">30</div>
-                        <div class="label">Personnes demandées<br>(20 adultes + 10 enfants)</div>
+                        <div class="label">Requested People<br>(20 adults + 10 children)</div>
                     </div>
                     <div class="capacity-card">
                         <div class="number">37</div>
-                        <div class="label">Capacité maximale<br>(12 chambres)</div>
+                        <div class="label">Maximum Capacity<br>(12 rooms)</div>
                     </div>
                     <div class="capacity-card">
                         <div class="number">✅</div>
-                        <div class="label">FAISABLE techniquement</div>
+                        <div class="label">Technically FEASIBLE</div>
                     </div>
                 </div>
 
                 <table>
                     <thead>
                         <tr>
-                            <th>Chambre</th>
+                            <th>Room</th>
                             <th>Type</th>
-                            <th>Capacité</th>
+                            <th>Capacity</th>
                             <th>Configuration</th>
                         </tr>
                     </thead>
@@ -442,311 +442,311 @@
                             <td>01, 03, 08</td>
                             <td>Deluxe Triple</td>
                             <td>3 × 3 = 9</td>
-                            <td>1 Lit King + 1 Canapé-lit</td>
+                            <td>1 King Bed + 1 Sofa Bed</td>
                         </tr>
                         <tr>
                             <td>02</td>
                             <td>Deluxe Double</td>
                             <td>2</td>
-                            <td>1 Lit King</td>
+                            <td>1 King Bed</td>
                         </tr>
                         <tr>
                             <td>04, 05</td>
                             <td>Double Superior</td>
                             <td>2 × 2 = 4</td>
-                            <td>1 Lit King</td>
+                            <td>1 King Bed</td>
                         </tr>
                         <tr>
                             <td>06</td>
                             <td>Executive Suite</td>
                             <td>3</td>
-                            <td>1 Lit King + 1 Canapé-lit</td>
+                            <td>1 King Bed + 1 Sofa Bed</td>
                         </tr>
                         <tr>
                             <td>07</td>
                             <td>Deluxe King Suite</td>
                             <td>4</td>
-                            <td>1 Lit King + 2 Canapés-lit</td>
+                            <td>1 King Bed + 2 Sofa Beds</td>
                         </tr>
                         <tr>
                             <td>09, 11</td>
                             <td>Family Suite</td>
                             <td>4 × 2 = 8</td>
-                            <td>1 Lit King + 2 Canapés-lit</td>
+                            <td>1 King Bed + 2 Sofa Beds</td>
                         </tr>
                         <tr>
                             <td>10</td>
                             <td>Suite</td>
                             <td>3</td>
-                            <td>1 Lit King + 1 Canapé-lit</td>
+                            <td>1 King Bed + 1 Sofa Bed</td>
                         </tr>
                         <tr>
                             <td>12</td>
                             <td>Presidential Suite</td>
                             <td>4</td>
-                            <td>1 Lit King + 2 Canapés-lit</td>
+                            <td>1 King Bed + 2 Sofa Beds</td>
                         </tr>
                         <tr style="background: #e8f4f8; font-weight: bold;">
                             <td colspan="2">TOTAL</td>
-                            <td>37 adultes max</td>
-                            <td>12 chambres</td>
+                            <td>37 adults max</td>
+                            <td>12 rooms</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
 
-            <!-- SECTION 3: TARIFICATION -->
+            <!-- SECTION 3: PRICING PROPOSAL -->
             <section class="section">
                 <h2 class="section-title">
                     <span class="icon">💰</span>
-                    Proposition Tarifaire
+                    Pricing Proposal
                 </h2>
 
                 <div class="price-box">
-                    <div class="price">6 000 € (Base)</div>
+                    <div class="price">€ 6,000 (Base)</div>
                     <div class="details">
-                        Privatisation complète : 3 nuits × 2 000 €/nuit<br>
-                        Hors prestations • Hors spa/hammam
+                        Full privatization: 3 nights × € 2,000/night<br>
+                        Excluding services • Excluding spa/hammam
                     </div>
                 </div>
 
                 <div class="alert alert-info">
-                    <strong>📋 Prestations supplémentaires à discuter :</strong><br><br>
+                    <strong>📋 Additional services to discuss:</strong><br><br>
 
                     <table style="margin-top: 15px;">
                         <thead>
                             <tr>
-                                <th>Prestation</th>
-                                <th>Tarif estimé</th>
-                                <th>Statut</th>
+                                <th>Service</th>
+                                <th>Estimated Rate</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Petit-déjeuner (30 pers × 3 jours)</td>
-                                <td>~1 170 €<br><small>(13 €/pers estimé)</small></td>
-                                <td><span class="highlight">À confirmer</span></td>
+                                <td>Breakfast (30 pax × 3 days)</td>
+                                <td>~€ 1,170<br><small>(€ 13/pax estimated)</small></td>
+                                <td><span class="highlight">To be confirmed</span></td>
                             </tr>
                             <tr>
-                                <td>Repas anniversaire (groupe)</td>
-                                <td>Sur devis</td>
-                                <td><span class="highlight">À négocier</span></td>
+                                <td>Birthday meal (group)</td>
+                                <td>On quote</td>
+                                <td><span class="highlight">To be negotiated</span></td>
                             </tr>
                             <tr>
-                                <td>Spa/Hammam (groupe)</td>
-                                <td>Sur devis</td>
-                                <td><span class="highlight">À confirmer</span></td>
+                                <td>Spa/Hammam (group)</td>
+                                <td>On quote</td>
+                                <td><span class="highlight">To be confirmed</span></td>
                             </tr>
                             <tr>
-                                <td>Décoration événement</td>
-                                <td>Sur devis</td>
-                                <td><span class="highlight">À négocier</span></td>
+                                <td>Event decoration</td>
+                                <td>On quote</td>
+                                <td><span class="highlight">To be negotiated</span></td>
                             </tr>
                             <tr style="background: #fff9e6; font-weight: bold;">
-                                <td>TOTAL ESTIMÉ</td>
-                                <td>7 000 - 10 000 €</td>
-                                <td>Selon options</td>
+                                <td>ESTIMATED TOTAL</td>
+                                <td>€ 7,000 - 10,000</td>
+                                <td>Depending on options</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </section>
 
-            <!-- SECTION 4: QUESTIONS CRITIQUES -->
+            <!-- SECTION 4: CRITICAL QUESTIONS -->
             <section class="section">
                 <h2 class="section-title">
                     <span class="icon">❓</span>
-                    Questions Critiques pour Said
+                    Critical Questions for Said
                 </h2>
 
                 <div class="alert alert-success">
-                    <strong>✅ EXCELLENTE NOUVELLE :</strong><br><br>
+                    <strong>✅ EXCELLENT NEWS:</strong><br><br>
                     <p style="font-size: 1.1em; margin-bottom: 15px;">
-                        <strong>Omar a vérifié sur HotelRunner : La villa est ENTIÈREMENT DISPONIBLE du 14-17 mai 2026 !</strong>
+                        <strong>Omar has checked on HotelRunner: The villa is FULLY AVAILABLE from May 14-17, 2026!</strong>
                     </p>
-                    <p>Les 12 chambres sont libres. Nous pouvons accepter cette réservation.</p>
+                    <p>All 12 rooms are free. We can accept this reservation.</p>
                 </div>
 
                 <div class="alert alert-warning">
-                    <strong>⚠️ QUESTIONS RESTANTES - Réponses requises avant de répondre au client :</strong><br><br>
+                    <strong>⚠️ REMAINING QUESTIONS - Answers required before replying to client:</strong><br><br>
 
                     <ol style="margin-left: 20px; line-height: 2;">
-                        <li><strong>Politique enfants :</strong> Âge limite ? Tarif enfant ? Lits supplémentaires disponibles ?</li>
-                        <li><strong>Petit-déjeuner :</strong> Inclus dans les 2 000 €/nuit ou en supplément ? Tarif exact ?</li>
-                        <li><strong>Hall/Espaces :</strong> Le hall peut-il accueillir 30 personnes pour un repas d'anniversaire ?</li>
-                        <li><strong>Prestations événement :</strong> Décoration autorisée ? Traiteur externe ? Animation/musique ?</li>
-                        <li><strong>Spa/Hammam :</strong> Tarif groupe ? Capacité simultanée ?</li>
+                        <li><strong>Children policy:</strong> Age limit? Child rate? Extra beds available?</li>
+                        <li><strong>Breakfast:</strong> Included in the € 2,000/night or extra? Exact rate?</li>
+                        <li><strong>Hall/Spaces:</strong> Can the hall accommodate 30 people for a sit-down birthday meal?</li>
+                        <li><strong>Event services:</strong> Decoration allowed? External caterer? Entertainment/music?</li>
+                        <li><strong>Spa/Hammam:</strong> Group rate? Simultaneous capacity?</li>
                     </ol>
                 </div>
             </section>
 
-            <!-- SECTION 5: FORMULAIRE RÉPONSE SAID -->
+            <!-- SECTION 5: RESPONSE FORM SAID -->
             <section class="section">
                 <h2 class="section-title">
                     <span class="icon">📝</span>
-                    Formulaire de Réponse (Said)
+                    Response Form (Said)
                 </h2>
 
                 <div class="form-section">
                     <form id="saidResponseForm">
 
-                        <!-- Question 1: Disponibilité (PRÉ-CONFIRMÉE) -->
+                        <!-- Question 1: Availability (PRE-CONFIRMED) -->
                         <div class="form-group" style="background: #e8f8f5; padding: 20px; border-radius: 10px; border: 2px solid #27ae60;">
-                            <label>1. Les 12 chambres sont-elles disponibles du 14-17 mai 2026 ? ✅ CONFIRMÉ</label>
+                            <label>1. Are all 12 rooms available from May 14-17, 2026? ✅ CONFIRMED</label>
                             <div class="alert alert-success" style="margin-top: 10px;">
-                                <strong>✅ Omar a vérifié sur HotelRunner :</strong><br>
-                                La villa est ENTIÈREMENT DISPONIBLE (12 chambres libres).<br>
-                                Cette question est déjà répondue, vous pouvez passer aux suivantes.
+                                <strong>✅ Omar checked on HotelRunner:</strong><br>
+                                The villa is FULLY AVAILABLE (12 free rooms).<br>
+                                This question is already answered, you can proceed to the next ones.
                             </div>
                             <div class="radio-group">
                                 <div class="radio-option">
                                     <input type="radio" name="disponibilite" value="oui" id="dispo-oui" required checked>
-                                    <label for="dispo-oui">✅ Oui, toutes disponibles (confirmé par Omar)</label>
+                                    <label for="dispo-oui">✅ Yes, all available (confirmed by Omar)</label>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Question 2: Politique enfants -->
+                        <!-- Question 2: Children policy -->
                         <div class="form-group">
-                            <label>2. Politique enfants *</label>
-                            <input type="number" name="age_limite_gratuit" placeholder="Âge limite enfant gratuit (ex: 0-2 ans)">
-                            <input type="number" name="tarif_enfant_pourcentage" placeholder="Tarif enfant (% du tarif adulte, ex: 50)">
-                            <textarea name="politique_enfants_details" placeholder="Autres détails (lits bébé, lits d'appoint, etc.)"></textarea>
+                            <label>2. Children policy *</label>
+                            <input type="number" name="age_limite_gratuit" placeholder="Free child age limit (e.g. 0-2 years)">
+                            <input type="number" name="tarif_enfant_pourcentage" placeholder="Child rate (% of adult rate, e.g. 50)">
+                            <textarea name="politique_enfants_details" placeholder="Other details (baby cots, extra beds, etc.)"></textarea>
                         </div>
 
-                        <!-- Question 3: Petit-déjeuner -->
+                        <!-- Question 3: Breakfast -->
                         <div class="form-group">
-                            <label>3. Petit-déjeuner *</label>
+                            <label>3. Breakfast *</label>
                             <div class="radio-group">
                                 <div class="radio-option">
                                     <input type="radio" name="petit_dej_inclus" value="inclus" id="pdj-inclus">
-                                    <label for="pdj-inclus">✅ Inclus dans les 2 000 €/nuit</label>
+                                    <label for="pdj-inclus">✅ Included in € 2,000/night</label>
                                 </div>
                                 <div class="radio-option">
                                     <input type="radio" name="petit_dej_inclus" value="supplement" id="pdj-supplement">
-                                    <label for="pdj-supplement">💰 En supplément</label>
+                                    <label for="pdj-supplement">💰 With supplement</label>
                                 </div>
                             </div>
-                            <input type="number" name="tarif_petit_dej" placeholder="Si en supplément, tarif par personne (EUR)" step="0.01">
+                            <input type="number" name="tarif_petit_dej" placeholder="If extra, rate per person (EUR)" step="0.01">
                         </div>
 
-                        <!-- Question 4: Capacité hall -->
+                        <!-- Question 4: Hall capacity -->
                         <div class="form-group">
-                            <label>4. Le hall peut-il accueillir 30 personnes pour un repas assis ? *</label>
+                            <label>4. Can the hall accommodate 30 people for a sit-down meal? *</label>
                             <div class="radio-group">
                                 <div class="radio-option">
                                     <input type="radio" name="hall_capacite" value="oui" id="hall-oui">
-                                    <label for="hall-oui">✅ Oui</label>
+                                    <label for="hall-oui">✅ Yes</label>
                                 </div>
                                 <div class="radio-option">
                                     <input type="radio" name="hall_capacite" value="jardin" id="hall-jardin">
-                                    <label for="hall-jardin">🌳 Non, mais jardin possible</label>
+                                    <label for="hall-jardin">🌳 No, but garden possible</label>
                                 </div>
                                 <div class="radio-option">
                                     <input type="radio" name="hall_capacite" value="non" id="hall-non">
-                                    <label for="hall-non">❌ Non</label>
+                                    <label for="hall-non">❌ No</label>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Question 5: Prestations événement -->
+                        <!-- Question 5: Event services -->
                         <div class="form-group">
-                            <label>5. Prestations événement autorisées *</label>
+                            <label>5. Allowed event services *</label>
                             <div class="checkbox-group">
                                 <div class="checkbox-option">
                                     <input type="checkbox" name="autorisation[]" value="decoration" id="auth-deco">
-                                    <label for="auth-deco">🎨 Décoration (ballons, bannières, etc.)</label>
+                                    <label for="auth-deco">🎨 Decoration (balloons, banners, etc.)</label>
                                 </div>
                                 <div class="checkbox-option">
                                     <input type="checkbox" name="autorisation[]" value="traiteur" id="auth-traiteur">
-                                    <label for="auth-traiteur">🍽️ Traiteur externe autorisé</label>
+                                    <label for="auth-traiteur">🍽️ External caterer allowed</label>
                                 </div>
                                 <div class="checkbox-option">
                                     <input type="checkbox" name="autorisation[]" value="musique" id="auth-musique">
-                                    <label for="auth-musique">🎵 Musique/DJ autorisé</label>
+                                    <label for="auth-musique">🎵 Music/DJ allowed</label>
                                 </div>
                                 <div class="checkbox-option">
                                     <input type="checkbox" name="autorisation[]" value="alcool" id="auth-alcool">
-                                    <label for="auth-alcool">🍷 Alcool autorisé (BYO)</label>
+                                    <label for="auth-alcool">🍷 Alcohol allowed (BYO)</label>
                                 </div>
                             </div>
-                            <input type="text" name="horaire_limite_musique" placeholder="Si musique autorisée, horaire limite (ex: 23h00)">
-                            <input type="number" name="supplement_traiteur" placeholder="Si traiteur externe, supplément cuisine (EUR)" step="0.01">
+                            <input type="text" name="horaire_limite_musique" placeholder="If music allowed, time limit (e.g. 23:00)">
+                            <input type="number" name="supplement_traiteur" placeholder="If external caterer, kitchen supplement (EUR)" step="0.01">
                         </div>
 
                         <!-- Question 6: Spa/Hammam -->
                         <div class="form-group">
-                            <label>6. Spa & Hammam - Tarif groupe</label>
-                            <input type="number" name="tarif_spa_groupe" placeholder="Tarif groupe (EUR total ou par personne)" step="0.01">
-                            <input type="number" name="capacite_spa_simultanee" placeholder="Capacité simultanée (nombre de personnes)">
-                            <textarea name="spa_details" placeholder="Détails (durée, prestations incluses, etc.)"></textarea>
+                            <label>6. Spa & Hammam - Group rate</label>
+                            <input type="number" name="tarif_spa_groupe" placeholder="Group rate (USD total or per person)" step="0.01">
+                            <input type="number" name="capacite_spa_simultanee" placeholder="Simultaneous capacity (number of people)">
+                            <textarea name="spa_details" placeholder="Details (duration, included services, etc.)"></textarea>
                         </div>
 
-                        <!-- Question 7: Repas anniversaire -->
+                        <!-- Question 7: Birthday meal -->
                         <div class="form-group">
-                            <label>7. Repas d'anniversaire (Restaurant Thaifa)</label>
+                            <label>7. Birthday meal (Restaurant Thaifa)</label>
                             <div class="radio-group">
                                 <div class="radio-option">
                                     <input type="radio" name="repas_restaurant" value="disponible" id="repas-dispo">
-                                    <label for="repas-dispo">✅ Disponible sur devis</label>
+                                    <label for="repas-dispo">✅ Available on quote</label>
                                 </div>
                                 <div class="radio-option">
                                     <input type="radio" name="repas_restaurant" value="non" id="repas-non">
-                                    <label for="repas-non">❌ Non disponible</label>
+                                    <label for="repas-non">❌ Not available</label>
                                 </div>
                             </div>
-                            <input type="number" name="tarif_menu_groupe" placeholder="Tarif estimé menu groupe par personne (EUR)" step="0.01">
+                            <input type="number" name="tarif_menu_groupe" placeholder="Estimated group menu rate per person (EUR)" step="0.01">
                         </div>
 
-                        <!-- Question 8: Conditions réservation -->
+                        <!-- Question 8: Booking conditions -->
                         <div class="form-group">
-                            <label>8. Conditions de réservation événement</label>
-                            <input type="number" name="acompte_pourcentage" placeholder="Acompte requis (% du total, ex: 50)" step="0.01">
-                            <input type="number" name="caution_montant" placeholder="Caution événement (EUR)" step="0.01">
-                            <textarea name="conditions_annulation" placeholder="Politique d'annulation (ex: remboursement jusqu'à X jours avant, etc.)"></textarea>
+                            <label>8. Event booking conditions</label>
+                            <input type="number" name="acompte_pourcentage" placeholder="Required deposit (% of total, e.g. 50)" step="0.01">
+                            <input type="number" name="caution_montant" placeholder="Event deposit (EUR)" step="0.01">
+                            <textarea name="conditions_annulation" placeholder="Cancellation policy (e.g. refund up to X days before, etc.)"></textarea>
                         </div>
 
-                        <!-- Question 9: Notes additionnelles -->
+                        <!-- Question 9: Additional notes -->
                         <div class="form-group">
-                            <label>9. Notes additionnelles / Observations</label>
-                            <textarea name="notes_said" placeholder="Toute information supplémentaire que Said souhaite ajouter..." rows="5"></textarea>
+                            <label>9. Additional Notes / Observations</label>
+                            <textarea name="notes_said" placeholder="Any additional information Said wishes to add..." rows="5"></textarea>
                         </div>
 
-                        <!-- Boutons d'action -->
+                        <!-- Action buttons -->
                         <div class="btn-container">
                             <button type="button" class="btn btn-primary" onclick="exporterReponses()">
                                 <span>💾</span>
-                                Exporter les Réponses (JSON)
+                                Export Answers (JSON)
                             </button>
                             <button type="button" class="btn btn-success" onclick="copierReponses()">
                                 <span>📋</span>
-                                Copier dans le Presse-papier
+                                Copy to Clipboard
                             </button>
                             <button type="button" class="btn btn-secondary" onclick="imprimerDocument()">
                                 <span>🖨️</span>
-                                Imprimer
+                                Print
                             </button>
                         </div>
                     </form>
                 </div>
             </section>
 
-            <!-- SECTION 6: PROCHAINES ÉTAPES -->
+            <!-- SECTION 6: NEXT STEPS -->
             <section class="section">
                 <h2 class="section-title">
                     <span class="icon">🎯</span>
-                    Prochaines Étapes
+                    Next Steps
                 </h2>
 
                 <div class="alert alert-success">
-                    <strong>✅ Une fois ce formulaire complété :</strong><br><br>
+                    <strong>✅ Once this form is completed:</strong><br><br>
 
                     <ol style="margin-left: 20px; line-height: 2;">
-                        <li>Cliquer sur "<strong>Exporter les Réponses</strong>" pour télécharger un fichier JSON</li>
-                        <li>Transférer ce fichier JSON à Claude (Omar)</li>
-                        <li>Claude préparera une <strong>réponse client professionnelle personnalisée</strong></li>
-                        <li>Validation finale par Said/Omar avant envoi au client</li>
-                        <li>Envoi de la proposition au client via WhatsApp</li>
+                        <li>Click on "<strong>Export Answers</strong>" to download a JSON file</li>
+                        <li>Send this JSON file to Claude (Omar)</li>
+                        <li>Claude will prepare a <strong>personalized professional client response</strong></li>
+                        <li>Final validation by Said/Omar before sending to the client</li>
+                        <li>Send the proposal to the client via WhatsApp</li>
                     </ol>
                 </div>
             </section>
@@ -756,8 +756,8 @@
         <!-- FOOTER -->
         <div class="footer">
             <p><strong>Villa Thaifa Property Management System</strong></p>
-            <p>Document généré le 28 janvier 2026 par Claude (Assistant IA)</p>
-            <p>Pour : Said Thaifa & Omar El Mountassir</p>
+            <p>Document generated January 28, 2026 by Claude (AI Assistant)</p>
+            <p>For: Said Thaifa & Omar El Mountassir</p>
         </div>
     </div>
 
@@ -766,167 +766,68 @@
             const form = document.getElementById('saidResponseForm');
             const formData = new FormData(form);
 
-            // Convertir FormData en objet JSON
+            // Convert FormData to JSON object
             const data = {
                 timestamp: new Date().toISOString(),
-                demande_client: {
-                    date_reception: "2026-01-28 20:16",
-                    personnes: 30,
-                    adultes: 20,
-                    enfants: 10,
-                    dates: "14-17 mai 2026",
-                    nuits: 3,
-                    type_evenement: "Anniversaire"
+                client_request: {
+                    date_received: "2026-01-28 20:16",
+                    people: 30,
+                    adults: 20,
+                    children: 10,
+                    dates: "May 14-17 2026",
+                    nights: 3,
+                    event_type: "Birthday"
                 },
-                reponses_said: {}
+                said_responses: {}
             };
 
-            // Traiter les checkboxes
-            const autorisations = [];
-            formData.getAll('autorisation[]').forEach(val => autorisations.push(val));
+            // Process checkboxes
+            const authorizations = [];
+            formData.getAll('autorisation[]').forEach(val => authorizations.push(val));
 
-            // Récupérer toutes les valeurs
+            // Get all values
             for (let [key, value] of formData.entries()) {
                 if (key !== 'autorisation[]') {
-                    data.reponses_said[key] = value;
+                    data.said_responses[key] = value;
                 }
             }
 
-            data.reponses_said.autorisations = autorisations;
+            data.said_responses.authorizations = authorizations;
 
-            // Créer un blob et télécharger
+            // Create blob and download
             const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `villa-thaifa-reponse-said-${new Date().toISOString().split('T')[0]}.json`;
+            a.download = `reponses-said-anniversaire-30p-${new Date().toISOString().split('T')[0]}.json`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
-
-            alert('✅ Fichier JSON exporté avec succès !\n\nTransférez ce fichier à Claude (Omar) pour générer la réponse client.');
         }
 
         function copierReponses() {
             const form = document.getElementById('saidResponseForm');
-            const formData = new FormData(form);
+            const data = new FormData(form);
+            let textReponse = "📝 REPONSES SAID - ANNIVERSAIRE 30 PERS (14-17 Mai)\n\n";
 
-            let texte = "=== RÉPONSES DE SAID - DEMANDE ANNIVERSAIRE 30 PERSONNES ===\n\n";
-            texte += "Date: " + new Date().toLocaleString('fr-FR') + "\n\n";
-
-            texte += "1. DISPONIBILITÉ 14-17 MAI 2026\n";
-            texte += "   " + (formData.get('disponibilite') || 'NON RÉPONDU') + "\n";
-            if (formData.get('disponibilite_details')) {
-                texte += "   Détails: " + formData.get('disponibilite_details') + "\n";
+            for (let [key, value] of data.entries()) {
+                if (value && value.trim() !== '') {
+                    textReponse += `- ${key}: ${value}\n`;
+                }
             }
-            texte += "\n";
 
-            texte += "2. POLITIQUE ENFANTS\n";
-            texte += "   Âge gratuit: " + (formData.get('age_limite_gratuit') || 'NON RÉPONDU') + " ans\n";
-            texte += "   Tarif enfant: " + (formData.get('tarif_enfant_pourcentage') || 'NON RÉPONDU') + "%\n";
-            if (formData.get('politique_enfants_details')) {
-                texte += "   Détails: " + formData.get('politique_enfants_details') + "\n";
-            }
-            texte += "\n";
-
-            texte += "3. PETIT-DÉJEUNER\n";
-            texte += "   " + (formData.get('petit_dej_inclus') || 'NON RÉPONDU') + "\n";
-            if (formData.get('tarif_petit_dej')) {
-                texte += "   Tarif: " + formData.get('tarif_petit_dej') + " EUR/personne\n";
-            }
-            texte += "\n";
-
-            texte += "4. CAPACITÉ HALL\n";
-            texte += "   " + (formData.get('hall_capacite') || 'NON RÉPONDU') + "\n\n";
-
-            texte += "5. AUTORISATIONS ÉVÉNEMENT\n";
-            const autorisations = formData.getAll('autorisation[]');
-            if (autorisations.length > 0) {
-                autorisations.forEach(auth => texte += "   ✓ " + auth + "\n");
-            } else {
-                texte += "   NON RÉPONDU\n";
-            }
-            if (formData.get('horaire_limite_musique')) {
-                texte += "   Horaire musique: " + formData.get('horaire_limite_musique') + "\n";
-            }
-            if (formData.get('supplement_traiteur')) {
-                texte += "   Supplément traiteur: " + formData.get('supplement_traiteur') + " EUR\n";
-            }
-            texte += "\n";
-
-            texte += "6. SPA/HAMMAM\n";
-            texte += "   Tarif groupe: " + (formData.get('tarif_spa_groupe') || 'NON RÉPONDU') + " EUR\n";
-            texte += "   Capacité: " + (formData.get('capacite_spa_simultanee') || 'NON RÉPONDU') + " personnes\n";
-            if (formData.get('spa_details')) {
-                texte += "   Détails: " + formData.get('spa_details') + "\n";
-            }
-            texte += "\n";
-
-            texte += "7. REPAS ANNIVERSAIRE\n";
-            texte += "   " + (formData.get('repas_restaurant') || 'NON RÉPONDU') + "\n";
-            if (formData.get('tarif_menu_groupe')) {
-                texte += "   Tarif: " + formData.get('tarif_menu_groupe') + " EUR/personne\n";
-            }
-            texte += "\n";
-
-            texte += "8. CONDITIONS RÉSERVATION\n";
-            texte += "   Acompte: " + (formData.get('acompte_pourcentage') || 'NON RÉPONDU') + "%\n";
-            texte += "   Caution: " + (formData.get('caution_montant') || 'NON RÉPONDU') + " EUR\n";
-            if (formData.get('conditions_annulation')) {
-                texte += "   Annulation: " + formData.get('conditions_annulation') + "\n";
-            }
-            texte += "\n";
-
-            texte += "9. NOTES SAID\n";
-            texte += formData.get('notes_said') || 'Aucune note additionnelle';
-            texte += "\n\n=== FIN ===";
-
-            // Copier dans le presse-papier
-            navigator.clipboard.writeText(texte).then(() => {
-                alert('✅ Réponses copiées dans le presse-papier !\n\nVous pouvez maintenant les coller dans un email, WhatsApp, ou autre.');
+            navigator.clipboard.writeText(textReponse).then(() => {
+                alert('Answers copied to clipboard! You can paste them into WhatsApp or Claude.');
             }).catch(err => {
-                alert('❌ Erreur lors de la copie. Utilisez plutôt l\'export JSON.');
-                console.error('Erreur copie:', err);
+                console.error('Error copying text: ', err);
+                alert('Copy error. Please use export instead.');
             });
         }
 
         function imprimerDocument() {
             window.print();
         }
-
-        // Auto-save dans localStorage
-        const form = document.getElementById('saidResponseForm');
-        form.addEventListener('input', function() {
-            const formData = new FormData(form);
-            const data = {};
-            for (let [key, value] of formData.entries()) {
-                data[key] = value;
-            }
-            localStorage.setItem('villa_thaifa_form_backup', JSON.stringify(data));
-        });
-
-        // Restaurer les données au chargement
-        window.addEventListener('load', function() {
-            const saved = localStorage.getItem('villa_thaifa_form_backup');
-            if (saved) {
-                const data = JSON.parse(saved);
-                for (let key in data) {
-                    const input = form.elements[key];
-                    if (input) {
-                        if (input.type === 'radio') {
-                            const radio = form.querySelector(`input[name="${key}"][value="${data[key]}"]`);
-                            if (radio) radio.checked = true;
-                        } else if (input.type === 'checkbox') {
-                            input.checked = data[key] === 'on';
-                        } else {
-                            input.value = data[key];
-                        }
-                    }
-                }
-                console.log('✅ Données restaurées depuis la sauvegarde locale');
-            }
-        });
     </script>
 </body>
 </html>

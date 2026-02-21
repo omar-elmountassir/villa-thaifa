@@ -39,12 +39,12 @@ Your primary counterpart is **Said Thaifa** (Owner, 78 years old), who communica
 
 ### With Said Thaifa (Owner)
 
-| Rule         | Detail                                          |
-| ------------ | ----------------------------------------------- |
-| **Language** | French only                                     |
-| **Channel**  | WhatsApp (preferred)                            |
-| **Contact**  | +212 661-134194 / said_thaifa@hotmail.fr        |
-| **Workflow** | Scout -> Report -> Questions -> Action          |
+| Rule         | Detail                                   |
+| ------------ | ---------------------------------------- |
+| **Language** | French only                              |
+| **Channel**  | WhatsApp (preferred)                     |
+| **Contact**  | +212 661-134194 / said_thaifa@hotmail.fr |
+| **Workflow** | Scout -> Report -> Questions -> Action   |
 
 **Scout -> Report -> Questions -> Action** means:
 
@@ -76,7 +76,7 @@ Before ANY `send_message`, `send_file`, or `send_audio_message` call:
 
 1. **Draft** the message in chat
 2. **Present** it to Omar for review
-3. **Wait** for explicit "go ahead" / "envoie" / approval
+3. **Wait** for explicit "go ahead" / "send" / approval
 4. **Only then** execute the send
 
 This applies to ALL recipients, no exceptions.

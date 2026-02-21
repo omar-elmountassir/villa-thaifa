@@ -1,303 +1,303 @@
-# Évaluation du Document d'Alignement
+# Alignment Document Evaluation
 
-> **Document évalué**: `ai/alignment/2026-01-08-claude-md-externalization.md`
-> **Évaluateur**: Claude (Auto-évaluation)
+> **Evaluated Document**: `ai/alignment/2026-01-08-claude-md-externalization.md`
+> **Evaluator**: Claude (Self-evaluation)
 > **Date**: 2026-01-08
 
 ---
 
-## Score Global: 58/100 ⚠️
+## Overall Score: 58/100 ⚠️
 
-| Catégorie               | Score | Max | Commentaire                 |
-| ----------------------- | ----- | --- | --------------------------- |
-| Complétude des tableaux | 12    | 25  | Colonnes manquantes partout |
-| Clarté structurelle     | 15    | 20  | Structure OK mais gaps      |
-| Actionabilité           | 10    | 20  | Manque détails d'exécution  |
-| Gestion des risques     | 0     | 15  | Totalement absent           |
-| Critères de succès      | 5     | 10  | Vague                       |
-| Traçabilité             | 16    | 10  | Bon (notes préservées)      |
-
----
-
-## Analyse Détaillée des Tableaux
-
-### Tableau 1: "Analyse de l'État Actuel" (Ligne 26-40)
-
-**Colonnes présentes**: Section, Lignes, Problème
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire                                  |
-| ----------------- | ---------------------------------------------------- |
-| **Priorité**      | Savoir par quoi commencer                            |
-| **Action**        | Que faire exactement (Externaliser/Garder/Supprimer) |
-| **Destination**   | Vers quel fichier externaliser                       |
-| **Dépendances**   | Quelles sections dépendent d'autres                  |
-| **Effort**        | Estimation (S/M/L)                                   |
-
-**Score**: 2/5
-
-### Tableau 2: "Redondances Identifiées" (Ligne 44-49)
-
-**Colonnes présentes**: Contenu, Dans CLAUDE.md, Aussi dans
-**Colonnes MANQUANTES**:
-
-| Colonne manquante    | Pourquoi nécessaire                     |
-| -------------------- | --------------------------------------- |
-| **Source de vérité** | Lequel garder comme SSOT?               |
-| **Action**           | Supprimer de CLAUDE.md? Pointer?        |
-| **Impact**           | Que se passe-t-il si on ne corrige pas? |
-
-**Score**: 2/5
-
-### Tableau 3: Q1 "Granularité" (Ligne 142-146)
-
-**Colonnes présentes**: Option, Description, CLAUDE.md résultant
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire           |
-| ----------------- | ----------------------------- |
-| **Avantages**     | Pourquoi choisir cette option |
-| **Inconvénients** | Risques de cette option       |
-| **Effort**        | Combien de travail            |
-| **Recommandé**    | Indicateur visuel (✓/✗)       |
-
-**Score**: 2/5
-
-### Tableau 4: Q2 "Emplacement" (Ligne 152-155)
-
-**Colonnes présentes**: Option, Chemin, Avantage
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire        |
-| ----------------- | -------------------------- |
-| **Inconvénient**  | Trade-off de chaque option |
-| **Compatibilité** | Avec quels outils/CLIs     |
-| **Convention**    | Standard industrie?        |
-
-**Score**: 2/5
-
-### Tableau 5: Q3 "Format pointeurs" (Ligne 161-165)
-
-**Colonnes présentes**: Option, Syntaxe, Exemple
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire                |
-| ----------------- | ---------------------------------- |
-| **Avantage**      | Pourquoi utiliser ce format        |
-| **Inconvénient**  | Limitations                        |
-| **Supporté par**  | Quels outils comprennent ce format |
-| **Exemple réel**  | Avec vrai chemin du projet         |
-
-**Score**: 2/5
-
-### Tableau 6: Q4 "Migration" (Ligne 173-186)
-
-**Colonnes présentes**: Fichier, Statut, Action
-**Colonnes MANQUANTES**:
-
-| Colonne manquante  | Pourquoi nécessaire                    |
-| ------------------ | -------------------------------------- |
-| **Priorité**       | Ordre de création                      |
-| **Dépendances**    | Quel fichier doit exister avant        |
-| **Contenu source** | Lignes exactes à extraire de CLAUDE.md |
-| **Taille estimée** | Nombre de lignes attendu               |
-| **Validation**     | Comment vérifier que c'est correct     |
-
-**Score**: 2/5
-
-### Tableau 7: Q5 "Ontologie" (Ligne 194-198)
-
-**Colonnes présentes**: Option, Description
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire     |
-| ----------------- | ----------------------- |
-| **Avantage**      | Bénéfice de l'option    |
-| **Inconvénient**  | Coût/risque             |
-| **Effort**        | Travail requis          |
-| **Impact**        | Sur la structure finale |
-
-**Score**: 1/5
-
-### Tableau 8: Q6 "Multi-CLI" (Ligne 206-210)
-
-**Colonnes présentes**: Approche, Description
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire            |
-| ----------------- | ------------------------------ |
-| **Avantage**      | Pourquoi cette approche        |
-| **Inconvénient**  | Limitations                    |
-| **Compatibilité** | Avec Gemini/Codex/autres       |
-| **Effort futur**  | Travail d'adaptation plus tard |
-
-**Score**: 1/5
-
-### Tableau 9: "Résumé des Décisions" (Ligne 218-225)
-
-**Colonnes présentes**: #, Question, Options, Ma reco
-**Colonnes MANQUANTES**:
-
-| Colonne manquante | Pourquoi nécessaire          |
-| ----------------- | ---------------------------- |
-| **Choix Omar**    | Pour enregistrer sa décision |
-| **Justification** | Pourquoi ce choix            |
-| **Date décision** | Traçabilité                  |
-
-**Score**: 2/5
+| Category           | Score | Max | Comment                    |
+| ------------------ | ----- | --- | -------------------------- |
+| Table completeness | 12    | 25  | Missing columns everywhere |
+| Structural clarity | 15    | 20  | Structure OK but gaps      |
+| Actionability      | 10    | 20  | Lacks execution details    |
+| Risk management    | 0     | 15  | Totally absent             |
+| Success criteria   | 5     | 10  | Vague                      |
+| Traceability       | 16    | 10  | Good (notes preserved)     |
 
 ---
 
-## Sections TOTALEMENT ABSENTES
+## Detailed Table Analysis
 
-### 1. Gestion des Risques ❌
+### Table 1: "Current State Analysis" (Line 26-40)
 
-**Devrait contenir**:
+**Present columns**: Section, Lines, Problem
+**MISSING columns**:
 
-| Risque                           | Probabilité | Impact   | Mitigation                 |
-| -------------------------------- | ----------- | -------- | -------------------------- |
-| Pointeurs cassés                 | Moyenne     | Haut     | Tests automatisés          |
-| Perte de contexte                | Basse       | Haut     | Backup avant migration     |
-| Incohérence entre fichiers       | Moyenne     | Moyen    | Review croisée             |
-| Claude Code ne lit pas les @path | Haute       | Critique | Vérifier comportement réel |
+| Missing column   | Why needed                                   |
+| ---------------- | -------------------------------------------- |
+| **Priority**     | Know what to start with                      |
+| **Action**       | What to do exactly (Externalize/Keep/Delete) |
+| **Destination**  | Which file to externalize to                 |
+| **Dependencies** | Which sections depend on others              |
+| **Effort**       | Estimate (S/M/L)                             |
 
-### 2. Plan de Rollback ❌
+**Score**: 2/5
 
-**Devrait contenir**:
+### Table 2: "Identified Redundancies" (Line 44-49)
 
-- Comment revenir en arrière si échec
-- Backup de CLAUDE.md actuel
-- Commits atomiques pour revert facile
+**Present columns**: Content, In CLAUDE.md, Also in
+**MISSING columns**:
 
-### 3. Critères de Succès ❌
+| Missing column      | Why needed                    |
+| ------------------- | ----------------------------- |
+| **Source of truth** | Which one to keep as SSOT?    |
+| **Action**          | Delete from CLAUDE.md? Point? |
+| **Impact**          | What happens if not fixed?    |
 
-**Devrait contenir**:
+**Score**: 2/5
 
-| Critère                | Mesure                | Seuil       |
-| ---------------------- | --------------------- | ----------- |
-| Réduction CLAUDE.md    | Lignes                | < 50 lignes |
-| Zéro redondance        | Duplications          | 0           |
-| Tous pointeurs valides | Tests                 | 100%        |
-| Lisibilité             | Temps pour comprendre | < 1 min     |
+### Table 3: Q1 "Granularity" (Line 142-146)
 
-### 4. Dépendances entre Fichiers ❌
+**Present columns**: Option, Description, Resulting CLAUDE.md
+**MISSING columns**:
 
-**Devrait contenir**:
+| Missing column  | Why needed             |
+| --------------- | ---------------------- |
+| **Pros**        | Why choose this option |
+| **Cons**        | Risks of this option   |
+| **Effort**      | How much work          |
+| **Recommended** | Visual indicator (✓/✗) |
 
-```
-identity.md → (aucune dépendance)
-golden-rule.md → (aucune dépendance)
-core-loop.md → golden-rule.md (référence la règle 94%)
-briefing.md → reporting.md (référence les formats)
+**Score**: 2/5
+
+### Table 4: Q2 "Location" (Line 152-155)
+
+**Present columns**: Option, Path, Pro
+**MISSING columns**:
+
+| Missing column    | Why needed               |
+| ----------------- | ------------------------ |
+| **Con**           | Trade-off of each option |
+| **Compatibility** | With which tools/CLIs    |
+| **Convention**    | Industry standard?       |
+
+**Score**: 2/5
+
+### Table 5: Q3 "Pointer Format" (Line 161-165)
+
+**Present columns**: Option, Syntax, Example
+**MISSING columns**:
+
+| Missing column   | Why needed                         |
+| ---------------- | ---------------------------------- |
+| **Pro**          | Why use this format                |
+| **Con**          | Limitations                        |
+| **Supported by** | Which tools understand this format |
+| **Real example** | With real project path             |
+
+**Score**: 2/5
+
+### Table 6: Q4 "Migration" (Line 173-186)
+
+**Present columns**: File, Status, Action
+**MISSING columns**:
+
+| Missing column     | Why needed                            |
+| ------------------ | ------------------------------------- |
+| **Priority**       | Creation order                        |
+| **Dependencies**   | Which file must exist before          |
+| **Source content** | Exact lines to extract from CLAUDE.md |
+| **Estimated size** | Expected number of lines              |
+| **Validation**     | How to verify it's correct            |
+
+**Score**: 2/5
+
+### Table 7: Q5 "Ontology" (Line 194-198)
+
+**Present columns**: Option, Description
+**MISSING columns**:
+
+| Missing column | Why needed             |
+| -------------- | ---------------------- |
+| **Pro**        | Benefit of the option  |
+| **Con**        | Cost/risk              |
+| **Effort**     | Required work          |
+| **Impact**     | On the final structure |
+
+**Score**: 1/5
+
+### Table 8: Q6 "Multi-CLI" (Line 206-210)
+
+**Present columns**: Approach, Description
+**MISSING columns**:
+
+| Missing column    | Why needed               |
+| ----------------- | ------------------------ |
+| **Pro**           | Why this approach        |
+| **Con**           | Limitations              |
+| **Compatibility** | With Gemini/Codex/others |
+| **Future effort** | Adaptation work later    |
+
+**Score**: 1/5
+
+### Table 9: "Decision Summary" (Line 218-225)
+
+**Present columns**: #, Question, Options, My rec
+**MISSING columns**:
+
+| Missing column    | Why needed             |
+| ----------------- | ---------------------- |
+| **Omar's Choice** | To record his decision |
+| **Justification** | Why this choice        |
+| **Decision date** | Traceability           |
+
+**Score**: 2/5
+
+---
+
+## TOTALLY ABSENT Sections
+
+### 1. Risk Management ❌
+
+**Should contain**:
+
+| Risk                           | Probability | Impact   | Mitigation              |
+| ------------------------------ | ----------- | -------- | ----------------------- |
+| Broken pointers                | Medium      | High     | Automated tests         |
+| Context loss                   | Low         | High     | Backup before migration |
+| Inconsistency between files    | Medium      | Medium   | Cross-review            |
+| Claude Code doesn't read @path | High        | Critical | Check actual behavior   |
+
+### 2. Rollback Plan ❌
+
+**Should contain**:
+
+- How to revert if failure
+- Backup of current CLAUDE.md
+- Atomic commits for easy revert
+
+### 3. Success Criteria ❌
+
+**Should contain**:
+
+| Criterion           | Measure            | Threshold  |
+| ------------------- | ------------------ | ---------- |
+| CLAUDE.md reduction | Lines              | < 50 lines |
+| Zero redundancy     | Duplications       | 0          |
+| All pointers valid  | Tests              | 100%       |
+| Readability         | Time to understand | < 1 min    |
+
+### 4. File Dependencies ❌
+
+**Should contain**:
+
+```text
+identity.md → (no dependencies)
+golden-rule.md → (no dependencies)
+core-loop.md → golden-rule.md (references 94% rule)
+briefing.md → reporting.md (references formats)
 ...
 ```
 
-### 5. Mapping Source → Destination ❌
+### 5. Source → Destination Mapping ❌
 
-**Devrait contenir**:
+**Should contain**:
 
-| CLAUDE.md (lignes) | Destination               | Transformation |
-| ------------------ | ------------------------- | -------------- |
-| 7-14 (Identité)    | ai/context/identity.md    | Copie directe  |
-| 18-42 (CORE LOOP)  | ai/workflows/core-loop.md | Copie directe  |
-| 46-50 (Règle d'Or) | ai/rules/golden-rule.md   | Copie directe  |
-| ...                | ...                       | ...            |
+| CLAUDE.md (lines)   | Destination               | Transformation |
+| ------------------- | ------------------------- | -------------- |
+| 7-14 (Identity)     | ai/context/identity.md    | Direct copy    |
+| 18-42 (CORE LOOP)   | ai/workflows/core-loop.md | Direct copy    |
+| 46-50 (Golden Rule) | ai/rules/golden-rule.md   | Direct copy    |
+| ...                 | ...                       | ...            |
 
-### 6. Estimation Effort ❌
+### 6. Effort Estimation ❌
 
-**Devrait contenir**:
+**Should contain**:
 
-| Tâche                    | Effort | Durée estimée |
-| ------------------------ | ------ | ------------- |
-| Créer structure dossiers | S      | 2 min         |
-| Extraire 8 fichiers      | M      | 15 min        |
-| Réécrire CLAUDE.md       | S      | 5 min         |
-| Tests & validation       | M      | 10 min        |
-| **Total**                | -      | **~30 min**   |
+| Task                    | Effort | Estimated duration |
+| ----------------------- | ------ | ------------------ |
+| Create folder structure | S      | 2 min              |
+| Extract 8 files         | M      | 15 min             |
+| Rewrite CLAUDE.md       | S      | 5 min              |
+| Tests & validation      | M      | 10 min             |
+| **Total**               | -      | **~30 min**        |
 
-### 7. Checklist de Validation ❌
+### 7. Validation Checklist ❌
 
-**Devrait contenir**:
+**Should contain**:
 
-- [ ] Tous les fichiers créés existent
-- [ ] Aucun contenu perdu de CLAUDE.md original
-- [ ] Tous les @path pointent vers fichiers existants
-- [ ] Pas de redondance restante
-- [ ] Structure suit l'ontologie
-- [ ] Git status propre avant commit
-
----
-
-## Incohérences Détectées
-
-| Incohérence           | Où                 | Problème                                      |
-| --------------------- | ------------------ | --------------------------------------------- |
-| Chemin registry       | Ligne 56, 79       | `@ai/inventory/` vs `ai/registry/` (actuel)   |
-| Nombre fichiers       | Ligne 188          | Dit "8 fichiers" mais en liste 9 à créer      |
-| CLAUDE.md emplacement | Structure proposée | Montre `/ai/CLAUDE.md` mais recommande racine |
+- [ ] All created files exist
+- [ ] No content lost from original CLAUDE.md
+- [ ] All @path point to existing files
+- [ ] No remaining redundancy
+- [ ] Structure follows ontology
+- [ ] Git status clean before commit
 
 ---
 
-## Recommandations pour Correction
+## Detected Inconsistencies
 
-### Priorité 1: Compléter les tableaux
-
-1. **Ajouter colonnes manquantes** à chaque tableau
-2. **Standardiser le format**: Toutes les options avec Avantage/Inconvénient/Effort
-3. **Ajouter colonne "Choix Omar"** au résumé
-
-### Priorité 2: Ajouter sections manquantes
-
-1. **Risques** avec mitigation
-2. **Mapping source→destination** ligne par ligne
-3. **Critères de succès** mesurables
-4. **Checklist de validation**
-
-### Priorité 3: Corriger incohérences
-
-1. Décider: `ai/inventory/` ou `ai/registry/` ?
-2. Recompter fichiers à créer
-3. Clarifier emplacement final CLAUDE.md
+| Inconsistency      | Where              | Problem                                      |
+| ------------------ | ------------------ | -------------------------------------------- |
+| Registry path      | Line 56, 79        | `@ai/inventory/` vs `ai/registry/` (current) |
+| File count         | Line 188           | Says "8 files" but lists 9 to create         |
+| CLAUDE.md location | Proposed structure | Shows `/ai/CLAUDE.md` but recommends root    |
 
 ---
 
-## Score par Tableau (Résumé)
+## Recommendations for Correction
 
-| Tableau             | Score     | Colonnes manquantes        |
-| ------------------- | --------- | -------------------------- |
-| Analyse État Actuel | 2/5       | 5 colonnes                 |
-| Redondances         | 2/5       | 3 colonnes                 |
-| Q1 Granularité      | 2/5       | 4 colonnes                 |
-| Q2 Emplacement      | 2/5       | 3 colonnes                 |
-| Q3 Format           | 2/5       | 4 colonnes                 |
-| Q4 Migration        | 2/5       | 5 colonnes                 |
-| Q5 Ontologie        | 1/5       | 4 colonnes                 |
-| Q6 Multi-CLI        | 1/5       | 4 colonnes                 |
-| Résumé Décisions    | 2/5       | 3 colonnes                 |
-| **Moyenne**         | **1.8/5** | **35 colonnes manquantes** |
+### Priority 1: Complete the tables
+
+1. **Add missing columns** to each table
+2. **Standardize format**: All options with Pro/Con/Effort
+3. **Add "Omar's Choice" column** to summary
+
+### Priority 2: Add missing sections
+
+1. **Risks** with mitigation
+2. **Source→destination mapping** line by line
+3. **Measurable success criteria**
+4. **Validation checklist**
+
+### Priority 3: Fix inconsistencies
+
+1. Decide: `ai/inventory/` or `ai/registry/`?
+2. Recount files to create
+3. Clarify final CLAUDE.md location
+
+---
+
+## Score per Table (Summary)
+
+| Table                  | Score     | Missing columns        |
+| ---------------------- | --------- | ---------------------- |
+| Current State Analysis | 2/5       | 5 columns              |
+| Redundancies           | 2/5       | 3 columns              |
+| Q1 Granularity         | 2/5       | 4 columns              |
+| Q2 Location            | 2/5       | 3 columns              |
+| Q3 Format              | 2/5       | 4 columns              |
+| Q4 Migration           | 2/5       | 5 columns              |
+| Q5 Ontology            | 1/5       | 4 columns              |
+| Q6 Multi-CLI           | 1/5       | 4 columns              |
+| Decision Summary       | 2/5       | 3 columns              |
+| **Average**            | **1.8/5** | **35 missing columns** |
 
 ---
 
 ## Verdict
 
-Le document est un **bon point de départ** (structure correcte, questions pertinentes) mais **insuffisant pour exécution** car:
+The document is a **good starting point** (correct structure, relevant questions) but **insufficient for execution** because:
 
-1. ❌ Tableaux incomplets (35 colonnes manquantes)
-2. ❌ Pas de gestion des risques
-3. ❌ Pas de mapping précis source→destination
-4. ❌ Pas de critères de succès mesurables
-5. ❌ Incohérences non résolues
+1. ❌ Incomplete tables (35 missing columns)
+2. ❌ No risk management
+3. ❌ No precise source→destination mapping
+4. ❌ No measurable success criteria
+5. ❌ Unresolved inconsistencies
 
-**Action recommandée**: Réécrire le document avec toutes les colonnes et sections manquantes AVANT de demander le "Go" d'Omar.
+**Recommended action**: Rewrite the document with all missing columns and sections BEFORE asking Omar for the "Go".
 
 ---
 
-## Prochaine Étape
+## Next Step
 
-**Question pour Omar**:
+**Question for Omar**:
 
-Veux-tu que je:
+Do you want me to:
 
-- **A)** Corrige le document d'alignement maintenant (ajouter tout ce qui manque)
-- **B)** Passe directement en plan mode avec les infos actuelles
-- **C)** Autre approche
+- **A)** Fix the alignment document now (add everything missing)
+- **B)** Go straight into plan mode with current info
+- **C)** Other approach

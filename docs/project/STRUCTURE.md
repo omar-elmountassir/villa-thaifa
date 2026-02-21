@@ -15,7 +15,7 @@ thaifa/
 │   ├── specs/            # Business specs (hotel, promotions, platform)
 │   └── communication/    # WhatsApp messages
 ├── docs/                 # 📚 Documentation, workflows
-├── infra/                # 🏗️ Docker, environments (on peut focus en local pour l'instant..)
+├── infra/                # 🏗️ Docker, environments (we can focus locally for now..)
 ├── project/              # 🎯 TODOs, milestones
 └── src/                  # 💻 Source code (apps, packages, tools) (│   └── analytics/        # Business dashboards)
 ```

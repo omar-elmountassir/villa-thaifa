@@ -1,13 +1,13 @@
-# Langue des Documents
+# Document Language
 
-| Type                     | Langue                                                                            |
-| ------------------------ | --------------------------------------------------------------------------------- |
-| Documents `data/specs/`  | **Francais** et **Anglais**                                                       |
-| Code, configs, CLAUDE.md | **Anglais**                                                                       |
-| Communication M. Thaifa  | **Francais** (et **néerlandais** optionel / c'est un plus                         |
-| Noms de chambres         | Anglais (coherence avec toutes les plateformes (HotelRunner, Booking.com, , etc.) |
+| Type                     | Language                                                                  |
+| ------------------------ | ------------------------------------------------------------------------- |
+| `data/specs/` documents  | **French** and **English**                                                |
+| Code, configs, CLAUDE.md | **English**                                                               |
+| Mr. Thaifa Communication | **French** (and **Dutch** optional / it's a plus)                         |
+| Room names               | English (consistency with all platforms (HotelRunner, Booking.com, etc.)) |
 
-> **Note**: Tous les fichiers dans `data/specs/` (rooms, reservations, pricing, etc.) sont redigés :
+> **Note**: All files in `data/specs/` (rooms, reservations, pricing, etc.) are written:
 
-- en francais pour faciliter la communication avec M. Thaifa.
-- en anglais pour faciliter la communication avec M. Thaifa.
+- in French to facilitate communication with Mr. Thaifa.
+- in English for general documentation purposes.

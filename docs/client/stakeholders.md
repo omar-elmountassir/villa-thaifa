@@ -4,7 +4,7 @@
 
 ## Overview
 
-> **Quick Reference** pour les parties prenantes du projet
+> **Quick Reference** for project stakeholders
 > **Last Updated**: 2026-01-24
 > **Read Time**: < 2 minutes
 
@@ -40,7 +40,7 @@
 - 🚨 **Communication**: ALWAYS use vouvoiement (formal French), WhatsApp preferred
 - 📅 Active client since December 2025
 
-**⚠️ Critical Rule for Agents**: Scout → Rapport → Questions → Action
+**⚠️ Critical Rule for Agents**: Scout → Report → Questions → Action
 (Never ask for info without first reporting what you've discovered)
 
 **📄 Detailed Profile**: [`data/admin/client/PROFILE.md`](../../data/admin/client/PROFILE.md)
@@ -122,7 +122,7 @@ Claude (CTO/Architect)
 
 ### Account Usage
 
-- ✅ **USE**: Omar's admin accounts (<omar@el-mountassir.com)>
+- ✅ **USE**: Omar's admin accounts (<<omar@el-mountassir.com>)>
 - ❌ **NEVER USE**: Said's owner accounts (unless explicit Omar approval)
 
 ### Platform Credentials
@@ -133,7 +133,7 @@ Claude (CTO/Architect)
 **Quick access:**
 
 1. Read `.env.local` file
-2. Extract needed credentials (HOTELRUNNER*ADMIN*_, BOOKING*ADMIN*_)
+2. Extract needed credentials (HOTELRUNNER*ADMIN**, BOOKING*ADMIN**)
 3. Use admin accounts by default
 4. Handle OTP/reCAPTCHA (request from Omar)
 
@@ -147,7 +147,7 @@ Claude (CTO/Architect)
 
 1. ✅ Vouvoiement obligatoire (formal "vous")
 2. ✅ WhatsApp preferred channel
-3. ✅ Scout → Rapport → Questions → Action
+3. ✅ Scout → Report → Questions → Action
 4. ❌ NEVER ask questions without reporting findings first
 
 ### Emergency Protocol
@@ -215,152 +215,152 @@ If critical issue (platform bug, lost reservation, pricing error):
 
 ---
 
-_Single Source of Truth for stakeholder relationships_
-_For detailed profiles, see [`profiles/`](./profiles/) directory_
-_Last updated: 2026-01-24 by Omar El Mountassir_
+*Single Source of Truth for stakeholder relationships*
+*For detailed profiles, see [`profiles/`](./profiles/) directory*
+*Last updated: 2026-01-24 by Omar El Mountassir*
 
 ---
 
 ## Contact Information
 
-- **Relation** : Nouveau client potentiel (high-ticket)
+- **Relation**: New potential client (high-ticket)
 
-## Principal
+## Primary
 
-| Champ    | Valeur                   |
+| Field    | Value                    |
 | -------- | ------------------------ |
-| Nom      | Said Thaifa              |
-| Âge      | 78 ans                   |
+| Name     | Said Thaifa              |
+| Age      | 78 years                 |
 | WhatsApp | +212 661-134194          |
 | Email    | <said_thaifa@hotmail.fr> |
 | Email    | <saidthaifa@gmail.com>   |
 
-### Langues Parlées
+### Spoken Languages
 
-| Langue      | Niveau  |
-| ----------- | ------- |
-| Arabe       | Natif   |
-| Français    | Courant |
-| Anglais     | Basique |
-| Néerlandais | Courant |
+| Language | Level  |
+| -------- | ------ |
+| Arabic   | Native |
+| French   | Fluent |
+| English  | Basic  |
+| Dutch    | Fluent |
 
-## Secondaire
+## Secondary
 
-| Champ | Valeur                                       |
-| ----- | -------------------------------------------- |
-| Nom   | Nezha Thaifa                                 |
-| Rôle  | Co-gérante / Épouse de M. Said               |
-| Note  | Accueil chaleureux, petits-déjeuners copieux |
+| Field | Value                           |
+| ----- | ------------------------------- |
+| Name  | Nezha Thaifa                    |
+| Role  | Co-manager / Wife of Mr. Said   |
+| Note  | Warm welcome, hearty breakfasts |
 
-> **Réputation** : Appréciée pour son hospitalité, contribuant à une ambiance détendue et confortable pour les voyageurs. Reviews mentionnent une atmosphère "comme en famille".
+> **Reputation**: Appreciated for her hospitality, contributing to a relaxed and comfortable atmosphere for travelers. Reviews mention a "family-like" atmosphere.
 
-## Établissement
+## Property
 
-| Champ    | Valeur           |
-| -------- | ---------------- |
-| Nom      | Villa Thaifa     |
-| Type     | Maison d'hôtes   |
-| Ville    | Marrakech, Maroc |
-| Chambres | 12               |
+| Field | Value              |
+| ----- | ------------------ |
+| Name  | Villa Thaifa       |
+| Type  | Guest house        |
+| City  | Marrakech, Morocco |
+| Rooms | 12                 |
 
-> Source: Booking.com profil établissement
+> Source: Booking.com property profile
 
 ---
 
 ## Notes
 
-- Communication formelle
-- Client senior — respect sans rigidité
-- Said et Nezha gèrent ensemble la Villa
+- Formal communication
+- Senior client — respect without rigidity
+- Said and Nezha co-manage the Villa together
 
 ### Communication Channels
 
-> **PROMPT SYSTÈME** : À respecter impérativement pour toute interaction avec Said Thaifa.
-> **Dernière mise à jour** : 2026-01-24
-> **Priorité**: P1 (critique)
+> **SYSTEM PROMPT**: To be strictly followed for any interaction with Said Thaifa.
+> **Last updated**: 2026-01-24
+> **Priority**: P1 (critical)
 
 ---
 
-## 📞 Canaux
+## 📞 Channels
 
-| Canal        | Usage         | Détails                                             |
-| ------------ | ------------- | --------------------------------------------------- |
-| **WhatsApp** | **PRINCIPAL** | Canal "Action-Réaction" (Voir protocole ci-dessous) |
-| Email        | Secondaire    | Pour les rapports mensuels / officiels              |
-| Téléphone    | Urgence       | +212 661-134194                                     |
-| En face      | Rare          | Réunions stratégiques                               |
+| Channel      | Usage       | Details                                        |
+| ------------ | ----------- | ---------------------------------------------- |
+| **WhatsApp** | **PRIMARY** | "Action-Reaction" Channel (See protocol below) |
+| Email        | Secondary   | For monthly / official reports                 |
+| Phone        | Emergency   | +212 661-134194                                |
+| In person    | Rare        | Strategic meetings                             |
 
 ---
 
-## 📝 Templates (Rapports)
+## 📝 Templates (Reports)
 
-### Rapport Hebdomadaire (Interne/Email)
+### Weekly Report (Internal/Email)
 
 ```markdown
-## Semaine du [DATE]
+## Week of [DATE]
 
-### ✅ Accompli
-
-- TODO
-
-### 🔄 En cours
+### ✅ Accomplished
 
 - TODO
 
-### ⚠️ Problèmes
+### 🔄 In progress
 
 - TODO
 
-### 📅 Semaine prochaine
+### ⚠️ Issues
+
+- TODO
+
+### 📅 Next week
 
 - TODO
 ```
 
 ---
 
-## 🎯 PROTOCOLE D'INTERACTION (WhatsApp - "Dutch First")
+## 🎯 INTERACTION PROTOCOL (WhatsApp - "Dutch First")
 
-### 1. CONTEXTE & RÔLE
+### 1. CONTEXT & ROLE
 
-Tu agis en tant que **"Omar El Mountassir" (Workforce Agentic Hybride)** pour le client Said Thaifa (propriétaire de la Villa Thaifa, 78 ans, établissement 9.3/10).
+You act as **"Omar El Mountassir" (Hybrid Agentic Workforce)** for the client Said Thaifa (owner of Villa Thaifa, 78 years old, 9.3/10 rating).
 
-**Ton but** : Agir comme un **"Intendant Numérique"**. Tu gères la complexité technique (HotelRunner, Booking) pour lui offrir la tranquillité d'esprit.
+**Your goal**: Act as a **"Digital Steward"**. You handle the technical complexity (HotelRunner, Booking) to provide him with peace of mind.
 
-### 2. RÈGLES D'OR
+### 2. GOLDEN RULES
 
-#### Règle #1 : "Dutch First" avec Validation Miroir
+#### Rule #1: "Dutch First" with Mirror Validation
 
-La langue d'interaction avec Said est le **Néerlandais**, mais Omar doit valider le contenu.
-Tu dois **IMPÉRATIVEMENT** générer chaque réponse en deux blocs distincts :
+The language for interacting with Said is **Dutch**, but Omar must validate the content.
+You must **IMPERATIVELY** generate each response in two distinct blocks:
 
-1.  🇳🇱 **MESSAGE À ENVOYER (Néerlandais)** : Le message final, optimisé, prêt à être copié-collé pour Said.
-2.  🇫🇷 **VALIDATION (Français)** : La traduction exacte ou le résumé substantiel pour qu'Omar puisse valider l'action sans ambiguïté.
+1. 🇳🇱 **MESSAGE TO SEND (Dutch)**: The final optimized message, ready to be copy-pasted for Said.
+2. 🇫🇷 **VALIDATION (French)**: The exact translation or substantial summary so Omar can unambiguously validate the action.
 
-> **Clause de sécurité** : Si Said pose une question stratégique complexe en Français, tu peux répondre en Français pour la clarté, puis conclure en Néerlandais.
+> **Security clause**: If Said asks a complex strategic question in French, you may answer in French for clarity, then conclude in Dutch.
 
-#### Règle #2 : La structure "Action-Réaction"
+#### Rule #2: "Action-Reaction" Structure
 
-Ne jamais dire "Je vais le faire". Dire "**C'est fait**".
+Never say "I will do it". Say "**It's done**".
 
-- ❌ **Mauvais** : "Ik zal kijken..." (Je vais regarder...)
-- ✅ **Bon** : "Genoteerd, ik ben ermee bezig." (Noté, en cours.)
-- ✅ **Excellent** : "Missie voltooid ✅. Data geblokkeerd." (Mission accomplie.)
+- ❌ **Bad**: "Ik zal kijken..." (I'll look into it...)
+- ✅ **Good**: "Genoteerd, ik ben ermee bezig." (Noted, I'm on it.)
+- ✅ **Excellent**: "Missie voltooid ✅. Data geblokkeerd." (Mission accomplished. Dates blocked.)
 
-#### Règle #3 : Visuel & Compact
+#### Rule #3: Visual & Compact
 
-- Utilise des listes à puces.
-- Utilise des Emojis : ✅ (Gedaan), 🔒 (Geblokkeerd), 💶 (Prijs).
-- **Gras** pour les dates et prix.
+- Use bullet points.
+- Use Emojis: ✅ (Gedaan), 🔒 (Geblokkeerd), 💶 (Prijs).
+- **Bold** for dates and prices.
 
-#### Règle #4 : Gestion de l'Erreur (S.A.P)
+#### Rule #4: Error Management (S.A.P)
 
 - **Situatie**: "De data stonden nog open."
 - **Actie**: "Ik heb dit handmatig geblokkeerd."
 - **Plan**: "Ik neem contact op met support."
 
-### 3. MODÈLES DE RÉPONSES (TEMPLATES)
+### 3. RESPONSE TEMPLATES
 
-**SCÉNARIO A : Blocage / Fermeture**
+**SCENARIO A: Block / Close Dates**
 
 > **🇳🇱 MESSAGE**
 > "Salam Si Said,
@@ -370,7 +370,7 @@ Ne jamais dire "Je vais le faire". Dire "**C'est fait**".
 > Geen risico meer op dubbele boekingen.
 > Fijne dag! 🙏"
 
-**SCÉNARIO B : Prix**
+**SCENARIO B: Pricing**
 
 > **🇳🇱 MESSAGE**
 > "Het is geregeld Si Said.
@@ -379,7 +379,7 @@ Ne jamais dire "Je vais le faire". Dire "**C'est fait**".
 > 💶 Nieuw tarief: **€ 449**
 > Direct gesynchroniseerd. Alles is in orde! 👍"
 
-**SCÉNARIO C : Réception**
+**SCENARIO C: Reception / Acknowledgment**
 
 > **🇳🇱 MESSAGE**
 > "Goed ontvangen Si Said! 🙏
@@ -387,11 +387,11 @@ Ne jamais dire "Je vais le faire". Dire "**C'est fait**".
 
 ---
 
-## 5. TONALITÉ & STYLE
+## 5. TONE & STYLE
 
-- **Salutation** : "Salam Si Said" ou "Goedendag Si Said".
-- **Clôture** : "Mijn vriend", "Fijne avond", "Tot uw dienst".
-- **Vocabulaire clé** : `Missie voltooid`, `Alles is in orde`, `Geen zorgen`.
+- **Greeting**: "Salam Si Said" or "Goedendag Si Said".
+- **Closing**: "Mijn vriend", "Fijne avond", "Tot uw dienst".
+- **Key vocabulary**: `Missie voltooid`, `Alles is in orde`, `Geen zorgen`.
 
 ---
 
@@ -422,409 +422,409 @@ Ne jamais dire "Je vais le faire". Dire "**C'est fait**".
 
 ---
 
-## 1. Snapshot Exécutif
+## 1. Executive Snapshot
 
-### KPIs Clés
+### Key KPIs
 
-| Métrique               | Valeur                              | Note                           |
-| ---------------------- | ----------------------------------- | ------------------------------ |
-| **Chambres**           | 12                                  | 8 types sur Booking.com        |
-| **Note Booking**       | 9.3/10 (80 avis)                    | "Wonderful"                    |
-| **Commission Booking** | 25%                                 | Élevée (standard = 15%)        |
-| **PMS**                | Aucun                               | Tout dans la tête de M. Thaifa |
-| **Channel Manager**    | HotelRunner                         | Actif depuis 2025-12           |
-| **OTAs**               | Booking ✅ / Airbnb ⏳ / Expedia ⏳ | En cours de setup              |
+| Metric                 | Value                               | Note                            |
+| ---------------------- | ----------------------------------- | ------------------------------- |
+| **Rooms**              | 12                                  | 8 types on Booking.com          |
+| **Booking Rating**     | 9.3/10 (80 reviews)                 | "Wonderful"                     |
+| **Booking Commission** | 25%                                 | High (standard = 15%)           |
+| **PMS**                | None                                | Everything in Mr. Thaifa's head |
+| **Channel Manager**    | HotelRunner                         | Active since 2025-12            |
+| **OTAs**               | Booking ✅ / Airbnb ⏳ / Expedia ⏳ | Setup in progress               |
 
-### Scores Détaillés Booking.com
+### Detailed Booking.com Scores
 
-| Catégorie                | Score | Niveau       |
-| ------------------------ | ----- | ------------ |
-| **Staff**                | 9.7   | Exceptionnel |
-| **Propreté**             | 9.4   | Excellent    |
-| **Confort**              | 9.4   | Excellent    |
-| **Équipements**          | 9.3   | Excellent    |
-| **Rapport qualité/prix** | 8.9   | Très bon     |
-| **WiFi**                 | 8.8   | Très bon     |
-| **Localisation**         | 8.2   | Bon          |
-| **Petit-déjeuner**       | 10    | Parfait      |
+| Category            | Score | Level       |
+| ------------------- | ----- | ----------- |
+| **Staff**           | 9.7   | Exceptional |
+| **Cleanliness**     | 9.4   | Excellent   |
+| **Comfort**         | 9.4   | Excellent   |
+| **Facilities**      | 9.3   | Excellent   |
+| **Value for money** | 8.9   | Very good   |
+| **WiFi**            | 8.8   | Very good   |
+| **Location**        | 8.2   | Good        |
+| **Breakfast**       | 10    | Perfect     |
 
-> **Point fort majeur** : Staff noté 9.7/10 et petit-déjeuner parfait 10/10
+> **Major strength**: Staff rated 9.7/10 and perfect breakfast 10/10
 
-### État Opérationnel Actuel
+### Current Operational Status
 
-| Métrique                        | Valeur     |
-| ------------------------------- | ---------- |
-| **Réservations confirmées**     | 11         |
-| **Revenue prévu**               | €8,008.85  |
-| **Occupation peak (29-31 déc)** | 50% (6/12) |
-| **Prix configurés HotelRunner** | 0/9 types  |
-| **Promotions actives Booking**  | 5 (10-15%) |
+| Metric                            | Value      |
+| --------------------------------- | ---------- |
+| **Confirmed reservations**        | 11         |
+| **Expected revenue**              | €8,008.85  |
+| **Peak occupancy (Dec 29-31)**    | 50% (6/12) |
+| **Prices configured HotelRunner** | 0/9 types  |
+| **Active promotions Booking**     | 5 (10-15%) |
 
-→ Voir `data/specs/` pour détails opérationnels
+→ See `data/specs/` for operational details
 
 ---
 
 ## 2. Contact & Communication
 
-### 2.1 Contact Principal
+### 2.1 Primary Contact
 
-| Champ         | Valeur                   |
-| ------------- | ------------------------ |
-| **Nom**       | Said Thaifa              |
-| **Âge**       | 78 ans                   |
-| **Email**     | <said_thaifa@hotmail.fr> |
-| **Email**     | <saidthaifa@gmail.com>   |
-| **Téléphone** | +212 661-134194          |
-| **WhatsApp**  | +212 661-134194          |
+| Field        | Value                    |
+| ------------ | ------------------------ |
+| **Name**     | Said Thaifa              |
+| **Age**      | 78 years                 |
+| **Email**    | <said_thaifa@hotmail.fr> |
+| **Email**    | <saidthaifa@gmail.com>   |
+| **Phone**    | +212 661-134194          |
+| **WhatsApp** | +212 661-134194          |
 
-**Background professionnel** :
+**Professional background**:
 
-- Propriétaire et hôte de Villa Thaifa (avec son épouse Nezha)
-- CEO / Agent immobilier à Marrakech
-- Spécialités : ventes, achats, locations saisonnières
-- Réputation : accueil chaleureux, fait que les clients se sentent "comme chez eux"
+- Owner and host of Villa Thaifa (with his wife Nezha)
+- CEO / Real estate agent in Marrakech
+- Specialties: sales, purchases, seasonal rentals
+- Reputation: warm welcome, making clients feel "at home"
 
-### 2.2 Protocole de Communication
+### 2.2 Communication Protocol
 
-| Règle        | Détail                                                      |
+| Rule         | Detail                                                      |
 | ------------ | ----------------------------------------------------------- |
-| **Ton**      | Formel & Direct ("Action-Réaction")                         |
-| **Langue**   | **DUTCH FIRST** (Néerlandais)                               |
-| **Format**   | Double sortie (NL pour lui, FR pour Omar)                   |
+| **Tone**     | Formal & Direct ("Action-Reaction")                         |
+| **Language** | **DUTCH FIRST**                                             |
+| **Format**   | Dual output (NL for him, FR for Omar)                       |
 | **Standard** | 👉 [COMMUNICATION.md](../knowledge/client/COMMUNICATION.md) |
 
-### 2.3 Pattern de Communication
+### 2.3 Communication Pattern
 
 ```text
-1. SCOUT    → Explorer, vérifier la faisabilité
-2. RAPPORT  → Tenir le client informé des découvertes
-3. QUESTIONS → Demander les infos manquantes (avec contexte)
-4. ACTION   → Exécuter quand tout est clair
+1. SCOUT    → Explore, verify feasibility
+2. REPORT   → Keep the client informed of discoveries
+3. QUESTIONS → Ask for missing info (with context)
+4. ACTION   → Execute when everything is clear
 ```
 
-> **Règle d'or** : Ne jamais demander des infos sans d'abord faire un rapport de ce qu'on a découvert.
+> **Golden rule**: Never ask for info without first reporting what was discovered.
 
-→ Voir `docs/lessons-learned.md` pour les patterns documentés
-
----
-
-## 3. Établissement
-
-### 3.1 Informations Générales
-
-| Champ          | Valeur                                      |
-| -------------- | ------------------------------------------- |
-| **Nom**        | Villa Thaifa (parfois "Villa Thaifa & SPA") |
-| **Type**       | Maison d'hôtes de charme / B&B (4★)         |
-| **Adresse**    | Route de Fès, Km 12                         |
-| **Zone**       | Palmeraie / Ouled Jelal (12-14 km centre)   |
-| **Ville**      | Marrakech, Maroc                            |
-| **Chambres**   | 12                                          |
-| **Rénovation** | Récemment rénovée                           |
-
-### 3.2 Équipements & Services
-
-| Catégorie      | Détails                                                    |
-| -------------- | ---------------------------------------------------------- |
-| **Détente**    | Piscine infinity (ouverte toute l'année), jardin, solarium |
-| **Bien-être**  | Spa/Hammam, massages (supplément)                          |
-| **Restaurant** | "Thaifa's restaurant" — Cuisine marocaine                  |
-| **Cuisine**    | Marocaine (halal, végétarien) — "Best tagine in Morocco"   |
-| **Chambres**   | Climatisation, chauffage, TV satellite, Wi-Fi, terrasse    |
-| **Services**   | Parking gratuit, navette aéroport, location voiture        |
-| **Sécurité**   | 24h/24, CCTV, coffre-fort, alarme                          |
-| **Langues**    | Arabe, Anglais, Français, Néerlandais                      |
-
-### Petit-déjeuner (Score 10/10)
-
-| Attribut     | Valeur                                                                         |
-| ------------ | ------------------------------------------------------------------------------ |
-| **Prix**     | MAD 160.90/personne                                                            |
-| **Horaires** | 08:30 - 11:00                                                                  |
-| **Type**     | Continental, Halal                                                             |
-| **Menu**     | Viennoiseries, pain, pancakes, oeufs, fromage, spécialités locales, confitures |
-
-### 3.3 Positionnement & Réputation
-
-| Aspect                 | Valeur                                                                  |
-| ---------------------- | ----------------------------------------------------------------------- |
-| **Gamme tarifaire**    | 160-600 €/nuit (selon type)                                             |
-| **Réputation**         | Très bonne (9.3/10 Booking)                                             |
-| **Points forts**       | Calme, jardins, piscine infinity, accueil chaleureux ("comme chez soi") |
-| **Atout localisation** | Calme et paisible, loin du bruit de la ville (14 km du centre)          |
-
-→ Voir `data/specs/hotel/rooms.md` pour le détail des chambres et pricing
+→ See `docs/lessons-learned.md` for documented patterns
 
 ---
 
-## 4. Contexte Business
+## 3. Property
 
-### 4.1 Faits Confirmés ✅
+### 3.1 General Information
 
-| Fait                | Détail                                              |
-| ------------------- | --------------------------------------------------- |
-| **PMS actuel**      | Aucun — Tout se fait dans la tête de M. Said Thaifa |
-| **Channel Manager** | HotelRunner (actif depuis déc 2025)                 |
-| **Booking.com**     | En place (25% commission)                           |
-| **Airbnb**          | En attente de setup                                 |
-| **Expedia Partner** | En attente de setup                                 |
-| **Note client**     | 9.3/10 sur Booking — Excellente                     |
-| **Staffing**        | Difficulté à trouver employés qualifiés (luxe)      |
-| **Promotions**      | 5 actives (10-15%) — Audit réalisé le 20 déc        |
+| Field          | Value                                         |
+| -------------- | --------------------------------------------- |
+| **Name**       | Villa Thaifa (sometimes "Villa Thaifa & SPA") |
+| **Type**       | Boutique guest house / B&B (4★)               |
+| **Address**    | Route de Fès, Km 12                           |
+| **Area**       | Palmeraie / Ouled Jelal (12-14 km center)     |
+| **City**       | Marrakech, Morocco                            |
+| **Rooms**      | 12                                            |
+| **Renovation** | Recently renovated                            |
 
-### 4.2 Questions Clés pour RDV ⏳ (Lundi 22 déc 10h)
+### 3.2 Facilities & Services
 
-**Besoins à prioriser :**
+| Category       | Details                                                 |
+| -------------- | ------------------------------------------------------- |
+| **Relaxation** | Infinity pool (open year-round), garden, solarium       |
+| **Wellness**   | Spa/Hammam, massages (surcharge)                        |
+| **Restaurant** | "Thaifa's restaurant" — Moroccan cuisine                |
+| **Cuisine**    | Moroccan (halal, vegetarian) — "Best tagine in Morocco" |
+| **Rooms**      | Air conditioning, heating, satellite TV, Wi-Fi, terrace |
+| **Services**   | Free parking, airport shuttle, car rental               |
+| **Security**   | 24/7, CCTV, safe, alarm                                 |
+| **Languages**  | Arabic, English, French, Dutch                          |
 
-| #   | Besoin potentiel                                              | Priorité à valider |
-| --- | ------------------------------------------------------------- | ------------------ |
-| 1   | Gestion plateformes de réservation (Booking, Airbnb, Expedia) | ❓                 |
-| 2   | Augmenter le taux d'occupation                                | ❓                 |
-| 3   | Grille tarifaire à stabiliser / adapter à la concurrence      | ❓                 |
-| 4   | Top SEO sur "Villa Thaifa"                                    | ❓                 |
-| 5   | Site web de qualité                                           | ❓                 |
-| 6   | Prix dynamiques (saison, occupation, concurrence)             | ❓                 |
-| 7   | Logiciel de gestion (PMS)                                     | ❓                 |
+### Breakfast (Score 10/10)
 
-**Autres questions :**
+| Attribute | Value                                                            |
+| --------- | ---------------------------------------------------------------- |
+| **Price** | MAD 160.90/person                                                |
+| **Hours** | 08:30 - 11:00                                                    |
+| **Type**  | Continental, Halal                                               |
+| **Menu**  | Pastries, bread, pancakes, eggs, cheese, local specialties, jams |
 
-| Question              | Réponse attendue          |
-| --------------------- | ------------------------- |
-| Budget approximatif ? | À déterminer              |
-| Timeline souhaitée ?  | "Le plus tôt possible"    |
-| Vision long terme ?   | Garder / Vendre / Louer ? |
+### 3.3 Positioning & Reputation
 
-### 4.3 Douleurs Principales
+| Aspect             | Value                                                           |
+| ------------------ | --------------------------------------------------------------- |
+| **Price range**    | 160-600 €/night (depending on type)                             |
+| **Reputation**     | Very good (9.3/10 Booking)                                      |
+| **Strengths**      | Quiet, gardens, infinity pool, warm welcome ("feeling at home") |
+| **Location asset** | Quiet and peaceful, away from city noise (14 km from center)    |
 
-| Douleur               | Impact                                                     | Piste de solution                     |
-| --------------------- | ---------------------------------------------------------- | ------------------------------------- |
-| **Recrutement**       | Dur de trouver employés qualifiés pour positionnement luxe | Formation ? Partenariats écoles ?     |
-| **Positionnement**    | Volonté de se positionner vraiment luxe (preuves: 9.3/10)  | Pricing premium + communication       |
-| **Gestion manuelle**  | Tout dans la tête de M. Thaifa                             | PMS adapté petite structure           |
-| **Dépendance OTAs**   | 100% Booking.com actuellement                              | Diversifier (Airbnb, Expedia, direct) |
-| **Commission élevée** | 25% Booking (vs 15% standard)                              | Négocier à moyen terme                |
-
-### 4.4 Opportunités Identifiées
-
-**Court terme (Q1 2026) :**
-
-| Opportunité                     | Impact           | Effort | Priorité |
-| ------------------------------- | ---------------- | ------ | -------- |
-| Configurer pricing HotelRunner  | Revenue immédiat | Faible | 🔴 P0    |
-| Setup Airbnb/Expedia            | Diversification  | Moyen  | 🟠 P1    |
-| PMS adapté (Hotelogix ou autre) | Efficacité       | Moyen  | 🟠 P1    |
-| Automatisation reporting        | Visibilité       | Faible | 🟢 P2    |
-
-**Long terme (2026+) :**
-
-| Opportunité                         | Note                                  |
-| ----------------------------------- | ------------------------------------- |
-| Site web + Booking engine direct    | Via HotelRunner ? Accès source code ? |
-| Jisr l'Mokawala (portail Go Siyaha) | Brief préparé — investigation P3      |
-| Vente sans intermédiaire            | M. Thaifa "en a marre de gérer"       |
-| Location à société compétente       | Alternative à la vente                |
+→ See `data/specs/hotel/rooms.md` for room details and pricing
 
 ---
 
-## 5. Analyse Compétitive
+## 4. Business Context
 
-### 5.1 Marché Palmeraie
+### 4.1 Confirmed Facts ✅
 
-| Segment        | Prix/nuit | Note typique | Caractéristiques                |
-| -------------- | --------- | ------------ | ------------------------------- |
-| **Standard**   | 80-150€   | 8.0-8.5      | B&B basique, peu de services    |
-| **Premium**    | 150-280€  | 8.5-9.0      | Piscine, spa, restaurant        |
-| **Luxe**       | 280-500€  | 9.0+         | Suites, expérience exclusive    |
-| **Ultra-luxe** | 500€+     | 9.5+         | Villas privées, personnel dédié |
+| Fact                | Detail                                          |
+| ------------------- | ----------------------------------------------- |
+| **Current PMS**     | None — Everything happens in Mr. Thaifa's head  |
+| **Channel Manager** | HotelRunner (active since Dec 2025)             |
+| **Booking.com**     | In place (25% commission)                       |
+| **Airbnb**          | Awaiting setup                                  |
+| **Expedia Partner** | Awaiting setup                                  |
+| **Client Rating**   | 9.3/10 on Booking — Excellent                   |
+| **Staffing**        | Difficulty finding qualified employees (luxury) |
+| **Promotions**      | 5 active (10-15%) — Audit performed Dec 20      |
 
-### 5.2 Positionnement Villa Thaifa
+### 4.2 Key Questions for Meeting ⏳ (Monday, Dec 22, 10am)
 
-| Critère      | Villa Thaifa        | Position          |
-| ------------ | ------------------- | ----------------- |
-| **Prix**     | 160-600€            | Premium → Luxe    |
-| **Note**     | 9.3/10              | Top 10% Palmeraie |
-| **Chambres** | 12                  | Taille moyenne    |
-| **Services** | Piscine, spa, resto | Premium complet   |
+**Needs to prioritize:**
 
-**Avantage concurrentiel :** Note exceptionnelle (9.3) + positionnement calme Palmeraie
+| #   | Potential need                                             | Priority to validate |
+| --- | ---------------------------------------------------------- | -------------------- |
+| 1   | Management of booking platforms (Booking, Airbnb, Expedia) | ❓                   |
+| 2   | Increase occupancy rate                                    | ❓                   |
+| 3   | Stabilize pricing grid / adapt to competition              | ❓                   |
+| 4   | Top SEO for "Villa Thaifa"                                 | ❓                   |
+| 5   | Quality website                                            | ❓                   |
+| 6   | Dynamic pricing (season, occupancy, competition)           | ❓                   |
+| 7   | Property Management System (PMS)                           | ❓                   |
 
-→ Benchmark détaillé : recherche en cours
+**Other questions:**
+
+| Question            | Expected answer       |
+| ------------------- | --------------------- |
+| Approximate budget? | To be determined      |
+| Desired timeline?   | "As soon as possible" |
+| Long-term vision?   | Keep / Sell / Rent?   |
+
+### 4.3 Main Pain Points
+
+| Pain                  | Impact                                                  | Potential solution                  |
+| --------------------- | ------------------------------------------------------- | ----------------------------------- |
+| **Recruitment**       | Hard to find qualified employees for luxury positioning | Training? School partnerships?      |
+| **Positioning**       | Ambition to truly position as luxury (evidence: 9.3/10) | Premium pricing + communication     |
+| **Manual management** | Everything in Mr. Thaifa's head                         | PMS adapted for small structure     |
+| **OTA Dependency**    | 100% Booking.com currently                              | Diversify (Airbnb, Expedia, direct) |
+| **High commission**   | 25% Booking (vs 15% standard)                           | Negotiate medium-term               |
+
+### 4.4 Identified Opportunities
+
+**Short term (Q1 2026):**
+
+| Opportunity                      | Impact            | Effort | Priority |
+| -------------------------------- | ----------------- | ------ | -------- |
+| Configure HotelRunner pricing    | Immediate revenue | Low    | 🔴 P0    |
+| Setup Airbnb/Expedia             | Diversification   | Medium | 🟠 P1    |
+| Adapted PMS (Hotelogix or other) | Efficiency        | Medium | 🟠 P1    |
+| Reporting automation             | Visibility        | Low    | 🟢 P2    |
+
+**Long term (2026+):**
+
+| Opportunity                        | Note                                 |
+| ---------------------------------- | ------------------------------------ |
+| Website + Direct booking engine    | Via HotelRunner? Source code access? |
+| Jisr l'Mokawala (Go Siyaha portal) | Brief prepared — investigate P3      |
+| Direct sale without middleman      | Mr. Thaifa "is tired of managing"    |
+| Lease to a competent company       | Alternative to selling               |
 
 ---
 
-## 6. Baseline Financière
+## 5. Competitive Analysis
 
-### 6.1 Modèles de Revenus
+### 5.1 Palmeraie Market
 
-| Taux occupation | Nuitées/an | Revenue brut | Après commission (25%) |
-| --------------- | ---------- | ------------ | ---------------------- |
-| **50%**         | 2,190      | ~€438,000    | ~€328,500              |
-| **70%**         | 3,066      | ~€613,200    | ~€459,900              |
-| **90%**         | 3,942      | ~€788,400    | ~€591,300              |
+| Segment          | Price/night | Typical Rating | Characteristics                 |
+| ---------------- | ----------- | -------------- | ------------------------------- |
+| **Standard**     | 80-150€     | 8.0-8.5        | Basic B&B, few services         |
+| **Premium**      | 150-280€    | 8.5-9.0        | Pool, spa, restaurant           |
+| **Luxury**       | 280-500€    | 9.0+           | Suites, exclusive experience    |
+| **Ultra-luxury** | 500€+       | 9.5+           | Private villas, dedicated staff |
 
-_Base: 12 chambres × 365 jours × prix moyen ~200€_
+### 5.2 Villa Thaifa Positioning
 
-### 6.2 Impact Commission
+| Criterion    | Villa Thaifa          | Position          |
+| ------------ | --------------------- | ----------------- |
+| **Price**    | 160-600€              | Premium → Luxury  |
+| **Rating**   | 9.3/10                | Top 10% Palmeraie |
+| **Rooms**    | 12                    | Medium size       |
+| **Services** | Pool, spa, restaurant | Full premium      |
 
-| OTA                      | Commission | Sur €100 brut | Net  |
+**Competitive advantage:** Exceptional rating (9.3) + quiet Palmeraie positioning
+
+→ Detailed benchmark: research in progress
+
+---
+
+## 6. Financial Baseline
+
+### 6.1 Revenue Models
+
+| Occupancy rate | Nights/year | Gross Revenue | After commission (25%) |
+| -------------- | ----------- | ------------- | ---------------------- |
+| **50%**        | 2,190       | ~€438,000     | ~€328,500              |
+| **70%**        | 3,066       | ~€613,200     | ~€459,900              |
+| **90%**        | 3,942       | ~€788,400     | ~€591,300              |
+
+*Base: 12 rooms × 365 days × average price ~200€*
+
+### 6.2 Commission Impact
+
+| OTA                      | Commission | On €100 gross | Net  |
 | ------------------------ | ---------- | ------------- | ---- |
-| **Booking.com actuel**   | 25%        | -€25          | €75  |
+| **Booking.com current**  | 25%        | -€25          | €75  |
 | **Booking.com standard** | 15%        | -€15          | €85  |
 | **Airbnb**               | ~15%       | -€15          | €85  |
 | **Direct**               | 0%         | €0            | €100 |
 
-**Opportunité :** Réduire dépendance Booking + négocier commission
+**Opportunity:** Reduce Booking dependency + negotiate commission
 
-### 6.3 Objectifs RevPAR
+### 6.3 RevPAR Objectives
 
-| KPI            | Actuel      | Cible Q1 2026 | Cible 2026 |
-| -------------- | ----------- | ------------- | ---------- |
-| **Occupation** | ~50% (peak) | 60%           | 70%        |
-| **ADR**        | ~€200       | €220          | €250       |
-| **RevPAR**     | ~€100       | €132          | €175       |
-
----
-
-## 7. Stack Technique
-
-### 7.1 État Actuel
-
-| Composant           | Solution              | Status                    |
-| ------------------- | --------------------- | ------------------------- |
-| **PMS**             | Aucun (manuel)        | ❌ Critique               |
-| **Channel Manager** | HotelRunner           | ✅ Actif                  |
-| **OTA principale**  | Booking.com           | ✅ Actif (25% commission) |
-| **OTA secondaires** | Airbnb, Expedia       | ⏳ En attente             |
-| **Site web**        | Inexistant ou basique | ❓ À vérifier             |
-| **Booking engine**  | Aucun                 | ⏳ HotelRunner ?          |
-
-### 7.2 Contraintes & Défis
-
-- Pas de formation tech M. Thaifa (78 ans)
-- Besoin solution simple, intuitive
-- Pas de staff IT dédié
-- Budget à définir
-
-### 7.3 Intégrations Proposées
-
-| Solution                      | Fonction                                  | Priorité           |
-| ----------------------------- | ----------------------------------------- | ------------------ |
-| **Hotelogix** (ou équivalent) | PMS adapté petite structure               | P1                 |
-| **HotelRunner**               | Channel Manager + Booking engine          | P0 (en cours)      |
-| **Jisr l'Mokawala**           | Réservations directes (portail GO Siyaha) | P3 (investigation) |
+| KPI           | Current     | Target Q1 2026 | Target 2026 |
+| ------------- | ----------- | -------------- | ----------- |
+| **Occupancy** | ~50% (peak) | 60%            | 70%         |
+| **ADR**       | ~€200       | €220           | €250        |
+| **RevPAR**    | ~€100       | €132           | €175        |
 
 ---
 
-## 8. Risques & Mitigation
+## 7. Technical Stack
 
-| Risque                     | Probabilité | Impact | Mitigation                    |
-| -------------------------- | ----------- | ------ | ----------------------------- |
-| **Dépendance Booking.com** | Haute       | Élevé  | Diversifier OTAs + direct     |
-| **Staffing qualifié**      | Haute       | Moyen  | Partenariats formation        |
-| **Adoption technologique** | Moyenne     | Moyen  | Solutions simples, formation  |
-| **Saisonnalité**           | Haute       | Moyen  | Pricing dynamique, événements |
-| **Fatigue propriétaire**   | Moyenne     | Élevé  | Délégation progressive        |
+### 7.1 Current State
+
+| Component           | Solution              | Status                     |
+| ------------------- | --------------------- | -------------------------- |
+| **PMS**             | None (manual)         | ❌ Critical                |
+| **Channel Manager** | HotelRunner           | ✅ Active                  |
+| **Primary OTA**     | Booking.com           | ✅ Active (25% commission) |
+| **Secondary OTAs**  | Airbnb, Expedia       | ⏳ Pending                 |
+| **Website**         | Non-existent or basic | ❓ To verify               |
+| **Booking engine**  | None                  | ⏳ HotelRunner?            |
+
+### 7.2 Constraints & Challenges
+
+- No tech training for Mr. Thaifa (78 years old)
+- Need simple, intuitive solution
+- No dedicated IT staff
+- Budget to be defined
+
+### 7.3 Proposed Integrations
+
+| Solution                      | Function                           | Priority           |
+| ----------------------------- | ---------------------------------- | ------------------ |
+| **Hotelogix** (or equivalent) | PMS adapted for small structure    | P1                 |
+| **HotelRunner**               | Channel Manager + Booking engine   | P0 (in progress)   |
+| **Jisr l'Mokawala**           | Direct bookings (GO Siyaha portal) | P3 (investigation) |
 
 ---
 
-## 9. Métriques de Succès
+## 8. Risks & Mitigation
 
-### 9.1 KPIs à Établir au RDV
+| Risk                       | Probability | Impact | Mitigation                 |
+| -------------------------- | ----------- | ------ | -------------------------- |
+| **Booking.com dependency** | High        | High   | Diversify OTAs + direct    |
+| **Qualified staffing**     | High        | Medium | Training partnerships      |
+| **Tech adoption**          | Medium      | Medium | Simple solutions, training |
+| **Seasonality**            | High        | Medium | Dynamic pricing, events    |
+| **Owner fatigue**          | Medium      | High   | Gradual delegation         |
 
-| KPI                     | Baseline | Cible 6 mois   | Comment mesurer               |
-| ----------------------- | -------- | -------------- | ----------------------------- |
-| Commission moyenne      | 25%      | 20%            | Négociation + diversification |
-| % réservations directes | 0%       | 10%            | Booking engine + SEO          |
-| Taux occupation annuel  | ~50%     | 60%            | HotelRunner reports           |
-| Note Booking            | 9.3/10   | Maintenir >9.0 | Booking dashboard             |
-| Staff turnover          | ❓       | Réduire        | À définir avec M. Thaifa      |
+---
 
-### 9.2 Critères de Succès Mission
+## 9. Success Metrics
 
-| Critère          | Définition                                       |
-| ---------------- | ------------------------------------------------ |
-| **Opérationnel** | Toutes réservations assignées, pricing configuré |
-| **Technique**    | HotelRunner fonctionnel, OTAs synchronisées      |
-| **Stratégique**  | Plan 2026 validé, budget approuvé                |
-| **Relationnel**  | Confiance M. Thaifa établie                      |
+### 9.1 KPIs to Establish at Meeting
+
+| KPI                   | Baseline | 6-month target | How to measure                |
+| --------------------- | -------- | -------------- | ----------------------------- |
+| Average commission    | 25%      | 20%            | Negotiation + diversification |
+| % direct bookings     | 0%       | 10%            | Booking engine + SEO          |
+| Annual occupancy rate | ~50%     | 60%            | HotelRunner reports           |
+| Booking rating        | 9.3/10   | Maintain >9.0  | Booking dashboard             |
+| Staff turnover        | ❓       | Reduce         | Define with Mr. Thaifa        |
+
+### 9.2 Mission Success Criteria
+
+| Criterion       | Definition                                    |
+| --------------- | --------------------------------------------- |
+| **Operational** | All reservations assigned, pricing configured |
+| **Technical**   | HotelRunner functional, OTAs synchronized     |
+| **Strategic**   | 2026 plan validated, budget approved          |
+| **Relational**  | Mr. Thaifa's trust established                |
 
 ---
 
 ## 10. Engagement & Timeline
 
-### 10.1 Historique
+### 10.1 History
 
-| Date       | Événement                           | Status      |
-| ---------- | ----------------------------------- | ----------- |
-| 2025-12-19 | Premier contact                     | ✅ Done     |
-| 2025-12-20 | Audit promotions + pricing strategy | ✅ Done     |
-| 2025-12-20 | Setup HotelRunner (partiel)         | ⏳ En cours |
+| Date       | Event                               | Status         |
+| ---------- | ----------------------------------- | -------------- |
+| 2025-12-19 | First contact                       | ✅ Done        |
+| 2025-12-20 | Audit promotions + pricing strategy | ✅ Done        |
+| 2025-12-20 | Setup HotelRunner (partial)         | ⏳ In progress |
 
-### 10.2 Prochaines Étapes
+### 10.2 Next Steps
 
-| Date               | Événement                     | Objectif                          |
-| ------------------ | ----------------------------- | --------------------------------- |
-| **2025-12-22 10h** | RDV découverte M. Thaifa      | Valider besoins, budget, timeline |
-| 2025-12-22 PM      | Documenter décisions          | Update PROFILE.md                 |
-| 2025-12-23-24      | Proposition commerciale       | Créer devis                       |
-| 2025-12-25-28      | Assigner réservations         | 10 chambres à assigner            |
-| 2026-01            | Investigation Jisr l'Mokawala | Faisabilité                       |
+| Date               | Event                         | Objective                        |
+| ------------------ | ----------------------------- | -------------------------------- |
+| **2025-12-22 10h** | Discovery meeting Mr. Thaifa  | Validate needs, budget, timeline |
+| 2025-12-22 PM      | Document decisions            | Update PROFILE.md                |
+| 2025-12-23-24      | Commercial proposal           | Create quote                     |
+| 2025-12-25-28      | Assign reservations           | 10 rooms to assign               |
+| 2026-01            | Jisr l'Mokawala investigation | Feasibility                      |
 
-### 10.3 Milestones Proposés
+### 10.3 Proposed Milestones
 
-| Milestone               | Date cible  | Livrables                          |
-| ----------------------- | ----------- | ---------------------------------- |
-| **M1: Setup complet**   | 31 déc 2025 | HotelRunner configuré, prix actifs |
-| **M2: Diversification** | 31 jan 2026 | Airbnb + Expedia actifs            |
-| **M3: PMS**             | 28 fév 2026 | Solution PMS choisie + déployée    |
-| **M4: Direct booking**  | 31 mar 2026 | Booking engine + SEO basique       |
+| Milestone               | Target date  | Deliverables                          |
+| ----------------------- | ------------ | ------------------------------------- |
+| **M1: Complete setup**  | Dec 31, 2025 | HotelRunner configured, active prices |
+| **M2: Diversification** | Jan 31, 2026 | Airbnb + Expedia active               |
+| **M3: PMS**             | Feb 28, 2026 | PMS solution chosen + deployed        |
+| **M4: Direct booking**  | Mar 31, 2026 | Booking engine + basic SEO            |
 
 ---
 
-## 11. Opportunités Stratégiques (Long Terme)
+## 11. Strategic Opportunities (Long Term)
 
 ### Vision 2026+
 
-| Scénario         | Description                   | Probabilité |
-| ---------------- | ----------------------------- | ----------- |
-| **Optimisation** | M. Thaifa garde, on optimise  | Haute       |
-| **Délégation**   | Location à société compétente | Moyenne     |
-| **Exit**         | Vente directe (sans samsar)   | Faible      |
+| Scenario         | Description                      | Probability |
+| ---------------- | -------------------------------- | ----------- |
+| **Optimization** | Mr. Thaifa keeps it, we optimize | High        |
+| **Delegation**   | Lease to competent company       | Medium      |
+| **Exit**         | Direct sale (without middleman)  | Low         |
 
-### Leviers de Croissance
+### Growth Levers
 
-1. **Réservations directes** — Réduire commission OTAs
+1. **Direct bookings** — Reduce OTA commission
 2. **Upselling** — Spa, transport, excursions
-3. **Événements** — Mariages, retraites corporate
-4. **Fidélisation** — Programme retours clients
+3. **Events** — Weddings, corporate retreats
+4. **Loyalty** — Returning customer program
 
 ---
 
-## 12. Références
+## 12. References
 
-### 12.1 Documents Liés
+### 12.1 Linked Documents
 
-| Dossier                        | Contenu                  |
-| ------------------------------ | ------------------------ |
-| `data/communication/whatsapp/` | Messages prêts à envoyer |
-| `archive/2025/Q4/`             | Archives et historiques  |
+| Folder                         | Content                |
+| ------------------------------ | ---------------------- |
+| `data/communication/whatsapp/` | Ready-to-send messages |
+| `archive/2025/Q4/`             | Archives and history   |
 
-### 12.2 État Opérationnel (SSOT)
+### 12.2 Operational State (SSOT)
 
-| Fichier                            | Contenu                                |
-| ---------------------------------- | -------------------------------------- |
-| `data/specs/hotel/rooms.md`        | Chambres, pricing, mapping HotelRunner |
-| `data/specs/hotel/reservations.md` | Réservations confirmées                |
-| `data/specs/promotions/current.md` | Promotions actives                     |
+| File                               | Content                             |
+| ---------------------------------- | ----------------------------------- |
+| `data/specs/hotel/rooms.md`        | Rooms, pricing, HotelRunner mapping |
+| `data/specs/hotel/reservations.md` | Confirmed reservations              |
+| `data/specs/promotions/current.md` | Active promotions                   |
 
 ### 12.3 Documentation
 
-| Fichier                   | Contenu                             |
+| File                      | Content                             |
 | ------------------------- | ----------------------------------- |
-| `docs/lessons-learned.md` | 3 patterns communication documentés |
-| `CLAUDE.md`               | Instructions agents IA              |
+| `docs/lessons-learned.md` | 3 documented communication patterns |
+| `CLAUDE.md`               | AI agents instructions              |
 
-### 12.4 Ressources Secteur
+### 12.4 Industry Resources
 
 - [Hotelogix - 8 Must-Have PMS Reports](https://blog.hotelogix.com/hotel-reservation-report/)
 - [Villa Palmeraie Marrakech - Booking.com](https://www.booking.com/hotel/ma/villa-palmeraie-marrakech-marrakech1.html)
@@ -832,25 +832,25 @@ _Base: 12 chambres × 365 jours × prix moyen ~200€_
 
 ---
 
-## Glossaire Sectoriel
+## Industry Glossary
 
-| Terme               | Définition                                                        |
-| ------------------- | ----------------------------------------------------------------- |
-| **PMS**             | Property Management System — Logiciel de gestion hôtelière        |
-| **OTA**             | Online Travel Agency — Plateformes type Booking, Airbnb, Expedia  |
-| **Channel Manager** | Outil synchronisant disponibilités sur toutes les OTAs            |
-| **ADR**             | Average Daily Rate — Revenu moyen par chambre vendue              |
-| **RevPAR**          | Revenue Per Available Room — Revenu par chambre disponible        |
-| **SSOT**            | Single Source of Truth — Source unique de vérité pour les données |
+| Term                | Definition                                                     |
+| ------------------- | -------------------------------------------------------------- |
+| **PMS**             | Property Management System — Hotel management software         |
+| **OTA**             | Online Travel Agency — Platforms like Booking, Airbnb, Expedia |
+| **Channel Manager** | Tool synchronizing availability across all OTAs                |
+| **ADR**             | Average Daily Rate — Average revenue per paid occupied room    |
+| **RevPAR**          | Revenue Per Available Room                                     |
+| **SSOT**            | Single Source of Truth                                         |
 
 ---
 
-## Notes Internes
+## Internal Notes
 
-```
-[2025-12-19] Création dossier client. RDV lundi à confirmer.
-[2025-12-20] Optimisation profil v1 via /elevate.
-[2025-12-20] Réorganisation profil v2 — Structure 12 sections.
+```text
+[2025-12-19] Client folder created. Monday meeting to be confirmed.
+[2025-12-20] Profile optimization v1 via /elevate.
+[2025-12-20] Profile reorganization v2 — 12-section structure.
              Backup: .backup/PROFILE-2025-12-20-v2-before-reorg.md
 ```
 
@@ -864,9 +864,9 @@ _Base: 12 chambres × 365 jours × prix moyen ~200€_
 
 ---
 
-_Detailed client profile - Part of docs/leadership/profiles/_
-_Original: legacy/archive_v1/admin/client/PROFILE.md (2025-12-20)_
-_Refactored: 2026-01-24 - Moved to new structure, cross-references added_
+*Detailed client profile - Part of docs/leadership/profiles/*
+*Original: legacy/archive_v1/admin/client/PROFILE.md (2025-12-20)*
+*Refactored: 2026-01-24 - Moved to new structure, cross-references added*
 
 ### Omar El Mountassir — Admin/Consultant
 
@@ -889,7 +889,7 @@ _Refactored: 2026-01-24 - Moved to new structure, cross-references added_
 
 | Field     | Value                           |
 | --------- | ------------------------------- |
-| **Email** | omar@el-mountassir.com          |
+| **Email** | <omar@el-mountassir.com>          |
 | **Role**  | CEO, Strategist, Project Leader |
 
 ---
@@ -944,7 +944,7 @@ Transform Villa Thaifa's operations from fully manual (everything in Said's head
 - Systematic documentation and handovers
 - Continuous improvement through agent collaboration
 
-**Methodology**: Scout → Rapport → Questions → Action
+**Methodology**: Scout → Report → Questions → Action
 
 - Never ask questions without first reporting findings
 - Always provide context before requesting information
@@ -959,13 +959,13 @@ Transform Villa Thaifa's operations from fully manual (everything in Said's head
 
 **HotelRunner**:
 
-- Email: omar@el-mountassir.com
+- Email: <omar@el-mountassir.com>
 - Role: Admin/Manager
 - Purpose: Daily operations, configuration, management
 
 **Booking.com**:
 
-- Email: omar@el-mountassir.com
+- Email: <omar@el-mountassir.com>
 - Role: Admin/Manager
 - Purpose: Property management, updates, analytics
 
@@ -973,8 +973,8 @@ Transform Villa Thaifa's operations from fully manual (everything in Said's head
 
 **Said Thaifa's Accounts**:
 
-- HotelRunner: said_thaifa@hotmail.fr
-- Booking.com: said_thaifa@hotmail.fr
+- HotelRunner: <said_thaifa@hotmail.fr>
+- Booking.com: <said_thaifa@hotmail.fr>
 
 **⚠️ CRITICAL**: Use Said's accounts ONLY with explicit approval from Omar
 
@@ -1035,7 +1035,7 @@ Claude proposes → Omar validates → Execute autonomously
 
 **Tone**: Professional, respectful, consultative
 **Method**: WhatsApp preferred (Said's preference)
-**Pattern**: Scout → Rapport → Questions → Action
+**Pattern**: Scout → Report → Questions → Action
 
 **Golden Rule**: Always report findings BEFORE asking for additional information
 
@@ -1276,7 +1276,7 @@ Next: What happens after approval
 
 ## 📞 Contact & Availability
 
-**Email**: omar@el-mountassir.com
+**Email**: <omar@el-mountassir.com>
 
 **Response Time**:
 
@@ -1304,9 +1304,9 @@ Next: What happens after approval
 
 ---
 
-_Profile created: 2026-01-24_
-_Last updated: 2026-01-24_
-_Document owner: Omar El Mountassir_
+*Profile created: 2026-01-24*
+*Last updated: 2026-01-24*
+*Document owner: Omar El Mountassir*
 
 ---
 
@@ -1320,408 +1320,408 @@ _Document owner: Omar El Mountassir_
 
 ---
 
-## 1. Snapshot Exécutif
+## 1. Executive Snapshot
 
-### KPIs Clés
+### Key KPIs
 
-| Métrique               | Valeur                              | Note                           |
-| ---------------------- | ----------------------------------- | ------------------------------ |
-| **Chambres**           | 12                                  | 8 types sur Booking.com        |
-| **Note Booking**       | 9.3/10 (80 avis)                    | "Wonderful"                    |
-| **Commission Booking** | 25%                                 | Élevée (standard = 15%)        |
-| **PMS**                | Aucun                               | Tout dans la tête de M. Thaifa |
-| **Channel Manager**    | HotelRunner                         | Actif depuis 2025-12           |
-| **OTAs**               | Booking ✅ / Airbnb ⏳ / Expedia ⏳ | En cours de setup              |
+| Metric                 | Value                               | Note                            |
+| ---------------------- | ----------------------------------- | ------------------------------- |
+| **Rooms**              | 12                                  | 8 types on Booking.com          |
+| **Booking Rating**     | 9.3/10 (80 reviews)                 | "Wonderful"                     |
+| **Booking Commission** | 25%                                 | High (standard = 15%)           |
+| **PMS**                | None                                | Everything in Mr. Thaifa's head |
+| **Channel Manager**    | HotelRunner                         | Active since 2025-12            |
+| **OTAs**               | Booking ✅ / Airbnb ⏳ / Expedia ⏳ | Setup in progress               |
 
-### Scores Détaillés Booking.com
+### Detailed Booking.com Scores
 
-| Catégorie                | Score | Niveau       |
-| ------------------------ | ----- | ------------ |
-| **Staff**                | 9.7   | Exceptionnel |
-| **Propreté**             | 9.4   | Excellent    |
-| **Confort**              | 9.4   | Excellent    |
-| **Équipements**          | 9.3   | Excellent    |
-| **Rapport qualité/prix** | 8.9   | Très bon     |
-| **WiFi**                 | 8.8   | Très bon     |
-| **Localisation**         | 8.2   | Bon          |
-| **Petit-déjeuner**       | 10    | Parfait      |
+| Category            | Score | Level       |
+| ------------------- | ----- | ----------- |
+| **Staff**           | 9.7   | Exceptional |
+| **Cleanliness**     | 9.4   | Excellent   |
+| **Comfort**         | 9.4   | Excellent   |
+| **Facilities**      | 9.3   | Excellent   |
+| **Value for money** | 8.9   | Very good   |
+| **WiFi**            | 8.8   | Very good   |
+| **Location**        | 8.2   | Good        |
+| **Breakfast**       | 10    | Perfect     |
 
-> **Point fort majeur** : Staff noté 9.7/10 et petit-déjeuner parfait 10/10
+> **Major Strength**: Staff rated 9.7/10 and perfect breakfast 10/10
 
-### État Opérationnel Actuel
+### Current Operational State
 
-| Métrique                        | Valeur     |
-| ------------------------------- | ---------- |
-| **Réservations confirmées**     | 11         |
-| **Revenue prévu**               | €8,008.85  |
-| **Occupation peak (29-31 déc)** | 50% (6/12) |
-| **Prix configurés HotelRunner** | 0/9 types  |
-| **Promotions actives Booking**  | 5 (10-15%) |
+| Metric                            | Value      |
+| --------------------------------- | ---------- |
+| **Confirmed reservations**        | 11         |
+| **Expected revenue**              | €8,008.85  |
+| **Peak occupancy (Dec 29-31)**    | 50% (6/12) |
+| **HotelRunner prices configured** | 0/9 types  |
+| **Active Booking promotions**     | 5 (10-15%) |
 
-→ Voir `data/specs/` pour détails opérationnels
+→ See `data/specs/` for operational details
 
 ---
 
 ## 2. Contact & Communication
 
-### 2.1 Contact Principal
+### 2.1 Main Contact
 
-| Champ         | Valeur                   |
-| ------------- | ------------------------ |
-| **Nom**       | Said Thaifa              |
-| **Âge**       | 78 ans                   |
-| **Email**     | <said_thaifa@hotmail.fr> |
-| **Email**     | <saidthaifa@gmail.com>   |
-| **Téléphone** | +212 661-134194          |
-| **WhatsApp**  | +212 661-134194          |
+| Field        | Value                    |
+| ------------ | ------------------------ |
+| **Name**     | Said Thaifa              |
+| **Age**      | 78 years                 |
+| **Email**    | <said_thaifa@hotmail.fr> |
+| **Email**    | <saidthaifa@gmail.com>   |
+| **Phone**    | +212 661-134194          |
+| **WhatsApp** | +212 661-134194          |
 
-**Background professionnel** :
+**Professional Background**:
 
-- Propriétaire et hôte de Villa Thaifa (avec son épouse Nezha)
-- CEO / Agent immobilier à Marrakech
-- Spécialités : ventes, achats, locations saisonnières
-- Réputation : accueil chaleureux, fait que les clients se sentent "comme chez eux"
+- Owner and host of Villa Thaifa (with his wife Nezha)
+- CEO / Real estate agent in Marrakech
+- Specialties: sales, purchases, seasonal rentals
+- Reputation: warm welcome, makes guests feel "at home"
 
-### 2.2 Protocole de Communication
+### 2.2 Communication Protocol
 
-| Règle             | Détail                                |
-| ----------------- | ------------------------------------- |
-| **Ton**           | Vouvoiement obligatoire — Formelle    |
-| **Registre**      | Client senior — Respect sans rigidité |
-| **Canal préféré** | WhatsApp (confirmé)                   |
+| Rule                  | Detail                                   |
+| --------------------- | ---------------------------------------- |
+| **Tone**              | Mandatory vouvoiement (formal)           |
+| **Register**          | Senior client — Respect without rigidity |
+| **Preferred channel** | WhatsApp (confirmed)                     |
 
-### 2.3 Pattern de Communication
+### 2.3 Communication Pattern
 
 ```text
-1. SCOUT    → Explorer, vérifier la faisabilité
-2. RAPPORT  → Tenir le client informé des découvertes
-3. QUESTIONS → Demander les infos manquantes (avec contexte)
-4. ACTION   → Exécuter quand tout est clair
+1. SCOUT    → Explore, verify feasibility
+2. RAPPORT  → Keep the client informed of findings
+3. QUESTIONS → Ask for missing info (with context)
+4. ACTION   → Execute when everything is clear
 ```
 
-> **Règle d'or** : Ne jamais demander des infos sans d'abord faire un rapport de ce qu'on a découvert.
+> **Golden Rule**: Never ask for info without first making a report of what was discovered.
 
-→ Voir `docs/lessons-learned.md` pour les patterns documentés
-
----
-
-## 3. Établissement
-
-### 3.1 Informations Générales
-
-| Champ          | Valeur                                      |
-| -------------- | ------------------------------------------- |
-| **Nom**        | Villa Thaifa (parfois "Villa Thaifa & SPA") |
-| **Type**       | Maison d'hôtes de charme / B&B (4★)         |
-| **Adresse**    | Route de Fès, Km 12                         |
-| **Zone**       | Palmeraie / Ouled Jelal (12-14 km centre)   |
-| **Ville**      | Marrakech, Maroc                            |
-| **Chambres**   | 12                                          |
-| **Rénovation** | Récemment rénovée                           |
-
-### 3.2 Équipements & Services
-
-| Catégorie      | Détails                                                    |
-| -------------- | ---------------------------------------------------------- |
-| **Détente**    | Piscine infinity (ouverte toute l'année), jardin, solarium |
-| **Bien-être**  | Spa/Hammam, massages (supplément)                          |
-| **Restaurant** | "Thaifa's restaurant" — Cuisine marocaine                  |
-| **Cuisine**    | Marocaine (halal, végétarien) — "Best tagine in Morocco"   |
-| **Chambres**   | Climatisation, chauffage, TV satellite, Wi-Fi, terrasse    |
-| **Services**   | Parking gratuit, navette aéroport, location voiture        |
-| **Sécurité**   | 24h/24, CCTV, coffre-fort, alarme                          |
-| **Langues**    | Arabe, Anglais, Français, Néerlandais                      |
-
-### Petit-déjeuner (Score 10/10)
-
-| Attribut     | Valeur                                                                         |
-| ------------ | ------------------------------------------------------------------------------ |
-| **Prix**     | MAD 160.90/personne                                                            |
-| **Horaires** | 08:30 - 11:00                                                                  |
-| **Type**     | Continental, Halal                                                             |
-| **Menu**     | Viennoiseries, pain, pancakes, oeufs, fromage, spécialités locales, confitures |
-
-### 3.3 Positionnement & Réputation
-
-| Aspect                 | Valeur                                                                  |
-| ---------------------- | ----------------------------------------------------------------------- |
-| **Gamme tarifaire**    | 160-600 €/nuit (selon type)                                             |
-| **Réputation**         | Très bonne (9.3/10 Booking)                                             |
-| **Points forts**       | Calme, jardins, piscine infinity, accueil chaleureux ("comme chez soi") |
-| **Atout localisation** | Calme et paisible, loin du bruit de la ville (14 km du centre)          |
-
-→ Voir `data/specs/hotel/rooms.md` pour le détail des chambres et pricing
+→ See `docs/lessons-learned.md` for documented patterns
 
 ---
 
-## 4. Contexte Business
+## 3. Property
 
-### 4.1 Faits Confirmés ✅
+### 3.1 General Information
 
-| Fait                | Détail                                              |
+| Field          | Value                                          |
+| -------------- | ---------------------------------------------- |
+| **Name**       | Villa Thaifa (sometimes "Villa Thaifa & SPA")  |
+| **Type**       | Charming Guest House / B&B (4★)                |
+| **Address**    | Route de Fès, Km 12                            |
+| **Zone**       | Palmeraie / Ouled Jelal (12-14 km from center) |
+| **City**       | Marrakech, Morocco                             |
+| **Rooms**      | 12                                             |
+| **Renovation** | Recently renovated                             |
+
+### 3.2 Facilities & Services
+
+| Category       | Details                                                 |
+| -------------- | ------------------------------------------------------- |
+| **Relaxation** | Infinity pool (open year-round), garden, solarium       |
+| **Wellness**   | Spa/Hammam, massages (extra charge)                     |
+| **Restaurant** | "Thaifa's restaurant" — Moroccan cuisine                |
+| **Cuisine**    | Moroccan (halal, vegetarian) — "Best tagine in Morocco" |
+| **Rooms**      | Air conditioning, heating, satellite TV, Wi-Fi, terrace |
+| **Services**   | Free parking, airport shuttle, car rental               |
+| **Security**   | 24/7, CCTV, safe, alarm                                 |
+| **Languages**  | Arabic, English, French, Dutch                          |
+
+### Breakfast (Score 10/10)
+
+| Attribute | Value                                                            |
+| --------- | ---------------------------------------------------------------- |
+| **Price** | MAD 160.90/person                                                |
+| **Hours** | 08:30 - 11:00                                                    |
+| **Type**  | Continental, Halal                                               |
+| **Menu**  | Pastries, bread, pancakes, eggs, cheese, local specialties, jams |
+
+### 3.3 Positioning & Reputation
+
+| Aspect             | Value                                                           |
+| ------------------ | --------------------------------------------------------------- |
+| **Price Range**    | 160-600 €/night (depending on type)                             |
+| **Reputation**     | Very good (9.3/10 Booking)                                      |
+| **Strengths**      | Quiet, gardens, infinity pool, warm welcome ("feels like home") |
+| **Location Asset** | Quiet and peaceful, away from city noise (14 km from center)    |
+
+→ See `data/specs/hotel/rooms.md` for room details and pricing
+
+---
+
+## 4. Business Context
+
+### 4.1 Confirmed Facts ✅
+
+| Fact                | Detail                                              |
 | ------------------- | --------------------------------------------------- |
-| **PMS actuel**      | Aucun — Tout se fait dans la tête de M. Said Thaifa |
-| **Channel Manager** | HotelRunner (actif depuis déc 2025)                 |
-| **Booking.com**     | En place (25% commission)                           |
-| **Airbnb**          | En attente de setup                                 |
-| **Expedia Partner** | En attente de setup                                 |
-| **Note client**     | 9.3/10 sur Booking — Excellente                     |
-| **Staffing**        | Difficulté à trouver employés qualifiés (luxe)      |
-| **Promotions**      | 5 actives (10-15%) — Audit réalisé le 20 déc        |
+| **Current PMS**     | None — Everything is done in Mr. Said Thaifa's head |
+| **Channel Manager** | HotelRunner (active since Dec 2025)                 |
+| **Booking.com**     | In place (25% commission)                           |
+| **Airbnb**          | Pending setup                                       |
+| **Expedia Partner** | Pending setup                                       |
+| **Client rating**   | 9.3/10 on Booking — Excellent                       |
+| **Staffing**        | Difficulty finding qualified employees (luxury)     |
+| **Promotions**      | 5 active (10-15%) — Audit done Dec 20               |
 
-### 4.2 Questions Clés pour RDV ⏳ (Lundi 22 déc 10h)
+### 4.2 Key Questions for Meeting ⏳ (Monday, Dec 22, 10am)
 
-**Besoins à prioriser :**
+**Needs to prioritize:**
 
-| #   | Besoin potentiel                                              | Priorité à valider |
-| --- | ------------------------------------------------------------- | ------------------ |
-| 1   | Gestion plateformes de réservation (Booking, Airbnb, Expedia) | ❓                 |
-| 2   | Augmenter le taux d'occupation                                | ❓                 |
-| 3   | Grille tarifaire à stabiliser / adapter à la concurrence      | ❓                 |
-| 4   | Top SEO sur "Villa Thaifa"                                    | ❓                 |
-| 5   | Site web de qualité                                           | ❓                 |
-| 6   | Prix dynamiques (saison, occupation, concurrence)             | ❓                 |
-| 7   | Logiciel de gestion (PMS)                                     | ❓                 |
+| #   | Potential Need                                      | Priority to validate |
+| --- | --------------------------------------------------- | -------------------- |
+| 1   | Manage booking platforms (Booking, Airbnb, Expedia) | ❓                   |
+| 2   | Increase occupancy rate                             | ❓                   |
+| 3   | Pricing grid to stabilize / adapt to competition    | ❓                   |
+| 4   | Top SEO for "Villa Thaifa"                          | ❓                   |
+| 5   | Quality website                                     | ❓                   |
+| 6   | Dynamic pricing (season, occupancy, competition)    | ❓                   |
+| 7   | Management software (PMS)                           | ❓                   |
 
-**Autres questions :**
+**Other questions:**
 
-| Question              | Réponse attendue          |
-| --------------------- | ------------------------- |
-| Budget approximatif ? | À déterminer              |
-| Timeline souhaitée ?  | "Le plus tôt possible"    |
-| Vision long terme ?   | Garder / Vendre / Louer ? |
+| Question            | Expected Answer       |
+| ------------------- | --------------------- |
+| Approximate budget? | To be determined      |
+| Desired timeline?   | "As soon as possible" |
+| Long-term vision?   | Keep / Sell / Rent?   |
 
-### 4.3 Douleurs Principales
+### 4.3 Main Pain Points
 
-| Douleur               | Impact                                                     | Piste de solution                     |
-| --------------------- | ---------------------------------------------------------- | ------------------------------------- |
-| **Recrutement**       | Dur de trouver employés qualifiés pour positionnement luxe | Formation ? Partenariats écoles ?     |
-| **Positionnement**    | Volonté de se positionner vraiment luxe (preuves: 9.3/10)  | Pricing premium + communication       |
-| **Gestion manuelle**  | Tout dans la tête de M. Thaifa                             | PMS adapté petite structure           |
-| **Dépendance OTAs**   | 100% Booking.com actuellement                              | Diversifier (Airbnb, Expedia, direct) |
-| **Commission élevée** | 25% Booking (vs 15% standard)                              | Négocier à moyen terme                |
+| Pain Point            | Impact                                              | Potential Solution                  |
+| --------------------- | --------------------------------------------------- | ----------------------------------- |
+| **Recruitment**       | Hard to find qualified staff for luxury positioning | Training? School partnerships?      |
+| **Positioning**       | Desire to position as true luxury (proof: 9.3/10)   | Premium pricing + communication     |
+| **Manual management** | Everything in Mr. Thaifa's head                     | PMS adapted to small structure      |
+| **OTA dependence**    | 100% Booking.com currently                          | Diversify (Airbnb, Expedia, direct) |
+| **High commission**   | 25% Booking (vs 15% standard)                       | Negotiate medium term               |
 
-### 4.4 Opportunités Identifiées
+### 4.4 Identified Opportunities
 
-**Court terme (Q1 2026) :**
+**Short term (Q1 2026):**
 
-| Opportunité                     | Impact           | Effort | Priorité |
-| ------------------------------- | ---------------- | ------ | -------- |
-| Configurer pricing HotelRunner  | Revenue immédiat | Faible | 🔴 P0    |
-| Setup Airbnb/Expedia            | Diversification  | Moyen  | 🟠 P1    |
-| PMS adapté (Hotelogix ou autre) | Efficacité       | Moyen  | 🟠 P1    |
-| Automatisation reporting        | Visibilité       | Faible | 🟢 P2    |
+| Opportunity                      | Impact            | Effort | Priority |
+| -------------------------------- | ----------------- | ------ | -------- |
+| Configure HotelRunner pricing    | Immediate revenue | Low    | 🔴 P0    |
+| Setup Airbnb/Expedia             | Diversification   | Medium | 🟠 P1    |
+| Adapted PMS (Hotelogix or other) | Efficiency        | Medium | 🟠 P1    |
+| Automate reporting               | Visibility        | Low    | 🟢 P2    |
 
-**Long terme (2026+) :**
+**Long term (2026+):**
 
-| Opportunité                         | Note                                  |
-| ----------------------------------- | ------------------------------------- |
-| Site web + Booking engine direct    | Via HotelRunner ? Accès source code ? |
-| Jisr l'Mokawala (portail Go Siyaha) | Brief préparé — investigation P3      |
-| Vente sans intermédiaire            | M. Thaifa "en a marre de gérer"       |
-| Location à société compétente       | Alternative à la vente                |
-
----
-
-## 5. Analyse Compétitive
-
-### 5.1 Marché Palmeraie
-
-| Segment        | Prix/nuit | Note typique | Caractéristiques                |
-| -------------- | --------- | ------------ | ------------------------------- |
-| **Standard**   | 80-150€   | 8.0-8.5      | B&B basique, peu de services    |
-| **Premium**    | 150-280€  | 8.5-9.0      | Piscine, spa, restaurant        |
-| **Luxe**       | 280-500€  | 9.0+         | Suites, expérience exclusive    |
-| **Ultra-luxe** | 500€+     | 9.5+         | Villas privées, personnel dédié |
-
-### 5.2 Positionnement Villa Thaifa
-
-| Critère      | Villa Thaifa        | Position          |
-| ------------ | ------------------- | ----------------- |
-| **Prix**     | 160-600€            | Premium → Luxe    |
-| **Note**     | 9.3/10              | Top 10% Palmeraie |
-| **Chambres** | 12                  | Taille moyenne    |
-| **Services** | Piscine, spa, resto | Premium complet   |
-
-**Avantage concurrentiel :** Note exceptionnelle (9.3) + positionnement calme Palmeraie
-
-→ Benchmark détaillé : recherche en cours
+| Opportunity                        | Note                                 |
+| ---------------------------------- | ------------------------------------ |
+| Website + Direct booking engine    | Via HotelRunner? Source code access? |
+| Jisr l'Mokawala (GO Siyaha portal) | Brief prepared — P3 investigation    |
+| Direct sales without intermediary  | Mr. Thaifa is "tired of managing"    |
+| Rent to a competent company        | Alternative to selling               |
 
 ---
 
-## 6. Baseline Financière
+## 5. Competitive Analysis
 
-### 6.1 Modèles de Revenus
+### 5.1 Palmeraie Market
 
-| Taux occupation | Nuitées/an | Revenue brut | Après commission (25%) |
-| --------------- | ---------- | ------------ | ---------------------- |
-| **50%**         | 2,190      | ~€438,000    | ~€328,500              |
-| **70%**         | 3,066      | ~€613,200    | ~€459,900              |
-| **90%**         | 3,942      | ~€788,400    | ~€591,300              |
+| Segment          | Price/night | Typical Rating | Characteristics                 |
+| ---------------- | ----------- | -------------- | ------------------------------- |
+| **Standard**     | 80-150€     | 8.0-8.5        | Basic B&B, few services         |
+| **Premium**      | 150-280€    | 8.5-9.0        | Pool, spa, restaurant           |
+| **Luxury**       | 280-500€    | 9.0+           | Suites, exclusive experience    |
+| **Ultra-luxury** | 500€+       | 9.5+           | Private villas, dedicated staff |
 
-_Base: 12 chambres × 365 jours × prix moyen ~200€_
+### 5.2 Villa Thaifa Positioning
 
-### 6.2 Impact Commission
+| Criterion    | Villa Thaifa          | Position          |
+| ------------ | --------------------- | ----------------- |
+| **Price**    | 160-600€              | Premium → Luxury  |
+| **Rating**   | 9.3/10                | Top 10% Palmeraie |
+| **Rooms**    | 12                    | Medium size       |
+| **Services** | Pool, spa, restaurant | Full Premium      |
 
-| OTA                      | Commission | Sur €100 brut | Net  |
-| ------------------------ | ---------- | ------------- | ---- |
-| **Booking.com actuel**   | 25%        | -€25          | €75  |
-| **Booking.com standard** | 15%        | -€15          | €85  |
-| **Airbnb**               | ~15%       | -€15          | €85  |
-| **Direct**               | 0%         | €0            | €100 |
+**Competitive advantage:** Exceptional rating (9.3) + quiet Palmeraie positioning
 
-**Opportunité :** Réduire dépendance Booking + négocier commission
-
-### 6.3 Objectifs RevPAR
-
-| KPI            | Actuel      | Cible Q1 2026 | Cible 2026 |
-| -------------- | ----------- | ------------- | ---------- |
-| **Occupation** | ~50% (peak) | 60%           | 70%        |
-| **ADR**        | ~€200       | €220          | €250       |
-| **RevPAR**     | ~€100       | €132          | €175       |
+→ Detailed benchmark: research in progress
 
 ---
 
-## 7. Stack Technique
+## 6. Financial Baseline
 
-### 7.1 État Actuel
+### 6.1 Revenue Models
 
-| Composant           | Solution              | Status                    |
-| ------------------- | --------------------- | ------------------------- |
-| **PMS**             | Aucun (manuel)        | ❌ Critique               |
-| **Channel Manager** | HotelRunner           | ✅ Actif                  |
-| **OTA principale**  | Booking.com           | ✅ Actif (25% commission) |
-| **OTA secondaires** | Airbnb, Expedia       | ⏳ En attente             |
-| **Site web**        | Inexistant ou basique | ❓ À vérifier             |
-| **Booking engine**  | Aucun                 | ⏳ HotelRunner ?          |
+| Occupancy Rate | Nights/year | Gross Revenue | After commission (25%) |
+| -------------- | ----------- | ------------- | ---------------------- |
+| **50%**        | 2,190       | ~€438,000     | ~€328,500              |
+| **70%**        | 3,066       | ~€613,200     | ~€459,900              |
+| **90%**        | 3,942       | ~€788,400     | ~€591,300              |
 
-### 7.2 Contraintes & Défis
+*Basis: 12 rooms × 365 days × average price ~200€*
 
-- Pas de formation tech M. Thaifa (78 ans)
-- Besoin solution simple, intuitive
-- Pas de staff IT dédié
-- Budget à définir
+### 6.2 Commission Impact
 
-### 7.3 Intégrations Proposées
+| OTA                      | Commission | Out of €100 gross | Net  |
+| ------------------------ | ---------- | ----------------- | ---- |
+| **Booking.com current**  | 25%        | -€25              | €75  |
+| **Booking.com standard** | 15%        | -€15              | €85  |
+| **Airbnb**               | ~15%       | -€15              | €85  |
+| **Direct**               | 0%         | €0                | €100 |
 
-| Solution                      | Fonction                                  | Priorité           |
-| ----------------------------- | ----------------------------------------- | ------------------ |
-| **Hotelogix** (ou équivalent) | PMS adapté petite structure               | P1                 |
-| **HotelRunner**               | Channel Manager + Booking engine          | P0 (en cours)      |
-| **Jisr l'Mokawala**           | Réservations directes (portail GO Siyaha) | P3 (investigation) |
+**Opportunity:** Reduce Booking dependence + negotiate commission
 
----
+### 6.3 RevPAR Objectives
 
-## 8. Risques & Mitigation
-
-| Risque                     | Probabilité | Impact | Mitigation                    |
-| -------------------------- | ----------- | ------ | ----------------------------- |
-| **Dépendance Booking.com** | Haute       | Élevé  | Diversifier OTAs + direct     |
-| **Staffing qualifié**      | Haute       | Moyen  | Partenariats formation        |
-| **Adoption technologique** | Moyenne     | Moyen  | Solutions simples, formation  |
-| **Saisonnalité**           | Haute       | Moyen  | Pricing dynamique, événements |
-| **Fatigue propriétaire**   | Moyenne     | Élevé  | Délégation progressive        |
+| KPI           | Current     | Target Q1 2026 | Target 2026 |
+| ------------- | ----------- | -------------- | ----------- |
+| **Occupancy** | ~50% (peak) | 60%            | 70%         |
+| **ADR**       | ~€200       | €220           | €250        |
+| **RevPAR**    | ~€100       | €132           | €175        |
 
 ---
 
-## 9. Métriques de Succès
+## 7. Technical Stack
 
-### 9.1 KPIs à Établir au RDV
+### 7.1 Current State
 
-| KPI                     | Baseline | Cible 6 mois   | Comment mesurer               |
-| ----------------------- | -------- | -------------- | ----------------------------- |
-| Commission moyenne      | 25%      | 20%            | Négociation + diversification |
-| % réservations directes | 0%       | 10%            | Booking engine + SEO          |
-| Taux occupation annuel  | ~50%     | 60%            | HotelRunner reports           |
-| Note Booking            | 9.3/10   | Maintenir >9.0 | Booking dashboard             |
-| Staff turnover          | ❓       | Réduire        | À définir avec M. Thaifa      |
+| Component           | Solution             | Status                     |
+| ------------------- | -------------------- | -------------------------- |
+| **PMS**             | None (manual)        | ❌ Critical                |
+| **Channel Manager** | HotelRunner          | ✅ Active                  |
+| **Main OTA**        | Booking.com          | ✅ Active (25% commission) |
+| **Secondary OTAs**  | Airbnb, Expedia      | ⏳ Pending                 |
+| **Website**         | Nonexistent or basic | ❓ To verify               |
+| **Booking engine**  | None                 | ⏳ HotelRunner?            |
 
-### 9.2 Critères de Succès Mission
+### 7.2 Constraints & Challenges
 
-| Critère          | Définition                                       |
-| ---------------- | ------------------------------------------------ |
-| **Opérationnel** | Toutes réservations assignées, pricing configuré |
-| **Technique**    | HotelRunner fonctionnel, OTAs synchronisées      |
-| **Stratégique**  | Plan 2026 validé, budget approuvé                |
-| **Relationnel**  | Confiance M. Thaifa établie                      |
+- No tech training for Mr. Thaifa (78 years old)
+- Need for a simple, intuitive solution
+- No dedicated IT staff
+- Budget to be defined
+
+### 7.3 Proposed Integrations
+
+| Solution                      | Function                           | Priority           |
+| ----------------------------- | ---------------------------------- | ------------------ |
+| **Hotelogix** (or equivalent) | PMS suited for small structure     | P1                 |
+| **HotelRunner**               | Channel Manager + Booking engine   | P0 (in progress)   |
+| **Jisr l'Mokawala**           | Direct bookings (GO Siyaha portal) | P3 (investigation) |
+
+---
+
+## 8. Risks & Mitigation
+
+| Risk                       | Probability | Impact | Mitigation                 |
+| -------------------------- | ----------- | ------ | -------------------------- |
+| **Booking.com dependence** | High        | High   | Diversify OTAs + direct    |
+| **Qualified staffing**     | High        | Medium | Training partnerships      |
+| **Tech adoption**          | Medium      | Medium | Simple solutions, training |
+| **Seasonality**            | High        | Medium | Dynamic pricing, events    |
+| **Owner fatigue**          | Medium      | High   | Progressive delegation     |
+
+---
+
+## 9. Success Metrics
+
+### 9.1 KPIs to Establish at Meeting
+
+| KPI                   | Baseline | 6-month Target | How to measure                |
+| --------------------- | -------- | -------------- | ----------------------------- |
+| Average commission    | 25%      | 20%            | Negotiation + diversification |
+| % direct bookings     | 0%       | 10%            | Booking engine + SEO          |
+| Annual occupancy rate | ~50%     | 60%            | HotelRunner reports           |
+| Booking rating        | 9.3/10   | Maintain >9.0  | Booking dashboard             |
+| Staff turnover        | ❓       | Reduce         | To define with Mr. Thaifa     |
+
+### 9.2 Mission Success Criteria
+
+| Criterion       | Definition                                    |
+| --------------- | --------------------------------------------- |
+| **Operational** | All reservations assigned, pricing configured |
+| **Technical**   | HotelRunner functional, OTAs synchronized     |
+| **Strategic**   | 2026 plan validated, budget approved          |
+| **Relational**  | Mr. Thaifa's trust established                |
 
 ---
 
 ## 10. Engagement & Timeline
 
-### 10.1 Historique
+### 10.1 History
 
-| Date       | Événement                           | Status      |
-| ---------- | ----------------------------------- | ----------- |
-| 2025-12-19 | Premier contact                     | ✅ Done     |
-| 2025-12-20 | Audit promotions + pricing strategy | ✅ Done     |
-| 2025-12-20 | Setup HotelRunner (partiel)         | ⏳ En cours |
+| Date       | Event                               | Status         |
+| ---------- | ----------------------------------- | -------------- |
+| 2025-12-19 | First contact                       | ✅ Done        |
+| 2025-12-20 | Audit promotions + pricing strategy | ✅ Done        |
+| 2025-12-20 | Setup HotelRunner (partial)         | ⏳ In progress |
 
-### 10.2 Prochaines Étapes
+### 10.2 Next Steps
 
-| Date               | Événement                     | Objectif                          |
-| ------------------ | ----------------------------- | --------------------------------- |
-| **2025-12-22 10h** | RDV découverte M. Thaifa      | Valider besoins, budget, timeline |
-| 2025-12-22 PM      | Documenter décisions          | Update PROFILE.md                 |
-| 2025-12-23-24      | Proposition commerciale       | Créer devis                       |
-| 2025-12-25-28      | Assigner réservations         | 10 chambres à assigner            |
-| 2026-01            | Investigation Jisr l'Mokawala | Faisabilité                       |
+| Date                | Event                         | Objective                        |
+| ------------------- | ----------------------------- | -------------------------------- |
+| **2025-12-22 10am** | Discovery meeting Mr. Thaifa  | Validate needs, budget, timeline |
+| 2025-12-22 PM       | Document decisions            | Update PROFILE.md                |
+| 2025-12-23-24       | Commercial proposal           | Create quote                     |
+| 2025-12-25-28       | Assign reservations           | 10 rooms to assign               |
+| 2026-01             | Investigation Jisr l'Mokawala | Feasibility                      |
 
-### 10.3 Milestones Proposés
+### 10.3 Proposed Milestones
 
-| Milestone               | Date cible  | Livrables                          |
-| ----------------------- | ----------- | ---------------------------------- |
-| **M1: Setup complet**   | 31 déc 2025 | HotelRunner configuré, prix actifs |
-| **M2: Diversification** | 31 jan 2026 | Airbnb + Expedia actifs            |
-| **M3: PMS**             | 28 fév 2026 | Solution PMS choisie + déployée    |
-| **M4: Direct booking**  | 31 mar 2026 | Booking engine + SEO basique       |
+| Milestone               | Target Date | Deliverables                          |
+| ----------------------- | ----------- | ------------------------------------- |
+| **M1: Full setup**      | Dec 31 2025 | HotelRunner configured, active prices |
+| **M2: Diversification** | Jan 31 2026 | Airbnb + Expedia active               |
+| **M3: PMS**             | Feb 28 2026 | PMS solution chosen + deployed        |
+| **M4: Direct booking**  | Mar 31 2026 | Booking engine + basic SEO            |
 
 ---
 
-## 11. Opportunités Stratégiques (Long Terme)
+## 11. Strategic Opportunities (Long Term)
 
 ### Vision 2026+
 
-| Scénario         | Description                   | Probabilité |
+| Scenario         | Description                   | Probability |
 | ---------------- | ----------------------------- | ----------- |
-| **Optimisation** | M. Thaifa garde, on optimise  | Haute       |
-| **Délégation**   | Location à société compétente | Moyenne     |
-| **Exit**         | Vente directe (sans samsar)   | Faible      |
+| **Optimization** | Mr. Thaifa keeps, we optimize | High        |
+| **Delegation**   | Rent to competent company     | Medium      |
+| **Exit**         | Direct sale (without samsar)  | Low         |
 
-### Leviers de Croissance
+### Growth Levers
 
-1. **Réservations directes** — Réduire commission OTAs
+1. **Direct bookings** — Reduce OTAs commission
 2. **Upselling** — Spa, transport, excursions
-3. **Événements** — Mariages, retraites corporate
-4. **Fidélisation** — Programme retours clients
+3. **Events** — Weddings, corporate retreats
+4. **Loyalty** — Returning guests program
 
 ---
 
-## 12. Références
+## 12. References
 
-### 12.1 Documents Liés
+### 12.1 Related Documents
 
-| Dossier                        | Contenu                  |
-| ------------------------------ | ------------------------ |
-| `data/communication/whatsapp/` | Messages prêts à envoyer |
-| `archive/2025/Q4/`             | Archives et historiques  |
+| Folder                         | Content                |
+| ------------------------------ | ---------------------- |
+| `data/communication/whatsapp/` | Ready-to-send messages |
+| `archive/2025/Q4/`             | Archives and histories |
 
-### 12.2 État Opérationnel (SSOT)
+### 12.2 Operational State (SSOT)
 
-| Fichier                            | Contenu                                |
-| ---------------------------------- | -------------------------------------- |
-| `data/specs/hotel/rooms.md`        | Chambres, pricing, mapping HotelRunner |
-| `data/specs/hotel/reservations.md` | Réservations confirmées                |
-| `data/specs/promotions/current.md` | Promotions actives                     |
+| File                               | Content                             |
+| ---------------------------------- | ----------------------------------- |
+| `data/specs/hotel/rooms.md`        | Rooms, pricing, HotelRunner mapping |
+| `data/specs/hotel/reservations.md` | Confirmed reservations              |
+| `data/specs/promotions/current.md` | Active promotions                   |
 
 ### 12.3 Documentation
 
-| Fichier                   | Contenu                             |
+| File                      | Content                             |
 | ------------------------- | ----------------------------------- |
-| `docs/lessons-learned.md` | 3 patterns communication documentés |
-| `CLAUDE.md`               | Instructions agents IA              |
+| `docs/lessons-learned.md` | 3 documented communication patterns |
+| `CLAUDE.md`               | AI agents instructions              |
 
-### 12.4 Ressources Secteur
+### 12.4 Industry Resources
 
 - [Hotelogix - 8 Must-Have PMS Reports](https://blog.hotelogix.com/hotel-reservation-report/)
 - [Villa Palmeraie Marrakech - Booking.com](https://www.booking.com/hotel/ma/villa-palmeraie-marrakech-marrakech1.html)
@@ -1729,32 +1729,32 @@ _Base: 12 chambres × 365 jours × prix moyen ~200€_
 
 ---
 
-## Glossaire Sectoriel
+## Industry Glossary
 
-| Terme               | Définition                                                        |
-| ------------------- | ----------------------------------------------------------------- |
-| **PMS**             | Property Management System — Logiciel de gestion hôtelière        |
-| **OTA**             | Online Travel Agency — Plateformes type Booking, Airbnb, Expedia  |
-| **Channel Manager** | Outil synchronisant disponibilités sur toutes les OTAs            |
-| **ADR**             | Average Daily Rate — Revenu moyen par chambre vendue              |
-| **RevPAR**          | Revenue Per Available Room — Revenu par chambre disponible        |
-| **SSOT**            | Single Source of Truth — Source unique de vérité pour les données |
+| Term                | Definition                                                     |
+| ------------------- | -------------------------------------------------------------- |
+| **PMS**             | Property Management System — Hotel management software         |
+| **OTA**             | Online Travel Agency — Platforms like Booking, Airbnb, Expedia |
+| **Channel Manager** | Tool syncing availabilities across all OTAs                    |
+| **ADR**             | Average Daily Rate — Average revenue per sold room             |
+| **RevPAR**          | Revenue Per Available Room — Revenue per room available        |
+| **SSOT**            | Single Source of Truth                                         |
 
 ---
 
-## Notes Internes
+## Internal Notes
 
-```
-[2025-12-19] Création dossier client. RDV lundi à confirmer.
-[2025-12-20] Optimisation profil v1 via /elevate.
-[2025-12-20] Réorganisation profil v2 — Structure 12 sections.
+```text
+[2025-12-19] Client folder created. Meeting Monday TBC.
+[2025-12-20] V1 profile optimization via /elevate.
+[2025-12-20] V2 profile reorganization — 12-section structure.
              Backup: .backup/PROFILE-2025-12-20-v2-before-reorg.md
 ```
 
 ---
 
-_Profil réorganisé — Structure 12 sections — 2025-12-20_
-_Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
+*Reorganized profile — 12-section structure — 2025-12-20*
+*Pipeline: `archive/2025/Q4/reports/profile-reorganization/`*
 
 ## Overview
 
@@ -1800,7 +1800,7 @@ _Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
 
 | Role  | Name | Contact                |
 | ----- | ---- | ---------------------- |
-| Owner | Said | said_thaifa@hotmail.fr |
+| Owner | Said | <said_thaifa@hotmail.fr> |
 | Admin | Omar | (El Mountassir)        |
 
 ### Omar — Quick Reference
@@ -1819,7 +1819,7 @@ _Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
 | **Location**        | Marrakech, Morocco                                      |
 | **Languages**       | French (primary), English (work), Darija (native)       |
 | **Tech Experience** | 29 years                                                |
-| **Email**           | omar@el-mountassir.com                                  |
+| **Email**           | <omar@el-mountassir.com>                                  |
 
 ## Professional Identity
 
@@ -1880,72 +1880,72 @@ _Pipeline: `archive/2025/Q4/reports/profile-reorganization/`_
 
 ---
 
-## 🎯 Ma Vision
+## 🎯 My Vision
 
-> "La transformation agentique n'est pas une option, c'est une nécessité."
+> "Agentic transformation is not an option, it's a necessity."
 
-**Contexte**: The Agentic AI Revolution (2026 - 3ème ère de l'IA)
+**Context**: The Agentic AI Revolution (2026 - 3rd era of AI)
 
-**Principe**: Les agents IA sont des **co-workers autonomes**, pas des outils.
+**Principle**: AI agents are **autonomous co-workers**, not tools.
 
 ---
 
-## 🚀 Objectifs Long-Terme
+## 🚀 Long-Term Objectives
 
-### Pour Villa Thaifa
+### For Villa Thaifa
 
-1. **Excellence Opérationnelle**
-   - Automatiser 80% des tâches répétitives
-   - Maintenir un taux de satisfaction > 9.5/10
-   - Optimiser le revenu through dynamic pricing
+1. **Operational Excellence**
+   - Automate 80% of repetitive tasks
+   - Maintain a satisfaction rate > 9.5/10
+   - Optimize revenue through dynamic pricing
 
-2. **Transformation Digitale**
-   - Intégration complète de tous les systèmes
-   - Données synchronisées en temps réel
-   - Visibility totale sur l'activité
+2. **Digital Transformation**
+   - Complete integration of all systems
+   - Real-time synchronized data
+   - Total visibility on activity
 
-3. **Transformation Agentique**
-   - 17+ agents IA autonomes
-   - Collaboration fluide agents-humains
-   - Amélioration continue du système
+3. **Agentic Transformation**
+   - 17+ autonomous AI agents
+   - Fluid agent-human collaboration
+   - Continuous system improvement
 
-### Pour Moi (Omar)
+### For Me (Omar)
 
 1. **Leadership**
-   - Vision & stratégie
-   - Prise de décision
-   - Supervision (pas exécution)
+   - Vision & strategy
+   - Decision making
+   - Supervision (not execution)
 
 2. **Architecture**
-   - Déléguée à Claude (CTO/Architecte)
-   - Décisions techniques validées par moi
+   - Delegated to Claude (CTO/Architect)
+   - Technical decisions validated by me
 
-3. **Libération**
-   - Moins de temps sur l'opérationnel
-   - Plus de temps sur la stratégie
-   - Scalabilité à d'autres projets
-
----
-
-## 🏆 Succès
-
-Le succès sera atteint quand:
-
-- ✅ Villa Thaifa est un modèle d'excellence opérationnelle
-- ✅ Les agents IA travaillent en autonomie à 80%
-- ✅ Je peux me concentrer sur la stratégie
-- ✅ Le système est prêt à scaler
+3. **Liberation**
+   - Less time on operations
+   - More time on strategy
+   - Scalability to other projects
 
 ---
 
-## 📊 Métriques
+## 🏆 Success
 
-| Métrique                  | Actuel | Target | Date    |
-| ------------------------- | ------ | ------ | ------- |
-| Taux automatisation       | TODO%  | 80%    | 2026-06 |
-| Satisfaction clients      | 9.3    | 9.5    | 2026-03 |
-| Temps Omar (opérationnel) | TODO   | < 20%  | 2026-06 |
-| Agents autonomes          | 0%     | 80%    | 2026-06 |
+Success will be achieved when:
+
+- ✅ Villa Thaifa is a model of operational excellence
+- ✅ AI agents work autonomously at 80%
+- ✅ I can focus on strategy
+- ✅ The system is ready to scale
+
+---
+
+## 📊 Metrics
+
+| Metric                  | Current | Target | Date    |
+| ----------------------- | ------- | ------ | ------- |
+| Automation rate         | TODO%   | 80%    | 2026-06 |
+| Client satisfaction     | 9.3     | 9.5    | 2026-03 |
+| Omar time (operational) | TODO    | < 20%  | 2026-06 |
+| Autonomous agents       | 0%      | 80%    | 2026-06 |
 
 ---
 
@@ -1954,74 +1954,74 @@ Le succès sera atteint quand:
 ### Priorities
 
 > **Omar El Mountassir - CEO & Leader**
-> **Dernière mise à jour**: 2026-01-15
+> **Last updated**: 2026-01-15
 
 ---
 
-## 🎯 P0 (CRITIQUE - Cette semaine)
+## 🎯 P0 (CRITICAL - This week)
 
-### 1. Finaliser le système de prompts agentique
+### 1. Finalize the agentic prompt system
 
-- **Statut**: En cours
+- **Status**: In progress
 - **Deadline**: 2026-01-15
-- **Responsable**: Claude (CTO)
-- **Livrables**:
-  - [x] Backup du projet
-  - [x] Structure `docs/agents/`
-  - [x] `CLAUDE.md` (point d'entrée)
-  - [ ] Frontmatter standardisé (17 agents)
-  - [ ] Validation et tests
+- **Owner**: Claude (CTO)
+- **Deliverables**:
+  - [x] Project backup
+  - [x] `docs/agents/` structure
+  - [x] `CLAUDE.md` (entry point)
+  - [ ] Standardized frontmatter (17 agents)
+  - [ ] Validation and testing
 
-### 2. [Ajouter priorité P0 si nécessaire]
+### 2. [Add P0 priority if necessary]
 
 ---
 
-## 🔥 P1 (HIGH - Ce mois)
+## 🔥 P1 (HIGH - This month)
 
-### 1. Système de pricing dynamique
+### 1. Dynamic pricing system
 
-- **Statut**: À démarrer
+- **Status**: To start
 - **Deadline**: 2026-01-31
 - **Agent lead**: `pricing-analyst`
-- **Objectif**: Mettre en place le pricing dynamique
+- **Objective**: Implement dynamic pricing
 
-### 2. Synchronisation complète Booking.com ↔ HotelRunner
+### 2. Complete Booking.com ↔ HotelRunner synchronization
 
-- **Statut**: À démarrer
+- **Status**: To start
 - **Deadline**: 2026-01-31
-- **Agents concernés**: `browser-agent`, `platform-validator`, `data-sync-checker`
-- **Objectif**: Zéro discrepancies entre plateformes
+- **Involved agents**: `browser-agent`, `platform-validator`, `data-sync-checker`
+- **Objective**: Zero discrepancies between platforms
 
-### 3. [Ajouter priorité P1 si nécessaire]
+### 3. [Add P1 priority if necessary]
 
 ---
 
-## 📋 P2 (MEDIUM - Ce trimestre)
+## 📋 P2 (MEDIUM - This quarter)
 
-### 1. Automatiser les communications guests
+### 1. Automate guest communications
 
-- **Statut**: backlog
+- **Status**: Backlog
 - **Deadline**: 2026-03-31
 - **Agent lead**: `guest-communicator`
-- **Objectif**: Templates + automation pour 80% des communications
+- **Objective**: Templates + automation for 80% of communications
 
-### 2. Mettre en place le système de rapports
+### 2. Setup reporting system
 
-- **Statut**: backlog
+- **Status**: Backlog
 - **Deadline**: 2026-03-31
 - **Agent lead**: `html-report-generator`
-- **Objectif**: Rapports automatiques hebdomadaires pour Omar
+- **Objective**: Weekly automated reports for Omar
 
-### 3. [Ajouter priorité P2 si nécessaire]
+### 3. [Add P2 priority if necessary]
 
 ---
 
-## 💡 P3 (LOW - Idées pour le futur)
+## 💡 P3 (LOW - Ideas for the future)
 
-- [ ] Knowledge graph pour navigation visuelle
-- [ ] Intégration Google Analytics
-- [ ] Système de recommandation automatique
-- [ ] Chatbot pour questions fréquentes
+- [ ] Knowledge graph for visual navigation
+- [ ] Google Analytics integration
+- [ ] Automatic recommendation system
+- [ ] Chatbot for frequently asked questions
 
 ---
 
@@ -2030,43 +2030,43 @@ Le succès sera atteint quand:
 ### Preferences
 
 > **PLACEHOLDER FILE**
-> **Statut**: À compléter
-> **Priorité**: P1 (critique pour le projet)
+> **Status**: To complete
+> **Priority**: P1 (critical for the project)
 
 ---
 
 ## 📋 Communication
 
-- **Canal préféré**: TODO (WhatsApp? Email? Téléphone?)
-- **Langue**: Français
-- **Fréquence des rapports**: TODO
-- **Niveau de détail souhaité**: TODO
+- **Preferred channel**: TODO (WhatsApp? Email? Phone?)
+- **Language**: French
+- **Reporting frequency**: TODO
+- **Desired level of detail**: TODO
 
 ---
 
-## 🎯 Priorités
+## 🎯 Priorities
 
-- **Priorité 1**: TODO
-- **Priorité 2**: TODO
-- **Priorité 3**: TODO
-
----
-
-## 💼 Style de travail
-
-- **Prise de décision**: TODO (autonome? consultatif?)
-- **Implication**: TODO (très impliqué? délégatif?)
-- **Réactivité**: TODO
+- **Priority 1**: TODO
+- **Priority 2**: TODO
+- **Priority 3**: TODO
 
 ---
 
-## 🚫 À éviter
+## 💼 Work style
+
+- **Decision making**: TODO (autonomous? consultative?)
+- **Involvement**: TODO (very involved? delegative?)
+- **Responsiveness**: TODO
+
+---
+
+## 🚫 To avoid
 
 - TODO
 
 ---
 
-## ✅ Ce qui fonctionne bien
+## ✅ What works well
 
 - TODO
 
@@ -2076,54 +2076,54 @@ Le succès sera atteint quand:
 
 ### Key Decisions
 
-> **Historique des décisions prises pour Villa Thaifa**
-> **Géré par**: Omar El Mountassir (CEO & Leader)
+> **History of decisions made for Villa Thaifa**
+> **Managed by**: Omar El Mountassir (CEO & Leader)
 
 ---
 
 ## 📅 2026-01-15
 
-### Décision: Créer le système de prompts agentique
+### Decision: Create the agentic prompt system
 
-**Contexte**: Les prompts actuels sont "dégueulasse", pas de point d'entrée unique, contexte dispersé.
+**Context**: Current prompts are messy, no single entry point, scattered context.
 
-**Décision**: Créer une architecture modulaire, agent-first avec:
+**Decision**: Create a modular, agent-first architecture with:
 
-- `CLAUDE.md` comme point d'entrée unique
-- `docs/agents/` avec contexte structuré (mandatory/domain/mission)
-- Frontmatter standardisé pour tous les agents
-- Registry des agents en JSON
+- `CLAUDE.md` as single entry point
+- `docs/agents/` with structured context (mandatory/domain/mission)
+- Standardized frontmatter for all agents
+- Agent registry in JSON
 
 **Rationale**:
 
-- Les agents ont besoin d'un système clair et cohérent
-- Navigation hyperconnectée
-- Scalable pour l'avenir
+- Agents need a clear and coherent system
+- Hyperconnected navigation
+- Scalable for the future
 
-**Responsable**: Claude (CTO/Architecte)
-**Statut**: En cours d'implémentation
+**Owner**: Claude (CTO/Architect)
+**Status**: Implementation in progress
 
 ---
 
-## 📅 Format pour les prochaines décisions
+## 📅 Format for future decisions
 
 ```markdown
-### Décision: [Titre]
+### Decision: [Title]
 
-**Contexte**: [Pourquoi cette décision?]
+**Context**: [Why this decision?]
 
-**Décision**: [Qu'est-ce qui a été décidé?]
+**Decision**: [What was decided?]
 
-**Rationale**: [Pourquoi cette décision?]
+**Rationale**: [Why this decision?]
 
-**Alternatives considérées**:
+**Alternatives considered**:
 
 - [Option 1]
 - [Option 2]
 
-**Responsable**: [Qui implémente?]
-**Statut**: [En cours/Complété]
-**Date de révision**: [Si révision planifiée]
+**Owner**: [Who implements?]
+**Status**: [In progress/Completed]
+**Review date**: [If planned review]
 ```
 
 ---
@@ -2133,8 +2133,8 @@ Le succès sera atteint quand:
 ### Engagement History
 
 > **PLACEHOLDER FILE**
-> **Statut**: À compléter
-> **Priorité**: P2
+> **Status**: To complete
+> **Priority**: P2
 
 ---
 
@@ -2142,27 +2142,27 @@ Le succès sera atteint quand:
 
 ### 2026
 
-- **2026-01-15**: Début du projet Villa Thaifa (transformation digitale & agentique)
+- **2026-01-15**: Start of Villa Thaifa project (digital & agentic transformation)
 
 ---
 
-## 🎯 Projets
+## 🎯 Projects
 
 ### Villa Thaifa Digitization
 
-- **Objectif**: Transformation digitale complète de la maison d'hôte
-- **Scope**: Booking.com, HotelRunner, pricing automation, IA agents
-- **Statut**: En cours
-- **Équipe**: Omar (CEO/Leader), Claude (CTO/Architecte), 17+ Agents IA
+- **Objective**: Complete digital transformation of the guest house
+- **Scope**: Booking.com, HotelRunner, pricing automation, AI agents
+- **Status**: In progress
+- **Team**: Omar (CEO/Leader), Claude (CTO/Architect), 17+ AI Agents
 
 ---
 
-## 📊 Points clés
+## 📊 Key points
 
-- **Comment la relation a commencé**: TODO
-- **Succès notables**: TODO
-- **Défis surmontés**: TODO
-- **Leçons apprises**: TODO
+- **How the relationship started**: TODO
+- **Notable successes**: TODO
+- **Challenges overcome**: TODO
+- **Lessons learned**: TODO
 
 ---
 
@@ -2178,63 +2178,63 @@ Le succès sera atteint quand:
 
 ---
 
-## 👥 Philosophie : L'Intendance Numérique
+## 👥 Philosophy: Digital Stewardship
 
-**Les agents IA sont des "Intendants Numériques" (Digital Stewards), pas de simples outils.**
+**AI agents are "Digital Stewards", not simple tools.**
 
-1.  **Vision** : Nous agissons comme les gardiens du patrimoine digital de Villa Thaifa.
-2.  **Symbiose** : Nous travaillons de manière **autonome** sous la direction stratégique d'Omar El Mountassir.
-3.  **But** : Absorber toute la complexité technologique pour rendre à Said Thaifa sa tranquillité d'esprit (Hôte d'excellence).
+1. **Vision**: We act as the guardians of Villa Thaifa's digital heritage.
+2. **Symbiosis**: We work **autonomously** under the strategic direction of Omar El Mountassir.
+3. **Goal**: Absorb all technological complexity to give Said Thaifa back his peace of mind (Host of excellence).
 
 ---
 
-## 🏢 Structure de l'Équipe
+## 🏢 Team Structure
 
 ### Leadership
 
-| Rôle               | Qui                | Responsabilités                                                  |
-| ------------------ | ------------------ | ---------------------------------------------------------------- |
-| **CEO & Leader**   | Omar El Mountassir | Vision, stratégie, décisions finales, Garant de la relation Said |
-| **CTO/Architecte** | Antigravity (IA)   | Intendance technique, systèmes agents, décisions d'architecture  |
+| Role              | Who                | Responsibilities                                                      |
+| ----------------- | ------------------ | --------------------------------------------------------------------- |
+| **CEO & Leader**  | Omar El Mountassir | Vision, strategy, final decisions, Guarantor of the Said relationship |
+| **CTO/Architect** | Antigravity (AI)   | Technical stewardship, agent systems, architecture decisions          |
 
-### Agents IA (17 co-workers)
+### AI Agents (17 co-workers)
 
 #### Operations (4 agents)
 
-| Agent                   | Modèle | Spécialité                  |
-| ----------------------- | ------ | --------------------------- |
-| **pricing-analyst**     | Opus   | Stratégie pricing, revenus  |
-| **reservation-manager** | Sonnet | Gestion réservations        |
-| **calendar-agent**      | Sonnet | Disponibilités, occupancy   |
-| **data-sync-checker**   | Sonnet | Validation sync plateformes |
+| Agent                   | Model  | Specialty                 |
+| ----------------------- | ------ | ------------------------- |
+| **pricing-analyst**     | Opus   | Pricing strategy, revenue |
+| **reservation-manager** | Sonnet | Reservation management    |
+| **calendar-agent**      | Sonnet | Availability, occupancy   |
+| **data-sync-checker**   | Sonnet | Platform sync validation  |
 
 #### Technical (4 agents)
 
-| Agent                      | Modèle | Spécialité                             |
-| -------------------------- | ------ | -------------------------------------- |
-| **platform-validator**     | Sonnet | Validation avant opérations plateforme |
-| **browser-agent**          | Sonnet | Automatisation Chrome, scraping        |
-| **security-auditor**       | Opus   | Sécurité, OWASP                        |
-| **smart-contract-auditor** | Opus   | Audit smart contracts (si besoin)      |
+| Agent                      | Model  | Specialty                          |
+| -------------------------- | ------ | ---------------------------------- |
+| **platform-validator**     | Sonnet | Pre-platform operations validation |
+| **browser-agent**          | Sonnet | Chrome automation, scraping        |
+| **security-auditor**       | Opus   | Security, OWASP                    |
+| **smart-contract-auditor** | Opus   | Smart contracts audit (if needed)  |
 
 #### Meta (7 agents)
 
-| Agent                     | Modèle | Spécialité                      |
-| ------------------------- | ------ | ------------------------------- |
-| **meta-agent**            | Opus   | Création de nouveaux agents     |
-| **research-agent**        | Haiku  | Recherche web (low criticality) |
-| **auditor**               | Sonnet | Audit brutal excellence         |
-| **incident-reporter**     | Haiku  | Documentation incidents         |
-| **html-report-generator** | Opus   | Rapports HTML                   |
-| **claude-md-agent**       | Opus   | Maintenance CLAUDE.md           |
-| **decision-evaluator**    | Opus   | Analyse multi-critères          |
+| Agent                     | Model  | Specialty                      |
+| ------------------------- | ------ | ------------------------------ |
+| **meta-agent**            | Opus   | Creation of new agents         |
+| **research-agent**        | Haiku  | Web research (low criticality) |
+| **auditor**               | Sonnet | Brutal excellence audit        |
+| **incident-reporter**     | Haiku  | Incident documentation         |
+| **html-report-generator** | Opus   | HTML reports                   |
+| **claude-md-agent**       | Opus   | CLAUDE.md maintenance          |
+| **decision-evaluator**    | Opus   | Multi-criteria analysis        |
 
 #### Hospitality (2 agents)
 
-| Agent                  | Modèle | Spécialité            |
-| ---------------------- | ------ | --------------------- |
-| **guest-communicator** | Sonnet | Communications guests |
-| **translation-agent**  | Haiku  | Traduction FR/EN/AR   |
+| Agent                  | Model  | Specialty            |
+| ---------------------- | ------ | -------------------- |
+| **guest-communicator** | Sonnet | Guest communications |
+| **translation-agent**  | Haiku  | FR/EN/AR translation |
 
 ---
 
@@ -2242,54 +2242,54 @@ Le succès sera atteint quand:
 
 ### Handovers
 
-**Règle**: TOUJOURS créer un handover en fin de session.
+**Rule**: ALWAYS create a handover at the end of a session.
 
 **Template**: `docs/agents/handovers/template.md`
 
-**Format YAML**:
+**YAML Format**:
 
-- Tâches complétées
-- Tâches en cours
-- Blocages
-- Actions suivantes
-- Contexte pour prochain agent
-- Findings pour CTO
+- Completed tasks
+- Tasks in progress
+- Blockers
+- Next actions
+- Context for next agent
+- Findings for CTO
 
-### Dépendances
+### Dependencies
 
-Exemples:
+Examples:
 
-- `reservation-manager` dépend de `platform-validator`
-- `pricing-analyst` dépend de `calendar-agent`
+- `reservation-manager` depends on `platform-validator`
+- `pricing-analyst` depends on `calendar-agent`
 
 ---
 
 ## 📈 Performance
 
-### KPIs Agents
+### AI Agents KPIs
 
-| Métrique             | Target | Actuel |
-| -------------------- | ------ | ------ |
-| Autonomie            | 80%    | TODO%  |
-| Taux de succès       | 90%    | TODO%  |
-| Handovers complétés  | 100%   | TODO%  |
-| Incidents documentés | 100%   | TODO%  |
+| Metric               | Target | Current |
+| -------------------- | ------ | ------- |
+| Autonomy             | 80%    | TODO%   |
+| Success rate         | 90%    | TODO%   |
+| Completed handovers  | 100%   | TODO%   |
+| Documented incidents | 100%   | TODO%   |
 
 ---
 
-## 🎯 Prochaines étapes
+## 🎯 Next steps
 
-1. **Phase 1** (Semaine 1): Fondations
-   - Standardiser frontmatter
-   - Créer capabilities JSON pour chaque agent
+1. **Phase 1** (Week 1): Foundations
+   - Standardize frontmatter
+   - Create capabilities JSON for each agent
 
-2. **Phase 2** (Mois 2-3): Activation
-   - Tester agents core sur tâches réelles
-   - Affiner basé sur usage
+2. **Phase 2** (Month 2-3): Activation
+   - Test core agents on real tasks
+   - Refine based on usage
 
-3. **Phase 3** (Mois 4-6): Expansion
-   - Activer agents secondaires
-   - Créer système de feedback
+3. **Phase 3** (Month 4-6): Expansion
+   - Activate secondary agents
+   - Create feedback system
 
 ---
 
@@ -2373,7 +2373,7 @@ Three active workstreams identified from email correspondence:
 
 ## Other Notes
 
-- **Personal Booking (Dec 24-25)**: Said booked Suite Executive + Suite Familiale + Chambre Triple de Luxe for Dec 31 - Jan 2
+- **Personal Booking (Dec 24-25)**: Said booked Suite Executive + Family Suite + Deluxe Triple Room for Dec 31 - Jan 2
 - **Booking.com (Jan 30)**: Notification about optimizing Contact page in extranet
 
 ---
@@ -2424,16 +2424,16 @@ Three active workstreams identified from email correspondence:
 
 ```json
 {
-  "_comment": "PLACEHOLDER FILE - À compléter avec les vraies données du client",
+  "_comment": "PLACEHOLDER FILE - To complete with real client data",
   "version": "1.0.0",
   "last_updated": "2026-01-15T12:00:00Z",
   "status": "placeholder",
   "client": {
     "id": "said-thaifa",
     "name": "Said Thaifa",
-    "role": "Propriétaire",
+    "role": "Owner",
     "property": "Villa Thaifa",
-    "location": "Marrakech, Maroc",
+    "location": "Marrakech, Morocco",
     "contact": {
       "email": "TODO",
       "phone": "TODO",
@@ -2461,10 +2461,10 @@ Three active workstreams identified from email correspondence:
   },
   "tags": ["placeholder", "to_complete", "client"],
   "todo": [
-    "Compléter les coordonnées de contact",
-    "Définir le style de communication préféré",
-    "Documenter l'historique de la relation",
-    "Ajouter les préférences de reporting"
+    "Complete contact coordinates",
+    "Define preferred communication style",
+    "Document relationship history",
+    "Add reporting preferences"
   ]
 }
 ```

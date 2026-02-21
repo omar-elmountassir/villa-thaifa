@@ -1,78 +1,78 @@
-# Workflow : Mise à Jour Tarifs
+# Workflow: Price Update
 
-> Process pour modifier les prix sur HotelRunner/Booking.com.
-
----
-
-## Prérequis
-
-- [ ] Lire `data/specs/hotel/rooms.md` (tarifs actuels)
-- [ ] Lire `data/specs/promotions/planned.md` (changements prévus)
-- [ ] Validation Omar sur les nouveaux tarifs
+> Process to modify prices on HotelRunner/Booking.com.
 
 ---
 
-## Étapes
+## Prerequisites
 
-### 1. BASELINE — Capturer état actuel
+- [ ] Read `data/specs/hotel/rooms.md` (current rates)
+- [ ] Read `data/specs/promotions/planned.md` (planned changes)
+- [ ] Omar validation on new rates
+
+---
+
+## Steps
+
+### 1. BASELINE — Capture current state
 
 ```bash
 cp data/specs/hotel/rooms.md archive/YYYY/QQ/snapshots/rooms-YYYY-MM-DD.md
 ```
 
-### 2. PLAN — Documenter les changements
+### 2. PLAN — Document changes
 
-```
-Mettre à jour data/specs/promotions/planned.md :
-- Ancien tarif
-- Nouveau tarif
-- Raison du changement
-- Date d'effet
-```
-
-### 3. CONFIRM — Validation Omar
-
-```
-Présenter tableau comparatif :
-| Chambre | Ancien | Nouveau | Delta |
-Attendre validation explicite
+```text
+Update data/specs/promotions/planned.md:
+- Old rate
+- New rate
+- Reason for change
+- Effective date
 ```
 
-### 4. EXECUTE — Appliquer sur HotelRunner
+### 3. CONFIRM — Omar Validation
 
-```
-1. Ouvrir app.hotelrunner.com
-2. Navigation : Rates → Room Rates
-3. Modifier les tarifs
-4. Vérifier propagation vers OTAs
+```text
+Present comparative table:
+| Room | Old | New | Delta |
+Wait for explicit validation
 ```
 
-### 5. VERIFY — Confirmer sur Booking.com
+### 4. EXECUTE — Apply on HotelRunner
 
+```text
+1. Open app.hotelrunner.com
+2. Navigation: Rates → Room Rates
+3. Modify rates
+4. Verify propagation to OTAs
 ```
-1. Ouvrir admin.booking.com
-2. Vérifier que les tarifs sont synchronisés
-3. Screenshot de confirmation
+
+### 5. VERIFY — Confirm on Booking.com
+
+```text
+1. Open admin.booking.com
+2. Verify that rates are synchronized
+3. Confirmation screenshot
 ```
 
 ### 6. UPDATE DATA
 
-```
-1. Mettre à jour data/specs/hotel/rooms.md
-2. Log dans archive/YYYY/QQ/execution/pricing.md
-3. Ajouter entrée dans archive/YYYY/QQ/changelogs/pricing.md
+```text
+1. Update data/specs/hotel/rooms.md
+2. Log in archive/YYYY/QQ/execution/pricing.md
+3. Add entry in archive/YYYY/QQ/changelogs/pricing.md
 ```
 
 ---
 
-## Points d'attention
+## Points of Attention
 
-| Risque                     | Mitigation                                  |
-| -------------------------- | ------------------------------------------- |
-| Désync HotelRunner/Booking | Vérifier propagation après 15 min           |
-| Erreur de saisie           | Double-check avant validation               |
-| Promotions en conflit      | Vérifier `data/specs/promotions/current.md` |
+| Risk                       | Mitigation                               |
+| -------------------------- | ---------------------------------------- |
+| HotelRunner/Booking desync | Verify propagation after 15 min          |
+| Input error                | Double-check before validation           |
+| Conflicting promotions     | Check `data/specs/promotions/current.md` |
 
 ---
 
-_Workflow v0.1.0-alpha.0_
+<i>Workflow v0.1.0-alpha.0</i>

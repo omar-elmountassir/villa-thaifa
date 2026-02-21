@@ -20,7 +20,7 @@
 
 ### Process
 
-```
+```text
 1. PAUSE before clicking/submitting
 2. VERIFY against documentation (data/specs/configs/hotel/rooms.md, etc.)
 3. If uncertain → STOP → ASK → Wait for confirmation
@@ -44,7 +44,7 @@
 
 ### Booking process
 
-```
+```text
 1. ANALYZE the request carefully
 2. REPEAT: "I will create: Room X, from DD to DD/MM, name: Y, price: Z"
 3. WAIT for a "yes" or a correction
@@ -82,7 +82,7 @@
 
 ### Update data process
 
-```
+```text
 1. READ current data carefully
 2. IDENTIFY what exists vs what is new
 3. ADD new data WITHOUT deleting existing
@@ -111,4 +111,4 @@ If any answer is NO → **STOP** and adjust.
 
 ---
 
-_Platform Operations Rules v0.1.0-alpha.0 — Zero Tolerance_
+<i>Platform Operations Rules v0.1.0-alpha.0 — Zero Tolerance</i>

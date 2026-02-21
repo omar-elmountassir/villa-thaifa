@@ -2,50 +2,50 @@
 
 ## Overview
 
-| Facility                      | Description                                                                                    | Key Features                                                                |
-| ----------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **Hall / Salle de Reception** | L'espace de reception et hall de Villa Thaifa.                                                 | Capacite, Usage evenements                                                  |
-| **Jardin**                    | Le jardin de Villa Thaifa dans la Palmeraie de Marrakech.                                      | Surface, Palmiers, Orangers                                                 |
-| **Piscine**                   | La piscine de Villa Thaifa.                                                                    | Dimensions, Profondeur, Chauffee, Horaires, Transats, Parasols, Bar piscine |
-| **Spa & Hammam**              | Le spa et hammam de Villa Thaifa offrent une experience de bien-etre traditionnelle marocaine. | Capacite Hammam, Horaires, Inclus sejour, Nombre de tables, Types de soins  |
+| Facility             | Description                                                                          | Key Features                                                                |
+| -------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| **Hall / Reception** | The reception area and hall of Villa Thaifa.                                         | Capacity, Event usage                                                       |
+| **Garden**           | The garden of Villa Thaifa in the Palmeraie of Marrakech.                            | Area, Palm trees, Orange trees                                              |
+| **Pool**             | The pool of Villa Thaifa.                                                            | Dimensions, Depth, Heated, Hours, Sun loungers, Umbrellas, Pool bar         |
+| **Spa & Hammam**     | The spa and hammam of Villa Thaifa offer a traditional Moroccan wellness experience. | Hammam capacity, Hours, Included in stay, Number of tables, Treatment types |
 
 ---
 
 ## Detailed Features
 
-### 🏛️ Hall / Salle de Reception
+### 🏛️ Hall / Reception
 
-_L'espace de reception et hall de Villa Thaifa._
+_The reception area and hall of Villa Thaifa._
 
-- **Capacite**: A confirmer - M. Thaifa
-- **Usage evenements**: A confirmer
+- **Capacity**: To be confirmed - Mr. Thaifa
+- **Event usage**: To be confirmed
 
-### 🌳 Jardin
+### 🌳 Garden
 
-_Le jardin de Villa Thaifa dans la Palmeraie de Marrakech._
+_The garden of Villa Thaifa in the Palmeraie of Marrakech._
 
-- **Surface**: A confirmer - M. Thaifa
-- **Palmiers**: A confirmer
-- **Orangers**: A confirmer
+- **Area**: To be confirmed - Mr. Thaifa
+- **Palm trees**: To be confirmed
+- **Orange trees**: To be confirmed
 
-### 🏊 Piscine
+### 🏊 Pool
 
-_La piscine de Villa Thaifa._
+_The pool of Villa Thaifa._
 
-- **Dimensions**: A confirmer - M. Thaifa
-- **Profondeur**: A confirmer
-- **Chauffee**: A confirmer
-- **Horaires**: A confirmer
-- **Transats**: A confirmer
-- **Parasols**: A confirmer
-- **Bar piscine**: A confirmer
+- **Dimensions**: To be confirmed - Mr. Thaifa
+- **Depth**: To be confirmed
+- **Heated**: To be confirmed
+- **Hours**: To be confirmed
+- **Sun loungers**: To be confirmed
+- **Umbrellas**: To be confirmed
+- **Pool bar**: To be confirmed
 
 ### 🧖 Spa & Hammam
 
-_Le spa et hammam de Villa Thaifa offrent une experience de bien-etre traditionnelle marocaine._
+_The spa and hammam of Villa Thaifa offer a traditional Moroccan wellness experience._
 
-- **Capacite Hammam**: A confirmer - M. Thaifa
-- **Horaires**: A confirmer
-- **Inclus sejour**: A confirmer
-- **Nombre de tables**: A confirmer
-- **Types de soins**: A confirmer
+- **Hammam Capacity**: To be confirmed - Mr. Thaifa
+- **Hours**: To be confirmed
+- **Included in stay**: To be confirmed
+- **Number of tables**: To be confirmed
+- **Treatment types**: To be confirmed

@@ -13,26 +13,26 @@ Featured as a key differentiator on all OTA listings.
 
 ## Characteristics
 
-| Attribute      | Value                                                                  |
-| -------------- | ---------------------------------------------------------------------- |
+| Attribute      | Value                                                                         |
+| -------------- | ----------------------------------------------------------------------------- |
 | **Type**       | Infinity pool (overflow) — Source: Booking.com listing + property-config.json |
-| **Dimensions** | owner_pending                                                          |
-| **Depth**      | owner_pending                                                          |
-| **Heated**     | Yes — Source: property-config.json                                     |
-| **Hours**      | owner_pending                                                          |
-| **Access**     | Free, included in all stays — Source: Booking.com listing              |
-| **Seasonal**   | Open all year — Source: Booking.com listing + events-privatization.md  |
+| **Dimensions** | owner_pending                                                                 |
+| **Depth**      | owner_pending                                                                 |
+| **Heated**     | Yes — Source: property-config.json                                            |
+| **Hours**      | owner_pending                                                                 |
+| **Access**     | Free, included in all stays — Source: Booking.com listing                     |
+| **Seasonal**   | Open all year — Source: Booking.com listing + events-privatization.md         |
 
 ---
 
 ## Equipment
 
-| Item                | Status                                                           |
-| ------------------- | ---------------------------------------------------------------- |
-| Sun loungers        | Yes — Source: Booking.com (Terrasse solarium avec transats)      |
-| Umbrellas           | Yes — Source: Booking.com (Parasols)                             |
-| Pool/beach towels   | Yes, provided — Source: Booking.com (Serviettes piscine/plage)   |
-| Pool bar            | owner_pending                                                    |
+| Item              | Status                                                    |
+| ----------------- | --------------------------------------------------------- |
+| Sun loungers      | Yes — Source: Booking.com (Sun terrace with sun loungers) |
+| Umbrellas         | Yes — Source: Booking.com (Umbrellas)                     |
+| Pool/beach towels | Yes, provided — Source: Booking.com (Pool/beach towels)   |
+| Pool bar          | owner_pending                                             |
 
 ---
 

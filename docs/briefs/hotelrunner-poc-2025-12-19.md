@@ -1,32 +1,33 @@
-Salut Claude, alors ta tâche d'importante captiale car cela pourrai potentiellement nous ouvrir la porte pour débloquer un high (level?) ticket
-Ce document doit être considéré comme brouillon / un brain dump (que j'esserai d'améliorer et structuré avec une autre de tes instances) que je vais te poser en dessous, de le comprendre pour en faire un truc réutilisable, pour en produire quelque chose qui soit réutilisable, que je puisse l'utiliser sur le coup, pour ce genre de cas d'usage. Et donc ce brouillon, prends le comme une sorte de brain dump, ok ? Donc je vais essayer de poser toutes mes idées dedans, tout ce que je pense, etc, et donc ça sera à toi de le structurer, de le repenser, de l'améliorer, etc. Et par la suite aussi tu poseras aussi tes questions, dans un autre document ou une autre partie. Donc je te présente la situation. Un potentiel client, un propriétaire d'une maison d'hôte de Marrakech, qui s'appelle Villa Taïfa, je te donnerai plus de détails, m'appelle en urgence, parce qu'il vient de récemment s'inscrire et souscrire un service proposé par l'Etat, qui s'appelle, je vais chercher, je t'écrirai ça plus bas. Donc c'est un service qui apparemment lui permet de faire des réservations et bien plus encore, et qui l'aide beaucoup pour sa maison d'hôte et pour tout ce qui est informatisé, dans le sens où avant il passait par booking, et c'était une problématique d'ailleurs, parce que, enfin, je te mets ça juste entre parenthèses, parce que booking lui prend presque 40% des... du prix que lui revient la chambre, tu vois, ou les réservations en question, et donc c'est énorme, et donc le mot d'ordre pour lui, en tout cas ce qu'il aimerait qu'on l'aide, nous, à faire, c'est trouver une solution intelligente, ou créer une solution intelligente plutôt, tu vois, basée sur un agent sûrement, enfin pas forcément, tu vois, mais donc ça, ça serait l'un des premiers projets avec lui, pour automatiser et le décharger notamment, du maximum de travail, de travaux informatiques, tu vois, qui sont faisables sur un ordinateur, donc je trouve que c'est un très bon cas d'usage pour des agents IA. On utilisera sûrement un cloud agent SDK, peut-être d'autres, mais pour les premiers tests, pour les premières preuves de concept et prototypes, on utilisera sûrement un cloud agent SDK, parce que c'est compatible avec tout. Donc là, en fait, il m'appelle en urgence, il est 9 heures du soir, pour me dire que, vu qu'il n'arrive pas, qu'il ne comprend pas la plateforme, qu'il aimerait que je le fasse pour lui. Donc un ami à lui, ou quelque chose comme ça, est venu dans sa maison d'hôtes, et il a dû réserver, booker une chambre en urgence. Donc il m'a donné les identifiants, il m'a aussi donné une liste avec des numéros de chambres et le type de chambre que c'est, et il nous demande de booker la chambre 11, donc ça, ce sera la mission pour l'agent qu'on crée, ou pour l'instance de cloud code, si elle est la, et qu'on utilisera pour voir déjà si c'est faisable, pour avoir la preuve de concept, du coup. Donc booker la chambre 11, qui est une suite familiale, pour deux nuits. Donc 19, 20, et il me semble 21, du coup. Mais il m'a dit « booker pour deux nuits », je ne sais pas techniquement ce que ça veut dire, donc il n'hésite pas, moi, qui sais faire. Donc mon idée pour le produit digital, ce serait par la suite d'avoir une application sur laquelle il puisse se connecter, pour avoir accès à l'agent, mais aussi pour voir les stats, etc. On brainstormera tout ça plus tard, l'idée, encore une fois, c'est de le décharger de tout le travail qu'il doit faire sur cette plateforme. Et vu que tu as maintenant accès à Google Chrome, je pense qu'il est faisable que, si je te donne les identifiants, que tu le fasses pour moi déjà, juste pour avoir la preuve, comme quoi tu peux le faire. Donc plus bas, je te mettrai le plus d'informations possibles par rapport à un numéro de la plateforme, le nom de l'hôtel, donc le nom du client, le propriétaire de l'hôtel, et les identifiants qu'il m'a transmis. Si tu as des questions avant qu'on commence à le faire, n'hésite pas, parce que idéalement, ce n'est pas toi qui vas le faire, ça serait une autre instance de Claude Code. Il faudra donc vérifier si la chambre 11 est déjà bloquée ou pas pour 2 nuitées (apparement aujourdhui + demain (+ après demain?? ) // Je ne sais pas en terme technique d'hotelier ce que cela veut dire), si c'est pas le cas, le faire.
-De ce que je sais:
+Hi Claude, so your task is of capital importance because it could potentially open the door for us to unlock a high (level?) ticket.
+This document should be considered as a draft / a brain dump (which I will try to improve and structure with another one of your instances) that I will put below for you to understand in order to make it reusable, to produce something from it that is reusable, that I can use on the spot, for this kind of use case. So take this draft as a kind of brain dump, okay? So I'll try to put all my ideas in it, everything I think about, etc., and so it will be up to you to structure it, to rethink it, to improve it, etc. And subsequently you will also ask your questions, in another document or another part. So I'll present the situation to you. A potential client, an owner of a guest house in Marrakech, called Villa Thaifa, I'll give you more details, calls me urgently, because he recently registered and subscribed to a service offered by the State, which is called, I'll look it up, I'll write that below. So it's a service that apparently allows him to make reservations and much more, and which helps him a lot for his guest house and for everything that is computerized, in the sense that before he went through booking, and it was a problem by the way, because, well, I'm just putting this in brackets, because booking takes almost 40% of the... of the price that the room costs him, you see, or the reservations in question, and so it's huge, and so the watchword for him, at least what he would like us to help him do, is to find a smart solution, or rather create a smart solution, you see, surely based on an agent, well not necessarily, you see, but so that, that would be one of the first projects with him, to automate and unload him in particular, of the maximum amount of work, of computer work, you see, that is doable on a computer, so I find that it's a very good use case for AI agents. We will surely use a cloud agent SDK, perhaps others, but for the first tests, for the first proofs of concept and prototypes, we will surely use a cloud agent SDK, because it is compatible with everything. So there, in fact, he calls me urgently, it's 9 pm, to tell me that, since he can't manage, that he doesn't understand the platform, that he would like me to do it for him. So a friend of his, or something like that, came to his guest house, and he had to book a room urgently. So he gave me the credentials, he also gave me a list with room numbers and the type of room it is, and he asks us to book room 11, so that, that will be the mission for the agent we create, or for the cloud code instance, if it is there, and that we will use to see already if it's doable, to have the proof of concept, therefore. So book room 11, which is a family suite, for two nights. So 19, 20, and it seems to me 21, therefore. But he told me "book for two nights", I don't technically know what that means, so don't hesitate, me, who knows how to do it. So my idea for the digital product, it would be subsequently to have an application on which he can connect, to have access to the agent, but also to see the stats, etc. We will brainstorm all that later, the idea, again, is to unload him of all the work he has to do on this platform. And since you now have access to Google Chrome, I think it is doable that, if I give you the credentials, that you do it for me already, just to have the proof, as if you can do it. So further down, I will put as much information as possible in relation to a number on the platform, the name of the hotel, therefore the name of the client, the owner of the hotel, and the credentials he transmitted to me. If you have any questions before we start doing it, don't hesitate, because ideally, it won't be you doing it, it would be another Claude Code instance. It will therefore be necessary to check if room 11 is already blocked or not for 2 nights (apparently today + tomorrow (+ day after tomorrow?? ) // I don't know in hotel technical terms what that means), if it's not the case, do it.
 
-- Le proppriétaire de la maison d'hôte nommé "Villa Thaifa" est Said Thaifa
-- Son email est : said_thaifa@hotmail.fr
-- Il utilise cela pour se connecter à la plateforme sécurisée : https://app.hotelrunner.com
-  - said_thaifa@hotmail.fr (confirmé)
-  - Wity.tracy@2025 (confirmé)
-    Il utilises Whatsapp et il recoit ses réservations par emails (je supposes sur son email said_taila@hotmail.fr mais ça reste à confirmer)
+From what I know:
 
-Sur booking son email est le même
+- The owner of the guest house named "Villa Thaifa" is Said Thaifa
+- His email is: said_thaifa@hotmail.fr
+- He uses this to connect to the secure platform: https://app.hotelrunner.com
+  - said_thaifa@hotmail.fr (confirmed)
+  - Wity.tracy@2025 (confirmed)
+    He uses Whatsapp and he receives his reservations by emails (I suppose on his email said_taila@hotmail.fr but that remains to be confirmed)
 
-Apparement son password : Tracy.wity@2025 ( cela reste à confirmé )
+On booking his email is the same
 
-Ce qui sera attendu de l'instance de Claude Code CLI qui fera cela: c'est de faire son rapport complet sur TOUT ce qu'elle aura fait afin qu'un autre agent IA puisses le reproduire mais aussi pour qu'on commence déjà à standardiser l'approche / avoir le workflow intelligent etc.
-Elle devra aussi signalé si
+Apparently his password: Tracy.wity@2025 ( this remains to be confirmed )
 
-- c'est un succès + toute chose à savoir même si c'est un succès
-- c'est une failure + expliquer pourquoi / le ou les problèmes etc qui ont contribué à l'échec de la mission de l'agent
+What will be expected of the Claude Code CLI instance that will do this: is to make its complete report on EVERYTHING it will have done so that another AI agent can reproduce it but also so that we can already start to standardize the approach / have the smart workflow etc.
+It will also have to point out if
 
-Dans tout les cas, préparer un message pour Said Thaifa qu'on enverra en mon nom (Omar El Mountassir à travers mon email : omar@el-mountassir.com) pour le tenir au courant
+- it's a success + anything to know even if it's a success
+- it's a failure + explain why / the problem(s) etc that contributed to the failure of the agent's mission
 
-On vas devoir être efficace, rapide et très bien documenter tout ce que nous faisons.
-ET plus encore, je veux dire, n'hésites pas à combler les trous si tu en vois. Utilises des placeholders pour ce que tu ne sais pas
+In any case, prepare a message for Said Thaifa that we will send on my behalf (Omar El Mountassir through my email: omar@el-mountassir.com) to keep him informed
 
-- toutes tes questions si tu en as avant qu'on commencer.
+We will have to be efficient, fast and document very well everything we do.
+AND moreover, I mean, don't hesitate to fill in the blanks if you see any. Use placeholders for what you don't know
 
-Je lancerai Claude Code CLI en utilisant `claude --chrome`
+- all your questions if you have any before we start.
+
+I will launch Claude Code CLI using `claude --chrome`
 
 pop-os% claude --help
 Usage: claude [options] [command] [prompt]
@@ -86,5 +87,5 @@ doctor Check the health of your Claude Code auto-updater
 update Check for updates and install if available
 install [options] [target] Install Claude Code native build. Use [target] to specify version (stable, latest, or specific version)
 
-N'hésites pas à te renseignes en ligne si besoin
-Et si c'est pas quelque chose que tu peux avoir en ligne, tu créera un nouveau fichier qui servira de point / pont de communication entre nous
+Feel free to look it up online if needed
+And if it's not something you can get online, you will create a new file that will serve as a point / bridge of communication between us

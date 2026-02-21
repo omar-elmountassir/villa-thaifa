@@ -1,84 +1,84 @@
-# Etat Actuel — Reservations
+# Current State — Reservations
 
-**Derniere mise a jour** : 2025-12-20
+**Last updated** : 2025-12-20
 **Source** : HotelRunner + Booking.com
-**Canal** : 100% Booking.com
+**Channel** : 100% Booking.com
 
 ---
 
-## Resume
+## Summary
 
-| Metrique                   | Valeur                   |
+| Metric                     | Value                    |
 | -------------------------- | ------------------------ |
-| Reservations confirmees    | **11**                   |
-| Chambres a assigner        | **10**                   |
-| Chambres assignees         | **1** (Sabrina Lemahieu) |
-| Revenu previsionnel total  | **8 008,85 €**           |
-| Occupation pic (29-31 dec) | **50%** (6/12 chambres)  |
+| Confirmed reservations     | **11**                   |
+| Rooms to assign            | **10**                   |
+| Assigned rooms             | **1** (Sabrina Lemahieu) |
+| Total forecasted revenue   | **8,008.85 €**           |
+| Peak occupancy (Dec 29-31) | **50%** (6/12 rooms)     |
 
 ---
 
-## Reservations par Date d'Arrivee
+## Reservations by Arrival Date
 
-### Cette Semaine (20-26 dec)
+### This Week (Dec 20-26)
 
-| Client           | Arrivee    | Type de chambre           | Nuits | Montant | Chambre    | Statut      |
-| ---------------- | ---------- | ------------------------- | ----- | ------- | ---------- | ----------- |
-| **Arne Cordes**  | **20 dec** | Double Room Superior (×2) | 5     | 1 235 € | **4 & 5**  | ✅ Assignee |
-| Nicolas Lamblain | 26 dec     | Double Room Superior (×2) | 5     | 1 540 € | En attente | ⏳ P1       |
+| Guest            | Arrival    | Room type                 | Nights | Amount  | Room      | Status      |
+| ---------------- | ---------- | ------------------------- | ------ | ------- | --------- | ----------- |
+| **Arne Cordes**  | **Dec 20** | Double Room Superior (×2) | 5      | 1,235 € | **4 & 5** | ✅ Assigned |
+| Nicolas Lamblain | Dec 26     | Double Room Superior (×2) | 5      | 1,540 € | Pending   | ⏳ P1       |
 
-### Semaine Prochaine (27 dec - 5 jan)
+### Next Week (Dec 27 - Jan 5)
 
-| Client             | Arrivee | Type de chambre         | Nuits | Montant | Chambre    | Statut      |
-| ------------------ | ------- | ----------------------- | ----- | ------- | ---------- | ----------- |
-| Sabrina Lemahieu   | 27 dec  | --                      | 7     | --      | **2**      | ✅ Assignee |
-| Jean Damien Aubril | 27 dec  | Deluxe Triple Room (×2) | 8     | 2 224 € | En attente | ⏳ P1       |
-| Quentin Warembourg | 29 dec  | Suite                   | 7     | 973 €   | En attente | ⏳ P1       |
+| Guest              | Arrival | Room type               | Nights | Amount  | Room    | Status      |
+| ------------------ | ------- | ----------------------- | ------ | ------- | ------- | ----------- |
+| Sabrina Lemahieu   | Dec 27  | --                      | 7      | --      | **2**   | ✅ Assigned |
+| Jean Damien Aubril | Dec 27  | Deluxe Triple Room (×2) | 8      | 2,224 € | Pending | ⏳ P1       |
+| Quentin Warembourg | Dec 29  | Suite                   | 7      | 973 €   | Pending | ⏳ P1       |
 
-### Janvier 2026
+### January 2026
 
-| Client             | Arrivee | Type de chambre      | Nuits | Montant  | Chambre    | Statut |
-| ------------------ | ------- | -------------------- | ----- | -------- | ---------- | ------ |
-| Arkadiusz Kurowski | 8 jan   | Double Room Superior | 6     | 622,80 € | En attente | ⏳     |
-| Montanez Nuria     | 14 jan  | Double Room Superior | 1     | 116,15 € | En attente | ⏳     |
-| Montanez Nuria     | 17 jan  | Double Room Superior | 2     | 232,30 € | En attente | ⏳     |
-
----
-
-## Prevision d'Occupation
-
-| Periode              | Taux    | Chambres occupees |
-| -------------------- | ------- | ----------------- |
-| Aujourd'hui (20 dec) | 17%     | 2/12              |
-| 21-25 dec            | 17%     | 2/12              |
-| 26 dec               | 33%     | 4/12              |
-| 27-28 dec            | 42%     | 5/12              |
-| **29-31 dec (PIC)**  | **50%** | **6/12**          |
-| 1-3 jan              | 33%     | 4/12              |
+| Guest              | Arrival | Room type            | Nights | Amount   | Room    | Status |
+| ------------------ | ------- | -------------------- | ------ | -------- | ------- | ------ |
+| Arkadiusz Kurowski | Jan 8   | Double Room Superior | 6      | 622.80 € | Pending | ⏳     |
+| Montanez Nuria     | Jan 14  | Double Room Superior | 1      | 116.15 € | Pending | ⏳     |
+| Montanez Nuria     | Jan 17  | Double Room Superior | 2      | 232.30 € | Pending | ⏳     |
 
 ---
 
-## Assignations Actuelles
+## Occupancy Forecast
 
-| Chambre | Client           | Arrivee | Depart | Source      |
-| ------- | ---------------- | ------- | ------ | ----------- |
-| 2       | Sabrina Lemahieu | 27 dec  | 3 jan  | Booking.com |
-| 4       | Arne Cordes      | 20 dec  | 25 dec | Booking.com |
-| 5       | Arne Cordes      | 20 dec  | 25 dec | Booking.com |
-
----
-
-## Echeances a Venir
-
-| Echeance | Client             | Action requise        |
-| -------- | ------------------ | --------------------- |
-| 25 dec   | Nicolas Lamblain   | Assigner les chambres |
-| 26 dec   | Jean Damien Aubril | Assigner les chambres |
-| 28 dec   | Quentin Warembourg | Assigner la chambre   |
-
-→ Propositions d'assignation : [../planned/assignments.md](../planned/assignments.md)
+| Period               | Rate    | Occupied rooms |
+| -------------------- | ------- | -------------- |
+| Today (Dec 20)       | 17%     | 2/12           |
+| Dec 21-25            | 17%     | 2/12           |
+| Dec 26               | 33%     | 4/12           |
+| Dec 27-28            | 42%     | 5/12           |
+| **Dec 29-31 (PEAK)** | **50%** | **6/12**       |
+| Jan 1-3              | 33%     | 4/12           |
 
 ---
 
-_Source de verite pour l'etat des reservations_
-_Mis a jour le 2025-12-20_
+## Current Assignments
+
+| Room | Guest            | Arrival | Departure | Source      |
+| ---- | ---------------- | ------- | --------- | ----------- |
+| 2    | Sabrina Lemahieu | Dec 27  | Jan 3     | Booking.com |
+| 4    | Arne Cordes      | Dec 20  | Dec 25    | Booking.com |
+| 5    | Arne Cordes      | Dec 20  | Dec 25    | Booking.com |
+
+---
+
+## Upcoming Deadlines
+
+| Deadline | Guest              | Action required |
+| -------- | ------------------ | --------------- |
+| Dec 25   | Nicolas Lamblain   | Assign rooms    |
+| Dec 26   | Jean Damien Aubril | Assign rooms    |
+| Dec 28   | Quentin Warembourg | Assign room     |
+
+→ Assignment proposals: [../planned/assignments.md](../planned/assignments.md)
+
+---
+
+_Source of truth for reservation status_
+_Updated on 2025-12-20_

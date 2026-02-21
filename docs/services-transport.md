@@ -1,20 +1,20 @@
-# Transport des clients de la Villa Taifa
+# Transport of Villa Thaifa Guests
 
-## Contexte
+## Context
 
-Les clients demandent souvent s'il y'a des transports possible
+Guests often ask if there is available transport:
 
-- aéroport -> Villa Thaifa
-- Villa Thaifa -> Centre ville Marrakech
+- airport -> Villa Thaifa
+- Villa Thaifa -> Marrakech City Center
 
-Prix forfait 200 MAD
+Fixed price 200 MAD
 
-Il s'agit d'une société de transport de marrakech agrée par l'état marocain et validée par mr said.
+This is a transport company operating in Marrakech, authorized by the Moroccan state, and validated by Mr. Said.
 
-Prix spécial pour nos clients : 200 MAD par trajet . Soit de l'aéropport; soit vers la villes
+Special price for our guests: 200 MAD per trip. Whether from the airport; or towards the city.
 
 ## Contact
 
-Mr Zakaria (Transport) // on ne connait pas encore son nom de famille
+Mr Zakaria (Transport) // we do not know his last name yet
 
 +212 6 69 25 36 20

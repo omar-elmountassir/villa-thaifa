@@ -1,109 +1,109 @@
-# HotelRunner — Guide des Bulk Updates (Restrictions & Plus)
+# HotelRunner — Bulk Updates Guide (Restrictions & More)
 
-## Contexte Propriété
+## Property Context
 
-- **Propriété** : Villa Thaifa
-- **URL Admin** : `villa-thaifa.hotelrunner.com/admin`
-- **Canaux** : Online (canal direct) + Booking.com
-- **Rate Plans** : Master rate, Petit Déjeuner inclus Flexible, Petit Déjeuner inclus Non-remboursable (tous en EUR)
-- **Chambres** (8 types) : Double Room Superior, Deluxe Double Room, Deluxe Triple Room, Suite, Deluxe King Suite, Family Suite, Executive Suite, Presidential Suite
-
----
-
-## Workflow : Modifier une Restriction (Stop Sell, CTA, CTD, etc.) via Bulk Updates
-
-### Chemin d'accès
-
-`Calendar > Bulk Updates` URL directe : `https://villa-thaifa.hotelrunner.com/admin/products/villa-thaifa/channel/prices/bulk_update`
-
-### Étapes détaillées
-
-**1. Configurer les filtres à gauche :**
-
-- **Rate plans** : Laisser "All rate plans" (sauf si ciblage spécifique)
-- **Currency** : Laisser "All currencies"
-- **"What do you want to update?"** : Cocher la restriction voulue (ex: "Stop sell")
-- **Date Range** :
-  - **Format des dates** : `MM/DD/YYYY` (format US !)
-  - Ex: 12 mars 2026 → `03/12/2026`, 16 décembre 2026 → `12/16/2026`
-  - On peut taper directement dans le champ ou utiliser le calendrier popup
-- **Days** : Laisser "All" coché (sauf si on veut cibler certains jours)
-- **Channels** (à droite) : Garder "All" coché pour appliquer à Online ET Booking.com
-
-**2. Utiliser le Master Dropdown (astuce cruciale) :**
-
-- Après avoir coché une restriction, une icône 🔗 apparaît dans l'en-tête de colonne "Restrictions"
-- **Cliquer sur cette icône** → fait apparaître un dropdown "master" en haut de la colonne + une flèche ↓
-- **Sélectionner la valeur dans le master dropdown** (ex: "No" pour retirer, "Yes" pour activer)
-- **Cliquer sur la flèche ↓** → propage la valeur à TOUTES les chambres et rate plans d'un coup !
-
-**3. Vérifier visuellement** que toutes les lignes affichent bien la valeur souhaitée (scroller en bas pour voir toutes les chambres)
-
-**4. Cliquer "Update"** → Un panneau **Preview** apparaît avec :
-
-- Récapitulatif des dates, jours, canaux
-- Tableau de toutes les chambres avec les changements
-- Scroller à droite dans le Preview pour voir la colonne "Restrictions" et confirmer (ex: "Stop sell: ✕" = désactivé)
-
-**5. Confirmer en cliquant "Update"** dans le Preview (bouton bleu en bas à droite)
-
-**6. Vérification post-action :**
-
-- Aller sur `Calendar > Simple Updates` (URL: `.../channel/prices?f=1`)
-- Naviguer vers une date dans la plage modifiée
-- **Canal Online** : changement immédiat (fond blanc = OK, fond rouge = Stop Sell actif)
-- **Booking.com** : peut afficher "Waiting Response from Channel" pendant la synchronisation (normal)
+- **Property**: Villa Thaifa
+- **Admin URL**: `villa-thaifa.hotelrunner.com/admin`
+- **Channels**: Online (direct channel) + Booking.com
+- **Rate Plans**: Master rate, Breakfast included Flexible, Breakfast included Non-refundable (all in EUR)
+- **Rooms** (8 types): Double Room Superior, Deluxe Double Room, Deluxe Triple Room, Suite, Deluxe King Suite, Family Suite, Executive Suite, Presidential Suite
 
 ---
 
-## Valeurs des Restrictions
+## Workflow: Modifying a Restriction (Stop Sell, CTA, CTD, etc.) via Bulk Updates
 
-| Restriction                  | Valeurs possibles | Signification                                         |
-| ---------------------------- | ----------------- | ----------------------------------------------------- |
-| **Stop Sell**                | Yes / No          | Yes = chambre fermée à la vente, No = chambre ouverte |
-| **CTA** (Close to Arrival)   | Yes / No          | Yes = pas de nouvelle arrivée ce jour                 |
-| **CTD** (Close to Departure) | Yes / No          | Yes = pas de départ ce jour                           |
-| **Minimum Stay**             | Nombre (jours)    | Durée minimum de séjour                               |
-| **Maximum Stay**             | Nombre (jours)    | Durée maximum de séjour                               |
-| **Cut off time**             | Nombre (heures)   | Délai de réservation avant arrivée                    |
-| **Availability**             | Nombre            | Chambres disponibles                                  |
-| **Price**                    | Montant (€)       | Prix de base                                          |
+### Access Path
+
+`Calendar > Bulk Updates` Direct URL: `https://villa-thaifa.hotelrunner.com/admin/products/villa-thaifa/channel/prices/bulk_update`
+
+### Detailed Steps
+
+**1. Configure the filters on the left:**
+
+- **Rate plans**: Leave "All rate plans" (unless specific targeting)
+- **Currency**: Leave "All currencies"
+- **"What do you want to update?"**: Check the desired restriction (e.g., "Stop sell")
+- **Date Range**:
+  - **Date format**: `MM/DD/YYYY` (US format!)
+  - Ex: March 12, 2026 → `03/12/2026`, December 16, 2026 → `12/16/2026`
+  - You can type directly in the field or use the popup calendar
+- **Days**: Leave "All" checked (unless targeting specific days)
+- **Channels** (on the right): Keep "All" checked to apply to Online AND Booking.com
+
+**2. Use the Master Dropdown (crucial tip):**
+
+- After checking a restriction, a 🔗 icon appears in the "Restrictions" column header
+- **Click on this icon** → reveals a "master" dropdown at the top of the column + a ↓ arrow
+- **Select the value in the master dropdown** (e.g., "No" to remove, "Yes" to activate)
+- **Click on the ↓ arrow** → propagates the value to ALL rooms and rate plans at once!
+
+**3. Visually verify** that all rows display the desired value (scroll down to see all rooms)
+
+**4. Click "Update"** → A **Preview** panel appears with:
+
+- Summary of dates, days, channels
+- Table of all rooms with changes
+- Scroll right in the Preview to see the "Restrictions" column and confirm (e.g., "Stop sell: ✕" = disabled)
+
+**5. Confirm by clicking "Update"** in the Preview (blue button bottom right)
+
+**6. Post-action verification:**
+
+- Go to `Calendar > Simple Updates` (URL: `.../channel/prices?f=1`)
+- Navigate to a date in the modified range
+- **Online Channel**: immediate change (white background = OK, red background = Stop Sell active)
+- **Booking.com**: may show "Waiting Response from Channel" during sync (normal)
 
 ---
 
-## Indicateurs visuels dans Simple Updates (Calendar)
+## Restriction Values
 
-| Indicateur                          | Signification                                            |
-| ----------------------------------- | -------------------------------------------------------- |
-| Fond **blanc** + prix               | Chambre disponible, pas de restriction                   |
-| Fond **rouge** + icônes rouges      | Stop Sell actif ou restriction bloquante                 |
-| **Point rouge** en bas de cellule   | Restriction active (Stop Sell, CTA, CTD...)              |
-| **Coche verte** ✓                   | Synchronisation OK avec le canal                         |
-| "**Waiting Response from Channel**" | Mise à jour envoyée, en attente de confirmation du canal |
-| **N/A**                             | Pas de prix défini sur ce canal                          |
-
----
-
-## Pièges courants à éviter
-
-1. **Format de date** : Toujours `MM/DD/YYYY` (mois/jour/année), pas le format européen
-2. **"-" dans les dropdowns** : Signifie "pas de changement" — il faut explicitement choisir "Yes" ou "No"
-3. **Oublier la flèche ↓** : Changer le master dropdown ne suffit pas, il faut cliquer la flèche pour propager
-4. **End Date avant Start Date** : Le calendrier Advanced Updates ne montrera rien
-5. **Sync Booking.com** : Ne pas paniquer si "Waiting Response from Channel" — c'est normal
-6. **Vérifier le scroll** : Les chambres Family Suite, Executive Suite, Presidential Suite sont en bas de la liste
+| Restriction                  | Possible Values | Meaning                                    |
+| ---------------------------- | --------------- | ------------------------------------------ |
+| **Stop Sell**                | Yes / No        | Yes = room closed for sale, No = room open |
+| **CTA** (Close to Arrival)   | Yes / No        | Yes = no new arrivals on this day          |
+| **CTD** (Close to Departure) | Yes / No        | Yes = no departures on this day            |
+| **Minimum Stay**             | Number (days)   | Minimum length of stay                     |
+| **Maximum Stay**             | Number (days)   | Maximum length of stay                     |
+| **Cut off time**             | Number (hours)  | Reservation lead time before arrival       |
+| **Availability**             | Number          | Rooms available                            |
+| **Price**                    | Amount (€)      | Base price                                 |
 
 ---
 
-## Autres Opérations Bulk Update similaires
+## Visual Indicators in Simple Updates (Calendar)
 
-Le même workflow s'applique pour modifier en masse :
+| Indicator                           | Meaning                                     |
+| ----------------------------------- | ------------------------------------------- |
+| **White** background + price        | Room available, no restriction              |
+| **Red** background + red icons      | Stop Sell active or blocking restriction    |
+| **Red dot** at bottom of cell       | Active restriction (Stop Sell, CTA, CTD...) |
+| **Green check** ✓                   | Sync OK with channel                        |
+| "**Waiting Response from Channel**" | Update sent, awaiting channel confirmation  |
+| **N/A**                             | No price defined on this channel            |
 
-- **Disponibilité** (Availability) → changer le nombre de chambres dispo
-- **Prix** (Price) → ajuster les tarifs
-- **Price adjustment** → ajustement en % ou montant
-- **Minimum/Maximum stay** → restrictions de durée de séjour
-- **CTA/CTD** → fermer/ouvrir arrivées ou départs
-- **Cut off time** → délai de réservation
+---
 
-Pour chacune, le process est identique : cocher la case à gauche → configurer dates/jours/canaux → utiliser le master dropdown + flèche ↓ → Preview → Update.
+## Common Pitfalls to Avoid
+
+1. **Date format**: Always `MM/DD/YYYY` (month/day/year), not European format
+2. **"-" in dropdowns**: Means "no change" — must explicitly choose "Yes" or "No"
+3. **Forgetting the ↓ arrow**: Changing the master dropdown is not enough, must click arrow to propagate
+4. **End Date before Start Date**: The Advanced Updates calendar will show nothing
+5. **Booking.com Sync**: Don't panic if "Waiting Response from Channel" — it's normal
+6. **Check the scroll**: Family Suite, Executive Suite, Presidential Suite rooms are at the bottom of the list
+
+---
+
+## Other Similar Bulk Update Operations
+
+The same workflow applies to bulk modify:
+
+- **Availability** → change the number of available rooms
+- **Price** → adjust rates
+- **Price adjustment** → adjust by % or amount
+- **Minimum/Maximum stay** → stay length restrictions
+- **CTA/CTD** → close/open arrivals or departures
+- **Cut off time** → booking lead time
+
+For each, the process is identical: check the box on left → configure dates/days/channels → use master dropdown + arrow ↓ → Preview → Update.

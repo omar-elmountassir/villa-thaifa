@@ -20,7 +20,7 @@
 | **Susan**    | UK        | "Great location about 20min drive from the medina. Beautiful pool, lovely fresh air and garden and calm escape from the busy medina. Nice spacious bedroom very comfortable bed and good sized clean bathroom. Nice roof top area to watch sunset."           |
 | **Simone**   | Italy     | "The rooms, the pool and the garden, the food and the kindness of owners and staff."                                                                                                                                                                          |
 | **Lilija**   | UK        | "We will have very good memories of our stay at Villa Thaifa. A very nice place to relax. Spacious, clean rooms, cozy decorated, comfortable beds, air conditioning, separate entrance. The large, beautiful garden and swimming pool are the perfect way..." |
-| **Frederic** | France    | "Très beau logement au calme. Très bon accueil, très serviable."                                                                                                                                                                                              |
+| **Frederic** | France    | "Very beautiful quiet accommodation. Very warm welcome, very helpful."                                                                                                                                                                                        |
 
 ---
 
@@ -81,14 +81,14 @@
 
 ## Marketing Use Cases
 
-### Tagline Options (from actual reviews):
+### Tagline Options (from actual reviews)
 
 1. "Like staying with family" — Multiple guests
 2. "Best tagine in Morocco" — Esther, Singapore
 3. "A calm escape from the busy medina" — Susan, UK
 4. "Nothing was too much trouble" — Philip, UK
 
-### Target Audiences:
+### Target Audiences
 
 - **Families**: Gluten-free options, child-friendly, football for kids
 - **Couples**: 8.4 rating for 2-person trips, romantic sunset rooftop
