@@ -22,6 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ### Changed
 
+- move Linear docs to ~/omar/, add blocker labels, elevate linear-agent — - Move linear-workflow.md and linear-github-setup.md to ~/omar/protocols/
 - repo restructure — relocate archives to docs/, add structure documentation system — - Relocate archive/2025/Q4/ content to docs/reports/, docs/briefs/, docs/changelogs/
 - session closeout — archive expired missions, update CHANGELOG — - Archive 2 expired missions (Dec 2025 reservations, dates long passed)
 - cleanup deprecated agents and standards — Remove deprecated agents and standards that are now managed at collective level.

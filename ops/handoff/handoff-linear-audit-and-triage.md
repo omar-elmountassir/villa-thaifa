@@ -8,16 +8,66 @@
 
 | Section                                                      | Status                             |
 | ------------------------------------------------------------ | ---------------------------------- |
+| [Latest Session (2026-02-21)](#latest-session-2026-02-21)   | 10 work items completed            |
 | [Context](#context)                                          | Background + Linear state snapshot |
 | [Phase 1: Unblock](#phase-1-unblock--completed)              | COMPLETED                          |
 | [Phase 2: Audit](#phase-2-audit--completed)                  | COMPLETED                          |
-| [Phase 3: Scan + Triage](#phase-3-scan--triage--in-progress) | IN PROGRESS                        |
+| [Phase 3: Scan + Triage](#phase-3-scan--triage--completed)   | COMPLETED                          |
 | [Rules Updated](#rules-updated-this-session)                 | 4 files updated                    |
 | [Execution Roadmap](#execution-roadmap--next-sessions)       | Waves 1-5 + Deferred               |
 | [Omar Manual Actions](#omar-manual-actions--pending)         | Pending                            |
 | [Triage Reports](#triage-reports-from-phase-3)               | /tmp/ — ephemeral                  |
 | [Key Files](#key-files)                                      | Reference links                    |
 | [Completion Status](#completion-status)                      | Post-audit Linear state            |
+
+---
+
+## Latest Session (2026-02-21)
+
+**Status**: 10 work items completed | 1 commit
+
+### Work Completed
+
+| # | Item | Linear | Type | Outcome |
+| - | ---- | ------ | ---- | ------- |
+| 1 | VT-42 closed | VT-42 | Decision | Branch linking research complete. Linear has NO sidebar feature. Issue sync works correctly. Closed as Done. Research: `~/omar/knowledge/research/development/vt-42-branch-linking-online-research.md` |
+| 2 | VT-77 decomposed | VT-77 | Planning | 22 TODOs audited, split into 4 focused issues: VT-78/79/80/81. All Said-blocked except VT-81 (Omar). |
+| 3 | Linear labels created | VT-46 | Operations | 3 labels created: "Awaiting: Said" (15 issues), "Awaiting: Omar" (6 issues), "Ready" (24 issues). All 46 open issues labeled. |
+| 4 | Linear agent elevated | VT-46 | Infrastructure | Custom `linear-agent.md` created with label management + stale triage. Moved to `~/omar/core/tools/agents/` with symlinks (global + project). Enables delegation pattern. |
+| 5 | Linear docs migrated | VT-46 | Refactoring | `linear-workflow.md` and `linear-github-setup.md` moved from villa-thaifa to `~/omar/operational/productivity/protocols/`. 5 files updated for references. |
+| 6 | Orchestrator rule added | VT-46 | Governance | ALL Linear ops → linear-agent delegated. Added to CLAUDE.md + mcp-memory. Enforces zero-MCP pattern. |
+| 7 | Expedia Step 3 extracted | — | Research | Partner Central policies (VAT risk identified: 10% on top, potential double-charge). Data captured. French questions: `~/omar/artifacts/reports/expedia-etape3-questions-fr.md` |
+| 8 | Expedia Step 4 extracted | — | Research | Amenities: 115 checkboxes, 12 modules, exhaustive capture. Report: `~/omar/knowledge/research/business/expedia-step4-extraction.md` |
+| 9 | Expedia Step 5 analyzed | — | Research | Rooms & rates: EMPTY — zero rooms configured. Blocks steps 6-12. Cross-ref report: `~/omar/knowledge/research/business/expedia-data-crossref-report.md` |
+| 10 | Browser agent plan decided | — | Design | Keep global browser.md, add auto-discovery rule, externalize VT content. NOT YET EXECUTED. |
+
+### Key Artifacts Created
+
+| File | Purpose |
+| ---- | ------- |
+| `~/omar/knowledge/research/development/vt-42-branch-linking-online-research.md` | Research findings: Linear limitation |
+| `~/omar/knowledge/research/business/expedia-extraction-protocol.md` | Extraction protocol for Steps 3-12 |
+| `~/omar/knowledge/research/business/expedia-step4-extraction.md` | Amenities data (115 checkboxes, 12 modules) |
+| `~/omar/knowledge/research/business/expedia-step5-extraction.md` | Rooms & rates analysis (zero rooms issue) |
+| `~/omar/knowledge/research/business/expedia-data-crossref-report.md` | Cross-reference analysis |
+| `~/omar/artifacts/reports/expedia-etape3-questions-fr.md` | French questions for Omar re: Step 3 VAT |
+| `~/omar/core/tools/agents/linear-agent.md` | Custom linear-agent (canonical, symlinked) |
+
+### Commits
+
+- `3f9a879`: chore: move Linear docs, add labels, elevate linear-agent
+
+### Pending / Next Session
+
+| Item | Blocker | Status |
+| ---- | ------- | ------ |
+| #112: Create VT PROJECT-CONTRACT.md | #114 (template) | Blocked |
+| #113: Create ~/omar/ PROJECT-CONTRACT.md | #114 (template) | Blocked |
+| #116: Merge browser-agent.md | Design phase only | Not executed |
+| #104-110: Expedia Steps 6-12 | Rooms not configured (Step 5) | Blocked |
+| Expedia Step 3 French questions | Omar response | Awaiting |
+| VT-78/79/80/81 | Said input | Awaiting |
+| Said validation checklist | Said input | Awaiting at `data/admin/said-data-validation-checklist.md` |
 
 ---
 
@@ -69,7 +119,7 @@ The villa-thaifa codebase underwent massive restructuring (200+ files relocated,
 | Delegation Thresholds     | Strengthened in rules.md (zero tolerance)                     |
 | Dashboard                 | `~/omar/artifacts/dashboards/vt-linear-audit-2026-02-19.html` |
 
-### Phase 3: Scan + Triage — IN PROGRESS
+### Phase 3: Scan + Triage — COMPLETED
 
 **Scans (3a):** 4 parallel scans completed:
 
