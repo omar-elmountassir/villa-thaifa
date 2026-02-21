@@ -1,8 +1,10 @@
 # Decision: Room Pricing Confirmed
 
+> **CORRECTION (2026-02-21):** The "Changes Applied" section below recorded the WRONG correction direction. R02/R04/R05/R06 were changed incorrectly. See `ops/decisions/room-pricing-hotelrunner-confirmation.md` for the correct prices and the fix applied 2026-02-21.
+
 **Date:** 2026-02-19
 **Source:** HotelRunner platform screenshot
-**Status:** Confirmed — all 12 rooms priced and locked
+**Status:** SUPERSEDED by `room-pricing-hotelrunner-confirmation.md` (2026-02-21)
 
 ## Confirmed Rates (EUR, per night)
 
