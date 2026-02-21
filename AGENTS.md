@@ -356,6 +356,11 @@ All must be true:
 
 **Session-local tasks**: Use `TaskCreate` for breaking a Linear issue into execution steps within a single session. Linear = WHAT needs doing, TaskCreate = HOW to do it this session.
 
+**Work overview**: `ops/status/work-overview.md` — comprehensive task dashboard with all pending work, priorities (P0-P5 MoSCoW+Eisenhower), dependencies, Omar/Said time estimates, and workstream grouping. Template: `~/omar/Templates/WORK-OVERVIEW.md`. Agents MUST:
+- Read work-overview.md at session start to understand current state
+- Update it after completing tasks (remove completed, update statuses)
+- Follow the priority system defined in the file header
+
 ### Open Loops (Migrate to Linear)
 
 1. Pending data domains: `data/pending-domains/` -- facilities.md awaiting hardening into `data/property/`

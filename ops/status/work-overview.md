@@ -6,6 +6,28 @@
 
 ---
 
+## Priority System
+
+MoSCoW + Eisenhower hybrid. Every task gets exactly one P-level.
+
+|                   | URGENT                 | NOT URGENT           |
+| ----------------- | ---------------------- | -------------------- |
+| MUST (Critical)   | P0 — Do NOW            | P1 — Plan this week  |
+| SHOULD (Important) | P2 — Do today/tomorrow | P3 — Plan this month |
+| COULD (Desirable) | P4 — If time permits   | P5 — Backlog         |
+| WON'T (Excluded)  | Out of scope           | Out of scope         |
+
+| Priority | Meaning                   | Deadline        |
+| -------- | ------------------------- | --------------- |
+| P0       | Critical + Urgent         | Immediate       |
+| P1       | Critical + Not urgent     | This week       |
+| P2       | Important + Urgent        | Today/tomorrow  |
+| P3       | Important + Not urgent    | This month      |
+| P4       | Nice-to-have + Urgent     | If time permits |
+| P5       | Nice-to-have + Not urgent | Backlog         |
+
+---
+
 ## Table of Contents
 
 1. [Omar Attention View](#1-omar-attention-view)
@@ -32,14 +54,14 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 | #   | Title                                         | Omar Role | Priority | Omar Time | Due        | Action Needed                                  |
 | --- | --------------------------------------------- | --------- | -------- | --------- | ---------- | ---------------------------------------------- |
-| 137 | Scrape Booking.com for Villa Thaifa data      | Review    | P1       | 10m       | 2026-02-21 | Verify scrape completeness                     |
-| 138 | Web research (Google, TripAdvisor, etc.)      | Review    | P1       | 5m        | 2026-02-21 | Verify web sources cover open Said items       |
-| 140 | New rule: output actionable-first             | Review    | P2       | 5m        | —          | Approve or reject proposed rule text           |
-| 141 | New rule: auto-archive completed files        | Review    | P2       | 5m        | —          | Approve or reject proposed rule text           |
-| 142 | New rule: human bandwidth management          | Review    | P2       | 5m        | —          | Approve or reject proposed rule text           |
-| 149 | Consolidate delegation rules → delegate skill | Decide    | P2       | 15m       | —          | Confirm conceptual approach before work starts |
-| 83  | VT-45: Harden facilities domain               | Review    | P3       | 5m        | —          | Review hardened domain after Said confirms     |
-| 144 | Plan Said-facing Vercel app                   | Decide    | P4       | 30m       | 2026-02-22 | Approve design doc scope and tech stack        |
+| 137 | Scrape Booking.com for Villa Thaifa data      | Review    | P2       | 10m       | 2026-02-21 | Verify scrape completeness                     |
+| 138 | Web research (Google, TripAdvisor, etc.)      | Review    | P2       | 5m        | 2026-02-21 | Verify web sources cover open Said items       |
+| 140 | New rule: output actionable-first             | Review    | P3       | 5m        | —          | Approve or reject proposed rule text           |
+| 141 | New rule: auto-archive completed files        | Review    | P3       | 5m        | —          | Approve or reject proposed rule text           |
+| 142 | New rule: human bandwidth management          | Review    | P3       | 5m        | —          | Approve or reject proposed rule text           |
+| 149 | Consolidate delegation rules → delegate skill | Decide    | P3       | 15m       | —          | Confirm conceptual approach before work starts |
+| 83  | VT-45: Harden facilities domain               | Review    | P1       | 5m        | —          | Review hardened domain after Said confirms     |
+| 144 | Plan Said-facing Vercel app                   | Decide    | P5       | 30m       | 2026-02-22 | Approve design doc scope and tech stack        |
 
 **Total Omar time if all tasks run today:** ~1h 27m
 
@@ -51,26 +73,26 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 | #   | Title                                              | Status  | Priority | Workstream                | Domain   | Type       | Labels                        | Initiative                  | Project Health |
 | --- | -------------------------------------------------- | ------- | -------- | ------------------------- | -------- | ---------- | ----------------------------- | --------------------------- | -------------- |
-| 137 | Scrape Booking.com for Villa Thaifa data           | Todo    | P1       | A — Reduce Said Items     | data     | research   | Awaiting: Review              | Villa Thaifa Operations     | On Track       |
-| 138 | Web research (Google, TripAdvisor, etc.)           | Todo    | P1       | A — Reduce Said Items     | data     | research   | Awaiting: Review              | Villa Thaifa Operations     | On Track       |
-| 139 | Clean up research/report files (actionable only)   | Todo    | P1       | B — Repo Cleanup          | infra    | cleanup    | —                             | Villa Thaifa Operations     | On Track       |
-| 140 | New rule: output actionable-first                  | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
-| 141 | New rule: auto-archive completed files             | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
-| 142 | New rule: human bandwidth management               | Todo    | P2       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
-| 149 | Consolidate delegation rules → delegate skill      | Todo    | P2       | C — Nova Self-Improvement | rules    | refactor   | Awaiting: Omar                | Nova System                 | On Track       |
-| 147 | Close stale issues VT-42, VT-43, VT-48, VT-49      | Blocked | P2       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           | Villa Thaifa Operations     | At Risk        |
-| 146 | Update VT-78/79/80/81 with resolved items          | Blocked | P2       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           | Villa Thaifa Operations     | At Risk        |
-| 104 | Expedia Step 6                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: Expedia              | Expedia Onboarding          | At Risk        |
-| 108 | Expedia Step 7                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #104                 | Expedia Onboarding          | At Risk        |
-| 106 | Expedia Step 8                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #108                 | Expedia Onboarding          | At Risk        |
-| 107 | Expedia Step 9                                     | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #106                 | Expedia Onboarding          | At Risk        |
-| 105 | Expedia Step 10                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #107                 | Expedia Onboarding          | At Risk        |
-| 109 | Expedia Step 11                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #105                 | Expedia Onboarding          | At Risk        |
-| 110 | Expedia Step 12                                    | Blocked | P3       | E — Expedia Onboarding    | platform | onboarding | Blocked: #109                 | Expedia Onboarding          | At Risk        |
-| 80  | VT-71: Facility files                              | Blocked | P3       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                | Villa Thaifa Operations     | At Risk        |
-| 81  | VT-72/74/76: Room data gaps                        | Blocked | P3       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                | Villa Thaifa Operations     | At Risk        |
-| 83  | VT-45: Harden facilities domain                    | Blocked | P3       | F — Said-Blocked          | data     | hardening  | Awaiting: Said, Awaiting: #80 | Villa Thaifa Operations     | At Risk        |
-| 144 | Plan Said-facing Vercel app                        | Blocked | P4       | G — Future                | app      | planning   | Blocked: #137, #138           | Villa Thaifa Operations     | On Track       |
+| 137 | Scrape Booking.com for Villa Thaifa data           | Todo    | P2       | A — Reduce Said Items     | data     | research   | Awaiting: Review              | Villa Thaifa Operations     | On Track       |
+| 138 | Web research (Google, TripAdvisor, etc.)           | Todo    | P2       | A — Reduce Said Items     | data     | research   | Awaiting: Review              | Villa Thaifa Operations     | On Track       |
+| 139 | Clean up research/report files (actionable only)   | Todo    | P5       | B — Repo Cleanup          | infra    | cleanup    | —                             | Villa Thaifa Operations     | On Track       |
+| 140 | New rule: output actionable-first                  | Todo    | P3       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
+| 141 | New rule: auto-archive completed files             | Todo    | P3       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
+| 142 | New rule: human bandwidth management               | Todo    | P3       | C — Nova Self-Improvement | rules    | feature    | Awaiting: Review              | Nova System                 | On Track       |
+| 149 | Consolidate delegation rules → delegate skill      | Todo    | P3       | C — Nova Self-Improvement | rules    | refactor   | Awaiting: Omar                | Nova System                 | On Track       |
+| 147 | Close stale issues VT-42, VT-43, VT-48, VT-49      | Blocked | P3       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           | Villa Thaifa Operations     | At Risk        |
+| 146 | Update VT-78/79/80/81 with resolved items          | Blocked | P3       | D — Linear Maintenance    | platform | chore      | Blocked: MCP Linear           | Villa Thaifa Operations     | At Risk        |
+| 104 | Expedia Step 6                                     | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: Expedia              | Expedia Onboarding          | At Risk        |
+| 108 | Expedia Step 7                                     | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: #104                 | Expedia Onboarding          | At Risk        |
+| 106 | Expedia Step 8                                     | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: #108                 | Expedia Onboarding          | At Risk        |
+| 107 | Expedia Step 9                                     | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: #106                 | Expedia Onboarding          | At Risk        |
+| 105 | Expedia Step 10                                    | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: #107                 | Expedia Onboarding          | At Risk        |
+| 109 | Expedia Step 11                                    | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: #105                 | Expedia Onboarding          | At Risk        |
+| 110 | Expedia Step 12                                    | Blocked | P1       | E — Expedia Onboarding    | platform | onboarding | Blocked: #109                 | Expedia Onboarding          | At Risk        |
+| 80  | VT-71: Facility files                              | Blocked | P1       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                | Villa Thaifa Operations     | At Risk        |
+| 81  | VT-72/74/76: Room data gaps                        | Blocked | P1       | F — Said-Blocked          | data     | data-entry | Awaiting: Said                | Villa Thaifa Operations     | At Risk        |
+| 83  | VT-45: Harden facilities domain                    | Blocked | P1       | F — Said-Blocked          | data     | hardening  | Awaiting: Said, Awaiting: #80 | Villa Thaifa Operations     | At Risk        |
+| 144 | Plan Said-facing Vercel app                        | Blocked | P5       | G — Future                | app      | planning   | Blocked: #137, #138           | Villa Thaifa Operations     | On Track       |
 
 ---
 
@@ -161,14 +183,14 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream A: Reduce Said Items
 
-**Priority:** P1 — This session
+**Priority:** P2 — This session
 **Goal:** Reduce Said's 57 pending items to an incompressible minimum before involving him.
 
 ---
 
 #### #137 — Scrape Booking.com for Villa Thaifa data
 
-- **Status**: Todo | **Priority**: P1 | **Workstream**: A — Reduce Said Items
+- **Status**: Todo | **Priority**: P2 | **Workstream**: A — Reduce Said Items
 - **Domain**: data | **Type**: research | **Labels**: Awaiting: Review
 - **Owner**: Sonnet + browser-agent | **Estimate**: L (1h) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Med (scraping can fail or be blocked) | **Reversibility**: Easy
@@ -190,7 +212,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #138 — Web research (Google, TripAdvisor, etc.)
 
-- **Status**: Todo | **Priority**: P1 | **Workstream**: A — Reduce Said Items
+- **Status**: Todo | **Priority**: P2 | **Workstream**: A — Reduce Said Items
 - **Domain**: data | **Type**: research | **Labels**: Awaiting: Review
 - **Owner**: Sonnet (researcher) | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -212,14 +234,14 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream B: Repo Cleanup
 
-**Priority:** P1 — This session
+**Priority:** P5 — Backlog
 **Goal:** Keep the repo clean and current; no broken refs, accurate status files.
 
 ---
 
 #### #139 — Clean up research/report files — actionable only
 
-- **Status**: Todo | **Priority**: P1 | **Workstream**: B — Repo Cleanup
+- **Status**: Todo | **Priority**: P5 | **Workstream**: B — Repo Cleanup
 - **Domain**: infra | **Type**: cleanup | **Labels**: —
 - **Owner**: Sonnet | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy (git restore)
@@ -241,14 +263,14 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream C: Nova Self-Improvement
 
-**Priority:** P2 — Can run in parallel with A+B
+**Priority:** P3 — This month
 **Goal:** Encode learned patterns into durable rules; reduce rule duplication.
 
 ---
 
 #### #140 — New rule: output actionable-first
 
-- **Status**: Todo | **Priority**: P2 | **Workstream**: C — Nova Self-Improvement
+- **Status**: Todo | **Priority**: P3 | **Workstream**: C — Nova Self-Improvement
 - **Domain**: rules | **Type**: feature | **Labels**: Awaiting: Review
 - **Owner**: Sonnet | **Estimate**: S (15m) | **Model**: Sonnet
 - **Autonomy**: INFORM | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
@@ -270,7 +292,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #141 — New rule: auto-archive completed files
 
-- **Status**: Todo | **Priority**: P2 | **Workstream**: C — Nova Self-Improvement
+- **Status**: Todo | **Priority**: P3 | **Workstream**: C — Nova Self-Improvement
 - **Domain**: rules | **Type**: feature | **Labels**: Awaiting: Review
 - **Owner**: Sonnet | **Estimate**: S (15m) | **Model**: Sonnet
 - **Autonomy**: INFORM | **Confidence**: High | **Risk**: Med (wrong archive = lost work) | **Reversibility**: Easy (git restore)
@@ -292,7 +314,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #142 — New rule: human bandwidth management
 
-- **Status**: Todo | **Priority**: P2 | **Workstream**: C — Nova Self-Improvement
+- **Status**: Todo | **Priority**: P3 | **Workstream**: C — Nova Self-Improvement
 - **Domain**: rules | **Type**: feature | **Labels**: Awaiting: Review
 - **Owner**: Sonnet | **Estimate**: S (15m) | **Model**: Sonnet
 - **Autonomy**: INFORM | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -314,7 +336,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #149 — Consolidate delegation rules into delegate skill
 
-- **Status**: Todo | **Priority**: P2 | **Workstream**: C — Nova Self-Improvement
+- **Status**: Todo | **Priority**: P3 | **Workstream**: C — Nova Self-Improvement
 - **Domain**: rules | **Type**: refactor | **Labels**: Awaiting: Omar
 - **Owner**: Opus | **Estimate**: L (1h) | **Model**: Opus
 - **Autonomy**: ASK | **Confidence**: Med | **Risk**: Med (affects all agent behavior) | **Reversibility**: Easy (revert skill)
@@ -336,14 +358,14 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream D: Linear Maintenance
 
-**Priority:** P2 — Needs MCP session restart
+**Priority:** P3 — This month (blocked on MCP)
 **Goal:** Keep Linear backlog accurate and clean.
 
 ---
 
 #### #147 — Close stale issues VT-42, VT-43, VT-48, VT-49
 
-- **Status**: Blocked | **Priority**: P2 | **Workstream**: D — Linear Maintenance
+- **Status**: Blocked | **Priority**: P3 | **Workstream**: D — Linear Maintenance
 - **Domain**: platform | **Type**: chore | **Labels**: Blocked: MCP Linear
 - **Owner**: Sonnet + linear-agent | **Estimate**: S (15m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy (reopen)
@@ -365,7 +387,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #146 — Update VT-78/79/80/81 with resolved items
 
-- **Status**: Blocked | **Priority**: P2 | **Workstream**: D — Linear Maintenance
+- **Status**: Blocked | **Priority**: P3 | **Workstream**: D — Linear Maintenance
 - **Domain**: platform | **Type**: chore | **Labels**: Blocked: MCP Linear
 - **Owner**: Sonnet + linear-agent | **Estimate**: S (15m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
@@ -387,7 +409,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream E: Expedia Onboarding
 
-**Priority:** P3 — Blocked on Expedia platform access
+**Priority:** P1 — Critical, blocked on Expedia platform access
 **Goal:** Complete Expedia onboarding Steps 6-12 to activate the channel.
 **Parent Linear Issue:** VT-82
 
@@ -395,7 +417,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #104 — Expedia Step 6
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: Expedia
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -417,7 +439,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #108 — Expedia Step 7
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: #104
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -439,7 +461,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #106 — Expedia Step 8
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: #108
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -461,7 +483,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #107 — Expedia Step 9
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: #106
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -483,7 +505,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #105 — Expedia Step 10
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: #107
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -505,7 +527,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #109 — Expedia Step 11
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: #105
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -527,7 +549,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #110 — Expedia Step 12
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: E — Expedia Onboarding
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: E — Expedia Onboarding
 - **Domain**: platform | **Type**: onboarding | **Labels**: Blocked: #109
 - **Owner**: Sonnet + browser-agent | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
@@ -549,14 +571,14 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream F: Said-Blocked
 
-**Priority:** P3 — After Workstream A reduces item list
+**Priority:** P1 — Critical, blocked on Said
 **Goal:** Resolve facility and room data gaps that require Said's physical confirmation.
 
 ---
 
 #### #80 — VT-71: Facility files
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: F — Said-Blocked
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: F — Said-Blocked
 - **Domain**: data | **Type**: data-entry | **Labels**: Awaiting: Said
 - **Owner**: Sonnet (after Said) | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
@@ -578,7 +600,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #81 — VT-72/74/76: Room data gaps
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: F — Said-Blocked
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: F — Said-Blocked
 - **Domain**: data | **Type**: data-entry | **Labels**: Awaiting: Said
 - **Owner**: Sonnet (after Said) | **Estimate**: M (30m) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
@@ -600,7 +622,7 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 #### #83 — VT-45: Harden facilities domain
 
-- **Status**: Blocked | **Priority**: P3 | **Workstream**: F — Said-Blocked
+- **Status**: Blocked | **Priority**: P1 | **Workstream**: F — Said-Blocked
 - **Domain**: data | **Type**: hardening | **Labels**: Awaiting: Said, Awaiting: #80, Awaiting: #81
 - **Owner**: Sonnet (after Said) | **Estimate**: L (1h) | **Model**: Sonnet
 - **Autonomy**: ACT | **Confidence**: High | **Risk**: Low | **Reversibility**: Easy
@@ -622,13 +644,13 @@ Tasks where Omar's role is not None. Ordered by priority then due date.
 
 ### Workstream G: Future
 
-**Priority:** P4 — After Workstream A completes
+**Priority:** P5 — Backlog
 
 ---
 
 #### #144 — Plan Said-facing Vercel app
 
-- **Status**: Blocked | **Priority**: P4 | **Workstream**: G — Future
+- **Status**: Blocked | **Priority**: P5 | **Workstream**: G — Future
 - **Domain**: app | **Type**: planning | **Labels**: Blocked: #137, #138
 - **Owner**: Opus | **Estimate**: L (1h) | **Model**: Opus
 - **Autonomy**: ASK | **Confidence**: Med | **Risk**: Low | **Reversibility**: Easy
